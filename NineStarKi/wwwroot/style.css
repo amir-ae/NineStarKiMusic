@@ -1,0 +1,47 @@
+﻿.validation-errors {
+    background-color: rgb(220, 53, 69);
+    color: white;
+    padding: 8px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+div.validation-message {
+    color: rgb(220, 53, 69);
+    font-weight: 500
+}
+
+.modified.valid {
+    border: solid 3px rgb(40, 167, 69);
+}
+
+.modified.invalid {
+    border: solid 3px rgb(220, 53, 69);
+}
+
+.number:hover {
+    text-decoration: none;
+    cursor: default;
+    background-color: initial;
+}
+
+.data {
+    position: relative;
+    margin-left: 0;
+    display: inline-block;
+}
+
+.occasion-header {
+    font-family: Verdana;
+}
+
+.musician-name {
+    display: block;
+    padding: 3px 10px;
+}
+
+.musician-data {
+    display: block;
+    padding: 3px 0px;
+}

@@ -1,0 +1,65 @@
+﻿<link href="/style.css" rel="stylesheet" />
+<div class="text-center text-dark">
+    <small class="occasion-header">@Name</small>
+</div>
+<div class="row pl-2">
+    <div class="col-7">
+        <pre class="text-primary text-left">
+            @foreach (var musician in Musicians)
+            {
+                <span key=d.id class="musician-name">
+                    @musician.Name
+                </span>
+            }
+        </pre>
+    </div>
+    <div class="col-5 text-left">
+        <pre class="font-italic text-info">
+            @foreach (var musician in Musicians)
+            {
+                <span key=d.id class="musician-data">
+                    @DataToShow(musician)
+                </span>
+            }
+        </pre>
+    </div>
+</div>
+
+@code {
+    [Parameter]
+    public string Name { get; set; }
+
+    [Parameter]
+    public IEnumerable<Musician> Musicians { get; set; }
+
+    [Parameter]
+    public int DataType { get; set; }
+
+    private string NameToShow(Musician musician) {
+        switch (DataType)
+        {
+            case 0:
+                return musician.Name;
+            case 1:
+                return musician.Name;
+            case 2:
+                return musician.Name;
+            default:
+                return musician.Name;
+        }
+    }
+
+    private string DataToShow(Musician musician) {
+        switch (DataType)
+        {
+            case 0:
+                return String.Join(", ", musician.Genres.Select(g => g.Name));
+            case 1:
+                return musician.Recording;
+            case 2:
+                return musician.Numbers;
+            default:
+                return String.Join(", ", musician.Genres.Select(g => g.Name));
+        }
+    }
+}

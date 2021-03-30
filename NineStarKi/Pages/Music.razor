@@ -1,0 +1,92 @@
+﻿@page "/{id:int}/Music/{number:int}"
+@inherits OwningComponentBase<IRepository>
+
+<h5 class="text-center text-warning m-2 p-2"> @Personality.Key.@Personality.Value </h5>
+
+@foreach (var occasion in Occasions)
+{
+    <MusicView Name=@occasion.Name Musicians=@MusiciansToShow(occasion) DataType=@DataType />
+}
+
+<div class="text-center m-2 p-2">
+    <NavLink class="btn btn-secondary mx-1 px-2" href=@BackUrl>Back</NavLink>
+    <button class="btn btn-warning mx-1 px-2" @onclick="HandleClick">@ButtonLabel</button>
+</div>
+
+@code {
+    public IRepository Repository => Service;
+
+    [Parameter]
+    public int Id { get; set; }
+
+    [Parameter]
+    public int Number { get; set; }
+
+    public Personality Personality { get; set; } = new Personality();
+
+    public List<Musician> Musicians { get; set; }
+
+    public List<Occasion> Occasions { get; set; } = new List<Occasion>();
+
+    public int DataType { get; set; } = 0;
+
+    public string ButtonLabel { get; set; } = "Recordings";
+
+    public string BackUrl => $"/{Id}";
+
+    public List<Musician> MusiciansToShow(Occasion o) {
+        var occasionMusicians = Musicians
+            .FindAll(m => m.Occasions.Contains(o));
+        var distinctMusicians = occasionMusicians
+            .GroupBy(m => m.Name)
+            .Select(g => g.First())
+            .ToList();
+        return DataType == 1 ? occasionMusicians : distinctMusicians;
+    }
+
+    protected override void OnInitialized()
+    {
+        if (typeof(Repository).IsAssignableFrom(Repository.GetType()))
+        {
+            MusicData.Add(Repository as Repository);
+        }
+    }
+
+    protected override void OnParametersSet()
+    {
+        string number = Number.ToString();
+        Personality.Key = number[0];
+        Personality.Value = $"{number[1]}.{number[2]}";
+
+        Musicians = Repository.Musicians.FindAll(m => m.Numbers.Contains(number));
+
+        foreach (var occasions in Musicians.Select(m => m.Occasions).Distinct())
+        {
+            Occasions.AddRange(occasions);
+        }
+        Occasions = Occasions.Distinct().OrderBy(o => o.Id).ToList();
+    }
+
+    private void HandleClick()
+    {
+        switch (DataType)
+        {
+            case 0:
+                DataType = 1;
+                ButtonLabel = "Numbers";
+                break;
+            case 1:
+                DataType = 2;
+                ButtonLabel = "Genres";
+                break;
+            case 2:
+                DataType = 0;
+                ButtonLabel = "Recordings";
+                break;
+            default:
+                DataType = 0;
+                ButtonLabel = "Recordings";
+                break;
+        }
+    }
+}

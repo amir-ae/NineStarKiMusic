@@ -1,0 +1,291 @@
+﻿@page "/{id:int}"
+@using Microsoft.AspNetCore.Http;
+@inject IHttpContextAccessor httpContextAccessor
+
+
+<link href="/style.css" rel="stylesheet" />
+<h5 class="text-center text-warning m-2 p-2"> @Personality.Key.@Personality.Value </h5>
+<div class="py-2 pr-3">
+    <div class="row text-center pt-2">
+        <div class="text-right col-2">
+            @foreach (var res in FormattedResult)
+            {
+                <div key=@res.Key class="text-secondary">
+                    @res.Key
+                </div>
+            }
+        </div>
+        <div class="text-left col-10">
+            @foreach (var res in FormattedResult)
+            {
+                <div key=@res.Key class="number text-primary">
+                    @foreach (var num in res.Value)
+                    {
+                        <span key=@num class="number text-primary mx-1" @onclick="() => HandleClick(num)">
+                            @num
+                        </span>
+                    }
+                </div>
+            }
+        </div>
+    </div>
+    <div class="text-center text-warning m-2 p-2">
+        <h6>"Нажмите номер для музыки!"</h6>
+    </div>
+</div>
+
+@code {
+    [Parameter]
+    public int Id { get; set; }
+
+    [Inject]
+    private NavigationManager NavManager { get; set; }
+
+    public Personality Personality { get; set; } = new Personality();
+
+    public Dictionary<string, List<string>> FormattedResult { get; set; }
+
+    protected override void OnParametersSet()
+    {
+        string number = Id.ToString();
+        Personality.Key = number[0];
+        Personality.Value = $"{number[1]}.{number[2]}";
+        FormattedResult = FormatResult(ProcessNumber(Personality)).Reverse()
+            .ToDictionary(entry => entry.Key, entry => entry.Value);
+    }
+
+    public HttpContext Context => httpContextAccessor.HttpContext;
+
+    public async Task UpdateData()
+    {
+        @*Personalities = Repository.Personalities.ToList();
+        Personality = Personalities.Last();*@
+
+@*
+        Collection collection = Context.Session.GetJson<Collection>("collection") ?? new Collection();
+
+        if (collection.Musicians is null || collection.Occasions is null)
+        {
+            List<Musician> AllMusicians = Repository.Musicians;
+            List<Occasion> AllOccasions = Repository.Occasions;
+            collection = new SessionCollection() { Musicians = AllMusicians, Occasions = AllOccasions };
+        }
+        Context.Session.SetJson("collection", collection);*@
+    }
+
+    private void HandleClick(string num)
+    {
+        NavManager.NavigateTo($"/{Id}/Music/{num}");
+    }
+
+    private char CompareNumbers(char a, char b)
+    {
+        int q = (int)Constants.starElement[a] - (int)Constants.starElement[b];
+
+        if (a == b)
+            return 'I';
+        else if (q == 0)
+            return 'i';
+        else if (q == 1 || q == -4)
+            return 's';
+        else if (q == -1 || q == 4)
+            return 't';
+        else if (q == -2 || q == 3)
+            return 'd';
+        else if (q == 2 || q == -3)
+            return 'c';
+        else
+            return 'n';
+    }
+
+    private int Evaluate(char r1, char r2, char r3, char r4)
+    {
+        int x = 0;
+
+        switch (r1)
+        {
+            case 's':
+            case 't':
+                x += 50;
+                break;
+            case 'I':
+            case 'i':
+                x += 35;
+                if (r3 == 'c')
+                    x += 10;
+                break;
+            case 'd':
+                x += 10;
+                break;
+            default:
+                break;
+        }
+
+        switch (r2)
+        {
+            case 's':
+            case 't':
+                x += 35;
+                break;
+            case 'I':
+            case 'i':
+                x += 20;
+                break;
+            case 'd':
+                x += 5;
+                break;
+            case 'c':
+                if (r1 != 'c')
+                    x += 10;
+                break;
+            default:
+                x += 5;
+                break;
+        }
+
+        switch (r3)
+        {
+            case 'I':
+                x += 30;
+                if (r1 == 's')
+                    x += 5;
+                break;
+            case 'i':
+            case 't':
+                if (r1 != 'c')
+                {
+                    x += 10;
+                    if (r1 == 'i' || r1 == 'I')
+                        x += 5;
+                }
+                break;
+            case 's':
+                x += 30;
+                if (r2 == 'i' || r2 == 'I')
+                    x += 5;
+                if (r1 == 'd' || r1 == 'i' || r1 == 'I')
+                    x += 10;
+                break;
+            case 'c':
+                if (r1 == 't' || (r2 == 't' && (r1 == 'i' || r1 == 'I')))
+                    x += 5;
+                break;
+            default:
+                break;
+        }
+
+        switch (r4)
+        {
+            case 'i':
+            case 'I':
+                x += 5;
+                if (r1 == 'i' || r1 == 't')
+                    x += 15;
+                break;
+            default:
+                break;
+        }
+
+        if (r1 == 'c' && r2 == 'c' && r3 == 'I')
+        {
+            x += 50;
+        }
+
+        if (r1 == 's' && r2 == 's' && r3 == 's')
+        {
+            x -= 20;
+        }
+
+        if (x > 100)
+        {
+            x = 100;
+        }
+
+        return x;
+    }
+
+    private class Relation
+    {
+        public string number;
+        public string percentage;
+    };
+
+    Relation[,] ProcessNumber(Personality x)
+    {
+
+        char x1 = x.Key;
+        char x2 = x.Value[0];
+        char x3 = x.Value[2];
+
+        var r = new Relation[9, 9];
+
+        for (int i = 0; i < 9; i++)
+        {
+            char y1 = (i + 1).ToString()[0];
+            char r1 = this.CompareNumbers(x1, y1);
+
+            for (int j = 0; j < 9; j++)
+            {
+                string k = Constants.starMap[y1][j];
+                char y2 = k[0];
+                char y3 = k[2];
+                char r2 = this.CompareNumbers(x2, y2);
+                char r3 = this.CompareNumbers(x3, y3);
+                char r4 = this.CompareNumbers(x3, y2);
+
+                r[i, j] = new Relation
+                {
+                    number = $"{y1}{y2}{y3}",
+                    percentage = $"{ Evaluate(r1, r2, r3, r4)}%"
+                };
+            }
+        }
+        return r;
+    }
+
+    SortedDictionary<string, List<string>> FormatResult(Relation[,] r)
+    {
+        SortedDictionary<string, List<string>> f = new SortedDictionary<string, List<string>>();
+
+        for (int i = 0; i < 9; i++)
+        {
+            for (int j = 0; j < 9; j++)
+            {
+                string key = f.Where(pair => pair.Key == PadStr(r[i, j].percentage))
+                    .Select(pair => pair.Key)
+                    .FirstOrDefault();
+                if (String.IsNullOrEmpty(key))
+                {
+                    f.Add(PadStr(r[i, j].percentage), new List<string>() { r[i, j].number });
+                }
+                else
+                {
+                    f[key].Add(r[i, j].number);
+                }
+            }
+
+        }
+
+        return f;
+    }
+
+    string PadStr(string str)
+    {
+        string paded = string.Empty;
+
+        if (str.Length == 2)
+        {
+            paded = str.Insert(0, "  ");
+        }
+        else if (str.Length == 3)
+        {
+            paded = str.Insert(0, " ");
+        }
+        else
+        {
+            paded = str;
+        }
+        return paded;
+    }
+}
+

@@ -1,0 +1,99 @@
+﻿@page "/"
+@using BlazorDateRangePicker
+@inherits OwningComponentBase<IRepository>
+
+<link href="/style.css" rel="stylesheet" />
+<EditForm Model="Personality" OnValidSubmit="@Submit">
+    <DataAnnotationsValidator />
+    <div>
+        <div class="text-center p-1 mt-3">
+            <div class="form-group">
+                <label class="h6">Дата рождения</label>
+                <div class="px-5">
+                    <DateRangePicker @ref="Picker"
+                                     SingleDatePicker="true"
+                                     Culture="@(System.Globalization.CultureInfo.GetCultureInfo("ru-RU"))"
+                                     MinDate="@(new DateTime(1500, 01, 01))"
+                                     MaxDate="@(new DateTime(2500, 12, 31))"
+                                     OnSelectionStart="OnSelection" />
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label class="h6">Звезды ки</label>
+                <ValidationMessage For="@(() => Personality.Value)" />
+                <div class="h5 px-5">
+                    <select @bind="selectKey" style="width: 85px">
+                        <option value="">---</option>
+                        @foreach (KeyValuePair<char, Constants.Element> star in Constants.starElement)
+                        {
+                            <option key="@star.Key" value="@star.Key">@star.Key.ToString()</option>
+                        }
+                    </select>
+                    <select @bind="selectValue" style="width: 97px">
+                        <option value="">---</option>
+                        @if (Personality.Key != '\0')
+                        {
+                            foreach (string value in Constants.starMap[Personality.Key])
+                            {
+                                <option key="@value" value="@value">@value</option>
+                            }
+                        }
+                    </select>
+                </div>
+            </div>
+
+            <div className={"text-center"}>
+                <button type="submit" class="btn btn-primary">
+                    Представить
+                </button>
+            </div>
+        </div>
+    </div>
+</EditForm>
+
+@code {
+    public IRepository Repository => Service;
+
+    [Inject]
+    private NavigationManager NavManager { get; set; }
+
+    private DateRangePicker Picker { get; set; }
+
+    private Personality Personality { get; set; } = new Personality();
+
+    private char selectKey
+    {
+        get { return Personality.Key; }
+        set
+        {
+            Personality.Key = value;
+            Personality.Value = "";
+            Picker.TStartDate = null;
+        }
+    }
+
+    private string selectValue
+    {
+        get { return Personality.Value; }
+        set
+        {
+            Personality.Value = value;
+            Picker.TStartDate = null;
+        }
+    }
+
+    private void OnSelection(DateTimeOffset date)
+    {
+        string selectionResult = Calculator.Personality(date);
+        Personality.Key = selectionResult[0];
+        Personality.Value = selectionResult.Substring(2);
+    }
+
+    private void Submit()
+    {
+        string number = $"{Personality.Key}{Personality.Value[0]}{Personality.Value[2]}";
+        Repository.CreatePersonality(Personality);
+        NavManager.NavigateTo($"/{number}");
+    }
+}
