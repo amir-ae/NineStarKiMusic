@@ -26,12 +26,6 @@ div.validation-message {
     background-color: initial;
 }
 
-.data {
-    position: relative;
-    margin-left: 0;
-    display: inline-block;
-}
-
 .occasion-header {
     font-family: Verdana;
 }

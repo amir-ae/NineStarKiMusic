@@ -1,29 +1,32 @@
 ﻿<link href="/style.css" rel="stylesheet" />
-<div class="text-center text-dark">
-    <small class="occasion-header">@Name</small>
-</div>
-<div class="row pl-2">
-    <div class="col-7">
-        <pre class="text-primary text-left">
+@if (Musicians.Count() > 0)
+{
+    <div class="text-center text-dark">
+        <small class="occasion-header">@Name</small>
+    </div>
+    <div class="row pl-2">
+        <div class="col-7">
+            <pre class="text-primary text-left">
             @foreach (var musician in Musicians)
             {
-                <span key=d.id class="musician-name">
+            <span key=d.id class="musician-name">
                     @musician.Name
                 </span>
             }
         </pre>
-    </div>
-    <div class="col-5 text-left">
-        <pre class="font-italic text-info">
+        </div>
+        <div class="col-5 text-left">
+            <pre class="font-italic text-info">
             @foreach (var musician in Musicians)
             {
-                <span key=d.id class="musician-data">
+            <span key=d.id class="musician-data">
                     @DataToShow(musician)
                 </span>
             }
         </pre>
+        </div>
     </div>
-</div>
+}
 
 @code {
     [Parameter]
@@ -35,7 +38,8 @@
     [Parameter]
     public int DataType { get; set; }
 
-    private string NameToShow(Musician musician) {
+    private string NameToShow(Musician musician)
+    {
         switch (DataType)
         {
             case 0:
@@ -49,7 +53,8 @@
         }
     }
 
-    private string DataToShow(Musician musician) {
+    private string DataToShow(Musician musician)
+    {
         switch (DataType)
         {
             case 0:

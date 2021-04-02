@@ -59,9 +59,8 @@
     public async Task UpdateData()
     {
         @*Personalities = Repository.Personalities.ToList();
-        Personality = Personalities.Last();*@
+        Personality = Personalities.Last();
 
-@*
         Collection collection = Context.Session.GetJson<Collection>("collection") ?? new Collection();
 
         if (collection.Musicians is null || collection.Occasions is null)
