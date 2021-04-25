@@ -4,9 +4,10 @@ namespace NineStarKi.Models
 {
     public class Genre
     {
-        public long Id { get; set; }
+        public int Id { get; set; }
 
         [Required(ErrorMessage = "Please enter genre name")]
+        [MaxLength(50)]
         public string Name { get; set; }
     }
 }

@@ -5,9 +5,10 @@ namespace NineStarKi.Models
 {
     public class Musician
     {
-        public long Id { get; set; }
+        public int Id { get; set; }
 
         [Required(ErrorMessage = "Please enter a name")]
+        [MaxLength(100)]
         public string Name { get; set; }
 
         [Required(ErrorMessage = "Please select a genre")]
@@ -17,9 +18,11 @@ namespace NineStarKi.Models
         public List<Occasion> Occasions { get; set; }
 
         [Required(ErrorMessage = "Please enter a recording")]
+        [MaxLength(150)]
         public string Recording { get; set; }
 
         [Required(ErrorMessage = "Please enter nine star ki number(s)")]
+        [MaxLength(150)]
         public string Numbers { get; set; }
     }
 }

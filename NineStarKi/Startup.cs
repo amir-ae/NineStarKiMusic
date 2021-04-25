@@ -32,9 +32,8 @@ namespace NineStarKi
                 options.IdleTimeout = TimeSpan.FromMinutes(30);
                 options.Cookie.IsEssential = true;
             });
-            services.AddTransient<IRepository, Repository>();
-            //services.AddScoped<IRepository, EFRepository>();
-            services.AddScoped<Collection>(sp => SessionCollection.GetMusicians(sp));;
+            services.AddSingleton<IRepository, Repository>();
+            // services.AddScoped<IRepository, EFRepository>();
             services.AddDbContext<PDbContext>(opts => {
                 opts.UseSqlServer(
                 Configuration["ConnectionStrings:NineStarKiConnection"]);
@@ -56,7 +55,6 @@ namespace NineStarKi
                 app.UseStatusCodePages();
             }
             app.UseStaticFiles();
-            app.UseSession();
             app.UseRouting();
             app.UseEndpoints(endpoints =>
             {
@@ -64,6 +62,7 @@ namespace NineStarKi
 
                 endpoints.MapRazorPages();
             });
+            SeedData.CreateDBContext(app);
         }
     }
 }

@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using Microsoft.EntityFrameworkCore;
+using System.Collections.Generic;
 using System.Linq;
 
 
@@ -13,7 +14,10 @@ namespace NineStarKi.Models
             context = ctx;
         }
 
-        public List<Musician> Musicians => context.Musicians.ToList();
+        public List<Musician> Musicians => context.Musicians
+            .Include("Genres")
+            .Include("Occasions")
+            .ToList();
 
         public List<Genre> Genres => context.Genres.ToList();
 
