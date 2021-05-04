@@ -97,7 +97,7 @@
             return 'n';
     }
 
-    private int Evaluate(char r1, char r2, char r3, char r4)
+    private int Evaluate(char r1, char r2, char r3)
     {
         int x = 0;
 
@@ -109,12 +109,7 @@
                 break;
             case 'I':
             case 'i':
-                x += 35;
-                if (r3 == 'c')
-                    x += 10;
-                break;
-            case 'd':
-                x += 10;
+                x += 30;
                 break;
             default:
                 break;
@@ -124,80 +119,28 @@
         {
             case 's':
             case 't':
-                x += 35;
+                x += 25;
                 break;
             case 'I':
             case 'i':
-                x += 20;
-                break;
-            case 'd':
-                x += 5;
-                break;
-            case 'c':
-                if (r1 != 'c')
-                    x += 10;
+                x += 15;
                 break;
             default:
-                x += 5;
                 break;
         }
 
         switch (r3)
         {
-            case 'I':
-                x += 30;
-                if (r1 == 's')
-                    x += 5;
-                break;
-            case 'i':
-            case 't':
-                if (r1 != 'c')
-                {
-                    x += 10;
-                    if (r1 == 'i' || r1 == 'I')
-                        x += 5;
-                }
-                break;
             case 's':
-                x += 30;
-                if (r2 == 'i' || r2 == 'I')
-                    x += 5;
-                if (r1 == 'd' || r1 == 'i' || r1 == 'I')
-                    x += 10;
+            case 't':
+                x += 25;
                 break;
-            case 'c':
-                if (r1 == 't' || (r2 == 't' && (r1 == 'i' || r1 == 'I')))
-                    x += 5;
-                break;
-            default:
-                break;
-        }
-
-        switch (r4)
-        {
-            case 'i':
             case 'I':
-                x += 5;
-                if (r1 == 'i' || r1 == 't')
-                    x += 15;
+            case 'i':
+                x += 15;
                 break;
             default:
                 break;
-        }
-
-        if (r1 == 'c' && r2 == 'c' && r3 == 'I')
-        {
-            x += 50;
-        }
-
-        if (r1 == 's' && r2 == 's' && r3 == 's')
-        {
-            x -= 20;
-        }
-
-        if (x > 100)
-        {
-            x = 100;
         }
 
         return x;
@@ -230,12 +173,11 @@
                 char y3 = k[2];
                 char r2 = this.CompareNumbers(x2, y2);
                 char r3 = this.CompareNumbers(x3, y3);
-                char r4 = this.CompareNumbers(x3, y2);
 
                 r[i, j] = new Relation
                 {
                     number = $"{y1}{y2}{y3}",
-                    percentage = $"{ Evaluate(r1, r2, r3, r4)}%"
+                    percentage = $"{ Evaluate(r1, r2, r3)}%"
                 };
             }
         }
