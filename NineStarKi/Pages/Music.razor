@@ -26,7 +26,7 @@
 
     public Personality Personality { get; set; } = new Personality();
 
-    public List<Musician> Musicians { get; set; }
+    public List<Musician> Musicians { get; set; } = new List<Musician>();
 
     public List<Occasion> Occasions { get; set; } = new List<Occasion>();
 
@@ -69,7 +69,7 @@
         {
             Occasions.AddRange(occasions);
         }
-        Occasions = Occasions.Distinct().OrderBy(o => o.Id).ToList();
+        Occasions = Occasions.OrderBy(o => o.Id).Distinct().ToList();
     }
 
     private void HandleClick()
