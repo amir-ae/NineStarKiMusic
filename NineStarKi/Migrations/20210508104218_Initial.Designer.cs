@@ -9,7 +9,7 @@ using NineStarKi.Models;
 namespace NineStarKi.Migrations
 {
     [DbContext(typeof(MusicContext))]
-    [Migration("20210508090129_Initial")]
+    [Migration("20210508104218_Initial")]
     partial class Initial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

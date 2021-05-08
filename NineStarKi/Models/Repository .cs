@@ -6,18 +6,11 @@ namespace NineStarKi.Models
 {
     public class Repository : IRepository
     {
-        public List<Personality> Personalities { get; set; } = new List<Personality>();
-
         public List<Musician> Musicians { get; set; } = new List<Musician>();
 
         public List<Genre> Genres { get; set; } = new List<Genre>();
 
         public List<Occasion> Occasions { get; set; } = new List<Occasion>();
-
-        public void CreatePersonality(Personality p)
-        {
-            Personalities.Add(p);
-        }
 
         public void AddGenres(List<Genre> g)
         {
@@ -36,7 +29,9 @@ namespace NineStarKi.Models
 
         public void ClearRepository()
         {
-            Personalities.ToList().Clear();
+            Musicians.Clear();
+            Genres.Clear();
+            Occasions.Clear();
         }
     }
 }
