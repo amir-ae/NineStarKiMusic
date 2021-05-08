@@ -93,7 +93,6 @@
     private void Submit()
     {
         string number = $"{Personality.Key}{Personality.Value[0]}{Personality.Value[2]}";
-        Repository.CreatePersonality(Personality);
         NavManager.NavigateTo($"/{number}");
     }
 }

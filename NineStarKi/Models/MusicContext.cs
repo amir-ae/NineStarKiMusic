@@ -2,10 +2,9 @@
 
 namespace NineStarKi.Models
 {
-    public class PDbContext : Microsoft.EntityFrameworkCore.DbContext
+    public class MusicContext : DbContext
     {
-        public PDbContext(DbContextOptions<PDbContext> options) : base(options) { }
-        public DbSet<Personality> Personalities { get; set; }
+        public MusicContext(DbContextOptions<MusicContext> options) : base(options) { }
 
         public DbSet<Musician> Musicians { get; set; }
 

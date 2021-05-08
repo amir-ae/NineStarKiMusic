@@ -1,33 +1,19 @@
 ﻿using System.Linq;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Logging;
 using Microsoft.EntityFrameworkCore;
 using System.Collections.Generic;
 
 namespace NineStarKi.Models
 {
-    public static class SeedData
+    public class SeedData
     {
-        public static void CreateDBContext(IApplicationBuilder app)
-        {
-            PDbContext context = app.ApplicationServices
-                .CreateScope().ServiceProvider.GetRequiredService<PDbContext>();
+        private MusicContext context;
 
-            if (context.Database.GetPendingMigrations().Any())
-            {
-                context.Database.Migrate();
-            }
+        private ILogger<SeedData> logger;
 
-            if (context.Personalities.Any())
-            {
-                foreach (var p in context.Personalities)
-                {
-                    context.Personalities.Remove(p);
-                }
-                context.SaveChanges();
-            }
-
-            List<Genre> Genres = new List<Genre> {
+        private List<Genre> Genres = new List<Genre> {
                 new Genre { Name = "BLUES" },
                 new Genre { Name = "CLASSICAL" },
                 new Genre { Name = "COUNTRY" },
@@ -96,8 +82,8 @@ namespace NineStarKi.Models
                 new Genre { Name = "Venezuela" },
                 new Genre { Name = "Zimbabwe" }
                 };
-            
-            List<Occasion> Occasions = new List<Occasion> {
+
+        private List<Occasion> Occasions = new List<Occasion> {
                 new Occasion { Name = "PLAY THIS FOR THE KIDS" },
                 new Occasion { Name = "ROMANCE ENHANCERS" },
                 new Occasion { Name = "SUPERMAN'S EARBUDS" },
@@ -112,11 +98,36 @@ namespace NineStarKi.Models
                 new Occasion { Name = "MUSICAL ADVENTURE" }
                 };
 
-            if (!context.Musicians.Any())
+        public SeedData(MusicContext dataContext, ILogger<SeedData> log)
+        {
+            context = dataContext;
+            logger = log;
+        }
+
+        public void SeedDatabase()
+        {
+            context.Database.Migrate();
+            if (context.Musicians.Count() == 0)
             {
-                context.Genres.AddRange(Genres);
-                context.Occasions.AddRange(Occasions);
-                context.Musicians.AddRange(
+                logger.LogInformation("Preparing to seed database");
+
+                foreach (Genre genre in context.Genres)
+                {
+                    context.Genres.Remove(genre);
+                }
+                context.Genres!.AddRange(Genres);
+                context.SaveChanges();
+                logger.LogInformation("Genres added");
+
+                foreach (Occasion occasion in context.Occasions)
+                {
+                    context.Occasions.Remove(occasion);
+                }
+                context.Occasions!.AddRange(Occasions);
+                context.SaveChanges();
+                logger.LogInformation("Occasions added");
+
+                context.Musicians!.AddRange(
                     new Musician
                     {
                         Name = "ABBA",
@@ -8134,6 +8145,12 @@ namespace NineStarKi.Models
                         Numbers = "858"
                     });
                 context.SaveChanges();
+                logger.LogInformation("Musicians added");
+                logger.LogInformation("Database seeded");
+            }
+            else
+            {
+                logger.LogInformation("Database not seeded");
             }
         }
     }

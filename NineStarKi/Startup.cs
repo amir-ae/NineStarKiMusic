@@ -34,16 +34,18 @@ namespace NineStarKi
             });
             services.AddSingleton<IRepository, Repository>();
             // services.AddScoped<IRepository, EFRepository>();
-            services.AddDbContext<PDbContext>(opts => {
+            services.AddDbContext<MusicContext>(opts => {
                 opts.UseSqlServer(
-                Configuration["ConnectionStrings:NineStarKiConnection"]);
+                Configuration["ConnectionStrings:MusicConnection"]);
             });
             services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
+            services.AddTransient<SeedData>();
             services.AddHttpContextAccessor();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+        public void Configure(IApplicationBuilder app, IWebHostEnvironment env,
+            IHostApplicationLifetime lifetime, SeedData seedData)
         {
             if (env.IsProduction())
             {
@@ -62,7 +64,16 @@ namespace NineStarKi
 
                 endpoints.MapRazorPages();
             });
-            SeedData.CreateDBContext(app);
+
+            bool cmdLineInit = (Configuration["INITDB"] ?? "false") == "true";
+            if (env.IsDevelopment() || cmdLineInit)
+            {
+                seedData.SeedDatabase();
+                if (cmdLineInit)
+                {
+                    lifetime.StopApplication();
+                }
+            }
         }
     }
 }

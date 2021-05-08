@@ -1,5 +1,7 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace NineStarKi.Models
 {
@@ -10,6 +12,9 @@ namespace NineStarKi.Models
         [Required(ErrorMessage = "Please enter occasion name")]
         [MaxLength(50)]
         public string Name { get; set; }
+
+        [InverseProperty(nameof(Musician.Occasions))]
+        public ICollection<Musician> Musicians { get; set; }
 
         public bool Equals(Occasion other)
         {

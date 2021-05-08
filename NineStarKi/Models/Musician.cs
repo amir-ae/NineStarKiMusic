@@ -12,10 +12,10 @@ namespace NineStarKi.Models
         public string Name { get; set; }
 
         [Required(ErrorMessage = "Please select a genre")]
-        public List<Genre> Genres { get; set; }
+        public ICollection<Genre> Genres { get; set; }
 
         [Required(ErrorMessage = "Please select an occasion")]
-        public List<Occasion> Occasions { get; set; }
+        public ICollection<Occasion> Occasions { get; set; }
 
         [Required(ErrorMessage = "Please enter a recording")]
         [MaxLength(150)]

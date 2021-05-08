@@ -7,9 +7,9 @@ namespace NineStarKi.Models
 {
     public class EFRepository : IRepository
     {
-        private PDbContext context;
+        private MusicContext context;
 
-        public EFRepository(PDbContext ctx)
+        public EFRepository(MusicContext ctx)
         {
             context = ctx;
         }
@@ -23,41 +23,37 @@ namespace NineStarKi.Models
 
         public List<Occasion> Occasions => context.Occasions.ToList();
 
-        public List<Personality> Personalities => context.Personalities.ToList();
-
-        public void CreatePersonality(Personality p)
-        {
-            context.Add(p);
-            context.SaveChanges();
-        }
-
         public void AddGenres(List<Genre> g)
         {
-            context.Add(g);
+            context.AddRange(g);
             context.SaveChanges();
         }
 
         public void AddOccasions(List<Occasion> o)
         {
-            context.Add(o);
+            context.AddRange(o);
             context.SaveChanges();
         }
 
         public void AddMusicians(List<Musician> m)
         {
-            context.Add(m);
+            context.AddRange(m);
             context.SaveChanges();
         }
 
         public void ClearRepository()
         {
-            foreach (var m in context.Musicians)
+            foreach (Musician m in context.Musicians)
             {
                 context.Musicians.Remove(m);
             }
-            foreach (var p in context.Personalities)
+            foreach (Genre g in context.Genres)
             {
-                context.Personalities.Remove(p);
+                context.Genres.Remove(g);
+            }
+            foreach (Occasion o in context.Occasions)
+            {
+                context.Occasions.Remove(o);
             }
             context.SaveChanges();
         }
