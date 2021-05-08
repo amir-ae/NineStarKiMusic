@@ -2294,9 +2294,9 @@ namespace NineStarKi.Models
                 new Musician
                 {
                     Id = 244,
-                    Name = "Crosby",
+                    Name = "Crosby, Stills, Nash, and Young",
                     Genres = new List<Genre> { Genres[12] },
-                    Recording = "Stills, Nash, and Young, Déjà vu Rev.",
+                    Recording = "Déjà vu",
                     Occasions = new List<Occasion> { Occasions[8] },
                     Numbers = "555, 216, 591 & 187"
                 },
