@@ -11,6 +11,8 @@ namespace NineStarKi.Models
 
         List<Occasion> Occasions { get; }
 
+        List<Musician> GetMusicians(string number);
+
         void AddGenres(List<Genre> g);
 
         void AddOccasions(List<Occasion> o);

@@ -12,6 +12,9 @@ namespace NineStarKi.Models
 
         public List<Occasion> Occasions { get; set; } = new List<Occasion>();
 
+        public List<Musician> GetMusicians(string number) => Musicians
+            .FindAll(m => m.Numbers.Contains(number));
+
         public void AddGenres(List<Genre> g)
         {
             Genres.AddRange(g);

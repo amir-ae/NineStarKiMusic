@@ -52,15 +52,22 @@ namespace NineStarKi.Models
                     {
                         context.Genres.Remove(genre);
                     }
-                    context.Genres!.AddRange(Genres);
-                    context.SaveChanges();
+                    foreach (Genre genre in Genres)
+                    {
+                        context.Genres.Add(genre);
+                        context.SaveChanges();
+                    }
                     logger.LogDebug("Genres added");
 
                     foreach (Occasion occasion in context.Occasions)
                     {
                         context.Occasions.Remove(occasion);
                     }
-                    context.Occasions!.AddRange(Occasions);
+                    foreach (Occasion occasion in Occasions)
+                    {
+                        context.Occasions.Add(occasion);
+                        context.SaveChanges();
+                    }
                     context.SaveChanges();
                     logger.LogDebug("Occasions added");
 

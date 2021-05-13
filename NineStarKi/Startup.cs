@@ -28,12 +28,8 @@ namespace NineStarKi
             services.AddRazorPages();
             services.AddServerSideBlazor();
             services.AddDistributedMemoryCache();
-            services.AddSession(options => {
-                options.IdleTimeout = TimeSpan.FromMinutes(30);
-                options.Cookie.IsEssential = true;
-            });
-            // services.AddSingleton<IRepository, Repository>();
-            services.AddScoped<IRepository, EFRepository>();
+            services.AddSingleton<IRepository, Repository>();
+            // services.AddScoped<IRepository, EFRepository>();
             services.AddDbContext<MusicContext>(opts => {
                 opts.UseSqlServer(
                 Configuration["ConnectionStrings:MusicConnection"]);

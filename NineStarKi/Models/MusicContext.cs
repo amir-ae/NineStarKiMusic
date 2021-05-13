@@ -4,7 +4,9 @@ namespace NineStarKi.Models
 {
     public class MusicContext : DbContext
     {
-        public MusicContext(DbContextOptions<MusicContext> options) : base(options) { }
+        public MusicContext(DbContextOptions<MusicContext> options) : base(options) { 
+            // ChangeTracker.LazyLoadingEnabled = false;
+        }
 
         public DbSet<Musician> Musicians { get; set; }
 
