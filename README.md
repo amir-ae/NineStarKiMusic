@@ -1,5 +1,5 @@
 # NineStarKiMusic
-Shows music bands from every nine star ki number
+Shows music bands from every nine star ki number.
 
 References:
 1,000 Recordings to Hear Before You Die, Tom Moon, 2008
