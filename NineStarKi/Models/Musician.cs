@@ -5,6 +5,8 @@ namespace NineStarKi.Models
 {
     public class Musician
     {
+        [Key]
+        [Required]
         public int Id { get; set; }
 
         [Required(ErrorMessage = "Please enter a name")]

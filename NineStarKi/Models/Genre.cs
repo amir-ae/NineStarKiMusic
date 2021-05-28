@@ -6,6 +6,8 @@ namespace NineStarKi.Models
 {
     public class Genre
     {
+        [Key, DatabaseGenerated(DatabaseGeneratedOption.None)]
+        [Required]
         public int Id { get; set; }
 
         [Required(ErrorMessage = "Please enter genre name")]

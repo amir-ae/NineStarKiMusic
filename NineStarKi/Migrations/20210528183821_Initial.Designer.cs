@@ -9,7 +9,7 @@ using NineStarKi.Models;
 namespace NineStarKi.Migrations
 {
     [DbContext(typeof(MusicContext))]
-    [Migration("20210508104218_Initial")]
+    [Migration("20210528183821_Initial")]
     partial class Initial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -53,9 +53,7 @@ namespace NineStarKi.Migrations
             modelBuilder.Entity("NineStarKi.Models.Genre", b =>
                 {
                     b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+                        .HasColumnType("int");
 
                     b.Property<string>("Name")
                         .IsRequired()
@@ -97,9 +95,7 @@ namespace NineStarKi.Migrations
             modelBuilder.Entity("NineStarKi.Models.Occasion", b =>
                 {
                     b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+                        .HasColumnType("int");
 
                     b.Property<string>("Name")
                         .IsRequired()

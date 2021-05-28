@@ -50,18 +50,12 @@ namespace NineStarKi.Models
                 {
                     logger.LogDebug("Preparing to seed database");
 
-                    foreach (Genre genre in Genres)
-                    {
-                        context.Genres.Add(genre);
-                        context.SaveChanges();
-                    }
+                    context.Genres!.AddRange(Genres);
+                    context.SaveChanges();
                     logger.LogDebug("Genres added");
 
-                    foreach (Occasion occasion in Occasions)
-                    {
-                        context.Occasions.Add(occasion);
-                        context.SaveChanges();
-                    }
+                    context.Occasions!.AddRange(Occasions);
+                    context.SaveChanges();
                     logger.LogDebug("Occasions added");
 
                     context.Musicians!.AddRange(Musicians);
