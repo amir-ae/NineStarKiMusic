@@ -56,6 +56,7 @@
 
         Musicians = Repository.GetMusicians(number);
 
+        // Cache some data from database
         if (!typeof(Repository).IsAssignableFrom(Repository.GetType()))
         {
             List<Genre> genres;
@@ -87,28 +88,6 @@
             {
                 genres = JsonSerializer.Deserialize<List<Genre>>(genresData);
                 occasions = JsonSerializer.Deserialize<List<Occasion>>(occasionsData);
-            }
-
-            foreach (Musician m in Musicians)
-            {
-                foreach (Genre g in genres
-                    .Where(g => g.Musicians.Select(x => x.Id).Contains(m.Id)).ToList())
-                {
-                    if (m.Genres == null)
-                    {
-                        m.Genres = new List<Genre>();
-                    }
-                    m.Genres.Add(g);
-                }
-                foreach (Occasion o in occasions
-                    .Where(o => o.Musicians.Select(x => x.Id).Contains(m.Id)).ToList())
-                {
-                    if (m.Occasions == null)
-                    {
-                        m.Occasions = new List<Occasion>();
-                    }
-                    m.Occasions.Add(o);
-                }
             }
         }
         Occasions = Musicians.SelectMany(m => m.Occasions).Distinct().OrderBy(o => o.Id).ToList();
