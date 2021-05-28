@@ -44,14 +44,12 @@ namespace NineStarKi.Models
                     context.Database.Migrate();
                 }
 
-                if (context.Musicians.Count() == 0)
+                if (context.Musicians.Count() == 0
+                    && context.Genres.Count() == 0
+                    && context.Occasions.Count() == 0)
                 {
                     logger.LogDebug("Preparing to seed database");
 
-                    foreach (Genre genre in context.Genres)
-                    {
-                        context.Genres.Remove(genre);
-                    }
                     foreach (Genre genre in Genres)
                     {
                         context.Genres.Add(genre);
@@ -59,21 +57,17 @@ namespace NineStarKi.Models
                     }
                     logger.LogDebug("Genres added");
 
-                    foreach (Occasion occasion in context.Occasions)
-                    {
-                        context.Occasions.Remove(occasion);
-                    }
                     foreach (Occasion occasion in Occasions)
                     {
                         context.Occasions.Add(occasion);
                         context.SaveChanges();
                     }
-                    context.SaveChanges();
                     logger.LogDebug("Occasions added");
 
                     context.Musicians!.AddRange(Musicians);
                     context.SaveChanges();
                     logger.LogDebug("Musicians added");
+
                     logger.LogInformation("Database seeded");
                 }
                 else
