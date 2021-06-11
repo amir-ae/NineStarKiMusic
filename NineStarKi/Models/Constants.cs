@@ -2737,7 +2737,7 @@ namespace NineStarKi.Models
                 Genres = new List<Genre> { Genres[12] },
                 Recording = "Back in Black",
                 Occasions = new List<Occasion> { Occasions[4] },
-                Numbers = "941, 98813, 225"
+                Numbers = "941, 813, 849, 151, 647, 335, 995, 822, 968 & 142"
             },
             new Musician
             {

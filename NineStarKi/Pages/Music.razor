@@ -56,40 +56,6 @@
 
         Musicians = Repository.GetMusicians(number);
 
-        // Cache some data from database
-        if (!typeof(Repository).IsAssignableFrom(Repository.GetType()))
-        {
-            List<Genre> genres;
-            List<Occasion> occasions;
-
-            string genresKey = $"genres";
-            string occasionsKey = $"occasions";
-
-            string genresData = await cache.GetStringAsync(genresKey);
-            string occasionsData = await cache.GetStringAsync(occasionsKey);
-
-            if (genresData == null || occasionsData == null)
-            {
-                genres = Repository.Genres;
-                occasions = Repository.Occasions;
-
-                await cache.SetStringAsync(genresKey, JsonSerializer.Serialize(genres),
-                    new DistributedCacheEntryOptions
-                    {
-                        AbsoluteExpirationRelativeToNow = TimeSpan.FromMinutes(10)
-                    });
-                await cache.SetStringAsync(occasionsKey, JsonSerializer.Serialize(occasions),
-                    new DistributedCacheEntryOptions
-                    {
-                        AbsoluteExpirationRelativeToNow = TimeSpan.FromMinutes(10)
-                    });
-            }
-            else
-            {
-                genres = JsonSerializer.Deserialize<List<Genre>>(genresData);
-                occasions = JsonSerializer.Deserialize<List<Occasion>>(occasionsData);
-            }
-        }
         Occasions = Musicians.SelectMany(m => m.Occasions).Distinct().OrderBy(o => o.Id).ToList();
     }
 

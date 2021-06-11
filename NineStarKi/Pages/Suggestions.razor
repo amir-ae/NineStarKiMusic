@@ -49,39 +49,19 @@
         Personality.Key = number[0];
         Personality.Value = $"{number[1]}.{number[2]}";
 
-        List<Musician> AllMusicians = Repository.Musicians;
+        List<Musician> musicians;
 
-        foreach (Musician musician in AllMusicians)
-        {
-            if (Check(musician))
-            {
-                Musicians.Add(musician);
-            }
-        }
-
-        // Cache some data from database
         if (!typeof(Repository).IsAssignableFrom(Repository.GetType()))
         {
-            List<Genre> genres;
-            List<Occasion> occasions;
+            string musiciansKey = $"musicians";
 
-            string genresKey = $"genres";
-            string occasionsKey = $"occasions";
+            string musiciansData = await cache.GetStringAsync(musiciansKey);
 
-            string genresData = await cache.GetStringAsync(genresKey);
-            string occasionsData = await cache.GetStringAsync(occasionsKey);
-
-            if (genresData == null || occasionsData == null)
+            if (musiciansData == null)
             {
-                genres = Repository.Genres;
-                occasions = Repository.Occasions;
+                musicians = Repository.Musicians;
 
-                await cache.SetStringAsync(genresKey, JsonSerializer.Serialize(genres),
-                    new DistributedCacheEntryOptions
-                    {
-                        AbsoluteExpirationRelativeToNow = TimeSpan.FromMinutes(10)
-                    });
-                await cache.SetStringAsync(occasionsKey, JsonSerializer.Serialize(occasions),
+                await cache.SetStringAsync(musiciansKey, JsonSerializer.Serialize(musicians),
                     new DistributedCacheEntryOptions
                     {
                         AbsoluteExpirationRelativeToNow = TimeSpan.FromMinutes(10)
@@ -89,10 +69,22 @@
             }
             else
             {
-                genres = JsonSerializer.Deserialize<List<Genre>>(genresData);
-                occasions = JsonSerializer.Deserialize<List<Occasion>>(occasionsData);
+                musicians = JsonSerializer.Deserialize<List<Musician>>(musiciansData);
             }
         }
+        else
+        {
+            musicians = Repository.Musicians;
+        }
+
+        foreach (Musician musician in musicians)
+        {
+            if (Check(musician))
+            {
+                Musicians.Add(musician);
+            }
+        }
+
         Occasions = Musicians.SelectMany(m => m.Occasions).Distinct().OrderBy(o => o.Id).ToList();
     }
 
