@@ -3,7 +3,7 @@
 @inherits OwningComponentBase<IRepository>
 
 <link href="/style.css" rel="stylesheet" />
-<EditForm Model="Personality" OnValidSubmit="@Submit">
+<EditForm Model="Personality" OnValidSubmit="@Submit" Context="formContext">
     <DataAnnotationsValidator />
     <div>
         <div class="text-center p-1 mt-3">
@@ -44,8 +44,8 @@
             </div>
 
             <div className={"text-center"}>
-                <button type="submit" class="btn btn-primary">
-                    Send
+                <button type="submit" class="btn btn-primary m-2">
+                    Select
                 </button>
             </div>
         </div>
@@ -61,6 +61,8 @@
     private DateRangePicker Picker { get; set; }
 
     private Personality Personality { get; set; } = new Personality();
+
+    private bool ShowMusic = false;
 
     private char selectKey
     {

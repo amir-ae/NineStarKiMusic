@@ -1,18 +1,18 @@
-﻿@page "/{id:int}/Music/{number:int}"
+﻿@page "/{id:int}/Music"
 @inherits OwningComponentBase<IRepository>
+@using static NineStarKi.Models.Calculator;
 @using Microsoft.Extensions.Caching.Distributed;
 @inject IDistributedCache cache;
 @using System.Text.Json;
 
-<h5 class="text-center text-brown m-2 p-2"> @Personality.Key.@Personality.Value </h5>
-
+<h5 class="text-center text-primary m-2 p-2"> @Personality.Key.@Personality.Value </h5>
 @foreach (var occasion in Occasions)
 {
     <MusicView Name=@occasion.Name Musicians=@MusiciansToShow(occasion) DataType=@DataType />
 }
 
 <div class="text-center m-2 p-2">
-    <NavLink class="btn btn-secondary mx-1 px-2" href=@BackUrl>Back</NavLink>
+    <NavLink class="btn btn-secondary mx-1 px-2" href=@($"/{Id}")>Back</NavLink>
     <button class="btn btn-primary mx-1 px-2" @onclick="HandleClick">@ButtonLabel</button>
 </div>
 
@@ -21,9 +21,6 @@
 
     [Parameter]
     public int Id { get; set; }
-
-    [Parameter]
-    public int Number { get; set; }
 
     public Personality Personality { get; set; } = new Personality();
 
@@ -34,8 +31,6 @@
     public int DataType { get; set; } = 0;
 
     public string ButtonLabel { get; set; } = "Recordings";
-
-    public string BackUrl => $"/{Id}";
 
     public List<Musician> MusiciansToShow(Occasion o)
     {
@@ -50,11 +45,19 @@
 
     protected async override void OnParametersSet()
     {
-        string number = Number.ToString();
+        string number = Id.ToString();
         Personality.Key = number[0];
         Personality.Value = $"{number[1]}.{number[2]}";
 
-        Musicians = Repository.GetMusicians(number);
+        List<Musician> AllMusicians = Repository.Musicians;
+
+        foreach (Musician musician in AllMusicians)
+        {
+            if (Check(musician))
+            {
+                Musicians.Add(musician);
+            }
+        }
 
         // Cache some data from database
         if (!typeof(Repository).IsAssignableFrom(Repository.GetType()))
@@ -91,6 +94,43 @@
             }
         }
         Occasions = Musicians.SelectMany(m => m.Occasions).Distinct().OrderBy(o => o.Id).ToList();
+    }
+
+    private bool Check(Musician musician)
+    {
+        if (string.IsNullOrEmpty(musician.Numbers) || !musician.Numbers.Contains(',')
+            || !musician.Numbers.Contains('&') && musician.Numbers.Count(f => f == ',') < 2)
+        {
+            return false;
+        }
+
+        String[] numbers = musician.Numbers
+            .Replace(" & ", ", ")
+            .Split(", ", StringSplitOptions.RemoveEmptyEntries);
+
+        List<int> result = new List<int>(numbers.Length);
+
+        foreach (string num in numbers)
+        {
+            if (num.Length == 1)
+            {
+                return false;
+            }
+            Personality personality = new Personality();
+            personality.Key = num[0];
+            personality.Value = $"{num[1]}.{num[2]}";
+
+            result.Add(ProcessNumbers(Personality, personality));
+        }
+
+        if (result.Average() > 50)
+        {
+            return true;
+        }
+        else
+        {
+            return false;
+        }
     }
 
     private void HandleClick()

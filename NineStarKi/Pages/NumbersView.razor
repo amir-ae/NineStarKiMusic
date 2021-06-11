@@ -1,10 +1,11 @@
 ﻿@page "/{id:int}"
 @using Microsoft.AspNetCore.Http;
+@using static NineStarKi.Models.Calculator;
 @inject IHttpContextAccessor httpContextAccessor
 
 
 <link href="/style.css" rel="stylesheet" />
-<h5 class="text-center text-warning m-2 p-2"> @Personality.Key.@Personality.Value </h5>
+<h5 class="text-center text-primary m-2 p-2"> @Personality.Key.@Personality.Value </h5>
 <div class="py-2 pr-3">
     <div class="row text-center pt-2">
         <div class="text-right col-2">
@@ -21,7 +22,7 @@
                 <div key=@res.Key class="number text-primary">
                     @foreach (var num in res.Value)
                     {
-                        <span key=@num class="number text-primary mx-1" @onclick="() => HandleClick(num)">
+                        <span key=@num class="number text-brown mx-1" @onclick="() => HandleClick(num)">
                             @num
                         </span>
                     }
@@ -30,8 +31,13 @@
         </div>
     </div>
     <div class="text-center text-warning m-2 p-2">
-        <h6>"Click a number for music!"</h6>
+        <h6>Click a number for music!"</h6>
     </div>
+    <div class="text-center m-2 p-2">
+        <NavLink class="btn btn-secondary mx-1 px-2" href="/">Back</NavLink>
+        <NavLink class="btn btn-primary mx-1 px-2" href=@($"{Id}/Music")>Suggestions</NavLink>
+    </div>
+
 </div>
 
 @code {
@@ -56,132 +62,9 @@
 
     public HttpContext Context => httpContextAccessor.HttpContext;
 
-    public async Task UpdateData()
-    {
-        @*Personalities = Repository.Personalities.ToList();
-        Personality = Personalities.Last();
-
-        Collection collection = Context.Session.GetJson<Collection>("collection") ?? new Collection();
-
-        if (collection.Musicians is null || collection.Occasions is null)
-        {
-            List<Musician> AllMusicians = Repository.Musicians;
-            List<Occasion> AllOccasions = Repository.Occasions;
-            collection = new SessionCollection() { Musicians = AllMusicians, Occasions = AllOccasions };
-        }
-        Context.Session.SetJson("collection", collection);*@
-    }
-
     private void HandleClick(string num)
     {
         NavManager.NavigateTo($"/{Id}/Music/{num}");
-    }
-
-    private char CompareNumbers(char a, char b)
-    {
-        int q = (int)Constants.starElement[a] - (int)Constants.starElement[b];
-
-        if (a == b)
-            return 'I';
-        else if (q == 0)
-            return 'i';
-        else if (q == 1 || q == -4)
-            return 's';
-        else if (q == -1 || q == 4)
-            return 't';
-        else if (q == -2 || q == 3)
-            return 'd';
-        else if (q == 2 || q == -3)
-            return 'c';
-        else
-            return 'n';
-    }
-
-    private int Evaluate(char r1, char r2, char r3)
-    {
-        int x = 0;
-
-        switch (r1)
-        {
-            case 's':
-            case 't':
-                x += 50;
-                break;
-            case 'I':
-            case 'i':
-                x += 30;
-                break;
-            default:
-                break;
-        }
-
-        switch (r2)
-        {
-            case 's':
-            case 't':
-                x += 25;
-                break;
-            case 'I':
-            case 'i':
-                x += 15;
-                break;
-            default:
-                break;
-        }
-
-        switch (r3)
-        {
-            case 's':
-            case 't':
-                x += 25;
-                break;
-            case 'I':
-            case 'i':
-                x += 15;
-                break;
-            default:
-                break;
-        }
-
-        return x;
-    }
-
-    private class Relation
-    {
-        public string number;
-        public string percentage;
-    };
-
-    Relation[,] ProcessNumber(Personality x)
-    {
-
-        char x1 = x.Key;
-        char x2 = x.Value[0];
-        char x3 = x.Value[2];
-
-        var r = new Relation[9, 9];
-
-        for (int i = 0; i < 9; i++)
-        {
-            char y1 = (i + 1).ToString()[0];
-            char r1 = this.CompareNumbers(x1, y1);
-
-            for (int j = 0; j < 9; j++)
-            {
-                string k = Constants.starMap[y1][j];
-                char y2 = k[0];
-                char y3 = k[2];
-                char r2 = this.CompareNumbers(x2, y2);
-                char r3 = this.CompareNumbers(x3, y3);
-
-                r[i, j] = new Relation
-                {
-                    number = $"{y1}{y2}{y3}",
-                    percentage = $"{ Evaluate(r1, r2, r3)}%"
-                };
-            }
-        }
-        return r;
     }
 
     SortedDictionary<string, List<string>> FormatResult(Relation[,] r)
@@ -206,7 +89,6 @@
             }
 
         }
-
         return f;
     }
 

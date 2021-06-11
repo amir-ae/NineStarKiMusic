@@ -1737,7 +1737,7 @@ namespace NineStarKi.Models
                 Genres = new List<Genre> { Genres[12] },
                 Recording = "The Mind Is a Terrible Thing to Taste",
                 Occasions = new List<Occasion> { Occasions[2] },
-                Numbers = "528, 665 &  418"
+                Numbers = "528, 665 & 418"
             },
             new Musician
             {
@@ -1793,7 +1793,7 @@ namespace NineStarKi.Models
                 Genres = new List<Genre> { Genres[6] },
                 Recording = "It Takes a Nation of Millions to Hold Us Back",
                 Occasions = new List<Occasion> { Occasions[2] },
-                Numbers = "436, 775, 721, 436 &  519"
+                Numbers = "436, 775, 721, 436 & 519"
             },
             new Musician
             {
