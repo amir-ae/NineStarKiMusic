@@ -128,7 +128,7 @@ namespace NineStarKi.Models
                 Name = "ABBA",
                 Genres = new List<Genre> { Genres[10] },
                 Recording = "Gold",
-                Occasions = new List<Occasion> { Occasions[0] },
+                Occasions = new List<Occasion> { Occasions[5] },
                 Numbers = "519, 187, 169, 941"
             },
             new Musician
@@ -136,7 +136,7 @@ namespace NineStarKi.Models
                 Name = "The Abyssinian Baptist Choir",
                 Genres = new List<Genre> { Genres[5] },
                 Recording = "Shakin' the Rafters",
-                Occasions = new List<Occasion> { Occasions[0] },
+                Occasions = new List<Occasion> { Occasions[5] },
                 Numbers = "297"
             },
             new Musician
@@ -144,7 +144,7 @@ namespace NineStarKi.Models
                 Name = "The Almanac Singers",
                 Genres = new List<Genre> { Genres[4] },
                 Recording = "Complete General Recordings",
-                Occasions = new List<Occasion> { Occasions[0] },
+                Occasions = new List<Occasion> { Occasions[5] },
                 Numbers = "739, 519, 169, 932, 187"
             },
             new Musician
@@ -152,7 +152,7 @@ namespace NineStarKi.Models
                 Name = "Albert Ammons and Meade 'Lux' Lewis",
                 Genres = new List<Genre> { Genres[7] },
                 Recording = "The First Day",
-                Occasions = new List<Occasion> { Occasions[0] },
+                Occasions = new List<Occasion> { Occasions[5] },
                 Numbers = "353 & 555"
             },
             new Musician
@@ -160,7 +160,7 @@ namespace NineStarKi.Models
                 Name = "Louis Armstrong",
                 Genres = new List<Genre> { Genres[7] },
                 Recording = "The Complete Hot Fives and Hot Sevens",
-                Occasions = new List<Occasion> { Occasions[0] },
+                Occasions = new List<Occasion> { Occasions[5] },
                 Numbers = "995"
             },
             new Musician
@@ -168,7 +168,7 @@ namespace NineStarKi.Models
                 Name = "Erykah Badu",
                 Genres = new List<Genre> { Genres[11] },
                 Recording = "Mama's Gun",
-                Occasions = new List<Occasion> { Occasions[0] },
+                Occasions = new List<Occasion> { Occasions[5] },
                 Numbers = "225"
             },
             new Musician
@@ -176,7 +176,7 @@ namespace NineStarKi.Models
                 Name = "The Balfa Brothers",
                 Genres = new List<Genre> { Genres[4] },
                 Recording = "The Balfa Brothers Play Traditional Cajun Music",
-                Occasions = new List<Occasion> { Occasions[0], Occasions[7] },
+                Occasions = new List<Occasion> { Occasions[5], Occasions[1] },
                 Numbers = "178, 234, 326"
             },
             new Musician
@@ -184,7 +184,7 @@ namespace NineStarKi.Models
                 Name = "Béla Bartók",
                 Genres = new List<Genre> { Genres[1] },
                 Recording = "Concerto for Orchestra; Music for Strings, Percussion, and Celesta",
-                Occasions = new List<Occasion> { Occasions[0] },
+                Occasions = new List<Occasion> { Occasions[5] },
                 Numbers = "216"
             },
             new Musician
@@ -192,7 +192,7 @@ namespace NineStarKi.Models
                 Name = "The Beach Boys",
                 Genres = new List<Genre> { Genres[10] },
                 Recording = "'Good Vibrations'",
-                Occasions = new List<Occasion> { Occasions[0] },
+                Occasions = new List<Occasion> { Occasions[5] },
                 Numbers = "445, 519, 427, 445, 941, 225"
             },
             new Musician
@@ -200,7 +200,7 @@ namespace NineStarKi.Models
                 Name = "The Beatles",
                 Genres = new List<Genre> { Genres[12] },
                 Recording = "A Hard Day's Night",
-                Occasions = new List<Occasion> { Occasions[0] },
+                Occasions = new List<Occasion> { Occasions[5] },
                 Numbers = "665, 445, 611, 353, & 528"
             },
             new Musician
@@ -208,7 +208,7 @@ namespace NineStarKi.Models
                 Name = "The Beatles",
                 Genres = new List<Genre> { Genres[12] },
                 Recording = "Rubber Soul",
-                Occasions = new List<Occasion> { Occasions[0] },
+                Occasions = new List<Occasion> { Occasions[5] },
                 Numbers = "665, 445, 611, 353, & 528"
             },
             new Musician
@@ -216,7 +216,7 @@ namespace NineStarKi.Models
                 Name = "Harry Belafonte",
                 Genres = new List<Genre> { Genres[7], Genres[13] },
                 Recording = "At Carnegie Hall",
-                Occasions = new List<Occasion> { Occasions[0] },
+                Occasions = new List<Occasion> { Occasions[5] },
                 Numbers = "216"
             },
             new Musician
@@ -224,7 +224,7 @@ namespace NineStarKi.Models
                 Name = "Leonard Bernstein and Stephen Sondheim",
                 Genres = new List<Genre> { Genres[8] },
                 Recording = "West Side Story",
-                Occasions = new List<Occasion> { Occasions[0] },
+                Occasions = new List<Occasion> { Occasions[5] },
                 Numbers = "124 & 775"
             },
             new Musician
@@ -232,7 +232,7 @@ namespace NineStarKi.Models
                 Name = "Blind Blake",
                 Genres = new List<Genre> { Genres[0] },
                 Recording = "Ragtime Guitar's Foremost Fingerpicker",
-                Occasions = new List<Occasion> { Occasions[0] },
+                Occasions = new List<Occasion> { Occasions[5] },
                 Numbers = "5"
             },
             new Musician
@@ -240,7 +240,7 @@ namespace NineStarKi.Models
                 Name = "Jerry Bock and Sheldon Harnick",
                 Genres = new List<Genre> { Genres[8] },
                 Recording = "Fiddler on the Roof",
-                Occasions = new List<Occasion> { Occasions[0] },
+                Occasions = new List<Occasion> { Occasions[5] },
                 Numbers = "959 & 463"
             },
             new Musician
@@ -248,7 +248,7 @@ namespace NineStarKi.Models
                 Name = "James Booker",
                 Genres = new List<Genre> { Genres[7], Genres[11] },
                 Recording = "New Orleans Piano Wizard Live!",
-                Occasions = new List<Occasion> { Occasions[0], Occasions[7] },
+                Occasions = new List<Occasion> { Occasions[5], Occasions[1] },
                 Numbers = "775"
             },
             new Musician
@@ -256,7 +256,7 @@ namespace NineStarKi.Models
                 Name = "Boston",
                 Genres = new List<Genre> { Genres[12] },
                 Recording = "Boston",
-                Occasions = new List<Occasion> { Occasions[0], Occasions[2] },
+                Occasions = new List<Occasion> { Occasions[5], Occasions[10] },
                 Numbers = "813, 445, 528, 831, 647"
             },
             new Musician
@@ -264,7 +264,7 @@ namespace NineStarKi.Models
                 Name = "The Caravans",
                 Genres = new List<Genre> { Genres[5] },
                 Recording = "The Best of the Caravans",
-                Occasions = new List<Occasion> { Occasions[0] },
+                Occasions = new List<Occasion> { Occasions[5] },
                 Numbers = "941, 858, 611, 932, 288, 894, 831, 656"
             },
             new Musician
@@ -272,7 +272,7 @@ namespace NineStarKi.Models
                 Name = "The Original Carter Family",
                 Genres = new List<Genre> { Genres[2] },
                 Recording = "The Carter Family: 1927-1934",
-                Occasions = new List<Occasion> { Occasions[0] },
+                Occasions = new List<Occasion> { Occasions[5] },
                 Numbers = "178, 151, 398, 573, 115, 876, 472, 187, 353, 977"
             },
             new Musician
@@ -280,7 +280,7 @@ namespace NineStarKi.Models
                 Name = "Pablo Casals",
                 Genres = new List<Genre> { Genres[1] },
                 Recording = "J. S. Bach, Suites for Cello, Vols. 1 and 2",
-                Occasions = new List<Occasion> { Occasions[0] },
+                Occasions = new List<Occasion> { Occasions[5] },
                 Numbers = "775, 941"
             },
             new Musician
@@ -288,7 +288,7 @@ namespace NineStarKi.Models
                 Name = "Chicago",
                 Genres = new List<Genre> { Genres[12] },
                 Recording = "The Chicago Transit Authority",
-                Occasions = new List<Occasion> { Occasions[0], Occasions[8] },
+                Occasions = new List<Occasion> { Occasions[5], Occasions[6] },
                 Numbers = "234, 968, 178, 858, 885, 986, 297"
             },
             new Musician
@@ -296,7 +296,7 @@ namespace NineStarKi.Models
                 Name = "The Chieftains",
                 Genres = new List<Genre> { Genres[14], Genres[24] },
                 Recording = "The Chieftains 4",
-                Occasions = new List<Occasion> { Occasions[0] },
+                Occasions = new List<Occasion> { Occasions[5] },
                 Numbers = "867, 932, 297, 234, 995, 712, 115"
             },
             new Musician
@@ -304,7 +304,7 @@ namespace NineStarKi.Models
                 Name = "Frédéric Chopin",
                 Genres = new List<Genre> { Genres[1] },
                 Recording = "Ballades and Scherzos",
-                Occasions = new List<Occasion> { Occasions[0], Occasions[3] },
+                Occasions = new List<Occasion> { Occasions[5], Occasions[8] },
                 Numbers = "187"
             },
             new Musician
@@ -312,7 +312,7 @@ namespace NineStarKi.Models
                 Name = "The Coasters",
                 Genres = new List<Genre> { Genres[12] },
                 Recording = "'Yakety Yak'",
-                Occasions = new List<Occasion> { Occasions[0] },
+                Occasions = new List<Occasion> { Occasions[5] },
                 Numbers = "932, 142, 371, 582, 766, 178, 923, 187, 326"
             },
             new Musician
@@ -320,7 +320,7 @@ namespace NineStarKi.Models
                 Name = "Joe Cocker",
                 Genres = new List<Genre> { Genres[12] },
                 Recording = "Mad Dogs and Englishmen",
-                Occasions = new List<Occasion> { Occasions[0] },
+                Occasions = new List<Occasion> { Occasions[5] },
                 Numbers = "288"
             },
             new Musician
@@ -328,7 +328,7 @@ namespace NineStarKi.Models
                 Name = "Sam Cooke and the Soul Stirrers",
                 Genres = new List<Genre> { Genres[5] },
                 Recording = "Sam Cooke with the Soul Stirrers",
-                Occasions = new List<Occasion> { Occasions[0] },
+                Occasions = new List<Occasion> { Occasions[5] },
                 Numbers = "766, 867, 355, 481, 344, 885"
             },
             new Musician
@@ -336,7 +336,7 @@ namespace NineStarKi.Models
                 Name = "Dick Dale and His Del-Tones",
                 Genres = new List<Genre> { Genres[12] },
                 Recording = "King of the Surf Guitar",
-                Occasions = new List<Occasion> { Occasions[0] },
+                Occasions = new List<Occasion> { Occasions[5] },
                 Numbers = "932"
             },
             new Musician
@@ -344,7 +344,7 @@ namespace NineStarKi.Models
                 Name = "Miles Davis Quintet",
                 Genres = new List<Genre> { Genres[7] },
                 Recording = "Highlights from the Plugged Nickel",
-                Occasions = new List<Occasion> { Occasions[0] },
+                Occasions = new List<Occasion> { Occasions[5] },
                 Numbers = "9"
             },
             new Musician
@@ -352,7 +352,7 @@ namespace NineStarKi.Models
                 Name = "The Dixie Chicks",
                 Genres = new List<Genre> { Genres[2] },
                 Recording = "Wide Open Spaces",
-                Occasions = new List<Occasion> { Occasions[0] },
+                Occasions = new List<Occasion> { Occasions[5] },
                 Numbers = "831, 124, 499, 656"
             },
             new Musician
@@ -360,7 +360,7 @@ namespace NineStarKi.Models
                 Name = "Michael Doucet and BeauSoleil",
                 Genres = new List<Genre> { Genres[0] },
                 Recording = "Bayou Deluxe",
-                Occasions = new List<Occasion> { Occasions[0] },
+                Occasions = new List<Occasion> { Occasions[5] },
                 Numbers = "481"
             },
             new Musician
@@ -368,7 +368,7 @@ namespace NineStarKi.Models
                 Name = "Bob Dylan",
                 Genres = new List<Genre> { Genres[12] },
                 Recording = "Highway 61 Revisited",
-                Occasions = new List<Occasion> { Occasions[0] },
+                Occasions = new List<Occasion> { Occasions[5] },
                 Numbers = "582"
             },
             new Musician
@@ -376,7 +376,7 @@ namespace NineStarKi.Models
                 Name = "The Eagles",
                 Genres = new List<Genre> { Genres[12] },
                 Recording = "Hotel California",
-                Occasions = new List<Occasion> { Occasions[0] },
+                Occasions = new List<Occasion> { Occasions[5] },
                 Numbers = "867, 831, 793, 867, 941, 849"
             },
             new Musician
@@ -384,7 +384,7 @@ namespace NineStarKi.Models
                 Name = "Ramblin' Jack Elliott",
                 Genres = new List<Genre> { Genres[4] },
                 Recording = "The Essential Ramblin' Jack Elliott",
-                Occasions = new List<Occasion> { Occasions[0] },
+                Occasions = new List<Occasion> { Occasions[5] },
                 Numbers = "692"
             },
             new Musician
@@ -392,7 +392,7 @@ namespace NineStarKi.Models
                 Name = "Tal Farlow",
                 Genres = new List<Genre> { Genres[7] },
                 Recording = "The Swinging Guitar of Tal Farlow",
-                Occasions = new List<Occasion> { Occasions[0] },
+                Occasions = new List<Occasion> { Occasions[5] },
                 Numbers = "748"
             },
             new Musician
@@ -400,7 +400,7 @@ namespace NineStarKi.Models
                 Name = "Fleetwood Mac",
                 Genres = new List<Genre> { Genres[12] },
                 Recording = "Fleetwood Mac",
-                Occasions = new List<Occasion> { Occasions[0] },
+                Occasions = new List<Occasion> { Occasions[5] },
                 Numbers = "968, 876, 398, 674, 757"
             },
             new Musician
@@ -408,7 +408,7 @@ namespace NineStarKi.Models
                 Name = "Judy Garland",
                 Genres = new List<Genre> { Genres[13] },
                 Recording = "Judy at Carnegie Hall",
-                Occasions = new List<Occasion> { Occasions[0] },
+                Occasions = new List<Occasion> { Occasions[5] },
                 Numbers = "611"
             },
             new Musician
@@ -416,7 +416,7 @@ namespace NineStarKi.Models
                 Name = "George Gershwin",
                 Genres = new List<Genre> { Genres[9] },
                 Recording = "Porgy and Bess",
-                Occasions = new List<Occasion> { Occasions[0] },
+                Occasions = new List<Occasion> { Occasions[5] },
                 Numbers = "371"
             },
             new Musician
@@ -424,7 +424,7 @@ namespace NineStarKi.Models
                 Name = "Benny Goodman and His Orchestra",
                 Genres = new List<Genre> { Genres[7] },
                 Recording = "The Complete 1938 Carnegie Hall Concert",
-                Occasions = new List<Occasion> { Occasions[0] },
+                Occasions = new List<Occasion> { Occasions[5] },
                 Numbers = "151"
             },
             new Musician
@@ -432,7 +432,7 @@ namespace NineStarKi.Models
                 Name = "The Grateful Dead",
                 Genres = new List<Genre> { Genres[12] },
                 Recording = "American Beauty",
-                Occasions = new List<Occasion> { Occasions[0] },
+                Occasions = new List<Occasion> { Occasions[5] },
                 Numbers = "436, 831, 647, 923, 371, 115"
             },
             new Musician
@@ -440,7 +440,7 @@ namespace NineStarKi.Models
                 Name = "Woody Guthrie",
                 Genres = new List<Genre> { Genres[4] },
                 Recording = "Dust Bowl Ballads",
-                Occasions = new List<Occasion> { Occasions[0] },
+                Occasions = new List<Occasion> { Occasions[5] },
                 Numbers = "739"
             },
             new Musician
@@ -448,7 +448,7 @@ namespace NineStarKi.Models
                 Name = "The Jimi Hendrix Experience",
                 Genres = new List<Genre> { Genres[12] },
                 Recording = "Are You Experienced",
-                Occasions = new List<Occasion> { Occasions[0], Occasions[2] },
+                Occasions = new List<Occasion> { Occasions[5], Occasions[10] },
                 Numbers = "481, 995 & 178"
             },
             new Musician
@@ -456,7 +456,7 @@ namespace NineStarKi.Models
                 Name = "Jerry Herman",
                 Genres = new List<Genre> { Genres[8] },
                 Recording = "Hello, Dolly!",
-                Occasions = new List<Occasion> { Occasions[0] },
+                Occasions = new List<Occasion> { Occasions[5] },
                 Numbers = "692"
             },
             new Musician
@@ -464,7 +464,7 @@ namespace NineStarKi.Models
                 Name = "Vladimir Horowitz",
                 Genres = new List<Genre> { Genres[1] },
                 Recording = "Horowitz at the Met",
-                Occasions = new List<Occasion> { Occasions[0] },
+                Occasions = new List<Occasion> { Occasions[5] },
                 Numbers = "712"
             },
             new Musician
@@ -472,7 +472,7 @@ namespace NineStarKi.Models
                 Name = "The Incredible String Band",
                 Genres = new List<Genre> { Genres[4] },
                 Recording = "The Hangman's Beautiful Daughter",
-                Occasions = new List<Occasion> { Occasions[0] },
+                Occasions = new List<Occasion> { Occasions[5] },
                 Numbers = "472, 353, 326, 115, 647"
             },
             new Musician
@@ -480,7 +480,7 @@ namespace NineStarKi.Models
                 Name = "Burl Ives",
                 Genres = new List<Genre> { Genres[4] },
                 Recording = "The Wayfaring Stranger",
-                Occasions = new List<Occasion> { Occasions[0] },
+                Occasions = new List<Occasion> { Occasions[5] },
                 Numbers = "142"
             },
             new Musician
@@ -488,7 +488,7 @@ namespace NineStarKi.Models
                 Name = "Joe Jackson",
                 Genres = new List<Genre> { Genres[12] },
                 Recording = "Night and Day",
-                Occasions = new List<Occasion> { Occasions[0] },
+                Occasions = new List<Occasion> { Occasions[5] },
                 Numbers = "124"
             },
             new Musician
@@ -496,7 +496,7 @@ namespace NineStarKi.Models
                 Name = "Elton John",
                 Genres = new List<Genre> { Genres[10] },
                 Recording = "Goodbye Yellow Brick Road",
-                Occasions = new List<Occasion> { Occasions[0] },
+                Occasions = new List<Occasion> { Occasions[5] },
                 Numbers = "813"
             },
             new Musician
@@ -504,7 +504,7 @@ namespace NineStarKi.Models
                 Name = "Lonnie Johnson",
                 Genres = new List<Genre> { Genres[0] },
                 Recording = "The Original Guitar Wizard",
-                Occasions = new List<Occasion> { Occasions[0] },
+                Occasions = new List<Occasion> { Occasions[5] },
                 Numbers = "225"
             },
             new Musician
@@ -512,7 +512,7 @@ namespace NineStarKi.Models
                 Name = "Robert Johnson",
                 Genres = new List<Genre> { Genres[0] },
                 Recording = "The Complete Recordings",
-                Occasions = new List<Occasion> { Occasions[0], Occasions[9] },
+                Occasions = new List<Occasion> { Occasions[5], Occasions[9] },
                 Numbers = "885"
             },
             new Musician
@@ -520,7 +520,7 @@ namespace NineStarKi.Models
                 Name = "Henry Kaiser and David Lindley with Musicians from Madagascar",
                 Genres = new List<Genre> { Genres[14], Genres[47] },
                 Recording = "A World Out of Time",
-                Occasions = new List<Occasion> { Occasions[0], Occasions[3] },
+                Occasions = new List<Occasion> { Occasions[5], Occasions[8] },
                 Numbers = "151 & 216"
             },
             new Musician
@@ -528,7 +528,7 @@ namespace NineStarKi.Models
                 Name = "The Kinks",
                 Genres = new List<Genre> { Genres[12] },
                 Recording = "The Kinks Are the Village Green Preservation Society",
-                Occasions = new List<Occasion> { Occasions[0] },
+                Occasions = new List<Occasion> { Occasions[5] },
                 Numbers = "279, 932, 344, 225"
             },
             new Musician
@@ -536,7 +536,7 @@ namespace NineStarKi.Models
                 Name = "Leadbelly",
                 Genres = new List<Genre> { Genres[0], Genres[4] },
                 Recording = "Where Did You Sleep Last Night?",
-                Occasions = new List<Occasion> { Occasions[0] },
+                Occasions = new List<Occasion> { Occasions[5] },
                 Numbers = "591"
             },
             new Musician
@@ -544,7 +544,7 @@ namespace NineStarKi.Models
                 Name = "Led Zeppelin",
                 Genres = new List<Genre> { Genres[12] },
                 Recording = "How the West Was Won",
-                Occasions = new List<Occasion> { Occasions[0] },
+                Occasions = new List<Occasion> { Occasions[5] },
                 Numbers = "721, 335, 757, 178"
             },
             new Musician
@@ -552,7 +552,7 @@ namespace NineStarKi.Models
                 Name = "Jerry Lee Lewis",
                 Genres = new List<Genre> { Genres[12] },
                 Recording = "Live at the Star Club, Hamburg",
-                Occasions = new List<Occasion> { Occasions[0], Occasions[7] },
+                Occasions = new List<Occasion> { Occasions[5], Occasions[1] },
                 Numbers = "243"
             },
             new Musician
@@ -560,7 +560,7 @@ namespace NineStarKi.Models
                 Name = "Lyle Lovett",
                 Genres = new List<Genre> { Genres[2] },
                 Recording = "Joshua Judges Ruth",
-                Occasions = new List<Occasion> { Occasions[0] },
+                Occasions = new List<Occasion> { Occasions[5] },
                 Numbers = "793"
             },
             new Musician
@@ -568,7 +568,7 @@ namespace NineStarKi.Models
                 Name = "Henry Mancini",
                 Genres = new List<Genre> { Genres[10] },
                 Recording = "Breakfast at Tiffany's",
-                Occasions = new List<Occasion> { Occasions[0] },
+                Occasions = new List<Occasion> { Occasions[5] },
                 Numbers = "463"
             },
             new Musician
@@ -576,7 +576,7 @@ namespace NineStarKi.Models
                 Name = "Bob Marley and the Wailers",
                 Genres = new List<Genre> { Genres[14], Genres[42] },
                 Recording = "Natty Dread",
-                Occasions = new List<Occasion> { Occasions[0], Occasions[7] },
+                Occasions = new List<Occasion> { Occasions[5], Occasions[1] },
                 Numbers = "187"
             },
             new Musician
@@ -584,7 +584,7 @@ namespace NineStarKi.Models
                 Name = "John Mayall with Eric Clapton",
                 Genres = new List<Genre> { Genres[0], Genres[12] },
                 Recording = "Blues Breakers",
-                Occasions = new List<Occasion> { Occasions[0], Occasions[8] },
+                Occasions = new List<Occasion> { Occasions[5], Occasions[6] },
                 Numbers = "481 & 178"
             },
             new Musician
@@ -592,7 +592,7 @@ namespace NineStarKi.Models
                 Name = "Curtis Mayfield",
                 Genres = new List<Genre> { Genres[11] },
                 Recording = "There's No Place like America Today",
-                Occasions = new List<Occasion> { Occasions[0], Occasions[5] },
+                Occasions = new List<Occasion> { Occasions[5], Occasions[2] },
                 Numbers = "454"
             },
             new Musician
@@ -600,7 +600,7 @@ namespace NineStarKi.Models
                 Name = "The Mighty Diamonds",
                 Genres = new List<Genre> { Genres[14], Genres[42] },
                 Recording = "Right Time",
-                Occasions = new List<Occasion> { Occasions[0] },
+                Occasions = new List<Occasion> { Occasions[5] },
                 Numbers = ""
             },
             new Musician
@@ -608,7 +608,7 @@ namespace NineStarKi.Models
                 Name = "Joni Mitchell",
                 Genres = new List<Genre> { Genres[10] },
                 Recording = "Court and Spark",
-                Occasions = new List<Occasion> { Occasions[0], Occasions[5] },
+                Occasions = new List<Occasion> { Occasions[5], Occasions[2] },
                 Numbers = "362"
             },
             new Musician
@@ -616,7 +616,7 @@ namespace NineStarKi.Models
                 Name = "Bill Monroe",
                 Genres = new List<Genre> { Genres[2] },
                 Recording = "The Music of Bill Monroe",
-                Occasions = new List<Occasion> { Occasions[0], Occasions[8] },
+                Occasions = new List<Occasion> { Occasions[5], Occasions[6] },
                 Numbers = "849"
             },
             new Musician
@@ -624,7 +624,7 @@ namespace NineStarKi.Models
                 Name = "Milton Nascimento with Lô Borges",
                 Genres = new List<Genre> { Genres[14], Genres[20] },
                 Recording = "Clube da esquina",
-                Occasions = new List<Occasion> { Occasions[0], Occasions[8] },
+                Occasions = new List<Occasion> { Occasions[5], Occasions[6] },
                 Numbers = "499 & 463"
             },
             new Musician
@@ -632,7 +632,7 @@ namespace NineStarKi.Models
                 Name = "Ricky Nelson",
                 Genres = new List<Genre> { Genres[12] },
                 Recording = "Greatest Hits",
-                Occasions = new List<Occasion> { Occasions[0] },
+                Occasions = new List<Occasion> { Occasions[5] },
                 Numbers = "629"
             },
             new Musician
@@ -640,7 +640,7 @@ namespace NineStarKi.Models
                 Name = "Harry Nilsson",
                 Genres = new List<Genre> { Genres[12] },
                 Recording = "Nilsson Schmilsson",
-                Occasions = new List<Occasion> { Occasions[0], Occasions[10] },
+                Occasions = new List<Occasion> { Occasions[5], Occasions[9] },
                 Numbers = "766"
             },
             new Musician
@@ -648,7 +648,7 @@ namespace NineStarKi.Models
                 Name = "Laura Nyro",
                 Genres = new List<Genre> { Genres[10] },
                 Recording = "Eli and the Thirteenth Confession",
-                Occasions = new List<Occasion> { Occasions[0] },
+                Occasions = new List<Occasion> { Occasions[5] },
                 Numbers = "831"
             },
             new Musician
@@ -656,7 +656,7 @@ namespace NineStarKi.Models
                 Name = "Odetta",
                 Genres = new List<Genre> { Genres[4] },
                 Recording = "Odetta Sings Ballads and Blues",
-                Occasions = new List<Occasion> { Occasions[0] },
+                Occasions = new List<Occasion> { Occasions[5] },
                 Numbers = "775"
             },
             new Musician
@@ -664,7 +664,7 @@ namespace NineStarKi.Models
                 Name = "King Oliver and His Creole Jazz Band",
                 Genres = new List<Genre> { Genres[7] },
                 Recording = "Off the Record: The Complete 1923 Jazz Band Recordings",
-                Occasions = new List<Occasion> { Occasions[0] },
+                Occasions = new List<Occasion> { Occasions[5] },
                 Numbers = "216"
             },
             new Musician
@@ -672,7 +672,7 @@ namespace NineStarKi.Models
                 Name = "Ivo Papasov and His Orchestra",
                 Genres = new List<Genre> { Genres[14], Genres[21] },
                 Recording = "Balkanology",
-                Occasions = new List<Occasion> { Occasions[0] },
+                Occasions = new List<Occasion> { Occasions[5] },
                 Numbers = "353"
             },
             new Musician
@@ -680,7 +680,7 @@ namespace NineStarKi.Models
                 Name = "Charlie Parker",
                 Genres = new List<Genre> { Genres[7] },
                 Recording = "A Studio Chronicle, 1940-1948",
-                Occasions = new List<Occasion> { Occasions[0] },
+                Occasions = new List<Occasion> { Occasions[5] },
                 Numbers = "858"
             },
             new Musician
@@ -688,7 +688,7 @@ namespace NineStarKi.Models
                 Name = "Dolly Parton",
                 Genres = new List<Genre> { Genres[2] },
                 Recording = "Coat of Many Colors",
-                Occasions = new List<Occasion> { Occasions[0] },
+                Occasions = new List<Occasion> { Occasions[5] },
                 Numbers = "169"
             },
             new Musician
@@ -696,7 +696,7 @@ namespace NineStarKi.Models
                 Name = "Peter, Paul and Mary",
                 Genres = new List<Genre> { Genres[4] },
                 Recording = "Peter, Paul and Mary",
-                Occasions = new List<Occasion> { Occasions[0] },
+                Occasions = new List<Occasion> { Occasions[5] },
                 Numbers = "885, 941, & 187"
             },
             new Musician
@@ -704,7 +704,7 @@ namespace NineStarKi.Models
                 Name = "Bud Powell",
                 Genres = new List<Genre> { Genres[7] },
                 Recording = "The Amazing Bud Powell, Vol. 1",
-                Occasions = new List<Occasion> { Occasions[0] },
+                Occasions = new List<Occasion> { Occasions[5] },
                 Numbers = "418"
             },
             new Musician
@@ -712,7 +712,7 @@ namespace NineStarKi.Models
                 Name = "Sergey Rachmaninoff",
                 Genres = new List<Genre> { Genres[1] },
                 Recording = "His Complete Recordings",
-                Occasions = new List<Occasion> { Occasions[0] },
+                Occasions = new List<Occasion> { Occasions[5] },
                 Numbers = "178"
             },
             new Musician
@@ -720,7 +720,7 @@ namespace NineStarKi.Models
                 Name = "Richard Rodgers and Oscar Hammerstein II",
                 Genres = new List<Genre> { Genres[8] },
                 Recording = "The Sound of Music",
-                Occasions = new List<Occasion> { Occasions[0] },
+                Occasions = new List<Occasion> { Occasions[5] },
                 Numbers = "876 & 692"
             },
             new Musician
@@ -728,7 +728,7 @@ namespace NineStarKi.Models
                 Name = "Jimmie Rodgers",
                 Genres = new List<Genre> { Genres[2] },
                 Recording = "The Essential Jimmie Rodgers",
-                Occasions = new List<Occasion> { Occasions[0] },
+                Occasions = new List<Occasion> { Occasions[5] },
                 Numbers = "418"
             },
             new Musician
@@ -736,7 +736,7 @@ namespace NineStarKi.Models
                 Name = "Sonny Rollins",
                 Genres = new List<Genre> { Genres[7] },
                 Recording = "A Night at the Village Vanguard",
-                Occasions = new List<Occasion> { Occasions[0] },
+                Occasions = new List<Occasion> { Occasions[5] },
                 Numbers = "721"
             },
             new Musician
@@ -744,7 +744,7 @@ namespace NineStarKi.Models
                 Name = "Pete Seeger",
                 Genres = new List<Genre> { Genres[4] },
                 Recording = "We Shall Overcome: The Complete Carnegie Hall Concert",
-                Occasions = new List<Occasion> { Occasions[0], Occasions[3] },
+                Occasions = new List<Occasion> { Occasions[5], Occasions[8] },
                 Numbers = "932"
             },
             new Musician
@@ -752,7 +752,7 @@ namespace NineStarKi.Models
                 Name = "Paul Simon",
                 Genres = new List<Genre> { Genres[10] },
                 Recording = "Graceland",
-                Occasions = new List<Occasion> { Occasions[0], Occasions[4] },
+                Occasions = new List<Occasion> { Occasions[5], Occasions[4] },
                 Numbers = "537"
             },
             new Musician
@@ -760,7 +760,7 @@ namespace NineStarKi.Models
                 Name = "Willie 'The Lion' Smith",
                 Genres = new List<Genre> { Genres[7] },
                 Recording = "The Lion Roars! His Greatest 1934-1944",
-                Occasions = new List<Occasion> { Occasions[0] },
+                Occasions = new List<Occasion> { Occasions[5] },
                 Numbers = "822"
             },
             new Musician
@@ -768,7 +768,7 @@ namespace NineStarKi.Models
                 Name = "The Stanley Brothers",
                 Genres = new List<Genre> { Genres[2] },
                 Recording = "The Complete Columbia Recordings",
-                Occasions = new List<Occasion> { Occasions[0] },
+                Occasions = new List<Occasion> { Occasions[5] },
                 Numbers = "389 & 187"
             },
             new Musician
@@ -776,7 +776,7 @@ namespace NineStarKi.Models
                 Name = "Steely Dan",
                 Genres = new List<Genre> { Genres[12] },
                 Recording = "Aja",
-                Occasions = new List<Occasion> { Occasions[0], Occasions[10] },
+                Occasions = new List<Occasion> { Occasions[5], Occasions[9] },
                 Numbers = "528 & 894"
             },
             new Musician
@@ -784,7 +784,7 @@ namespace NineStarKi.Models
                 Name = "Art Tatum",
                 Genres = new List<Genre> { Genres[7] },
                 Recording = "Piano Starts Here",
-                Occasions = new List<Occasion> { Occasions[0] },
+                Occasions = new List<Occasion> { Occasions[5] },
                 Numbers = "196"
             },
             new Musician
@@ -792,7 +792,7 @@ namespace NineStarKi.Models
                 Name = "Pyotr Ilyich Tchaikovsky",
                 Genres = new List<Genre> { Genres[1] },
                 Recording = "The Nutcracker",
-                Occasions = new List<Occasion> { Occasions[0] },
+                Occasions = new List<Occasion> { Occasions[5] },
                 Numbers = "757 & 297"
             },
             new Musician
@@ -800,7 +800,7 @@ namespace NineStarKi.Models
                 Name = "Sister Rosetta Tharpe",
                 Genres = new List<Genre> { Genres[5] },
                 Recording = "Complete Recorded Works in Chronological Order, 1938-1947",
-                Occasions = new List<Occasion> { Occasions[0], Occasions[3] },
+                Occasions = new List<Occasion> { Occasions[5], Occasions[8] },
                 Numbers = "472"
             },
             new Musician
@@ -808,7 +808,7 @@ namespace NineStarKi.Models
                 Name = "The Tokens",
                 Genres = new List<Genre> { Genres[10] },
                 Recording = "'The Lion Sleeps Tonight'",
-                Occasions = new List<Occasion> { Occasions[0] },
+                Occasions = new List<Occasion> { Occasions[5] },
                 Numbers = "793, 885, 775, 472, 822"
             },
             new Musician
@@ -816,7 +816,7 @@ namespace NineStarKi.Models
                 Name = "United Sacred Harp Musical Association Singing Convention",
                 Genres = new List<Genre> { Genres[4], Genres[5] },
                 Recording = "Southern Journey, Vol 9: Harp of a Thousand Strings",
-                Occasions = new List<Occasion> { Occasions[0] },
+                Occasions = new List<Occasion> { Occasions[5] },
                 Numbers = ""
             },
             new Musician
@@ -824,7 +824,7 @@ namespace NineStarKi.Models
                 Name = "Ritchie Valens",
                 Genres = new List<Genre> { Genres[12] },
                 Recording = "'La bamba'",
-                Occasions = new List<Occasion> { Occasions[0] },
+                Occasions = new List<Occasion> { Occasions[5] },
                 Numbers = "582"
             },
             new Musician
@@ -832,7 +832,7 @@ namespace NineStarKi.Models
                 Name = "Various Artists",
                 Genres = new List<Genre> { Genres[4] },
                 Recording = "edited by Harry Smith, Anthology of American Folk Music",
-                Occasions = new List<Occasion> { Occasions[0] },
+                Occasions = new List<Occasion> { Occasions[5] },
                 Numbers = ""
             },
             new Musician
@@ -840,7 +840,7 @@ namespace NineStarKi.Models
                 Name = "Various Artists",
                 Genres = new List<Genre> { Genres[10] },
                 Recording = "The Doo Wop Box",
-                Occasions = new List<Occasion> { Occasions[0] },
+                Occasions = new List<Occasion> { Occasions[5] },
                 Numbers = ""
             },
             new Musician
@@ -848,7 +848,7 @@ namespace NineStarKi.Models
                 Name = "Various Artists",
                 Genres = new List<Genre> { Genres[2] },
                 Recording = "O Brother, Where Art Thou?",
-                Occasions = new List<Occasion> { Occasions[0] },
+                Occasions = new List<Occasion> { Occasions[5] },
                 Numbers = ""
             },
             new Musician
@@ -856,7 +856,7 @@ namespace NineStarKi.Models
                 Name = "Speedy West and Jimmy Bryant",
                 Genres = new List<Genre> { Genres[2] },
                 Recording = "Stratosphere Boogie",
-                Occasions = new List<Occasion> { Occasions[0] },
+                Occasions = new List<Occasion> { Occasions[5] },
                 Numbers = "591 & 353"
             },
             new Musician
@@ -864,7 +864,7 @@ namespace NineStarKi.Models
                 Name = "Stevie Wonder",
                 Genres = new List<Genre> { Genres[11] },
                 Recording = "Songs in the Key of Life",
-                Occasions = new List<Occasion> { Occasions[0] },
+                Occasions = new List<Occasion> { Occasions[5] },
                 Numbers = "582"
             },
             new Musician
@@ -872,7 +872,7 @@ namespace NineStarKi.Models
                 Name = "Anita Baker",
                 Genres = new List<Genre> { Genres[11] },
                 Recording = "Rapture",
-                Occasions = new List<Occasion> { Occasions[1] },
+                Occasions = new List<Occasion> { Occasions[3] },
                 Numbers = "766"
             },
             new Musician
@@ -880,7 +880,7 @@ namespace NineStarKi.Models
                 Name = "Chet Baker",
                 Genres = new List<Genre> { Genres[7] },
                 Recording = "Let's Get Lost: The Best of Chet Baker Sings",
-                Occasions = new List<Occasion> { Occasions[1] },
+                Occasions = new List<Occasion> { Occasions[3] },
                 Numbers = "813"
             },
             new Musician
@@ -888,7 +888,7 @@ namespace NineStarKi.Models
                 Name = "Ludwig van Beethoven",
                 Genres = new List<Genre> { Genres[1] },
                 Recording = "Piano Concertos Nos. 4 and 5",
-                Occasions = new List<Occasion> { Occasions[1] },
+                Occasions = new List<Occasion> { Occasions[3] },
                 Numbers = "519"
             },
             new Musician
@@ -896,7 +896,7 @@ namespace NineStarKi.Models
                 Name = "Asha Bhosle",
                 Genres = new List<Genre> { Genres[14], Genres[39] },
                 Recording = "The Rough Guide to Asha Bhosle",
-                Occasions = new List<Occasion> { Occasions[1] },
+                Occasions = new List<Occasion> { Occasions[3] },
                 Numbers = "418"
             },
             new Musician
@@ -904,7 +904,7 @@ namespace NineStarKi.Models
                 Name = "Camarón de la Isla",
                 Genres = new List<Genre> { Genres[14], Genres[61] },
                 Recording = "La leyenda del tiempo",
-                Occasions = new List<Occasion> { Occasions[1] },
+                Occasions = new List<Occasion> { Occasions[3] },
                 Numbers = "528"
             },
             new Musician
@@ -912,7 +912,7 @@ namespace NineStarKi.Models
                 Name = "James Carr",
                 Genres = new List<Genre> { Genres[11] },
                 Recording = "You Got My Mind Messed Up",
-                Occasions = new List<Occasion> { Occasions[1] },
+                Occasions = new List<Occasion> { Occasions[3] },
                 Numbers = "445"
             },
             new Musician
@@ -920,7 +920,7 @@ namespace NineStarKi.Models
                 Name = "Cartola",
                 Genres = new List<Genre> { Genres[14], Genres[20] },
                 Recording = "Cartola",
-                Occasions = new List<Occasion> { Occasions[1] },
+                Occasions = new List<Occasion> { Occasions[3] },
                 Numbers = "234"
             },
             new Musician
@@ -928,7 +928,7 @@ namespace NineStarKi.Models
                 Name = "Dorival Caymmi",
                 Genres = new List<Genre> { Genres[14], Genres[20] },
                 Recording = "Caymmi e seu violão",
-                Occasions = new List<Occasion> { Occasions[1] },
+                Occasions = new List<Occasion> { Occasions[3] },
                 Numbers = "591"
             },
             new Musician
@@ -936,7 +936,7 @@ namespace NineStarKi.Models
                 Name = "Frédéric Chopin",
                 Genres = new List<Genre> { Genres[1] },
                 Recording = "Piano Concertos Nos. 1 and 2",
-                Occasions = new List<Occasion> { Occasions[1] },
+                Occasions = new List<Occasion> { Occasions[3] },
                 Numbers = "187"
             },
             new Musician
@@ -944,7 +944,7 @@ namespace NineStarKi.Models
                 Name = "Jimmy Cliff",
                 Genres = new List<Genre> { Genres[14], Genres[42] },
                 Recording = "The Harder They Come",
-                Occasions = new List<Occasion> { Occasions[1], Occasions[5] },
+                Occasions = new List<Occasion> { Occasions[3], Occasions[2] },
                 Numbers = "775"
             },
             new Musician
@@ -952,7 +952,7 @@ namespace NineStarKi.Models
                 Name = "Nat King Cole and His Trio",
                 Genres = new List<Genre> { Genres[13] },
                 Recording = "The Complete After Midnight Sessions",
-                Occasions = new List<Occasion> { Occasions[1], Occasions[6] },
+                Occasions = new List<Occasion> { Occasions[3], Occasions[0] },
                 Numbers = "941"
             },
             new Musician
@@ -960,7 +960,7 @@ namespace NineStarKi.Models
                 Name = "D'Angelo",
                 Genres = new List<Genre> { Genres[11] },
                 Recording = "Brown Sugar",
-                Occasions = new List<Occasion> { Occasions[1] },
+                Occasions = new List<Occasion> { Occasions[3] },
                 Numbers = "822"
             },
             new Musician
@@ -968,7 +968,7 @@ namespace NineStarKi.Models
                 Name = "Miles Davis and Gil Evans",
                 Genres = new List<Genre> { Genres[7] },
                 Recording = "Sketches of Spain",
-                Occasions = new List<Occasion> { Occasions[1] },
+                Occasions = new List<Occasion> { Occasions[3] },
                 Numbers = "288 & 757"
             },
             new Musician
@@ -976,7 +976,7 @@ namespace NineStarKi.Models
                 Name = "Claude Debussy",
                 Genres = new List<Genre> { Genres[1] },
                 Recording = "Preludes",
-                Occasions = new List<Occasion> { Occasions[1] },
+                Occasions = new List<Occasion> { Occasions[3] },
                 Numbers = "389"
             },
             new Musician
@@ -984,7 +984,7 @@ namespace NineStarKi.Models
                 Name = "Djavan",
                 Genres = new List<Genre> { Genres[14], Genres[20] },
                 Recording = "Luz",
-                Occasions = new List<Occasion> { Occasions[1] },
+                Occasions = new List<Occasion> { Occasions[3] },
                 Numbers = "766"
             },
             new Musician
@@ -992,7 +992,7 @@ namespace NineStarKi.Models
                 Name = "Jacqueline du Pré",
                 Genres = new List<Genre> { Genres[1] },
                 Recording = "Elgar: Cello Concerto",
-                Occasions = new List<Occasion> { Occasions[1] },
+                Occasions = new List<Occasion> { Occasions[3] },
                 Numbers = "297"
             },
             new Musician
@@ -1000,7 +1000,7 @@ namespace NineStarKi.Models
                 Name = "ESG",
                 Genres = new List<Genre> { Genres[6], Genres[11] },
                 Recording = "A South Bronx Story",
-                Occasions = new List<Occasion> { Occasions[1], Occasions[4] },
+                Occasions = new List<Occasion> { Occasions[3], Occasions[4] },
                 Numbers = ""
             },
             new Musician
@@ -1008,7 +1008,7 @@ namespace NineStarKi.Models
                 Name = "Cesaria Evora",
                 Genres = new List<Genre> { Genres[14], Genres[23] },
                 Recording = "Cesaria",
-                Occasions = new List<Occasion> { Occasions[1] },
+                Occasions = new List<Occasion> { Occasions[3] },
                 Numbers = "555"
             },
             new Musician
@@ -1016,7 +1016,7 @@ namespace NineStarKi.Models
                 Name = "Cheo Feliciano",
                 Genres = new List<Genre> { Genres[14], Genres[54] },
                 Recording = "Cheo",
-                Occasions = new List<Occasion> { Occasions[1] },
+                Occasions = new List<Occasion> { Occasions[3] },
                 Numbers = "279"
             },
             new Musician
@@ -1024,7 +1024,7 @@ namespace NineStarKi.Models
                 Name = "Jose Feliciano",
                 Genres = new List<Genre> { Genres[13] },
                 Recording = "El sentimiento, la voz, y la guitarra",
-                Occasions = new List<Occasion> { Occasions[1] },
+                Occasions = new List<Occasion> { Occasions[3] },
                 Numbers = "115"
             },
             new Musician
@@ -1032,7 +1032,7 @@ namespace NineStarKi.Models
                 Name = "Aretha Franklin",
                 Genres = new List<Genre> { Genres[11] },
                 Recording = "I Never Loved a Man the Way I Love You",
-                Occasions = new List<Occasion> { Occasions[1] },
+                Occasions = new List<Occasion> { Occasions[3] },
                 Numbers = "472"
             },
             new Musician
@@ -1040,7 +1040,7 @@ namespace NineStarKi.Models
                 Name = "Carlos Gardel",
                 Genres = new List<Genre> { Genres[14], Genres[18] },
                 Recording = "The Best of Carlos Gardel",
-                Occasions = new List<Occasion> { Occasions[1] },
+                Occasions = new List<Occasion> { Occasions[3] },
                 Numbers = "216"
             },
             new Musician
@@ -1048,7 +1048,7 @@ namespace NineStarKi.Models
                 Name = "Marvin Gaye",
                 Genres = new List<Genre> { Genres[11] },
                 Recording = "Let's Get It On",
-                Occasions = new List<Occasion> { Occasions[1] },
+                Occasions = new List<Occasion> { Occasions[3] },
                 Numbers = "775"
             },
             new Musician
@@ -1056,7 +1056,7 @@ namespace NineStarKi.Models
                 Name = "Bebel Gilberto",
                 Genres = new List<Genre> { Genres[14], Genres[20] },
                 Recording = "Tanto tempo",
-                Occasions = new List<Occasion> { Occasions[1] },
+                Occasions = new List<Occasion> { Occasions[3] },
                 Numbers = "757"
             },
             new Musician
@@ -1064,7 +1064,7 @@ namespace NineStarKi.Models
                 Name = "João Gilberto",
                 Genres = new List<Genre> { Genres[14], Genres[20] },
                 Recording = "João Gilberto",
-                Occasions = new List<Occasion> { Occasions[1], Occasions[5] },
+                Occasions = new List<Occasion> { Occasions[3], Occasions[2] },
                 Numbers = "611"
             },
             new Musician
@@ -1072,7 +1072,7 @@ namespace NineStarKi.Models
                 Name = "The Jimmy Giuffre Three",
                 Genres = new List<Genre> { Genres[7] },
                 Recording = "1961",
-                Occasions = new List<Occasion> { Occasions[1] },
+                Occasions = new List<Occasion> { Occasions[3] },
                 Numbers = "766"
             },
             new Musician
@@ -1080,7 +1080,7 @@ namespace NineStarKi.Models
                 Name = "Al Green",
                 Genres = new List<Genre> { Genres[11] },
                 Recording = "Call Me",
-                Occasions = new List<Occasion> { Occasions[1] },
+                Occasions = new List<Occasion> { Occasions[3] },
                 Numbers = "932"
             },
             new Musician
@@ -1088,7 +1088,7 @@ namespace NineStarKi.Models
                 Name = "Edvard Grieg",
                 Genres = new List<Genre> { Genres[1] },
                 Recording = "Lyric Pieces",
-                Occasions = new List<Occasion> { Occasions[1] },
+                Occasions = new List<Occasion> { Occasions[3] },
                 Numbers = "445"
             },
             new Musician
@@ -1096,7 +1096,7 @@ namespace NineStarKi.Models
                 Name = "Donny Hathaway",
                 Genres = new List<Genre> { Genres[11] },
                 Recording = "Everything Is Everything",
-                Occasions = new List<Occasion> { Occasions[1] },
+                Occasions = new List<Occasion> { Occasions[3] },
                 Numbers = "115"
             },
             new Musician
@@ -1104,7 +1104,7 @@ namespace NineStarKi.Models
                 Name = "Coleman Hawkins",
                 Genres = new List<Genre> { Genres[7] },
                 Recording = "'Body and Soul'",
-                Occasions = new List<Occasion> { Occasions[1] },
+                Occasions = new List<Occasion> { Occasions[3] },
                 Numbers = "454"
             },
             new Musician
@@ -1112,7 +1112,7 @@ namespace NineStarKi.Models
                 Name = "Whitney Houston",
                 Genres = new List<Genre> { Genres[11] },
                 Recording = "Whitney Houston",
-                Occasions = new List<Occasion> { Occasions[1] },
+                Occasions = new List<Occasion> { Occasions[3] },
                 Numbers = "124"
             },
             new Musician
@@ -1120,7 +1120,7 @@ namespace NineStarKi.Models
                 Name = "Antonio Carlos Jobim",
                 Genres = new List<Genre> { Genres[14], Genres[20] },
                 Recording = "The Composer of 'Desafinado' Plays",
-                Occasions = new List<Occasion> { Occasions[1] },
+                Occasions = new List<Occasion> { Occasions[3] },
                 Numbers = "297"
             },
             new Musician
@@ -1128,7 +1128,7 @@ namespace NineStarKi.Models
                 Name = "Antonio Carlos Jobim and Elis Regina",
                 Genres = new List<Genre> { Genres[14], Genres[20] },
                 Recording = "Elis & Tom",
-                Occasions = new List<Occasion> { Occasions[1] },
+                Occasions = new List<Occasion> { Occasions[3] },
                 Numbers = "297 & 178"
             },
             new Musician
@@ -1136,7 +1136,7 @@ namespace NineStarKi.Models
                 Name = "Little Willie John",
                 Genres = new List<Genre> { Genres[11] },
                 Recording = "The Very Best of Little Willie John",
-                Occasions = new List<Occasion> { Occasions[1], Occasions[6] },
+                Occasions = new List<Occasion> { Occasions[3], Occasions[0] },
                 Numbers = "959"
             },
             new Musician
@@ -1144,7 +1144,7 @@ namespace NineStarKi.Models
                 Name = "Norah Jones",
                 Genres = new List<Genre> { Genres[13] },
                 Recording = "Come Away with Me",
-                Occasions = new List<Occasion> { Occasions[1] },
+                Occasions = new List<Occasion> { Occasions[3] },
                 Numbers = "344"
             },
             new Musician
@@ -1152,7 +1152,7 @@ namespace NineStarKi.Models
                 Name = "Gladys Knight and the Pips",
                 Genres = new List<Genre> { Genres[11] },
                 Recording = "Imagination",
-                Occasions = new List<Occasion> { Occasions[1] },
+                Occasions = new List<Occasion> { Occasions[3] },
                 Numbers = "288, 427, 573, & 721"
             },
             new Musician
@@ -1160,7 +1160,7 @@ namespace NineStarKi.Models
                 Name = "Steve Lacy and Mal Waldron",
                 Genres = new List<Genre> { Genres[7] },
                 Recording = "Hot House",
-                Occasions = new List<Occasion> { Occasions[1] },
+                Occasions = new List<Occasion> { Occasions[3] },
                 Numbers = "288 & 389"
             },
             new Musician
@@ -1168,7 +1168,7 @@ namespace NineStarKi.Models
                 Name = "Peggy Lee",
                 Genres = new List<Genre> { Genres[13] },
                 Recording = "Black Coffee",
-                Occasions = new List<Occasion> { Occasions[1], Occasions[6] },
+                Occasions = new List<Occasion> { Occasions[3], Occasions[0] },
                 Numbers = "885"
             },
             new Musician
@@ -1176,7 +1176,7 @@ namespace NineStarKi.Models
                 Name = "Franz Liszt",
                 Genres = new List<Genre> { Genres[1] },
                 Recording = "The Two Piano Concertos, The Piano Sonata",
-                Occasions = new List<Occasion> { Occasions[1] },
+                Occasions = new List<Occasion> { Occasions[3] },
                 Numbers = "968"
             },
             new Musician
@@ -1184,7 +1184,7 @@ namespace NineStarKi.Models
                 Name = "Julie London",
                 Genres = new List<Genre> { Genres[13] },
                 Recording = "At Home/Around Midnight",
-                Occasions = new List<Occasion> { Occasions[1] },
+                Occasions = new List<Occasion> { Occasions[3] },
                 Numbers = "243"
             },
             new Musician
@@ -1192,7 +1192,7 @@ namespace NineStarKi.Models
                 Name = "Loretta Lynn",
                 Genres = new List<Genre> { Genres[2] },
                 Recording = "The Definitive Collection",
-                Occasions = new List<Occasion> { Occasions[1] },
+                Occasions = new List<Occasion> { Occasions[3] },
                 Numbers = "591"
             },
             new Musician
@@ -1200,7 +1200,7 @@ namespace NineStarKi.Models
                 Name = "Johnny Mathis",
                 Genres = new List<Genre> { Genres[13] },
                 Recording = "Open Fire, Two Guitars",
-                Occasions = new List<Occasion> { Occasions[1] },
+                Occasions = new List<Occasion> { Occasions[3] },
                 Numbers = "243"
             },
             new Musician
@@ -1208,7 +1208,7 @@ namespace NineStarKi.Models
                 Name = "The Modern Jazz Quartet",
                 Genres = new List<Genre> { Genres[7] },
                 Recording = "European Concert",
-                Occasions = new List<Occasion> { Occasions[1], Occasions[6] },
+                Occasions = new List<Occasion> { Occasions[3], Occasions[0] },
                 Numbers = "638, 647, 894, 591, 169, 555 & 288"
             },
             new Musician
@@ -1216,7 +1216,7 @@ namespace NineStarKi.Models
                 Name = "Gabriel Montero",
                 Genres = new List<Genre> { Genres[1] },
                 Recording = "Bach and Beyond",
-                Occasions = new List<Occasion> { Occasions[1], Occasions[3] },
+                Occasions = new List<Occasion> { Occasions[3], Occasions[8] },
                 Numbers = "326"
             },
             new Musician
@@ -1224,7 +1224,7 @@ namespace NineStarKi.Models
                 Name = "Beny Moré",
                 Genres = new List<Genre> { Genres[14], Genres[28] },
                 Recording = "Cuban Originals",
-                Occasions = new List<Occasion> { Occasions[1] },
+                Occasions = new List<Occasion> { Occasions[3] },
                 Numbers = "986"
             },
             new Musician
@@ -1232,7 +1232,7 @@ namespace NineStarKi.Models
                 Name = "Maria Muldaur",
                 Genres = new List<Genre> { Genres[10], Genres[12] },
                 Recording = "Maria Muldaur",
-                Occasions = new List<Occasion> { Occasions[1] },
+                Occasions = new List<Occasion> { Occasions[3] },
                 Numbers = "371"
             },
             new Musician
@@ -1240,7 +1240,7 @@ namespace NineStarKi.Models
                 Name = "Willie Nelson",
                 Genres = new List<Genre> { Genres[2] },
                 Recording = "Stardust",
-                Occasions = new List<Occasion> { Occasions[1], Occasions[3] },
+                Occasions = new List<Occasion> { Occasions[3], Occasions[8] },
                 Numbers = "463"
             },
             new Musician
@@ -1248,7 +1248,7 @@ namespace NineStarKi.Models
                 Name = "Aaron Neville",
                 Genres = new List<Genre> { Genres[11] },
                 Recording = "Tell It like It Is",
-                Occasions = new List<Occasion> { Occasions[1] },
+                Occasions = new List<Occasion> { Occasions[3] },
                 Numbers = "638"
             },
             new Musician
@@ -1256,7 +1256,7 @@ namespace NineStarKi.Models
                 Name = "Les Nubians",
                 Genres = new List<Genre> { Genres[11] },
                 Recording = "Princesses Nubiennes",
-                Occasions = new List<Occasion> { Occasions[1], Occasions[7] },
+                Occasions = new List<Occasion> { Occasions[3], Occasions[1] },
                 Numbers = "418 & 849"
             },
             new Musician
@@ -1264,7 +1264,7 @@ namespace NineStarKi.Models
                 Name = "Roy Orbison",
                 Genres = new List<Genre> { Genres[12] },
                 Recording = "For the Lonely: Eighteen Greatest Hits",
-                Occasions = new List<Occasion> { Occasions[1] },
+                Occasions = new List<Occasion> { Occasions[3] },
                 Numbers = "169"
             },
             new Musician
@@ -1272,7 +1272,7 @@ namespace NineStarKi.Models
                 Name = "Orquesta Casino de la Playa",
                 Genres = new List<Genre> { Genres[14], Genres[28] },
                 Recording = "Memories of Cuba",
-                Occasions = new List<Occasion> { Occasions[1] },
+                Occasions = new List<Occasion> { Occasions[3] },
                 Numbers = "858, 784, 721, 849 & 344"
             },
             new Musician
@@ -1280,7 +1280,7 @@ namespace NineStarKi.Models
                 Name = "Billy Paul",
                 Genres = new List<Genre> { Genres[11] },
                 Recording = "'Me and Mrs. Jones'",
-                Occasions = new List<Occasion> { Occasions[1] },
+                Occasions = new List<Occasion> { Occasions[3] },
                 Numbers = "353"
             },
             new Musician
@@ -1288,7 +1288,7 @@ namespace NineStarKi.Models
                 Name = "Baden Powell",
                 Genres = new List<Genre> { Genres[14], Genres[20] },
                 Recording = "O universe musical de Baden Powell",
-                Occasions = new List<Occasion> { Occasions[1] },
+                Occasions = new List<Occasion> { Occasions[3] },
                 Numbers = "995"
             },
             new Musician
@@ -1296,7 +1296,7 @@ namespace NineStarKi.Models
                 Name = "Maurice Ravel",
                 Genres = new List<Genre> { Genres[1] },
                 Recording = "Complete Works for Piano",
-                Occasions = new List<Occasion> { Occasions[1], Occasions[5] },
+                Occasions = new List<Occasion> { Occasions[3], Occasions[2] },
                 Numbers = "813"
             },
             new Musician
@@ -1304,7 +1304,7 @@ namespace NineStarKi.Models
                 Name = "Elis Regina",
                 Genres = new List<Genre> { Genres[14], Genres[20] },
                 Recording = "Como & porque",
-                Occasions = new List<Occasion> { Occasions[1] },
+                Occasions = new List<Occasion> { Occasions[3] },
                 Numbers = "178"
             },
             new Musician
@@ -1312,7 +1312,7 @@ namespace NineStarKi.Models
                 Name = "Django Reinhardt",
                 Genres = new List<Genre> { Genres[7] },
                 Recording = "The Classic Early Recordings in Chronological Order",
-                Occasions = new List<Occasion> { Occasions[1] },
+                Occasions = new List<Occasion> { Occasions[3] },
                 Numbers = "169"
             },
             new Musician
@@ -1320,7 +1320,7 @@ namespace NineStarKi.Models
                 Name = "Smokey Robinson and the Miracles",
                 Genres = new List<Genre> { Genres[7], Genres[11] },
                 Recording = "The Ultimate Collection",
-                Occasions = new List<Occasion> { Occasions[1] },
+                Occasions = new List<Occasion> { Occasions[3] },
                 Numbers = "656, 995, 775, 822, 656, 445, 573 & 555"
             },
             new Musician
@@ -1328,7 +1328,7 @@ namespace NineStarKi.Models
                 Name = "Amália Rodrigues",
                 Genres = new List<Genre> { Genres[14], Genres[56] },
                 Recording = "The Art of Amália Rodrigues",
-                Occasions = new List<Occasion> { Occasions[1] },
+                Occasions = new List<Occasion> { Occasions[3] },
                 Numbers = "867"
             },
             new Musician
@@ -1336,7 +1336,7 @@ namespace NineStarKi.Models
                 Name = "Roxy Music",
                 Genres = new List<Genre> { Genres[12] },
                 Recording = "Avalon",
-                Occasions = new List<Occasion> { Occasions[1] },
+                Occasions = new List<Occasion> { Occasions[3] },
                 Numbers = "115, 591, 995 & 454"
             },
             new Musician
@@ -1344,7 +1344,7 @@ namespace NineStarKi.Models
                 Name = "Gustavo Santaolalla",
                 Genres = new List<Genre> { Genres[14], Genres[18] },
                 Recording = "Ronroco",
-                Occasions = new List<Occasion> { Occasions[1], Occasions[5] },
+                Occasions = new List<Occasion> { Occasions[3], Occasions[2] },
                 Numbers = "427"
             },
             new Musician
@@ -1352,7 +1352,7 @@ namespace NineStarKi.Models
                 Name = "Jill Scott",
                 Genres = new List<Genre> { Genres[11] },
                 Recording = "Who Is Jill Scott? Words and Sounds, Vol. 1",
-                Occasions = new List<Occasion> { Occasions[1] },
+                Occasions = new List<Occasion> { Occasions[3] },
                 Numbers = "178"
             },
             new Musician
@@ -1360,7 +1360,7 @@ namespace NineStarKi.Models
                 Name = "Jimmy Scott",
                 Genres = new List<Genre> { Genres[13] },
                 Recording = "Falling in Love Is Wonderful",
-                Occasions = new List<Occasion> { Occasions[1] },
+                Occasions = new List<Occasion> { Occasions[3] },
                 Numbers = "398"
             },
             new Musician
@@ -1368,7 +1368,7 @@ namespace NineStarKi.Models
                 Name = "Wayne Shorter featuring Milton Nascimento",
                 Genres = new List<Genre> { Genres[7] },
                 Recording = "Native Dancer",
-                Occasions = new List<Occasion> { Occasions[1] },
+                Occasions = new List<Occasion> { Occasions[3] },
                 Numbers = "427"
             },
             new Musician
@@ -1376,7 +1376,7 @@ namespace NineStarKi.Models
                 Name = "Simply Red",
                 Genres = new List<Genre> { Genres[12] },
                 Recording = "Picture Book",
-                Occasions = new List<Occasion> { Occasions[1] },
+                Occasions = new List<Occasion> { Occasions[3] },
                 Numbers = "445, 178"
             },
             new Musician
@@ -1384,7 +1384,7 @@ namespace NineStarKi.Models
                 Name = "Frank Sinatra",
                 Genres = new List<Genre> { Genres[13] },
                 Recording = "Sings for Only the Lonely",
-                Occasions = new List<Occasion> { Occasions[1] },
+                Occasions = new List<Occasion> { Occasions[3] },
                 Numbers = "472"
             },
             new Musician
@@ -1392,7 +1392,7 @@ namespace NineStarKi.Models
                 Name = "Frank Sinatra and Antonio Carlos Jobim",
                 Genres = new List<Genre> { Genres[13] },
                 Recording = "Francis Albert Sinatra & Antonio Carlos Jobim",
-                Occasions = new List<Occasion> { Occasions[1] },
+                Occasions = new List<Occasion> { Occasions[3] },
                 Numbers = "472 & 297"
             },
             new Musician
@@ -1400,7 +1400,7 @@ namespace NineStarKi.Models
                 Name = "Percy Sledge",
                 Genres = new List<Genre> { Genres[11] },
                 Recording = "'When a Man Loves a Woman'",
-                Occasions = new List<Occasion> { Occasions[1] },
+                Occasions = new List<Occasion> { Occasions[3] },
                 Numbers = "528"
             },
             new Musician
@@ -1408,7 +1408,7 @@ namespace NineStarKi.Models
                 Name = "Stephen Sondheim",
                 Genres = new List<Genre> { Genres[8] },
                 Recording = "A Little Night Music",
-                Occasions = new List<Occasion> { Occasions[1] },
+                Occasions = new List<Occasion> { Occasions[3] },
                 Numbers = "775"
             },
             new Musician
@@ -1416,7 +1416,7 @@ namespace NineStarKi.Models
                 Name = "Dusty Springfield",
                 Genres = new List<Genre> { Genres[13] },
                 Recording = "Dusty in Memphis",
-                Occasions = new List<Occasion> { Occasions[1], Occasions[6] },
+                Occasions = new List<Occasion> { Occasions[3], Occasions[0] },
                 Numbers = "766"
             },
             new Musician
@@ -1424,7 +1424,7 @@ namespace NineStarKi.Models
                 Name = "Rod Stewart",
                 Genres = new List<Genre> { Genres[12] },
                 Recording = "Every Picture Tells a Story",
-                Occasions = new List<Occasion> { Occasions[1] },
+                Occasions = new List<Occasion> { Occasions[3] },
                 Numbers = "297"
             },
             new Musician
@@ -1432,7 +1432,7 @@ namespace NineStarKi.Models
                 Name = "Howard Tate",
                 Genres = new List<Genre> { Genres[11] },
                 Recording = "Get It While You Can",
-                Occasions = new List<Occasion> { Occasions[1] },
+                Occasions = new List<Occasion> { Occasions[3] },
                 Numbers = "721"
             },
             new Musician
@@ -1440,7 +1440,7 @@ namespace NineStarKi.Models
                 Name = "Pyotr Ilyich Tchaikovsky",
                 Genres = new List<Genre> { Genres[1] },
                 Recording = "Symphony No. 6 'Pathétique'",
-                Occasions = new List<Occasion> { Occasions[1] },
+                Occasions = new List<Occasion> { Occasions[3] },
                 Numbers = "757"
             },
             new Musician
@@ -1448,7 +1448,7 @@ namespace NineStarKi.Models
                 Name = "The Temptations",
                 Genres = new List<Genre> { Genres[11] },
                 Recording = "'Ain't Too Proud to Beg'",
-                Occasions = new List<Occasion> { Occasions[1] },
+                Occasions = new List<Occasion> { Occasions[3] },
                 Numbers = "537, 638, 775, 748, 499, 178, 712"
             },
             new Musician
@@ -1456,7 +1456,7 @@ namespace NineStarKi.Models
                 Name = "Various Artists",
                 Genres = new List<Genre> { Genres[14], Genres[28] },
                 Recording = "Buena Vista Social Club",
-                Occasions = new List<Occasion> { Occasions[1] },
+                Occasions = new List<Occasion> { Occasions[3] },
                 Numbers = ""
             },
             new Musician
@@ -1464,7 +1464,7 @@ namespace NineStarKi.Models
                 Name = "Barry White",
                 Genres = new List<Genre> { Genres[11] },
                 Recording = "Can't Get Enough",
-                Occasions = new List<Occasion> { Occasions[1] },
+                Occasions = new List<Occasion> { Occasions[3] },
                 Numbers = "243"
             },
             new Musician
@@ -1472,7 +1472,7 @@ namespace NineStarKi.Models
                 Name = "Bill Withers",
                 Genres = new List<Genre> { Genres[11] },
                 Recording = "Still Bill",
-                Occasions = new List<Occasion> { Occasions[1] },
+                Occasions = new List<Occasion> { Occasions[3] },
                 Numbers = "876"
             },
             new Musician
@@ -1480,7 +1480,7 @@ namespace NineStarKi.Models
                 Name = "Alice in Chains",
                 Genres = new List<Genre> { Genres[12] },
                 Recording = "Dirt",
-                Occasions = new List<Occasion> { Occasions[2] },
+                Occasions = new List<Occasion> { Occasions[10] },
                 Numbers = "775, 757, 757, 683, 683 & 775"
             },
             new Musician
@@ -1488,7 +1488,7 @@ namespace NineStarKi.Models
                 Name = "The Arcade Fire",
                 Genres = new List<Genre> { Genres[12] },
                 Recording = "Neon Bible",
-                Occasions = new List<Occasion> { Occasions[2], Occasions[10] },
+                Occasions = new List<Occasion> { Occasions[10], Occasions[9] },
                 Numbers = "297, 683, 546, 977, 445, 389"
             },
             new Musician
@@ -1496,7 +1496,7 @@ namespace NineStarKi.Models
                 Name = "Bad Brains",
                 Genres = new List<Genre> { Genres[12] },
                 Recording = "I Against I",
-                Occasions = new List<Occasion> { Occasions[2] },
+                Occasions = new List<Occasion> { Occasions[10] },
                 Numbers = "822, 674, 499, 775, 519, 914"
             },
             new Musician
@@ -1504,7 +1504,7 @@ namespace NineStarKi.Models
                 Name = "The Beach Boys",
                 Genres = new List<Genre> { Genres[12] },
                 Recording = "Pet Sounds",
-                Occasions = new List<Occasion> { Occasions[2] },
+                Occasions = new List<Occasion> { Occasions[10] },
                 Numbers = "445, 519, 427, 445, 941, 225"
             },
             new Musician
@@ -1512,7 +1512,7 @@ namespace NineStarKi.Models
                 Name = "Ludwig van Beethoven",
                 Genres = new List<Genre> { Genres[1] },
                 Recording = "String Quartets, Opp. 131, 135, 66-67",
-                Occasions = new List<Occasion> { Occasions[2] },
+                Occasions = new List<Occasion> { Occasions[10] },
                 Numbers = "519"
             },
             new Musician
@@ -1520,7 +1520,7 @@ namespace NineStarKi.Models
                 Name = "Ludwig van Beethoven",
                 Genres = new List<Genre> { Genres[1] },
                 Recording = "Symphonies Nos. 1-9",
-                Occasions = new List<Occasion> { Occasions[2] },
+                Occasions = new List<Occasion> { Occasions[10] },
                 Numbers = "519"
             },
             new Musician
@@ -1528,7 +1528,7 @@ namespace NineStarKi.Models
                 Name = "Ludwig van Beethoven",
                 Genres = new List<Genre> { Genres[1] },
                 Recording = "Violin Concerto",
-                Occasions = new List<Occasion> { Occasions[2] },
+                Occasions = new List<Occasion> { Occasions[10] },
                 Numbers = "519"
             },
             new Musician
@@ -1536,7 +1536,7 @@ namespace NineStarKi.Models
                 Name = "Black Flag",
                 Genres = new List<Genre> { Genres[12] },
                 Recording = "Damaged",
-                Occasions = new List<Occasion> { Occasions[2] },
+                Occasions = new List<Occasion> { Occasions[10] },
                 Numbers = "142, 977, 297 & 353"
             },
             new Musician
@@ -1544,7 +1544,7 @@ namespace NineStarKi.Models
                 Name = "Café Tacuba",
                 Genres = new List<Genre> { Genres[14], Genres[50] },
                 Recording = "Cuatro caminos",
-                Occasions = new List<Occasion> { Occasions[2] },
+                Occasions = new List<Occasion> { Occasions[10] },
                 Numbers = "472, 683 & 472"
             },
             new Musician
@@ -1552,7 +1552,7 @@ namespace NineStarKi.Models
                 Name = "Johnny Cash",
                 Genres = new List<Genre> { Genres[2] },
                 Recording = "At Folsom Prison",
-                Occasions = new List<Occasion> { Occasions[2], Occasions[8] },
+                Occasions = new List<Occasion> { Occasions[10], Occasions[6] },
                 Numbers = "528"
             },
             new Musician
@@ -1560,7 +1560,7 @@ namespace NineStarKi.Models
                 Name = "The Clash",
                 Genres = new List<Genre> { Genres[12] },
                 Recording = "London Calling",
-                Occasions = new List<Occasion> { Occasions[2] },
+                Occasions = new List<Occasion> { Occasions[10] },
                 Numbers = "389, 914, 941, 923, 876, 739, 959, 481, 472"
             },
             new Musician
@@ -1568,7 +1568,7 @@ namespace NineStarKi.Models
                 Name = "Elvis Costello and the Attractions",
                 Genres = new List<Genre> { Genres[12] },
                 Recording = "Armed Forces",
-                Occasions = new List<Occasion> { Occasions[2] },
+                Occasions = new List<Occasion> { Occasions[10] },
                 Numbers = "124, 721, 656 & 124"
             },
             new Musician
@@ -1576,7 +1576,7 @@ namespace NineStarKi.Models
                 Name = "Bob Dylan",
                 Genres = new List<Genre> { Genres[12] },
                 Recording = "Blonde on Blonde",
-                Occasions = new List<Occasion> { Occasions[2] },
+                Occasions = new List<Occasion> { Occasions[10] },
                 Numbers = "582"
             },
             new Musician
@@ -1584,7 +1584,7 @@ namespace NineStarKi.Models
                 Name = "Fishbone",
                 Genres = new List<Genre> { Genres[12] },
                 Recording = "Truth and Soul",
-                Occasions = new List<Occasion> { Occasions[2], Occasions[7] },
+                Occasions = new List<Occasion> { Occasions[10], Occasions[1] },
                 Numbers = "831, 849, 169, 692, 481, 959"
             },
             new Musician
@@ -1592,7 +1592,7 @@ namespace NineStarKi.Models
                 Name = "Aretha Franklin",
                 Genres = new List<Genre> { Genres[5] },
                 Recording = "Amazing Grace",
-                Occasions = new List<Occasion> { Occasions[2], Occasions[3] },
+                Occasions = new List<Occasion> { Occasions[10], Occasions[8] },
                 Numbers = "472"
             },
             new Musician
@@ -1600,7 +1600,7 @@ namespace NineStarKi.Models
                 Name = "Fugazi",
                 Genres = new List<Genre> { Genres[12] },
                 Recording = "Repeater",
-                Occasions = new List<Occasion> { Occasions[2] },
+                Occasions = new List<Occasion> { Occasions[10] },
                 Numbers = "297, 187, 775 & 849"
             },
             new Musician
@@ -1608,7 +1608,7 @@ namespace NineStarKi.Models
                 Name = "Gang of Four",
                 Genres = new List<Genre> { Genres[12] },
                 Recording = "Entertainment!",
-                Occasions = new List<Occasion> { Occasions[2] },
+                Occasions = new List<Occasion> { Occasions[10] },
                 Numbers = "914, 813 & 941"
             },
             new Musician
@@ -1616,7 +1616,7 @@ namespace NineStarKi.Models
                 Name = "Marvin Gaye",
                 Genres = new List<Genre> { Genres[11] },
                 Recording = "What's Going On",
-                Occasions = new List<Occasion> { Occasions[2] },
+                Occasions = new List<Occasion> { Occasions[10] },
                 Numbers = "775"
             },
             new Musician
@@ -1624,7 +1624,7 @@ namespace NineStarKi.Models
                 Name = "Green Day",
                 Genres = new List<Genre> { Genres[12] },
                 Recording = "American Idiot",
-                Occasions = new List<Occasion> { Occasions[2] },
+                Occasions = new List<Occasion> { Occasions[10] },
                 Numbers = "187, 169 & 178"
             },
             new Musician
@@ -1632,7 +1632,7 @@ namespace NineStarKi.Models
                 Name = "George Frideric Handel",
                 Genres = new List<Genre> { Genres[1] },
                 Recording = "Messiah",
-                Occasions = new List<Occasion> { Occasions[2] },
+                Occasions = new List<Occasion> { Occasions[10] },
                 Numbers = "959"
             },
             new Musician
@@ -1640,7 +1640,7 @@ namespace NineStarKi.Models
                 Name = "Hüsker Dü",
                 Genres = new List<Genre> { Genres[12] },
                 Recording = "Zen Arcade",
-                Occasions = new List<Occasion> { Occasions[2] },
+                Occasions = new List<Occasion> { Occasions[10] },
                 Numbers = "499, 519, 344"
             },
             new Musician
@@ -1648,7 +1648,7 @@ namespace NineStarKi.Models
                 Name = "Iggy and the Stooges",
                 Genres = new List<Genre> { Genres[12] },
                 Recording = "Raw Power",
-                Occasions = new List<Occasion> { Occasions[2] },
+                Occasions = new List<Occasion> { Occasions[10] },
                 Numbers = "894, 739, 683 & 885"
             },
             new Musician
@@ -1656,7 +1656,7 @@ namespace NineStarKi.Models
                 Name = "Mahalia Jackson",
                 Genres = new List<Genre> { Genres[5] },
                 Recording = "The Apollo Sessions: 1946-1951",
-                Occasions = new List<Occasion> { Occasions[2] },
+                Occasions = new List<Occasion> { Occasions[10] },
                 Numbers = "831"
             },
             new Musician
@@ -1664,7 +1664,7 @@ namespace NineStarKi.Models
                 Name = "Jane's Addiction",
                 Genres = new List<Genre> { Genres[12] },
                 Recording = "Ritual de lo Habitual",
-                Occasions = new List<Occasion> { Occasions[2] },
+                Occasions = new List<Occasion> { Occasions[10] },
                 Numbers = "519, 611, 674 & 317"
             },
             new Musician
@@ -1672,7 +1672,7 @@ namespace NineStarKi.Models
                 Name = "Kodo",
                 Genres = new List<Genre> { Genres[14], Genres[43] },
                 Recording = "Live at Acropolis, Athens, Greece",
-                Occasions = new List<Occasion> { Occasions[2] },
+                Occasions = new List<Occasion> { Occasions[10] },
                 Numbers = "656 & 463"
             },
             new Musician
@@ -1680,7 +1680,7 @@ namespace NineStarKi.Models
                 Name = "The Mahavishnu Orchestra",
                 Genres = new List<Genre> { Genres[7] },
                 Recording = "The Inner Mounting Flame",
-                Occasions = new List<Occasion> { Occasions[2] },
+                Occasions = new List<Occasion> { Occasions[10] },
                 Numbers = "519, 288, 766, 647 & 528"
             },
             new Musician
@@ -1688,7 +1688,7 @@ namespace NineStarKi.Models
                 Name = "Gustav Mahler",
                 Genres = new List<Genre> { Genres[1] },
                 Recording = "Symphony No. 9",
-                Occasions = new List<Occasion> { Occasions[2] },
+                Occasions = new List<Occasion> { Occasions[10] },
                 Numbers = "573"
             },
             new Musician
@@ -1696,7 +1696,7 @@ namespace NineStarKi.Models
                 Name = "Thomas Mapfumo and the Blacks Unlimited",
                 Genres = new List<Genre> { Genres[14], Genres[66] },
                 Recording = "Chimurenga Singles, 1976-1980",
-                Occasions = new List<Occasion> { Occasions[2] },
+                Occasions = new List<Occasion> { Occasions[10] },
                 Numbers = "142"
             },
             new Musician
@@ -1704,7 +1704,7 @@ namespace NineStarKi.Models
                 Name = "Bob Marley and the Wailers",
                 Genres = new List<Genre> { Genres[14], Genres[42] },
                 Recording = "Exodus",
-                Occasions = new List<Occasion> { Occasions[2] },
+                Occasions = new List<Occasion> { Occasions[10] },
                 Numbers = "187, 959, 611, 288, 519, 775, 885, 335"
             },
             new Musician
@@ -1712,7 +1712,7 @@ namespace NineStarKi.Models
                 Name = "MC5",
                 Genres = new List<Genre> { Genres[12] },
                 Recording = "Kick Out the Jams",
-                Occasions = new List<Occasion> { Occasions[2] },
+                Occasions = new List<Occasion> { Occasions[10] },
                 Numbers = "766, 674, 216, 326 & 721"
             },
             new Musician
@@ -1720,7 +1720,7 @@ namespace NineStarKi.Models
                 Name = "Yehudi Menuhin",
                 Genres = new List<Genre> { Genres[1] },
                 Recording = "Beethoven Violin Concerto, Mendelssohn Violin Concerto",
-                Occasions = new List<Occasion> { Occasions[2] },
+                Occasions = new List<Occasion> { Occasions[10] },
                 Numbers = "335 &  519"
             },
             new Musician
@@ -1728,7 +1728,7 @@ namespace NineStarKi.Models
                 Name = "Metallica",
                 Genres = new List<Genre> { Genres[12] },
                 Recording = "Master of Puppets",
-                Occasions = new List<Occasion> { Occasions[2] },
+                Occasions = new List<Occasion> { Occasions[10] },
                 Numbers = "133, 178, 225 & 968"
             },
             new Musician
@@ -1736,7 +1736,7 @@ namespace NineStarKi.Models
                 Name = "Ministry",
                 Genres = new List<Genre> { Genres[12] },
                 Recording = "The Mind Is a Terrible Thing to Taste",
-                Occasions = new List<Occasion> { Occasions[2] },
+                Occasions = new List<Occasion> { Occasions[10] },
                 Numbers = "528, 665 & 418"
             },
             new Musician
@@ -1744,7 +1744,7 @@ namespace NineStarKi.Models
                 Name = "Mother Love Bone",
                 Genres = new List<Genre> { Genres[12] },
                 Recording = "Apple",
-                Occasions = new List<Occasion> { Occasions[2] },
+                Occasions = new List<Occasion> { Occasions[10] },
                 Numbers = "178, 472, 344, 739 & 894"
             },
             new Musician
@@ -1752,7 +1752,7 @@ namespace NineStarKi.Models
                 Name = "My Morning Jacket",
                 Genres = new List<Genre> { Genres[12] },
                 Recording = "It Still Moves",
-                Occasions = new List<Occasion> { Occasions[2] },
+                Occasions = new List<Occasion> { Occasions[10] },
                 Numbers = "463, 481, 858 & 932"
             },
             new Musician
@@ -1760,7 +1760,7 @@ namespace NineStarKi.Models
                 Name = "Nirvana",
                 Genres = new List<Genre> { Genres[12] },
                 Recording = "Nevermind",
-                Occasions = new List<Occasion> { Occasions[2] },
+                Occasions = new List<Occasion> { Occasions[10] },
                 Numbers = "656, 885, 591"
             },
             new Musician
@@ -1768,7 +1768,7 @@ namespace NineStarKi.Models
                 Name = "Pantera",
                 Genres = new List<Genre> { Genres[12] },
                 Recording = "Vulgar Display of Power",
-                Occasions = new List<Occasion> { Occasions[2] },
+                Occasions = new List<Occasion> { Occasions[10] },
                 Numbers = "721, 941, 959, 995 & 573"
             },
             new Musician
@@ -1776,7 +1776,7 @@ namespace NineStarKi.Models
                 Name = "Pearl Jam",
                 Genres = new List<Genre> { Genres[12] },
                 Recording = "Ten",
-                Occasions = new List<Occasion> { Occasions[2] },
+                Occasions = new List<Occasion> { Occasions[10] },
                 Numbers = "941, 775, 739, 178, 225, 638, 463, 234, 472"
             },
             new Musician
@@ -1784,7 +1784,7 @@ namespace NineStarKi.Models
                 Name = "The Police",
                 Genres = new List<Genre> { Genres[12] },
                 Recording = "Synchronicity",
-                Occasions = new List<Occasion> { Occasions[2] },
+                Occasions = new List<Occasion> { Occasions[10] },
                 Numbers = "418, 398, 362 & 472"
             },
             new Musician
@@ -1792,7 +1792,7 @@ namespace NineStarKi.Models
                 Name = "Public Enemy",
                 Genres = new List<Genre> { Genres[6] },
                 Recording = "It Takes a Nation of Millions to Hold Us Back",
-                Occasions = new List<Occasion> { Occasions[2] },
+                Occasions = new List<Occasion> { Occasions[10] },
                 Numbers = "436, 775, 721, 436 & 519"
             },
             new Musician
@@ -1800,7 +1800,7 @@ namespace NineStarKi.Models
                 Name = "Radiohead",
                 Genres = new List<Genre> { Genres[12] },
                 Recording = "OK Computer",
-                Occasions = new List<Occasion> { Occasions[2], Occasions[10] },
+                Occasions = new List<Occasion> { Occasions[10], Occasions[9] },
                 Numbers = "546, 234, 591, 445 & 629"
             },
             new Musician
@@ -1808,7 +1808,7 @@ namespace NineStarKi.Models
                 Name = "Max Roach",
                 Genres = new List<Genre> { Genres[7] },
                 Recording = "We Insist! Freedom Now Suite",
-                Occasions = new List<Occasion> { Occasions[2] },
+                Occasions = new List<Occasion> { Occasions[10] },
                 Numbers = "591"
             },
             new Musician
@@ -1816,7 +1816,7 @@ namespace NineStarKi.Models
                 Name = "The Rolling Stones",
                 Genres = new List<Genre> { Genres[12] },
                 Recording = "Exile on Main St",
-                Occasions = new List<Occasion> { Occasions[2] },
+                Occasions = new List<Occasion> { Occasions[10] },
                 Numbers = "398, 344, 582, 885, 481, 867, 196, 766"
             },
             new Musician
@@ -1824,7 +1824,7 @@ namespace NineStarKi.Models
                 Name = "Franz Schubert",
                 Genres = new List<Genre> { Genres[1] },
                 Recording = "Symphony No. 9",
-                Occasions = new List<Occasion> { Occasions[2] },
+                Occasions = new List<Occasion> { Occasions[10] },
                 Numbers = "638"
             },
             new Musician
@@ -1832,7 +1832,7 @@ namespace NineStarKi.Models
                 Name = "Sepultura",
                 Genres = new List<Genre> { Genres[12] },
                 Recording = "Roots",
-                Occasions = new List<Occasion> { Occasions[2] },
+                Occasions = new List<Occasion> { Occasions[10] },
                 Numbers = "528, 436, 389, 463, 555, 335, 169"
             },
             new Musician
@@ -1840,7 +1840,7 @@ namespace NineStarKi.Models
                 Name = "Sleater-Kinney",
                 Genres = new List<Genre> { Genres[12] },
                 Recording = "Call the Doctor",
-                Occasions = new List<Occasion> { Occasions[2], Occasions[8] },
+                Occasions = new List<Occasion> { Occasions[10], Occasions[6] },
                 Numbers = "849, 187, 849"
             },
             new Musician
@@ -1848,7 +1848,7 @@ namespace NineStarKi.Models
                 Name = "Sly and the Family Stone",
                 Genres = new List<Genre> { Genres[11] },
                 Recording = "Stand!",
-                Occasions = new List<Occasion> { Occasions[2] },
+                Occasions = new List<Occasion> { Occasions[10] },
                 Numbers = "344, 885, 335, 418, 986, 721, 178, 591"
             },
             new Musician
@@ -1856,7 +1856,7 @@ namespace NineStarKi.Models
                 Name = "Sonic Youth",
                 Genres = new List<Genre> { Genres[12] },
                 Recording = "Daydream Nation",
-                Occasions = new List<Occasion> { Occasions[2] },
+                Occasions = new List<Occasion> { Occasions[10] },
                 Numbers = "297, 692, 932, 216"
             },
             new Musician
@@ -1864,7 +1864,7 @@ namespace NineStarKi.Models
                 Name = "Soundgarden",
                 Genres = new List<Genre> { Genres[12] },
                 Recording = "Superunknown",
-                Occasions = new List<Occasion> { Occasions[2] },
+                Occasions = new List<Occasion> { Occasions[10] },
                 Numbers = "427, 546, 225, 995, 335, 665"
             },
             new Musician
@@ -1872,7 +1872,7 @@ namespace NineStarKi.Models
                 Name = "Bruce Springsteen",
                 Genres = new List<Genre> { Genres[12] },
                 Recording = "Born to Run",
-                Occasions = new List<Occasion> { Occasions[2] },
+                Occasions = new List<Occasion> { Occasions[10] },
                 Numbers = "674"
             },
             new Musician
@@ -1880,7 +1880,7 @@ namespace NineStarKi.Models
                 Name = "Karlheinz Stockhausen",
                 Genres = new List<Genre> { Genres[1] },
                 Recording = "Stimmung Richard Strauss, Also sprach Zarathustra",
-                Occasions = new List<Occasion> { Occasions[2] },
+                Occasions = new List<Occasion> { Occasions[10] },
                 Numbers = "986 & 142"
             },
             new Musician
@@ -1888,7 +1888,7 @@ namespace NineStarKi.Models
                 Name = "System of a Down",
                 Genres = new List<Genre> { Genres[12] },
                 Recording = "Toxicity",
-                Occasions = new List<Occasion> { Occasions[2] },
+                Occasions = new List<Occasion> { Occasions[10] },
                 Numbers = "683, 739, 894, 995 & 766"
             },
             new Musician
@@ -1896,7 +1896,7 @@ namespace NineStarKi.Models
                 Name = "A Tribe Called Quest",
                 Genres = new List<Genre> { Genres[6] },
                 Recording = "The Low End Theory",
-                Occasions = new List<Occasion> { Occasions[2] },
+                Occasions = new List<Occasion> { Occasions[10] },
                 Numbers = "335, 353, 389 & 279"
             },
             new Musician
@@ -1904,7 +1904,7 @@ namespace NineStarKi.Models
                 Name = "U2",
                 Genres = new List<Genre> { Genres[12] },
                 Recording = "The Joshua Tree",
-                Occasions = new List<Occasion> { Occasions[2] },
+                Occasions = new List<Occasion> { Occasions[10] },
                 Numbers = "454, 389, 472 & 362"
             },
             new Musician
@@ -1912,7 +1912,7 @@ namespace NineStarKi.Models
                 Name = "Richard Wagner",
                 Genres = new List<Genre> { Genres[9] },
                 Recording = "Götterdämmerung",
-                Occasions = new List<Occasion> { Occasions[2] },
+                Occasions = new List<Occasion> { Occasions[10] },
                 Numbers = "757"
             },
             new Musician
@@ -1920,7 +1920,7 @@ namespace NineStarKi.Models
                 Name = "Kanye West",
                 Genres = new List<Genre> { Genres[6] },
                 Recording = "College Dropout",
-                Occasions = new List<Occasion> { Occasions[2] },
+                Occasions = new List<Occasion> { Occasions[10] },
                 Numbers = "573"
             },
             new Musician
@@ -1928,7 +1928,7 @@ namespace NineStarKi.Models
                 Name = "The Who",
                 Genres = new List<Genre> { Genres[12] },
                 Recording = "Tommy",
-                Occasions = new List<Occasion> { Occasions[2] },
+                Occasions = new List<Occasion> { Occasions[10] },
                 Numbers = "225, 151, 234, 784, 986 & 712"
             },
             new Musician
@@ -1936,7 +1936,7 @@ namespace NineStarKi.Models
                 Name = "The Who",
                 Genres = new List<Genre> { Genres[12] },
                 Recording = "Who's Next",
-                Occasions = new List<Occasion> { Occasions[2] },
+                Occasions = new List<Occasion> { Occasions[10] },
                 Numbers = "225, 151, 234, 784, 986 & 712"
             },
             new Musician
@@ -1944,7 +1944,7 @@ namespace NineStarKi.Models
                 Name = "Stevie Wonder",
                 Genres = new List<Genre> { Genres[11] },
                 Recording = "Innervisions",
-                Occasions = new List<Occasion> { Occasions[2], Occasions[7] },
+                Occasions = new List<Occasion> { Occasions[10], Occasions[1] },
                 Numbers = "582"
             },
             new Musician
@@ -1952,7 +1952,7 @@ namespace NineStarKi.Models
                 Name = "X",
                 Genres = new List<Genre> { Genres[12] },
                 Recording = "Wild Gift",
-                Occasions = new List<Occasion> { Occasions[2] },
+                Occasions = new List<Occasion> { Occasions[10] },
                 Numbers = "225, 784, 932, 941, 959 & 398"
             },
             new Musician
@@ -1960,7 +1960,7 @@ namespace NineStarKi.Models
                 Name = "Frank Zappa",
                 Genres = new List<Genre> { Genres[12] },
                 Recording = "The Best Band You Never Heard in Your Life",
-                Occasions = new List<Occasion> { Occasions[2] },
+                Occasions = new List<Occasion> { Occasions[10] },
                 Numbers = "647"
             },
             new Musician
@@ -1968,7 +1968,7 @@ namespace NineStarKi.Models
                 Name = "Marian Anderson",
                 Genres = new List<Genre> { Genres[1], Genres[5] },
                 Recording = "Spirituals",
-                Occasions = new List<Occasion> { Occasions[3] },
+                Occasions = new List<Occasion> { Occasions[8] },
                 Numbers = "481"
             },
             new Musician
@@ -1976,7 +1976,7 @@ namespace NineStarKi.Models
                 Name = "Martha Argerich",
                 Genres = new List<Genre> { Genres[1] },
                 Recording = "Prokofiev: Piano Concerto No. 3; Ravel: Piano Concerto in G",
-                Occasions = new List<Occasion> { Occasions[3] },
+                Occasions = new List<Occasion> { Occasions[8] },
                 Numbers = "582"
             },
             new Musician
@@ -1984,7 +1984,7 @@ namespace NineStarKi.Models
                 Name = "J. S. Bach",
                 Genres = new List<Genre> { Genres[1] },
                 Recording = "The Brandenburg Concertos",
-                Occasions = new List<Occasion> { Occasions[3] },
+                Occasions = new List<Occasion> { Occasions[8] },
                 Numbers = "941"
             },
             new Musician
@@ -1992,7 +1992,7 @@ namespace NineStarKi.Models
                 Name = "J. S. Bach",
                 Genres = new List<Genre> { Genres[1] },
                 Recording = "Complete Sonatas and Partitas for Solo Violin",
-                Occasions = new List<Occasion> { Occasions[3] },
+                Occasions = new List<Occasion> { Occasions[8] },
                 Numbers = "941"
             },
             new Musician
@@ -2000,7 +2000,7 @@ namespace NineStarKi.Models
                 Name = "Cecilia Bartoli",
                 Genres = new List<Genre> { Genres[1] },
                 Recording = "The Vivaldi Album",
-                Occasions = new List<Occasion> { Occasions[3] },
+                Occasions = new List<Occasion> { Occasions[8] },
                 Numbers = "757"
             },
             new Musician
@@ -2008,7 +2008,7 @@ namespace NineStarKi.Models
                 Name = "Ludwig van Beethoven",
                 Genres = new List<Genre> { Genres[1] },
                 Recording = "'Archduke' Trio, Kreutzer Sonata",
-                Occasions = new List<Occasion> { Occasions[3] },
+                Occasions = new List<Occasion> { Occasions[8] },
                 Numbers = "519"
             },
             new Musician
@@ -2016,7 +2016,7 @@ namespace NineStarKi.Models
                 Name = "Dock Boggs",
                 Genres = new List<Genre> { Genres[4] },
                 Recording = "Dock Boggs: His Folkway Years, 1963-1968",
-                Occasions = new List<Occasion> { Occasions[3] },
+                Occasions = new List<Occasion> { Occasions[8] },
                 Numbers = "353"
             },
             new Musician
@@ -2024,7 +2024,7 @@ namespace NineStarKi.Models
                 Name = "Johannes Brahms",
                 Genres = new List<Genre> { Genres[1] },
                 Recording = "Sonatas for Cello and Piano, Opp. 38, 99, 108, 111",
-                Occasions = new List<Occasion> { Occasions[3] },
+                Occasions = new List<Occasion> { Occasions[8] },
                 Numbers = "582"
             },
             new Musician
@@ -2032,7 +2032,7 @@ namespace NineStarKi.Models
                 Name = "Johannes Brahms",
                 Genres = new List<Genre> { Genres[1] },
                 Recording = "Violin Sonatas, Opp. 78, 100, 108, 113",
-                Occasions = new List<Occasion> { Occasions[3] },
+                Occasions = new List<Occasion> { Occasions[8] },
                 Numbers = "582"
             },
             new Musician
@@ -2040,7 +2040,7 @@ namespace NineStarKi.Models
                 Name = "Johannes Brahms",
                 Genres = new List<Genre> { Genres[1] },
                 Recording = "Piano Concerto No. 2",
-                Occasions = new List<Occasion> { Occasions[3] },
+                Occasions = new List<Occasion> { Occasions[8] },
                 Numbers = "582"
             },
             new Musician
@@ -2048,7 +2048,7 @@ namespace NineStarKi.Models
                 Name = "R. L. Burnside",
                 Genres = new List<Genre> { Genres[0] },
                 Recording = "Wish I Was in Heaven Sitting Down",
-                Occasions = new List<Occasion> { Occasions[3] },
+                Occasions = new List<Occasion> { Occasions[8] },
                 Numbers = "225"
             },
             new Musician
@@ -2056,7 +2056,7 @@ namespace NineStarKi.Models
                 Name = "The Byrds",
                 Genres = new List<Genre> { Genres[12], Genres[4] },
                 Recording = "Mr. Tambourine Man",
-                Occasions = new List<Occasion> { Occasions[3] },
+                Occasions = new List<Occasion> { Occasions[8] },
                 Numbers = "436, 225, 555, 923, 225, 968, 279, 252"
             },
             new Musician
@@ -2064,7 +2064,7 @@ namespace NineStarKi.Models
                 Name = "Charlie Christian",
                 Genres = new List<Genre> { Genres[7] },
                 Recording = "The Genius of the Electric Guitar",
-                Occasions = new List<Occasion> { Occasions[3] },
+                Occasions = new List<Occasion> { Occasions[8] },
                 Numbers = "398"
             },
             new Musician
@@ -2072,7 +2072,7 @@ namespace NineStarKi.Models
                 Name = "Guy Clark",
                 Genres = new List<Genre> { Genres[2] },
                 Recording = "Old No. 1",
-                Occasions = new List<Occasion> { Occasions[3] },
+                Occasions = new List<Occasion> { Occasions[8] },
                 Numbers = "537"
             },
             new Musician
@@ -2080,7 +2080,7 @@ namespace NineStarKi.Models
                 Name = "Crosby",
                 Genres = new List<Genre> { Genres[12] },
                 Recording = "Stills, Nash, and Young, Déjà vu Rev.",
-                Occasions = new List<Occasion> { Occasions[3] },
+                Occasions = new List<Occasion> { Occasions[8] },
                 Numbers = "555, 216, 591 & 187"
             },
             new Musician
@@ -2088,7 +2088,7 @@ namespace NineStarKi.Models
                 Name = "Rev. Gary Davis",
                 Genres = new List<Genre> { Genres[0], Genres[5] },
                 Recording = "Harlem Street Singer",
-                Occasions = new List<Occasion> { Occasions[3] },
+                Occasions = new List<Occasion> { Occasions[8] },
                 Numbers = "739"
             },
             new Musician
@@ -2096,7 +2096,7 @@ namespace NineStarKi.Models
                 Name = "Miles Davis",
                 Genres = new List<Genre> { Genres[7] },
                 Recording = "The Complete In a Silent Way Sessions",
-                Occasions = new List<Occasion> { Occasions[3] },
+                Occasions = new List<Occasion> { Occasions[8] },
                 Numbers = "288"
             },
             new Musician
@@ -2104,7 +2104,7 @@ namespace NineStarKi.Models
                 Name = "Sandy Denny",
                 Genres = new List<Genre> { Genres[4] },
                 Recording = "Sandy",
-                Occasions = new List<Occasion> { Occasions[3] },
+                Occasions = new List<Occasion> { Occasions[8] },
                 Numbers = "932"
             },
             new Musician
@@ -2112,7 +2112,7 @@ namespace NineStarKi.Models
                 Name = "Paul Desmond with Jim Hall",
                 Genres = new List<Genre> { Genres[7] },
                 Recording = "Take Ten",
-                Occasions = new List<Occasion> { Occasions[3], Occasions[6] },
+                Occasions = new List<Occasion> { Occasions[8], Occasions[0] },
                 Numbers = "481 & 784"
             },
             new Musician
@@ -2120,7 +2120,7 @@ namespace NineStarKi.Models
                 Name = "Toumani Diabaté and Ballake Sissoko",
                 Genres = new List<Genre> { Genres[14], Genres[48] },
                 Recording = "New Ancient Strings",
-                Occasions = new List<Occasion> { Occasions[3], Occasions[5] },
+                Occasions = new List<Occasion> { Occasions[8], Occasions[2] },
                 Numbers = "858 & 5"
             },
             new Musician
@@ -2128,7 +2128,7 @@ namespace NineStarKi.Models
                 Name = "Thomas A. Dorsey",
                 Genres = new List<Genre> { Genres[5] },
                 Recording = "Precious Lord Snooks Eaglin, New Orleans Street Singer",
-                Occasions = new List<Occasion> { Occasions[3] },
+                Occasions = new List<Occasion> { Occasions[8] },
                 Numbers = "279"
             },
             new Musician
@@ -2136,7 +2136,7 @@ namespace NineStarKi.Models
                 Name = "Bill Evans and Jim Hall",
                 Genres = new List<Genre> { Genres[7] },
                 Recording = "Undercurrent",
-                Occasions = new List<Occasion> { Occasions[3] },
+                Occasions = new List<Occasion> { Occasions[8] },
                 Numbers = "858 & 784"
             },
             new Musician
@@ -2144,7 +2144,7 @@ namespace NineStarKi.Models
                 Name = "John Fahey",
                 Genres = new List<Genre> { Genres[4] },
                 Recording = "The Transfiguration of Blind Joe Death",
-                Occasions = new List<Occasion> { Occasions[3] },
+                Occasions = new List<Occasion> { Occasions[8] },
                 Numbers = "784"
             },
             new Musician
@@ -2152,7 +2152,7 @@ namespace NineStarKi.Models
                 Name = "Gabriel Fauré",
                 Genres = new List<Genre> { Genres[1] },
                 Recording = "Requiem, Pelléas et Mélisande, Pavane",
-                Occasions = new List<Occasion> { Occasions[3] },
+                Occasions = new List<Occasion> { Occasions[8] },
                 Numbers = "288"
             },
             new Musician
@@ -2160,7 +2160,7 @@ namespace NineStarKi.Models
                 Name = "Bernarda Fink",
                 Genres = new List<Genre> { Genres[1] },
                 Recording = "Brahms: Lieder",
-                Occasions = new List<Occasion> { Occasions[3] },
+                Occasions = new List<Occasion> { Occasions[8] },
                 Numbers = "986 & 582"
             },
             new Musician
@@ -2168,7 +2168,7 @@ namespace NineStarKi.Models
                 Name = "Sergio Fiorentino",
                 Genres = new List<Genre> { Genres[1] },
                 Recording = "J. S. Bach, Volume 1",
-                Occasions = new List<Occasion> { Occasions[3] },
+                Occasions = new List<Occasion> { Occasions[8] },
                 Numbers = "178 & 941"
             },
             new Musician
@@ -2176,7 +2176,7 @@ namespace NineStarKi.Models
                 Name = "Frank Emilio Flynn",
                 Genres = new List<Genre> { Genres[14], Genres[28] },
                 Recording = "Musica original de Cuba",
-                Occasions = new List<Occasion> { Occasions[3] },
+                Occasions = new List<Occasion> { Occasions[8] },
                 Numbers = "766"
             },
             new Musician
@@ -2184,7 +2184,7 @@ namespace NineStarKi.Models
                 Name = "George Gershwin",
                 Genres = new List<Genre> { Genres[1] },
                 Recording = "Complete Works for Piano and Orchestra, with Rhapsody in Blue",
-                Occasions = new List<Occasion> { Occasions[3] },
+                Occasions = new List<Occasion> { Occasions[8] },
                 Numbers = "371"
             },
             new Musician
@@ -2192,7 +2192,7 @@ namespace NineStarKi.Models
                 Name = "Glenn Gould",
                 Genres = new List<Genre> { Genres[1] },
                 Recording = "A State of Wonder: J. S. Bach Goldberg Variations",
-                Occasions = new List<Occasion> { Occasions[3] },
+                Occasions = new List<Occasion> { Occasions[8] },
                 Numbers = "546 & 941"
             },
             new Musician
@@ -2200,7 +2200,7 @@ namespace NineStarKi.Models
                 Name = "Grant Green",
                 Genres = new List<Genre> { Genres[7] },
                 Recording = "Feelin' the Spirit",
-                Occasions = new List<Occasion> { Occasions[3] },
+                Occasions = new List<Occasion> { Occasions[8] },
                 Numbers = "279"
             },
             new Musician
@@ -2208,7 +2208,7 @@ namespace NineStarKi.Models
                 Name = "Edvard Grieg and Robert Schumann",
                 Genres = new List<Genre> { Genres[1] },
                 Recording = "Grieg, Schumann Piano Concertos",
-                Occasions = new List<Occasion> { Occasions[3] },
+                Occasions = new List<Occasion> { Occasions[8] },
                 Numbers = "445, 142"
             },
             new Musician
@@ -2216,7 +2216,7 @@ namespace NineStarKi.Models
                 Name = "Clara Haskil",
                 Genres = new List<Genre> { Genres[1] },
                 Recording = "Mozart: Piano Concerto No. 20 in D Minor; Scarlatti: Eleven Sonatas",
-                Occasions = new List<Occasion> { Occasions[3] },
+                Occasions = new List<Occasion> { Occasions[8] },
                 Numbers = "766"
             },
             new Musician
@@ -2224,7 +2224,7 @@ namespace NineStarKi.Models
                 Name = "Ted Hawkins",
                 Genres = new List<Genre> { Genres[0] },
                 Recording = "The Next Hundred Years",
-                Occasions = new List<Occasion> { Occasions[3] },
+                Occasions = new List<Occasion> { Occasions[8] },
                 Numbers = "196"
             },
             new Musician
@@ -2232,7 +2232,7 @@ namespace NineStarKi.Models
                 Name = "Joe Henderson",
                 Genres = new List<Genre> { Genres[7] },
                 Recording = "Power to the People",
-                Occasions = new List<Occasion> { Occasions[3] },
+                Occasions = new List<Occasion> { Occasions[8] },
                 Numbers = "932"
             },
             new Musician
@@ -2240,7 +2240,7 @@ namespace NineStarKi.Models
                 Name = "Roscoe Holcomb",
                 Genres = new List<Genre> { Genres[4] },
                 Recording = "The High Lonesome Sound",
-                Occasions = new List<Occasion> { Occasions[3] },
+                Occasions = new List<Occasion> { Occasions[8] },
                 Numbers = "721"
             },
             new Musician
@@ -2248,7 +2248,7 @@ namespace NineStarKi.Models
                 Name = "Son House",
                 Genres = new List<Genre> { Genres[0] },
                 Recording = "Martin Scorsese Presents the Blues: Son House",
-                Occasions = new List<Occasion> { Occasions[3] },
+                Occasions = new List<Occasion> { Occasions[8] },
                 Numbers = "813"
             },
             new Musician
@@ -2256,7 +2256,7 @@ namespace NineStarKi.Models
                 Name = "Freddie Hubbard",
                 Genres = new List<Genre> { Genres[7] },
                 Recording = "Red Clay",
-                Occasions = new List<Occasion> { Occasions[3] },
+                Occasions = new List<Occasion> { Occasions[8] },
                 Numbers = "894"
             },
             new Musician
@@ -2264,7 +2264,7 @@ namespace NineStarKi.Models
                 Name = "Lorraine Hunt Lieberson",
                 Genres = new List<Genre> { Genres[1] },
                 Recording = "Bach: Cantatas",
-                Occasions = new List<Occasion> { Occasions[3] },
+                Occasions = new List<Occasion> { Occasions[8] },
                 Numbers = "187 & 941"
             },
             new Musician
@@ -2272,7 +2272,7 @@ namespace NineStarKi.Models
                 Name = "Mississippi John Hurt",
                 Genres = new List<Genre> { Genres[0] },
                 Recording = "Today!",
-                Occasions = new List<Occasion> { Occasions[3] },
+                Occasions = new List<Occasion> { Occasions[8] },
                 Numbers = "813"
             },
             new Musician
@@ -2280,7 +2280,7 @@ namespace NineStarKi.Models
                 Name = "Abdullah Ibrahim Trio",
                 Genres = new List<Genre> { Genres[7] },
                 Recording = "Yarona",
-                Occasions = new List<Occasion> { Occasions[3] },
+                Occasions = new List<Occasion> { Occasions[8] },
                 Numbers = "362"
             },
             new Musician
@@ -2288,7 +2288,7 @@ namespace NineStarKi.Models
                 Name = "Ahmad Jamal",
                 Genres = new List<Genre> { Genres[7] },
                 Recording = "But Not for Me: Live at the Pershing",
-                Occasions = new List<Occasion> { Occasions[3], Occasions[6] },
+                Occasions = new List<Occasion> { Occasions[8], Occasions[0] },
                 Numbers = "748"
             },
             new Musician
@@ -2296,7 +2296,7 @@ namespace NineStarKi.Models
                 Name = "Skip James",
                 Genres = new List<Genre> { Genres[0] },
                 Recording = "The Complete Early Recordings of Skip James",
-                Occasions = new List<Occasion> { Occasions[3] },
+                Occasions = new List<Occasion> { Occasions[8] },
                 Numbers = "876"
             },
             new Musician
@@ -2304,7 +2304,7 @@ namespace NineStarKi.Models
                 Name = "Keith Jarrett",
                 Genres = new List<Genre> { Genres[7] },
                 Recording = "My Song",
-                Occasions = new List<Occasion> { Occasions[3], Occasions[5] },
+                Occasions = new List<Occasion> { Occasions[8], Occasions[2] },
                 Numbers = "151"
             },
             new Musician
@@ -2312,7 +2312,7 @@ namespace NineStarKi.Models
                 Name = "Blind Willie Johnson",
                 Genres = new List<Genre> { Genres[0], Genres[5] },
                 Recording = "The Complete Blind Willie Johnson",
-                Occasions = new List<Occasion> { Occasions[3] },
+                Occasions = new List<Occasion> { Occasions[8] },
                 Numbers = "591"
             },
             new Musician
@@ -2320,7 +2320,7 @@ namespace NineStarKi.Models
                 Name = "Fern Jones",
                 Genres = new List<Genre> { Genres[2], Genres[5] },
                 Recording = "The Glory Road",
-                Occasions = new List<Occasion> { Occasions[3] },
+                Occasions = new List<Occasion> { Occasions[8] },
                 Numbers = "5"
             },
             new Musician
@@ -2328,7 +2328,7 @@ namespace NineStarKi.Models
                 Name = "Ali Akbar Khan",
                 Genres = new List<Genre> { Genres[14], Genres[39] },
                 Recording = "Traditional Music of India",
-                Occasions = new List<Occasion> { Occasions[3], Occasions[5] },
+                Occasions = new List<Occasion> { Occasions[8], Occasions[2] },
                 Numbers = "638"
             },
             new Musician
@@ -2336,7 +2336,7 @@ namespace NineStarKi.Models
                 Name = "Leo Kottke",
                 Genres = new List<Genre> { Genres[4] },
                 Recording = "6-and 12-String Guitar",
-                Occasions = new List<Occasion> { Occasions[3] },
+                Occasions = new List<Occasion> { Occasions[8] },
                 Numbers = "115"
             },
             new Musician
@@ -2344,7 +2344,7 @@ namespace NineStarKi.Models
                 Name = "Lili Kraus",
                 Genres = new List<Genre> { Genres[1] },
                 Recording = "Mozart Piano Sonata No. 11, Piano Concertos Nos. 12 and 18",
-                Occasions = new List<Occasion> { Occasions[3] },
+                Occasions = new List<Occasion> { Occasions[8] },
                 Numbers = "775"
             },
             new Musician
@@ -2352,7 +2352,7 @@ namespace NineStarKi.Models
                 Name = "The Louvin Brothers",
                 Genres = new List<Genre> { Genres[2] },
                 Recording = "Satan Is Real",
-                Occasions = new List<Occasion> { Occasions[3] },
+                Occasions = new List<Occasion> { Occasions[8] },
                 Numbers = "463 & 142"
             },
             new Musician
@@ -2360,7 +2360,7 @@ namespace NineStarKi.Models
                 Name = "Joe Lovano",
                 Genres = new List<Genre> { Genres[7] },
                 Recording = "Quartets: Live at the Village Vanguard",
-                Occasions = new List<Occasion> { Occasions[3] },
+                Occasions = new List<Occasion> { Occasions[8] },
                 Numbers = "344"
             },
             new Musician
@@ -2368,7 +2368,7 @@ namespace NineStarKi.Models
                 Name = "Irén Marik",
                 Genres = new List<Genre> { Genres[1] },
                 Recording = "Bartók in the Desert: The Art of Irén Marik",
-                Occasions = new List<Occasion> { Occasions[3] },
+                Occasions = new List<Occasion> { Occasions[8] },
                 Numbers = "5"
             },
             new Musician
@@ -2376,7 +2376,7 @@ namespace NineStarKi.Models
                 Name = "The Pat Metheny Group",
                 Genres = new List<Genre> { Genres[7] },
                 Recording = "The Pat Metheny Group",
-                Occasions = new List<Occasion> { Occasions[3], Occasions[10] },
+                Occasions = new List<Occasion> { Occasions[8], Occasions[9] },
                 Numbers = "124, 178, 234, 344"
             },
             new Musician
@@ -2384,7 +2384,7 @@ namespace NineStarKi.Models
                 Name = "Arturo Benedetti Michelangeli",
                 Genres = new List<Genre> { Genres[1] },
                 Recording = "Ravel: Piano Concerto in G; Rachmaninoff: Piano Concerto No. 4",
-                Occasions = new List<Occasion> { Occasions[3] },
+                Occasions = new List<Occasion> { Occasions[8] },
                 Numbers = "941, 178"
             },
             new Musician
@@ -2392,7 +2392,7 @@ namespace NineStarKi.Models
                 Name = "Thelonious Monk",
                 Genres = new List<Genre> { Genres[7] },
                 Recording = "The Unique Thelonious Monk",
-                Occasions = new List<Occasion> { Occasions[3] },
+                Occasions = new List<Occasion> { Occasions[8] },
                 Numbers = "234"
             },
             new Musician
@@ -2400,7 +2400,7 @@ namespace NineStarKi.Models
                 Name = "Lee Morgan",
                 Genres = new List<Genre> { Genres[7] },
                 Recording = "Search for the New Land",
-                Occasions = new List<Occasion> { Occasions[3] },
+                Occasions = new List<Occasion> { Occasions[8] },
                 Numbers = "867"
             },
             new Musician
@@ -2408,7 +2408,7 @@ namespace NineStarKi.Models
                 Name = "Ennio Morricone",
                 Genres = new List<Genre> { Genres[1] },
                 Recording = "A Fistful of Film Music",
-                Occasions = new List<Occasion> { Occasions[3] },
+                Occasions = new List<Occasion> { Occasions[8] },
                 Numbers = "959"
             },
             new Musician
@@ -2416,7 +2416,7 @@ namespace NineStarKi.Models
                 Name = "Fats Navarro and Tadd Dameron",
                 Genres = new List<Genre> { Genres[7] },
                 Recording = "The Complete Blue Note and Capitol Recordings",
-                Occasions = new List<Occasion> { Occasions[3] },
+                Occasions = new List<Occasion> { Occasions[8] },
                 Numbers = "546 & 225"
             },
             new Musician
@@ -2424,7 +2424,7 @@ namespace NineStarKi.Models
                 Name = "Herbie Nichols",
                 Genres = new List<Genre> { Genres[7] },
                 Recording = "The Complete Blue Note Recordings",
-                Occasions = new List<Occasion> { Occasions[3] },
+                Occasions = new List<Occasion> { Occasions[8] },
                 Numbers = "178"
             },
             new Musician
@@ -2432,7 +2432,7 @@ namespace NineStarKi.Models
                 Name = "Remmy Ongala and Orchestre Super Matimila",
                 Genres = new List<Genre> { Genres[14], Genres[62] },
                 Recording = "Songs for the Poor Man",
-                Occasions = new List<Occasion> { Occasions[3] },
+                Occasions = new List<Occasion> { Occasions[8] },
                 Numbers = "822"
             },
             new Musician
@@ -2440,7 +2440,7 @@ namespace NineStarKi.Models
                 Name = "Gabby Pahinui",
                 Genres = new List<Genre> { Genres[14], Genres[36] },
                 Recording = "Best of the Gabby Band 1972-1977",
-                Occasions = new List<Occasion> { Occasions[3] },
+                Occasions = new List<Occasion> { Occasions[8] },
                 Numbers = "766"
             },
             new Musician
@@ -2448,7 +2448,7 @@ namespace NineStarKi.Models
                 Name = "Art Pepper",
                 Genres = new List<Genre> { Genres[7] },
                 Recording = "Art Pepper Meets the Rhythm Section",
-                Occasions = new List<Occasion> { Occasions[3] },
+                Occasions = new List<Occasion> { Occasions[8] },
                 Numbers = "389"
             },
             new Musician
@@ -2456,7 +2456,7 @@ namespace NineStarKi.Models
                 Name = "Washington Phillips",
                 Genres = new List<Genre> { Genres[5] },
                 Recording = "The Keys to the Kingdom",
-                Occasions = new List<Occasion> { Occasions[3] },
+                Occasions = new List<Occasion> { Occasions[8] },
                 Numbers = "463"
             },
             new Musician
@@ -2464,7 +2464,7 @@ namespace NineStarKi.Models
                 Name = "Elvis Presley",
                 Genres = new List<Genre> { Genres[10], Genres[5] },
                 Recording = "How Great Thou Art",
-                Occasions = new List<Occasion> { Occasions[3] },
+                Occasions = new List<Occasion> { Occasions[8] },
                 Numbers = "335"
             },
             new Musician
@@ -2472,7 +2472,7 @@ namespace NineStarKi.Models
                 Name = "John Prine",
                 Genres = new List<Genre> { Genres[12], Genres[4] },
                 Recording = "John Prine",
-                Occasions = new List<Occasion> { Occasions[3], Occasions[5] },
+                Occasions = new List<Occasion> { Occasions[8], Occasions[2] },
                 Numbers = "968"
             },
             new Musician
@@ -2480,7 +2480,7 @@ namespace NineStarKi.Models
                 Name = "Procol Harum",
                 Genres = new List<Genre> { Genres[12] },
                 Recording = "'A Whiter Shade of Pale'",
-                Occasions = new List<Occasion> { Occasions[3] },
+                Occasions = new List<Occasion> { Occasions[8] },
                 Numbers = "151, 968, 941, 427, 216, 353, 748, 813, 178"
             },
             new Musician
@@ -2488,7 +2488,7 @@ namespace NineStarKi.Models
                 Name = "Bonnie Raitt",
                 Genres = new List<Genre> { Genres[12] },
                 Recording = "Give It Up",
-                Occasions = new List<Occasion> { Occasions[3] },
+                Occasions = new List<Occasion> { Occasions[8] },
                 Numbers = "656"
             },
             new Musician
@@ -2496,7 +2496,7 @@ namespace NineStarKi.Models
                 Name = "Ernest Ranglin",
                 Genres = new List<Genre> { Genres[14], Genres[42] },
                 Recording = "Below the Bassline",
-                Occasions = new List<Occasion> { Occasions[3] },
+                Occasions = new List<Occasion> { Occasions[8] },
                 Numbers = "573"
             },
             new Musician
@@ -2504,7 +2504,7 @@ namespace NineStarKi.Models
                 Name = "Maurice Ravel",
                 Genres = new List<Genre> { Genres[1] },
                 Recording = "Claude Debussy, Modest Mussorgsky/Ravel, Boléro, La mer, Pictures at an Exhibition",
-                Occasions = new List<Occasion> { Occasions[3] },
+                Occasions = new List<Occasion> { Occasions[8] },
                 Numbers = "813, 389, 813"
             },
             new Musician
@@ -2512,7 +2512,7 @@ namespace NineStarKi.Models
                 Name = "R.E.M.",
                 Genres = new List<Genre> { Genres[12] },
                 Recording = "Murmur",
-                Occasions = new List<Occasion> { Occasions[3] },
+                Occasions = new List<Occasion> { Occasions[8] },
                 Numbers = "692, 822, 647, 519"
             },
             new Musician
@@ -2520,7 +2520,7 @@ namespace NineStarKi.Models
                 Name = "Minnie Riperton",
                 Genres = new List<Genre> { Genres[11] },
                 Recording = "Perfect Angel",
-                Occasions = new List<Occasion> { Occasions[3] },
+                Occasions = new List<Occasion> { Occasions[8] },
                 Numbers = "822"
             },
             new Musician
@@ -2528,7 +2528,7 @@ namespace NineStarKi.Models
                 Name = "Linda Ronstadt",
                 Genres = new List<Genre> { Genres[12] },
                 Recording = "Heart like a Wheel",
-                Occasions = new List<Occasion> { Occasions[3] },
+                Occasions = new List<Occasion> { Occasions[8] },
                 Numbers = "995"
             },
             new Musician
@@ -2536,7 +2536,7 @@ namespace NineStarKi.Models
                 Name = "Marta Sebestyen and Muzsikás",
                 Genres = new List<Genre> { Genres[14], Genres[38] },
                 Recording = "Marta Sebestyen and Muzsikas",
-                Occasions = new List<Occasion> { Occasions[3] },
+                Occasions = new List<Occasion> { Occasions[8] },
                 Numbers = "721"
             },
             new Musician
@@ -2544,7 +2544,7 @@ namespace NineStarKi.Models
                 Name = "Andrés Segovia",
                 Genres = new List<Genre> { Genres[1] },
                 Recording = "The Art of Segovia",
-                Occasions = new List<Occasion> { Occasions[3], Occasions[5] },
+                Occasions = new List<Occasion> { Occasions[8], Occasions[2] },
                 Numbers = "822"
             },
             new Musician
@@ -2552,7 +2552,7 @@ namespace NineStarKi.Models
                 Name = "The Horace Silver Quintet",
                 Genres = new List<Genre> { Genres[7] },
                 Recording = "Song for My Father",
-                Occasions = new List<Occasion> { Occasions[3] },
+                Occasions = new List<Occasion> { Occasions[8] },
                 Numbers = "986"
             },
             new Musician
@@ -2560,7 +2560,7 @@ namespace NineStarKi.Models
                 Name = "Bessie Smith",
                 Genres = new List<Genre> { Genres[0] },
                 Recording = "The Essential Bessie Smith",
-                Occasions = new List<Occasion> { Occasions[3] },
+                Occasions = new List<Occasion> { Occasions[8] },
                 Numbers = "766"
             },
             new Musician
@@ -2568,7 +2568,7 @@ namespace NineStarKi.Models
                 Name = "Elliott Smith",
                 Genres = new List<Genre> { Genres[12] },
                 Recording = "XO",
-                Occasions = new List<Occasion> { Occasions[3], Occasions[5] },
+                Occasions = new List<Occasion> { Occasions[8], Occasions[2] },
                 Numbers = "436"
             },
             new Musician
@@ -2576,7 +2576,7 @@ namespace NineStarKi.Models
                 Name = "Davy Spillane and Kevin Glackin",
                 Genres = new List<Genre> { Genres[14], Genres[24] },
                 Recording = "Forgotten Days",
-                Occasions = new List<Occasion> { Occasions[3] },
+                Occasions = new List<Occasion> { Occasions[8] },
                 Numbers = "638 & 187"
             },
             new Musician
@@ -2584,7 +2584,7 @@ namespace NineStarKi.Models
                 Name = "The Staple Singers",
                 Genres = new List<Genre> { Genres[5], Genres[11] },
                 Recording = "The Best of the Staple Singers",
-                Occasions = new List<Occasion> { Occasions[3], Occasions[8] },
+                Occasions = new List<Occasion> { Occasions[8], Occasions[6] },
                 Numbers = "739, 519, 1, 2, 335"
             },
             new Musician
@@ -2592,7 +2592,7 @@ namespace NineStarKi.Models
                 Name = "Isaac Stern",
                 Genres = new List<Genre> { Genres[1] },
                 Recording = "Lalo: Symphonie espagnole; Bruch: Violin Concerto No. 1",
-                Occasions = new List<Occasion> { Occasions[3] },
+                Occasions = new List<Occasion> { Occasions[8] },
                 Numbers = "867"
             },
             new Musician
@@ -2600,7 +2600,7 @@ namespace NineStarKi.Models
                 Name = "The Swan Silvertones",
                 Genres = new List<Genre> { Genres[5] },
                 Recording = "The Swan Silvertones/Saviour Pass Me Not Taj Mahal, The Natch'l Blues",
-                Occasions = new List<Occasion> { Occasions[3] },
+                Occasions = new List<Occasion> { Occasions[8] },
                 Numbers = "537 & 436"
             },
             new Musician
@@ -2608,7 +2608,7 @@ namespace NineStarKi.Models
                 Name = "Pyotr Ilyich Tchaikovsky",
                 Genres = new List<Genre> { Genres[1] },
                 Recording = "Violin Concerto, Piano Concerto No. 1",
-                Occasions = new List<Occasion> { Occasions[3] },
+                Occasions = new List<Occasion> { Occasions[8] },
                 Numbers = "757"
             },
             new Musician
@@ -2616,7 +2616,7 @@ namespace NineStarKi.Models
                 Name = "10cc",
                 Genres = new List<Genre> { Genres[12] },
                 Recording = "I'm Not in Love",
-                Occasions = new List<Occasion> { Occasions[3] },
+                Occasions = new List<Occasion> { Occasions[8] },
                 Numbers = "923, 297, 115, 849, 546, 288, 739, 6"
             },
             new Musician
@@ -2624,7 +2624,7 @@ namespace NineStarKi.Models
                 Name = "Ali Farka Touré",
                 Genres = new List<Genre> { Genres[14], Genres[48] },
                 Recording = "The River",
-                Occasions = new List<Occasion> { Occasions[3] },
+                Occasions = new List<Occasion> { Occasions[8] },
                 Numbers = "793"
             },
             new Musician
@@ -2632,7 +2632,7 @@ namespace NineStarKi.Models
                 Name = "Lennie Tristano",
                 Genres = new List<Genre> { Genres[7] },
                 Recording = "Tristano/The New Tristano",
-                Occasions = new List<Occasion> { Occasions[3] },
+                Occasions = new List<Occasion> { Occasions[8] },
                 Numbers = "941"
             },
             new Musician
@@ -2640,7 +2640,7 @@ namespace NineStarKi.Models
                 Name = "McCoy Tyner",
                 Genres = new List<Genre> { Genres[7] },
                 Recording = "The Real McCoy",
-                Occasions = new List<Occasion> { Occasions[3] },
+                Occasions = new List<Occasion> { Occasions[8] },
                 Numbers = "813"
             },
             new Musician
@@ -2648,7 +2648,7 @@ namespace NineStarKi.Models
                 Name = "Various Artists",
                 Genres = new List<Genre> { Genres[1] },
                 Recording = "Concert of the Century",
-                Occasions = new List<Occasion> { Occasions[3] },
+                Occasions = new List<Occasion> { Occasions[8] },
                 Numbers = ""
             },
             new Musician
@@ -2656,7 +2656,7 @@ namespace NineStarKi.Models
                 Name = "Various Artists",
                 Genres = new List<Genre> { Genres[14], Genres[25] },
                 Recording = "Phases of the Moon: Traditional Chinese Music",
-                Occasions = new List<Occasion> { Occasions[3], Occasions[5] },
+                Occasions = new List<Occasion> { Occasions[8], Occasions[2] },
                 Numbers = ""
             },
             new Musician
@@ -2664,7 +2664,7 @@ namespace NineStarKi.Models
                 Name = "Caetano Veloso and Gilberto Gil",
                 Genres = new List<Genre> { Genres[14], Genres[20] },
                 Recording = "Tropicália 2",
-                Occasions = new List<Occasion> { Occasions[3] },
+                Occasions = new List<Occasion> { Occasions[8] },
                 Numbers = "436 & 445"
             },
             new Musician
@@ -2672,7 +2672,7 @@ namespace NineStarKi.Models
                 Name = "Heitor Villa-Lobos",
                 Genres = new List<Genre> { Genres[1] },
                 Recording = "Bachianas brasileiras",
-                Occasions = new List<Occasion> { Occasions[3], Occasions[5] },
+                Occasions = new List<Occasion> { Occasions[8], Occasions[2] },
                 Numbers = "528"
             },
             new Musician
@@ -2680,7 +2680,7 @@ namespace NineStarKi.Models
                 Name = "Antonio Vivaldi",
                 Genres = new List<Genre> { Genres[1] },
                 Recording = "The Four Seasons",
-                Occasions = new List<Occasion> { Occasions[3] },
+                Occasions = new List<Occasion> { Occasions[8] },
                 Numbers = "784"
             },
             new Musician
@@ -2688,7 +2688,7 @@ namespace NineStarKi.Models
                 Name = "Rufus Wainwright",
                 Genres = new List<Genre> { Genres[12] },
                 Recording = "Want One",
-                Occasions = new List<Occasion> { Occasions[3] },
+                Occasions = new List<Occasion> { Occasions[8] },
                 Numbers = "995"
             },
             new Musician
@@ -2696,7 +2696,7 @@ namespace NineStarKi.Models
                 Name = "Gillian Welch",
                 Genres = new List<Genre> { Genres[2] },
                 Recording = "Time (The Revelator)",
-                Occasions = new List<Occasion> { Occasions[3], Occasions[5] },
+                Occasions = new List<Occasion> { Occasions[8], Occasions[2] },
                 Numbers = "674"
             },
             new Musician
@@ -2704,7 +2704,7 @@ namespace NineStarKi.Models
                 Name = "Kenny Wheeler",
                 Genres = new List<Genre> { Genres[7] },
                 Recording = "Gnu High",
-                Occasions = new List<Occasion> { Occasions[3], Occasions[5] },
+                Occasions = new List<Occasion> { Occasions[8], Occasions[2] },
                 Numbers = "894"
             },
             new Musician
@@ -2712,7 +2712,7 @@ namespace NineStarKi.Models
                 Name = "Marion Williams",
                 Genres = new List<Genre> { Genres[5] },
                 Recording = "Strong Again",
-                Occasions = new List<Occasion> { Occasions[3] },
+                Occasions = new List<Occasion> { Occasions[8] },
                 Numbers = "124"
             },
             new Musician
@@ -2720,7 +2720,7 @@ namespace NineStarKi.Models
                 Name = "Mary Lou Williams",
                 Genres = new List<Genre> { Genres[7] },
                 Recording = "Zodiac Suite",
-                Occasions = new List<Occasion> { Occasions[3] },
+                Occasions = new List<Occasion> { Occasions[8] },
                 Numbers = "923"
             },
             new Musician
@@ -2728,7 +2728,7 @@ namespace NineStarKi.Models
                 Name = "Tammy Wynette",
                 Genres = new List<Genre> { Genres[2] },
                 Recording = "Anniversary: Twenty Years of Hits Neil Young, After the Gold Rush",
-                Occasions = new List<Occasion> { Occasions[3] },
+                Occasions = new List<Occasion> { Occasions[8] },
                 Numbers = "463"
             },
             new Musician
@@ -2792,7 +2792,7 @@ namespace NineStarKi.Models
                 Name = "Clifton Chenier",
                 Genres = new List<Genre> { Genres[0] },
                 Recording = "Bogalusa Boogie",
-                Occasions = new List<Occasion> { Occasions[4], Occasions[7] },
+                Occasions = new List<Occasion> { Occasions[4], Occasions[1] },
                 Numbers = "317"
             },
             new Musician
@@ -2800,7 +2800,7 @@ namespace NineStarKi.Models
                 Name = "Chic",
                 Genres = new List<Genre> { Genres[11] },
                 Recording = "C'est Chic",
-                Occasions = new List<Occasion> { Occasions[4], Occasions[7] },
+                Occasions = new List<Occasion> { Occasions[4], Occasions[1] },
                 Numbers = "371, 8, 362, 187, 463, 784, 142, 528, 169, 932, 591, 216, 261, 775"
             },
             new Musician
@@ -2840,7 +2840,7 @@ namespace NineStarKi.Models
                 Name = "Digital Underground",
                 Genres = new List<Genre> { Genres[6] },
                 Recording = "Sex Packets",
-                Occasions = new List<Occasion> { Occasions[4], Occasions[7] },
+                Occasions = new List<Occasion> { Occasions[4], Occasions[1] },
                 Numbers = "124, 279, 692, 813, 427"
             },
             new Musician
@@ -2904,7 +2904,7 @@ namespace NineStarKi.Models
                 Name = "Funkadelic",
                 Genres = new List<Genre> { Genres[11] },
                 Recording = "Maggot Brain",
-                Occasions = new List<Occasion> { Occasions[4], Occasions[7] },
+                Occasions = new List<Occasion> { Occasions[4], Occasions[1] },
                 Numbers = "564"
             },
             new Musician
@@ -2928,7 +2928,7 @@ namespace NineStarKi.Models
                 Name = "Juan Luis Guerra y 440",
                 Genres = new List<Genre> { Genres[14], Genres[29] },
                 Recording = "Fogaraté!",
-                Occasions = new List<Occasion> { Occasions[4], Occasions[7] },
+                Occasions = new List<Occasion> { Occasions[4], Occasions[1] },
                 Numbers = "748"
             },
             new Musician
@@ -2968,7 +2968,7 @@ namespace NineStarKi.Models
                 Name = "The Isley Brothers",
                 Genres = new List<Genre> { Genres[11] },
                 Recording = "The Heat Is On",
-                Occasions = new List<Occasion> { Occasions[4], Occasions[7] },
+                Occasions = new List<Occasion> { Occasions[4], Occasions[1] },
                 Numbers = "582, 344, 775, 941, 472"
             },
             new Musician
@@ -2984,7 +2984,7 @@ namespace NineStarKi.Models
                 Name = "Joi",
                 Genres = new List<Genre> { Genres[3] },
                 Recording = "We Are Three",
-                Occasions = new List<Occasion> { Occasions[4], Occasions[10] },
+                Occasions = new List<Occasion> { Occasions[4], Occasions[9] },
                 Numbers = "537 & 822"
             },
             new Musician
@@ -2992,7 +2992,7 @@ namespace NineStarKi.Models
                 Name = "Louis Jordan",
                 Genres = new List<Genre> { Genres[11] },
                 Recording = "The Best of Louis Jordan",
-                Occasions = new List<Occasion> { Occasions[4], Occasions[7] },
+                Occasions = new List<Occasion> { Occasions[4], Occasions[1] },
                 Numbers = "261"
             },
             new Musician
@@ -3008,7 +3008,7 @@ namespace NineStarKi.Models
                 Name = "Khaled",
                 Genres = new List<Genre> { Genres[14], Genres[15] },
                 Recording = "N'ssi, N'ssi",
-                Occasions = new List<Occasion> { Occasions[4], Occasions[7] },
+                Occasions = new List<Occasion> { Occasions[4], Occasions[1] },
                 Numbers = "481"
             },
             new Musician
@@ -3040,7 +3040,7 @@ namespace NineStarKi.Models
                 Name = "Little Richard",
                 Genres = new List<Genre> { Genres[11] },
                 Recording = "The Georgia Peach",
-                Occasions = new List<Occasion> { Occasions[4], Occasions[7] },
+                Occasions = new List<Occasion> { Occasions[4], Occasions[1] },
                 Numbers = "528"
             },
             new Musician
@@ -3064,7 +3064,7 @@ namespace NineStarKi.Models
                 Name = "Mahlathini and the Mahotella Queens",
                 Genres = new List<Genre> { Genres[14], Genres[60] },
                 Recording = "Paris/Soweto",
-                Occasions = new List<Occasion> { Occasions[4], Occasions[7] },
+                Occasions = new List<Occasion> { Occasions[4], Occasions[1] },
                 Numbers = "8, 4, 169 & 335"
             },
             new Musician
@@ -3072,7 +3072,7 @@ namespace NineStarKi.Models
                 Name = "Martha and the Vandellas",
                 Genres = new List<Genre> { Genres[11] },
                 Recording = "'Dancing in the Street'",
-                Occasions = new List<Occasion> { Occasions[4], Occasions[7] },
+                Occasions = new List<Occasion> { Occasions[4], Occasions[1] },
                 Numbers = "317, 389, 436, 564, 766, 243, 151"
             },
             new Musician
@@ -3080,7 +3080,7 @@ namespace NineStarKi.Models
                 Name = "The Meters",
                 Genres = new List<Genre> { Genres[11] },
                 Recording = "Look-Ka Py Py",
-                Occasions = new List<Occasion> { Occasions[4], Occasions[7] },
+                Occasions = new List<Occasion> { Occasions[4], Occasions[1] },
                 Numbers = "813, 914, 775, 941"
             },
             new Musician
@@ -3088,7 +3088,7 @@ namespace NineStarKi.Models
                 Name = "Mighty Sparrow and Lord Kitchener",
                 Genres = new List<Genre> { Genres[14], Genres[63] },
                 Recording = "Sixteen Carnival Hits",
-                Occasions = new List<Occasion> { Occasions[4], Occasions[7] },
+                Occasions = new List<Occasion> { Occasions[4], Occasions[1] },
                 Numbers = "261 & 638"
             },
             new Musician
@@ -3128,7 +3128,7 @@ namespace NineStarKi.Models
                 Name = "No Doubt",
                 Genres = new List<Genre> { Genres[10], Genres[12] },
                 Recording = "Rock Steady",
-                Occasions = new List<Occasion> { Occasions[4], Occasions[7] },
+                Occasions = new List<Occasion> { Occasions[4], Occasions[1] },
                 Numbers = "418, 638, 389, 427, 611"
             },
             new Musician
@@ -3152,7 +3152,7 @@ namespace NineStarKi.Models
                 Name = "Outkast",
                 Genres = new List<Genre> { Genres[11] },
                 Recording = "Stankonia",
-                Occasions = new List<Occasion> { Occasions[4], Occasions[7] },
+                Occasions = new List<Occasion> { Occasions[4], Occasions[1] },
                 Numbers = "757, 894"
             },
             new Musician
@@ -3168,7 +3168,7 @@ namespace NineStarKi.Models
                 Name = "Prince",
                 Genres = new List<Genre> { Genres[11], Genres[12] },
                 Recording = "Sign o' the Times",
-                Occasions = new List<Occasion> { Occasions[4], Occasions[7] },
+                Occasions = new List<Occasion> { Occasions[4], Occasions[1] },
                 Numbers = "611"
             },
             new Musician
@@ -3184,7 +3184,7 @@ namespace NineStarKi.Models
                 Name = "Tito Puente and His Orchestra",
                 Genres = new List<Genre> { Genres[14], Genres[45] },
                 Recording = "Dance Mania!",
-                Occasions = new List<Occasion> { Occasions[4], Occasions[7] },
+                Occasions = new List<Occasion> { Occasions[4], Occasions[1] },
                 Numbers = "591"
             },
             new Musician
@@ -3224,7 +3224,7 @@ namespace NineStarKi.Models
                 Name = "Sasha",
                 Genres = new List<Genre> { Genres[3] },
                 Recording = "Global Underground 013: Ibiza",
-                Occasions = new List<Occasion> { Occasions[4], Occasions[10] },
+                Occasions = new List<Occasion> { Occasions[4], Occasions[9] },
                 Numbers = "427"
             },
             new Musician
@@ -3264,7 +3264,7 @@ namespace NineStarKi.Models
                 Name = "Talking Heads",
                 Genres = new List<Genre> { Genres[12] },
                 Recording = "Remain in Light",
-                Occasions = new List<Occasion> { Occasions[4], Occasions[7] },
+                Occasions = new List<Occasion> { Occasions[4], Occasions[1] },
                 Numbers = "326, 454, 528, 656"
             },
             new Musician
@@ -3288,7 +3288,7 @@ namespace NineStarKi.Models
                 Name = "Ike and Tina Turner",
                 Genres = new List<Genre> { Genres[11] },
                 Recording = "Proud Mary",
-                Occasions = new List<Occasion> { Occasions[4], Occasions[7] },
+                Occasions = new List<Occasion> { Occasions[4], Occasions[1] },
                 Numbers = "665 & 784"
             },
             new Musician
@@ -3304,7 +3304,7 @@ namespace NineStarKi.Models
                 Name = "Various Artists",
                 Genres = new List<Genre> { Genres[10] },
                 Recording = "Saturday Night Fever",
-                Occasions = new List<Occasion> { Occasions[4], Occasions[7] },
+                Occasions = new List<Occasion> { Occasions[4], Occasions[1] },
                 Numbers = ""
             },
             new Musician
@@ -3320,7 +3320,7 @@ namespace NineStarKi.Models
                 Name = "Various Artists",
                 Genres = new List<Genre> { Genres[11] },
                 Recording = "A Tom Moulton Mix",
-                Occasions = new List<Occasion> { Occasions[4], Occasions[7] },
+                Occasions = new List<Occasion> { Occasions[4], Occasions[1] },
                 Numbers = ""
             },
             new Musician
@@ -3328,7 +3328,7 @@ namespace NineStarKi.Models
                 Name = "Dimi Mint Abba and Khalifa Ould Eide",
                 Genres = new List<Genre> { Genres[14], Genres[49] },
                 Recording = "Moorish Music from Mauritania",
-                Occasions = new List<Occasion> { Occasions[5] },
+                Occasions = new List<Occasion> { Occasions[2] },
                 Numbers = "647"
             },
             new Musician
@@ -3336,7 +3336,7 @@ namespace NineStarKi.Models
                 Name = "John Adams",
                 Genres = new List<Genre> { Genres[1] },
                 Recording = "Harmonium",
-                Occasions = new List<Occasion> { Occasions[5] },
+                Occasions = new List<Occasion> { Occasions[2] },
                 Numbers = "822"
             },
             new Musician
@@ -3344,7 +3344,7 @@ namespace NineStarKi.Models
                 Name = "Mahmoud Ahmed",
                 Genres = new List<Genre> { Genres[14], Genres[31] },
                 Recording = "éthiopiques, Vol. 7: Erè Mèla Mèla",
-                Occasions = new List<Occasion> { Occasions[5] },
+                Occasions = new List<Occasion> { Occasions[2] },
                 Numbers = "582"
             },
             new Musician
@@ -3352,7 +3352,7 @@ namespace NineStarKi.Models
                 Name = "Aphex Twin",
                 Genres = new List<Genre> { Genres[3] },
                 Recording = "Selected Ambient Works",
-                Occasions = new List<Occasion> { Occasions[5], Occasions[10] },
+                Occasions = new List<Occasion> { Occasions[2], Occasions[9] },
                 Numbers = "252"
             },
             new Musician
@@ -3360,7 +3360,7 @@ namespace NineStarKi.Models
                 Name = "J. S. Bach",
                 Genres = new List<Genre> { Genres[1] },
                 Recording = "The Well-Tempered Clavier, Book 1",
-                Occasions = new List<Occasion> { Occasions[5] },
+                Occasions = new List<Occasion> { Occasions[2] },
                 Numbers = "941"
             },
             new Musician
@@ -3368,7 +3368,7 @@ namespace NineStarKi.Models
                 Name = "J. S. Bach",
                 Genres = new List<Genre> { Genres[1] },
                 Recording = "Mass in B Minor",
-                Occasions = new List<Occasion> { Occasions[5] },
+                Occasions = new List<Occasion> { Occasions[2] },
                 Numbers = "941"
             },
             new Musician
@@ -3376,7 +3376,7 @@ namespace NineStarKi.Models
                 Name = "The Band",
                 Genres = new List<Genre> { Genres[12] },
                 Recording = "The Band",
-                Occasions = new List<Occasion> { Occasions[5], Occasions[9] },
+                Occasions = new List<Occasion> { Occasions[2], Occasions[9] },
                 Numbers = "344, 629, 995, 344, 317, 472, 481, 959"
             },
             new Musician
@@ -3384,7 +3384,7 @@ namespace NineStarKi.Models
                 Name = "Samuel Barber",
                 Genres = new List<Genre> { Genres[1] },
                 Recording = "Adagio for Strings",
-                Occasions = new List<Occasion> { Occasions[5] },
+                Occasions = new List<Occasion> { Occasions[2] },
                 Numbers = "941"
             },
             new Musician
@@ -3392,7 +3392,7 @@ namespace NineStarKi.Models
                 Name = "Béla Bartók",
                 Genres = new List<Genre> { Genres[1] },
                 Recording = "Six String Quartets",
-                Occasions = new List<Occasion> { Occasions[5] },
+                Occasions = new List<Occasion> { Occasions[2] },
                 Numbers = "216"
             },
             new Musician
@@ -3400,7 +3400,7 @@ namespace NineStarKi.Models
                 Name = "Waldemar Bastos",
                 Genres = new List<Genre> { Genres[14], Genres[17] },
                 Recording = "Pretaluz",
-                Occasions = new List<Occasion> { Occasions[5] },
+                Occasions = new List<Occasion> { Occasions[2] },
                 Numbers = "216"
             },
             new Musician
@@ -3408,7 +3408,7 @@ namespace NineStarKi.Models
                 Name = "Ludwig van Beethoven",
                 Genres = new List<Genre> { Genres[1] },
                 Recording = "Missa Solemnis",
-                Occasions = new List<Occasion> { Occasions[5] },
+                Occasions = new List<Occasion> { Occasions[2] },
                 Numbers = "519"
             },
             new Musician
@@ -3416,7 +3416,7 @@ namespace NineStarKi.Models
                 Name = "Benedictine Monks of the Abbey of St. Maurice and St. Maur",
                 Genres = new List<Genre> { Genres[1] },
                 Recording = "Clervaux, Salve Regina: Gregorian Chant",
-                Occasions = new List<Occasion> { Occasions[5] },
+                Occasions = new List<Occasion> { Occasions[2] },
                 Numbers = ""
             },
             new Musician
@@ -3424,7 +3424,7 @@ namespace NineStarKi.Models
                 Name = "Vishwa Mohan Bhatt and Ry Cooder",
                 Genres = new List<Genre> { Genres[14], Genres[39] },
                 Recording = "A Meeting by the River",
-                Occasions = new List<Occasion> { Occasions[5] },
+                Occasions = new List<Occasion> { Occasions[2] },
                 Numbers = "564 & 813"
             },
             new Musician
@@ -3432,7 +3432,7 @@ namespace NineStarKi.Models
                 Name = "Paul Bley",
                 Genres = new List<Genre> { Genres[7] },
                 Recording = "Fragments",
-                Occasions = new List<Occasion> { Occasions[5] },
+                Occasions = new List<Occasion> { Occasions[2] },
                 Numbers = "528"
             },
             new Musician
@@ -3440,7 +3440,7 @@ namespace NineStarKi.Models
                 Name = "The Blind Boys of Alabama",
                 Genres = new List<Genre> { Genres[5] },
                 Recording = "Spirit of the Century",
-                Occasions = new List<Occasion> { Occasions[5] },
+                Occasions = new List<Occasion> { Occasions[2] },
                 Numbers = "822, 398, 739, 858, 279"
             },
             new Musician
@@ -3448,7 +3448,7 @@ namespace NineStarKi.Models
                 Name = "Bonnie 'Prince' Billy",
                 Genres = new List<Genre> { Genres[12] },
                 Recording = "I See a Darkness",
-                Occasions = new List<Occasion> { Occasions[5] },
+                Occasions = new List<Occasion> { Occasions[2] },
                 Numbers = "463"
             },
             new Musician
@@ -3456,7 +3456,7 @@ namespace NineStarKi.Models
                 Name = "Boukman Eksperyans",
                 Genres = new List<Genre> { Genres[14], Genres[35] },
                 Recording = "Kalfou Danjere",
-                Occasions = new List<Occasion> { Occasions[5], Occasions[7] },
+                Occasions = new List<Occasion> { Occasions[2], Occasions[1] },
                 Numbers = "822, 849, 279"
             },
             new Musician
@@ -3464,7 +3464,7 @@ namespace NineStarKi.Models
                 Name = "Bright Eyes",
                 Genres = new List<Genre> { Genres[12] },
                 Recording = "I'm Wide Awake, It's Morning",
-                Occasions = new List<Occasion> { Occasions[5] },
+                Occasions = new List<Occasion> { Occasions[2] },
                 Numbers = "885, 225 & 472"
             },
             new Musician
@@ -3472,7 +3472,7 @@ namespace NineStarKi.Models
                 Name = "Jackson Browne",
                 Genres = new List<Genre> { Genres[12] },
                 Recording = "Late for the Sky",
-                Occasions = new List<Occasion> { Occasions[5] },
+                Occasions = new List<Occasion> { Occasions[2] },
                 Numbers = "793"
             },
             new Musician
@@ -3480,7 +3480,7 @@ namespace NineStarKi.Models
                 Name = "The Bulgarian Women's National Radio and Television Chorus",
                 Genres = new List<Genre> { Genres[14], Genres[21] },
                 Recording = "Le mystère des voix bulgares",
-                Occasions = new List<Occasion> { Occasions[5] },
+                Occasions = new List<Occasion> { Occasions[2] },
                 Numbers = ""
             },
             new Musician
@@ -3488,7 +3488,7 @@ namespace NineStarKi.Models
                 Name = "Neko Case",
                 Genres = new List<Genre> { Genres[12] },
                 Recording = "Fox Confessor Brings the Flood",
-                Occasions = new List<Occasion> { Occasions[5] },
+                Occasions = new List<Occasion> { Occasions[2] },
                 Numbers = "371"
             },
             new Musician
@@ -3496,7 +3496,7 @@ namespace NineStarKi.Models
                 Name = "Johnny Cash",
                 Genres = new List<Genre> { Genres[2] },
                 Recording = "American Recordings",
-                Occasions = new List<Occasion> { Occasions[5] },
+                Occasions = new List<Occasion> { Occasions[2] },
                 Numbers = "528"
             },
             new Musician
@@ -3504,7 +3504,7 @@ namespace NineStarKi.Models
                 Name = "Tracy Chapman",
                 Genres = new List<Genre> { Genres[12] },
                 Recording = "Tracy Chapman",
-                Occasions = new List<Occasion> { Occasions[5] },
+                Occasions = new List<Occasion> { Occasions[2] },
                 Numbers = "941"
             },
             new Musician
@@ -3512,7 +3512,7 @@ namespace NineStarKi.Models
                 Name = "Hariprasad Chaurasia",
                 Genres = new List<Genre> { Genres[14], Genres[39] },
                 Recording = "Raga Darbari Kanada",
-                Occasions = new List<Occasion> { Occasions[5] },
+                Occasions = new List<Occasion> { Occasions[2] },
                 Numbers = "876"
             },
             new Musician
@@ -3520,7 +3520,7 @@ namespace NineStarKi.Models
                 Name = "Sonny Chillingworth",
                 Genres = new List<Genre> { Genres[14], Genres[36] },
                 Recording = "Endlessly",
-                Occasions = new List<Occasion> { Occasions[5] },
+                Occasions = new List<Occasion> { Occasions[2] },
                 Numbers = "564"
             },
             new Musician
@@ -3528,7 +3528,7 @@ namespace NineStarKi.Models
                 Name = "Frédéric Chopin",
                 Genres = new List<Genre> { Genres[1] },
                 Recording = "Nocturnes",
-                Occasions = new List<Occasion> { Occasions[5] },
+                Occasions = new List<Occasion> { Occasions[2] },
                 Numbers = "187"
             },
             new Musician
@@ -3536,7 +3536,7 @@ namespace NineStarKi.Models
                 Name = "Van Cliburn",
                 Genres = new List<Genre> { Genres[1] },
                 Recording = "Rachmaninoff: Piano Concerto No. 3; Prokofiev: Piano Concerto No. 3",
-                Occasions = new List<Occasion> { Occasions[5] },
+                Occasions = new List<Occasion> { Occasions[2] },
                 Numbers = "398 & 178"
             },
             new Musician
@@ -3544,7 +3544,7 @@ namespace NineStarKi.Models
                 Name = "Leonard Cohen",
                 Genres = new List<Genre> { Genres[12] },
                 Recording = "Songs of Leonard Cohen",
-                Occasions = new List<Occasion> { Occasions[5] },
+                Occasions = new List<Occasion> { Occasions[2] },
                 Numbers = "371"
             },
             new Musician
@@ -3552,7 +3552,7 @@ namespace NineStarKi.Models
                 Name = "John Coltrane",
                 Genres = new List<Genre> { Genres[7] },
                 Recording = "A Love Supreme",
-                Occasions = new List<Occasion> { Occasions[5] },
+                Occasions = new List<Occasion> { Occasions[2] },
                 Numbers = "243"
             },
             new Musician
@@ -3560,7 +3560,7 @@ namespace NineStarKi.Models
                 Name = "Karen Dalton",
                 Genres = new List<Genre> { Genres[4] },
                 Recording = "It's So Hard to Tell Who's Going to Love You the Best",
-                Occasions = new List<Occasion> { Occasions[5] },
+                Occasions = new List<Occasion> { Occasions[2] },
                 Numbers = "995"
             },
             new Musician
@@ -3568,7 +3568,7 @@ namespace NineStarKi.Models
                 Name = "Miles Davis",
                 Genres = new List<Genre> { Genres[7] },
                 Recording = "Kind of Blue",
-                Occasions = new List<Occasion> { Occasions[5] },
+                Occasions = new List<Occasion> { Occasions[2] },
                 Numbers = "288"
             },
             new Musician
@@ -3576,7 +3576,7 @@ namespace NineStarKi.Models
                 Name = "Miles Davis Quintet",
                 Genres = new List<Genre> { Genres[7] },
                 Recording = "In a Silent Way",
-                Occasions = new List<Occasion> { Occasions[5] },
+                Occasions = new List<Occasion> { Occasions[2] },
                 Numbers = "582, 932, 297, 288, 178, 564, 638, 427, 216, 546, 739"
             },
             new Musician
@@ -3584,7 +3584,7 @@ namespace NineStarKi.Models
                 Name = "De Danann with Mary Black",
                 Genres = new List<Genre> { Genres[14], Genres[24] },
                 Recording = "Song for Ireland",
-                Occasions = new List<Occasion> { Occasions[5] },
+                Occasions = new List<Occasion> { Occasions[2] },
                 Numbers = "923, 8, 288, 739, 243, 445, 353, 968, 142, 674, 288"
             },
             new Musician
@@ -3592,7 +3592,7 @@ namespace NineStarKi.Models
                 Name = "Nick Drake",
                 Genres = new List<Genre> { Genres[12], Genres[4] },
                 Recording = "Five Leaves Left",
-                Occasions = new List<Occasion> { Occasions[5] },
+                Occasions = new List<Occasion> { Occasions[2] },
                 Numbers = "748"
             },
             new Musician
@@ -3600,7 +3600,7 @@ namespace NineStarKi.Models
                 Name = "Bob Dylan",
                 Genres = new List<Genre> { Genres[12] },
                 Recording = "Blood on the Tracks",
-                Occasions = new List<Occasion> { Occasions[5] },
+                Occasions = new List<Occasion> { Occasions[2] },
                 Numbers = "582"
             },
             new Musician
@@ -3608,7 +3608,7 @@ namespace NineStarKi.Models
                 Name = "Brian Eno",
                 Genres = new List<Genre> { Genres[3] },
                 Recording = "Ambient 1: Music for Airports",
-                Occasions = new List<Occasion> { Occasions[5] },
+                Occasions = new List<Occasion> { Occasions[2] },
                 Numbers = "757"
             },
             new Musician
@@ -3616,7 +3616,7 @@ namespace NineStarKi.Models
                 Name = "Alejandro Escovedo",
                 Genres = new List<Genre> { Genres[12] },
                 Recording = "Gravity",
-                Occasions = new List<Occasion> { Occasions[5] },
+                Occasions = new List<Occasion> { Occasions[2] },
                 Numbers = "591"
             },
             new Musician
@@ -3624,7 +3624,7 @@ namespace NineStarKi.Models
                 Name = "Bill Evans Trio",
                 Genres = new List<Genre> { Genres[7] },
                 Recording = "Sunday at the Village Vanguard/Waltz for Debby",
-                Occasions = new List<Occasion> { Occasions[5] },
+                Occasions = new List<Occasion> { Occasions[2] },
                 Numbers = "858, 178 & 647"
             },
             new Musician
@@ -3632,7 +3632,7 @@ namespace NineStarKi.Models
                 Name = "Fairport Convention",
                 Genres = new List<Genre> { Genres[4] },
                 Recording = "Liege and Lief",
-                Occasions = new List<Occasion> { Occasions[5] },
+                Occasions = new List<Occasion> { Occasions[2] },
                 Numbers = "537, 831, 344, 813, 849, 647, 297, 683, 656, 914, 932, 519, 775, 968, 766"
             },
             new Musician
@@ -3640,7 +3640,7 @@ namespace NineStarKi.Models
                 Name = "Roberta Flack",
                 Genres = new List<Genre> { Genres[11] },
                 Recording = "'The First Time Ever I Saw Your Face'",
-                Occasions = new List<Occasion> { Occasions[5] },
+                Occasions = new List<Occasion> { Occasions[2] },
                 Numbers = "959"
             },
             new Musician
@@ -3648,7 +3648,7 @@ namespace NineStarKi.Models
                 Name = "Jan Garbarek and Ralph Towner",
                 Genres = new List<Genre> { Genres[7] },
                 Recording = "Dis",
-                Occasions = new List<Occasion> { Occasions[5] },
+                Occasions = new List<Occasion> { Occasions[2] },
                 Numbers = "822 & 656"
             },
             new Musician
@@ -3656,7 +3656,7 @@ namespace NineStarKi.Models
                 Name = "Djivan Gasparyan",
                 Genres = new List<Genre> { Genres[14], Genres[19] },
                 Recording = "I Will Not Be Sad in This World",
-                Occasions = new List<Occasion> { Occasions[5] },
+                Occasions = new List<Occasion> { Occasions[2] },
                 Numbers = "968"
             },
             new Musician
@@ -3664,7 +3664,7 @@ namespace NineStarKi.Models
                 Name = "Henryk Górecki",
                 Genres = new List<Genre> { Genres[1] },
                 Recording = "Symphony No. 3, Op. 26: Symphony of Sorrowful Songs",
-                Occasions = new List<Occasion> { Occasions[5] },
+                Occasions = new List<Occasion> { Occasions[2] },
                 Numbers = "481"
             },
             new Musician
@@ -3672,7 +3672,7 @@ namespace NineStarKi.Models
                 Name = "Gothic Voices with Emma Kirkby",
                 Genres = new List<Genre> { Genres[1] },
                 Recording = "A Feather on the Breath of God: Sequences and Hymns by Abbess Hildegard of Bingen",
-                Occasions = new List<Occasion> { Occasions[5] },
+                Occasions = new List<Occasion> { Occasions[2] },
                 Numbers = "656, 335, 216, 813, 133, 225"
             },
             new Musician
@@ -3680,7 +3680,7 @@ namespace NineStarKi.Models
                 Name = "Charlie Haden",
                 Genres = new List<Genre> { Genres[7] },
                 Recording = "Nocturne",
-                Occasions = new List<Occasion> { Occasions[5] },
+                Occasions = new List<Occasion> { Occasions[2] },
                 Numbers = "995"
             },
             new Musician
@@ -3688,7 +3688,7 @@ namespace NineStarKi.Models
                 Name = "Herbie Hancock",
                 Genres = new List<Genre> { Genres[7] },
                 Recording = "Maiden Voyage",
-                Occasions = new List<Occasion> { Occasions[5] },
+                Occasions = new List<Occasion> { Occasions[2] },
                 Numbers = "638"
             },
             new Musician
@@ -3696,7 +3696,7 @@ namespace NineStarKi.Models
                 Name = "George Harrison",
                 Genres = new List<Genre> { Genres[12] },
                 Recording = "All Things Must Pass",
-                Occasions = new List<Occasion> { Occasions[5] },
+                Occasions = new List<Occasion> { Occasions[2] },
                 Numbers = "353"
             },
             new Musician
@@ -3704,7 +3704,7 @@ namespace NineStarKi.Models
                 Name = "Ofra Haza",
                 Genres = new List<Genre> { Genres[14], Genres[51] },
                 Recording = "Fifty Gates of Wisdom: Yemenite Songs",
-                Occasions = new List<Occasion> { Occasions[5] },
+                Occasions = new List<Occasion> { Occasions[2] },
                 Numbers = "784"
             },
             new Musician
@@ -3712,7 +3712,7 @@ namespace NineStarKi.Models
                 Name = "Andrew Hill",
                 Genres = new List<Genre> { Genres[7] },
                 Recording = "Point of Departure",
-                Occasions = new List<Occasion> { Occasions[5] },
+                Occasions = new List<Occasion> { Occasions[2] },
                 Numbers = "611"
             },
             new Musician
@@ -3720,7 +3720,7 @@ namespace NineStarKi.Models
                 Name = "Lauryn Hill",
                 Genres = new List<Genre> { Genres[6], Genres[11] },
                 Recording = "The Miseducation of Lauryn Hill",
-                Occasions = new List<Occasion> { Occasions[5] },
+                Occasions = new List<Occasion> { Occasions[2] },
                 Numbers = "757"
             },
             new Musician
@@ -3728,7 +3728,7 @@ namespace NineStarKi.Models
                 Name = "Shirley Horn",
                 Genres = new List<Genre> { Genres[7], Genres[13] },
                 Recording = "Close Enough for Love",
-                Occasions = new List<Occasion> { Occasions[5], Occasions[6] },
+                Occasions = new List<Occasion> { Occasions[2], Occasions[0] },
                 Numbers = "335"
             },
             new Musician
@@ -3736,7 +3736,7 @@ namespace NineStarKi.Models
                 Name = "Howlin' Wolf",
                 Genres = new List<Genre> { Genres[0] },
                 Recording = "Moanin' in the Moonlight",
-                Occasions = new List<Occasion> { Occasions[5] },
+                Occasions = new List<Occasion> { Occasions[2] },
                 Numbers = "914"
             },
             new Musician
@@ -3744,7 +3744,7 @@ namespace NineStarKi.Models
                 Name = "Leoš Janáček",
                 Genres = new List<Genre> { Genres[1] },
                 Recording = "Piano Works",
-                Occasions = new List<Occasion> { Occasions[5] },
+                Occasions = new List<Occasion> { Occasions[2] },
                 Numbers = "279"
             },
             new Musician
@@ -3752,7 +3752,7 @@ namespace NineStarKi.Models
                 Name = "Keith Jarrett",
                 Genres = new List<Genre> { Genres[7] },
                 Recording = "The Köln Concert",
-                Occasions = new List<Occasion> { Occasions[5] },
+                Occasions = new List<Occasion> { Occasions[2] },
                 Numbers = "151"
             },
             new Musician
@@ -3760,7 +3760,7 @@ namespace NineStarKi.Models
                 Name = "Rickie Lee Jones",
                 Genres = new List<Genre> { Genres[12] },
                 Recording = "Pirates",
-                Occasions = new List<Occasion> { Occasions[5] },
+                Occasions = new List<Occasion> { Occasions[2] },
                 Numbers = "187"
             },
             new Musician
@@ -3768,7 +3768,7 @@ namespace NineStarKi.Models
                 Name = "Josquin des Prez",
                 Genres = new List<Genre> { Genres[1] },
                 Recording = "Missa pange lingua, Motets",
-                Occasions = new List<Occasion> { Occasions[5] },
+                Occasions = new List<Occasion> { Occasions[2] },
                 Numbers = ""
             },
             new Musician
@@ -3776,7 +3776,7 @@ namespace NineStarKi.Models
                 Name = "Oum Kalthoum",
                 Genres = new List<Genre> { Genres[14], Genres[30] },
                 Recording = "Legend of Arab Music",
-                Occasions = new List<Occasion> { Occasions[5] },
+                Occasions = new List<Occasion> { Occasions[2] },
                 Numbers = "638"
             },
             new Musician
@@ -3784,7 +3784,7 @@ namespace NineStarKi.Models
                 Name = "Salif Keita",
                 Genres = new List<Genre> { Genres[14], Genres[48] },
                 Recording = "Moffou",
-                Occasions = new List<Occasion> { Occasions[5] },
+                Occasions = new List<Occasion> { Occasions[2] },
                 Numbers = "683 & 638"
             },
             new Musician
@@ -3792,7 +3792,7 @@ namespace NineStarKi.Models
                 Name = "Nusrat Fateh Ali Khan and Party",
                 Genres = new List<Genre> { Genres[14], Genres[54] },
                 Recording = "In Concert in Paris",
-                Occasions = new List<Occasion> { Occasions[5] },
+                Occasions = new List<Occasion> { Occasions[2] },
                 Numbers = "793"
             },
             new Musician
@@ -3800,7 +3800,7 @@ namespace NineStarKi.Models
                 Name = "Carole King",
                 Genres = new List<Genre> { Genres[10] },
                 Recording = "Tapestry",
-                Occasions = new List<Occasion> { Occasions[5] },
+                Occasions = new List<Occasion> { Occasions[2] },
                 Numbers = "481"
             },
             new Musician
@@ -3808,7 +3808,7 @@ namespace NineStarKi.Models
                 Name = "Alison Krauss",
                 Genres = new List<Genre> { Genres[2] },
                 Recording = "I've Got That Old Feeling",
-                Occasions = new List<Occasion> { Occasions[5] },
+                Occasions = new List<Occasion> { Occasions[2] },
                 Numbers = "261"
             },
             new Musician
@@ -3816,7 +3816,7 @@ namespace NineStarKi.Models
                 Name = "Dinu Lipatti",
                 Genres = new List<Genre> { Genres[1] },
                 Recording = "Besançon Festival, 1950 Madredeus, O espírito da paz",
-                Occasions = new List<Occasion> { Occasions[5] },
+                Occasions = new List<Occasion> { Occasions[2] },
                 Numbers = "216"
             },
             new Musician
@@ -3824,7 +3824,7 @@ namespace NineStarKi.Models
                 Name = "Gustav Mahler",
                 Genres = new List<Genre> { Genres[1] },
                 Recording = "Das Lied von der Erde",
-                Occasions = new List<Occasion> { Occasions[5] },
+                Occasions = new List<Occasion> { Occasions[2] },
                 Numbers = "573"
             },
             new Musician
@@ -3832,7 +3832,7 @@ namespace NineStarKi.Models
                 Name = "John Martyn",
                 Genres = new List<Genre> { Genres[4], Genres[12] },
                 Recording = "Solid Air",
-                Occasions = new List<Occasion> { Occasions[5] },
+                Occasions = new List<Occasion> { Occasions[2] },
                 Numbers = "712"
             },
             new Musician
@@ -3840,7 +3840,7 @@ namespace NineStarKi.Models
                 Name = "Kate and Anna McGarrigle",
                 Genres = new List<Genre> { Genres[4], Genres[12] },
                 Recording = "Kate and Anna McGarrigle",
-                Occasions = new List<Occasion> { Occasions[5] },
+                Occasions = new List<Occasion> { Occasions[2] },
                 Numbers = "959 & 225"
             },
             new Musician
@@ -3848,7 +3848,7 @@ namespace NineStarKi.Models
                 Name = "Loreena McKennitt",
                 Genres = new List<Genre> { Genres[14], Genres[24] },
                 Recording = "The Visit",
-                Occasions = new List<Occasion> { Occasions[5] },
+                Occasions = new List<Occasion> { Occasions[2] },
                 Numbers = "784"
             },
             new Musician
@@ -3856,7 +3856,7 @@ namespace NineStarKi.Models
                 Name = "Brad Mehldau",
                 Genres = new List<Genre> { Genres[7] },
                 Recording = "Largo",
-                Occasions = new List<Occasion> { Occasions[5] },
+                Occasions = new List<Occasion> { Occasions[2] },
                 Numbers = "389"
             },
             new Musician
@@ -3864,7 +3864,7 @@ namespace NineStarKi.Models
                 Name = "Olivier Messiaen",
                 Genres = new List<Genre> { Genres[1] },
                 Recording = "Vingt regards sur l'enfant-Jésus",
-                Occasions = new List<Occasion> { Occasions[5] },
+                Occasions = new List<Occasion> { Occasions[2] },
                 Numbers = "216"
             },
             new Musician
@@ -3872,7 +3872,7 @@ namespace NineStarKi.Models
                 Name = "Tete Montoliu",
                 Genres = new List<Genre> { Genres[7] },
                 Recording = "Solo Piano",
-                Occasions = new List<Occasion> { Occasions[5] },
+                Occasions = new List<Occasion> { Occasions[2] },
                 Numbers = "472"
             },
             new Musician
@@ -3880,7 +3880,7 @@ namespace NineStarKi.Models
                 Name = "Van Morrison",
                 Genres = new List<Genre> { Genres[12] },
                 Recording = "Astral Weeks",
-                Occasions = new List<Occasion> { Occasions[5] },
+                Occasions = new List<Occasion> { Occasions[2] },
                 Numbers = "124"
             },
             new Musician
@@ -3888,7 +3888,7 @@ namespace NineStarKi.Models
                 Name = "Modest Mussorgsky",
                 Genres = new List<Genre> { Genres[1] },
                 Recording = "Sunless, The Nursery, Songs and Dances of Death and Other Songs",
-                Occasions = new List<Occasion> { Occasions[5] },
+                Occasions = new List<Occasion> { Occasions[2] },
                 Numbers = "813"
             },
             new Musician
@@ -3896,7 +3896,7 @@ namespace NineStarKi.Models
                 Name = "Randy Newman",
                 Genres = new List<Genre> { Genres[12] },
                 Recording = "Twelve Songs",
-                Occasions = new List<Occasion> { Occasions[5] },
+                Occasions = new List<Occasion> { Occasions[2] },
                 Numbers = "353"
             },
             new Musician
@@ -3904,7 +3904,7 @@ namespace NineStarKi.Models
                 Name = "Beth Orton",
                 Genres = new List<Genre> { Genres[12] },
                 Recording = "Central Reservation",
-                Occasions = new List<Occasion> { Occasions[5] },
+                Occasions = new List<Occasion> { Occasions[2] },
                 Numbers = "344"
             },
             new Musician
@@ -3912,7 +3912,7 @@ namespace NineStarKi.Models
                 Name = "Parisa",
                 Genres = new List<Genre> { Genres[14], Genres[41] },
                 Recording = "Baz Amadam: Parisa at Royal Festival Hall",
-                Occasions = new List<Occasion> { Occasions[5] },
+                Occasions = new List<Occasion> { Occasions[2] },
                 Numbers = "519"
             },
             new Musician
@@ -3920,7 +3920,7 @@ namespace NineStarKi.Models
                 Name = "Gram Parsons",
                 Genres = new List<Genre> { Genres[12] },
                 Recording = "GP/Grievous Angel",
-                Occasions = new List<Occasion> { Occasions[5] },
+                Occasions = new List<Occasion> { Occasions[2] },
                 Numbers = "968"
             },
             new Musician
@@ -3928,7 +3928,7 @@ namespace NineStarKi.Models
                 Name = "Arvo Pärt",
                 Genres = new List<Genre> { Genres[1] },
                 Recording = "Tabula Rasa",
-                Occasions = new List<Occasion> { Occasions[5] },
+                Occasions = new List<Occasion> { Occasions[2] },
                 Numbers = "243"
             },
             new Musician
@@ -3936,7 +3936,7 @@ namespace NineStarKi.Models
                 Name = "Sam Phillips",
                 Genres = new List<Genre> { Genres[12] },
                 Recording = "Fan Dance",
-                Occasions = new List<Occasion> { Occasions[5] },
+                Occasions = new List<Occasion> { Occasions[2] },
                 Numbers = "647"
             },
             new Musician
@@ -3944,7 +3944,7 @@ namespace NineStarKi.Models
                 Name = "Astor Piazzolla",
                 Genres = new List<Genre> { Genres[14], Genres[18] },
                 Recording = "Tango: Zero Hour",
-                Occasions = new List<Occasion> { Occasions[5] },
+                Occasions = new List<Occasion> { Occasions[2] },
                 Numbers = "775"
             },
             new Musician
@@ -3952,7 +3952,7 @@ namespace NineStarKi.Models
                 Name = "Portishead",
                 Genres = new List<Genre> { Genres[12] },
                 Recording = "Dummy",
-                Occasions = new List<Occasion> { Occasions[5], Occasions[10] },
+                Occasions = new List<Occasion> { Occasions[2], Occasions[9] },
                 Numbers = "941, 216, 766"
             },
             new Musician
@@ -3960,7 +3960,7 @@ namespace NineStarKi.Models
                 Name = "Sergey Rachmaninoff",
                 Genres = new List<Genre> { Genres[1] },
                 Recording = "All-Night Vigil, op. 37, 6526",
-                Occasions = new List<Occasion> { Occasions[5] },
+                Occasions = new List<Occasion> { Occasions[2] },
                 Numbers = "178"
             },
             new Musician
@@ -3968,7 +3968,7 @@ namespace NineStarKi.Models
                 Name = "Steve Reich",
                 Genres = new List<Genre> { Genres[1] },
                 Recording = "Music for 18 Musicians",
-                Occasions = new List<Occasion> { Occasions[5], Occasions[10] },
+                Occasions = new List<Occasion> { Occasions[2], Occasions[9] },
                 Numbers = "115"
             },
             new Musician
@@ -3976,7 +3976,7 @@ namespace NineStarKi.Models
                 Name = "Kaija Saariaho",
                 Genres = new List<Genre> { Genres[9] },
                 Recording = "L'Amour de loin",
-                Occasions = new List<Occasion> { Occasions[5] },
+                Occasions = new List<Occasion> { Occasions[2] },
                 Numbers = "362"
             },
             new Musician
@@ -3984,7 +3984,7 @@ namespace NineStarKi.Models
                 Name = "Dino Saluzzi",
                 Genres = new List<Genre> { Genres[7] },
                 Recording = "Cité de la musique",
-                Occasions = new List<Occasion> { Occasions[5] },
+                Occasions = new List<Occasion> { Occasions[2] },
                 Numbers = "288"
             },
             new Musician
@@ -3992,7 +3992,7 @@ namespace NineStarKi.Models
                 Name = "Oumou Sangare",
                 Genres = new List<Genre> { Genres[14], Genres[48] },
                 Recording = "Ko sira",
-                Occasions = new List<Occasion> { Occasions[5] },
+                Occasions = new List<Occasion> { Occasions[2] },
                 Numbers = "528"
             },
             new Musician
@@ -4000,7 +4000,7 @@ namespace NineStarKi.Models
                 Name = "Erik Satie",
                 Genres = new List<Genre> { Genres[1] },
                 Recording = "Gymnopédies/Gnossiennes",
-                Occasions = new List<Occasion> { Occasions[5] },
+                Occasions = new List<Occasion> { Occasions[2] },
                 Numbers = "885"
             },
             new Musician
@@ -4008,7 +4008,7 @@ namespace NineStarKi.Models
                 Name = "Franz Schubert",
                 Genres = new List<Genre> { Genres[1] },
                 Recording = "B-Flat Piano Sonata",
-                Occasions = new List<Occasion> { Occasions[5] },
+                Occasions = new List<Occasion> { Occasions[2] },
                 Numbers = "638"
             },
             new Musician
@@ -4016,7 +4016,7 @@ namespace NineStarKi.Models
                 Name = "Tony Scott",
                 Genres = new List<Genre> { Genres[7], Genres[14], Genres[43] },
                 Recording = "Music for Zen Meditation and Other Joys",
-                Occasions = new List<Occasion> { Occasions[5] },
+                Occasions = new List<Occasion> { Occasions[2] },
                 Numbers = "279"
             },
             new Musician
@@ -4024,7 +4024,7 @@ namespace NineStarKi.Models
                 Name = "Gil Scott-Heron",
                 Genres = new List<Genre> { Genres[11] },
                 Recording = "Pieces of a Man",
-                Occasions = new List<Occasion> { Occasions[5] },
+                Occasions = new List<Occasion> { Occasions[2] },
                 Numbers = "647"
             },
             new Musician
@@ -4032,7 +4032,7 @@ namespace NineStarKi.Models
                 Name = "Ravi Shankar",
                 Genres = new List<Genre> { Genres[14], Genres[39] },
                 Recording = "Three Ragas",
-                Occasions = new List<Occasion> { Occasions[5] },
+                Occasions = new List<Occasion> { Occasions[2] },
                 Numbers = "894"
             },
             new Musician
@@ -4040,7 +4040,7 @@ namespace NineStarKi.Models
                 Name = "Archie Shepp and Horace Parlan",
                 Genres = new List<Genre> { Genres[7], Genres[5] },
                 Recording = "Goin' Home",
-                Occasions = new List<Occasion> { Occasions[5] },
+                Occasions = new List<Occasion> { Occasions[2] },
                 Numbers = "923 & 766"
             },
             new Musician
@@ -4048,7 +4048,7 @@ namespace NineStarKi.Models
                 Name = "Simon and Garfunkel",
                 Genres = new List<Genre> { Genres[12] },
                 Recording = "Bridge Over Troubled Water",
-                Occasions = new List<Occasion> { Occasions[5] },
+                Occasions = new List<Occasion> { Occasions[2] },
                 Numbers = "537 & 537"
             },
             new Musician
@@ -4056,7 +4056,7 @@ namespace NineStarKi.Models
                 Name = "Jimmie Spheeris",
                 Genres = new List<Genre> { Genres[12] },
                 Recording = "Isle of View",
-                Occasions = new List<Occasion> { Occasions[5] },
+                Occasions = new List<Occasion> { Occasions[2] },
                 Numbers = "665"
             },
             new Musician
@@ -4064,7 +4064,7 @@ namespace NineStarKi.Models
                 Name = "Andy Statman",
                 Genres = new List<Genre> { Genres[14] },
                 Recording = "Between Heaven and Earth: Music of the Jewish Mystics",
-                Occasions = new List<Occasion> { Occasions[5] },
+                Occasions = new List<Occasion> { Occasions[2] },
                 Numbers = "555"
             },
             new Musician
@@ -4072,7 +4072,7 @@ namespace NineStarKi.Models
                 Name = "Cat Stevens",
                 Genres = new List<Genre> { Genres[12] },
                 Recording = "Tea for the Tillerman",
-                Occasions = new List<Occasion> { Occasions[5] },
+                Occasions = new List<Occasion> { Occasions[2] },
                 Numbers = "739"
             },
             new Musician
@@ -4080,7 +4080,7 @@ namespace NineStarKi.Models
                 Name = "Sufjan Stevens",
                 Genres = new List<Genre> { Genres[12] },
                 Recording = "Illinoise",
-                Occasions = new List<Occasion> { Occasions[5] },
+                Occasions = new List<Occasion> { Occasions[2] },
                 Numbers = "748"
             },
             new Musician
@@ -4088,7 +4088,7 @@ namespace NineStarKi.Models
                 Name = "Richard Strauss",
                 Genres = new List<Genre> { Genres[1] },
                 Recording = "Four Last Songs",
-                Occasions = new List<Occasion> { Occasions[5] },
+                Occasions = new List<Occasion> { Occasions[2] },
                 Numbers = "142"
             },
             new Musician
@@ -4096,7 +4096,7 @@ namespace NineStarKi.Models
                 Name = "Igor Stravinsky",
                 Genres = new List<Genre> { Genres[1] },
                 Recording = "Rite of Spring",
-                Occasions = new List<Occasion> { Occasions[5] },
+                Occasions = new List<Occasion> { Occasions[2] },
                 Numbers = "142"
             },
             new Musician
@@ -4104,7 +4104,7 @@ namespace NineStarKi.Models
                 Name = "James Taylor",
                 Genres = new List<Genre> { Genres[12] },
                 Recording = "Sweet Baby",
-                Occasions = new List<Occasion> { Occasions[5] },
+                Occasions = new List<Occasion> { Occasions[2] },
                 Numbers = "775"
             },
             new Musician
@@ -4112,7 +4112,7 @@ namespace NineStarKi.Models
                 Name = "James Ralph Towner",
                 Genres = new List<Genre> { Genres[7] },
                 Recording = "Solstice",
-                Occasions = new List<Occasion> { Occasions[5] },
+                Occasions = new List<Occasion> { Occasions[2] },
                 Numbers = "656"
             },
             new Musician
@@ -4120,7 +4120,7 @@ namespace NineStarKi.Models
                 Name = "Various Artists",
                 Genres = new List<Genre> { Genres[14], Genres[37] },
                 Recording = "The Great Cantors",
-                Occasions = new List<Occasion> { Occasions[5] },
+                Occasions = new List<Occasion> { Occasions[2] },
                 Numbers = ""
             },
             new Musician
@@ -4128,7 +4128,7 @@ namespace NineStarKi.Models
                 Name = "Various Artists",
                 Genres = new List<Genre> { Genres[14], Genres[52] },
                 Recording = "World of Gnawa",
-                Occasions = new List<Occasion> { Occasions[5] },
+                Occasions = new List<Occasion> { Occasions[2] },
                 Numbers = ""
             },
             new Musician
@@ -4136,7 +4136,7 @@ namespace NineStarKi.Models
                 Name = "Suzanne Vega",
                 Genres = new List<Genre> { Genres[4], Genres[10] },
                 Recording = "Solitude Standing",
-                Occasions = new List<Occasion> { Occasions[5] },
+                Occasions = new List<Occasion> { Occasions[2] },
                 Numbers = "564"
             },
             new Musician
@@ -4144,7 +4144,7 @@ namespace NineStarKi.Models
                 Name = "Caetano Veloso",
                 Genres = new List<Genre> { Genres[14], Genres[20] },
                 Recording = "Livro",
-                Occasions = new List<Occasion> { Occasions[5] },
+                Occasions = new List<Occasion> { Occasions[2] },
                 Numbers = "436"
             },
             new Musician
@@ -4152,7 +4152,7 @@ namespace NineStarKi.Models
                 Name = "Randy Weston",
                 Genres = new List<Genre> { Genres[7] },
                 Recording = "The Spirits of Our Ancestors",
-                Occasions = new List<Occasion> { Occasions[5] },
+                Occasions = new List<Occasion> { Occasions[2] },
                 Numbers = "297"
             },
             new Musician
@@ -4160,7 +4160,7 @@ namespace NineStarKi.Models
                 Name = "Chris Whitley",
                 Genres = new List<Genre> { Genres[0], Genres[12] },
                 Recording = "Living with the Law",
-                Occasions = new List<Occasion> { Occasions[5] },
+                Occasions = new List<Occasion> { Occasions[2] },
                 Numbers = "427"
             },
             new Musician
@@ -4168,7 +4168,7 @@ namespace NineStarKi.Models
                 Name = "Lucinda Williams",
                 Genres = new List<Genre> { Genres[2] },
                 Recording = "Sweet Old World",
-                Occasions = new List<Occasion> { Occasions[5], Occasions[9] },
+                Occasions = new List<Occasion> { Occasions[2], Occasions[9] },
                 Numbers = "335"
             },
             new Musician
@@ -4176,7 +4176,7 @@ namespace NineStarKi.Models
                 Name = "Cassandra Wilson",
                 Genres = new List<Genre> { Genres[7], Genres[13] },
                 Recording = "Blue Light 'til Dawn",
-                Occasions = new List<Occasion> { Occasions[5], Occasions[6] },
+                Occasions = new List<Occasion> { Occasions[2], Occasions[0] },
                 Numbers = "959"
             },
             new Musician
@@ -4184,7 +4184,7 @@ namespace NineStarKi.Models
                 Name = "Robert Wyatt",
                 Genres = new List<Genre> { Genres[12] },
                 Recording = "Rock Bottom",
-                Occasions = new List<Occasion> { Occasions[5] },
+                Occasions = new List<Occasion> { Occasions[2] },
                 Numbers = "297"
             },
             new Musician
@@ -4192,7 +4192,7 @@ namespace NineStarKi.Models
                 Name = "Goro Yamaguchi",
                 Genres = new List<Genre> { Genres[14], Genres[43] },
                 Recording = "Shakuhachi Music: A Bell Ringing in the Empty Sky",
-                Occasions = new List<Occasion> { Occasions[5] },
+                Occasions = new List<Occasion> { Occasions[2] },
                 Numbers = "481"
             },
             new Musician
@@ -4200,7 +4200,7 @@ namespace NineStarKi.Models
                 Name = "Neil Young",
                 Genres = new List<Genre> { Genres[12] },
                 Recording = "After the Gold Rush",
-                Occasions = new List<Occasion> { Occasions[5], Occasions[9] },
+                Occasions = new List<Occasion> { Occasions[2], Occasions[9] },
                 Numbers = "187"
             },
             new Musician
@@ -4208,7 +4208,7 @@ namespace NineStarKi.Models
                 Name = "Warren Zevon",
                 Genres = new List<Genre> { Genres[12] },
                 Recording = "Excitable Boy",
-                Occasions = new List<Occasion> { Occasions[5] },
+                Occasions = new List<Occasion> { Occasions[2] },
                 Numbers = "932"
             },
             new Musician
@@ -4216,7 +4216,7 @@ namespace NineStarKi.Models
                 Name = "Johnny Adams",
                 Genres = new List<Genre> { Genres[0] },
                 Recording = "The Real Me: Johnny Adams Sings Doc Pomus",
-                Occasions = new List<Occasion> { Occasions[6] },
+                Occasions = new List<Occasion> { Occasions[0] },
                 Numbers = "647"
             },
             new Musician
@@ -4224,7 +4224,7 @@ namespace NineStarKi.Models
                 Name = "The Cannonball Adderley Quintet",
                 Genres = new List<Genre> { Genres[7] },
                 Recording = "At the Lighthouse",
-                Occasions = new List<Occasion> { Occasions[6] },
+                Occasions = new List<Occasion> { Occasions[0] },
                 Numbers = "977"
             },
             new Musician
@@ -4232,7 +4232,7 @@ namespace NineStarKi.Models
                 Name = "Arthur Alexander",
                 Genres = new List<Genre> { Genres[11] },
                 Recording = "The Ultimate Arthur Alexander",
-                Occasions = new List<Occasion> { Occasions[6] },
+                Occasions = new List<Occasion> { Occasions[0] },
                 Numbers = "629"
             },
             new Musician
@@ -4240,7 +4240,7 @@ namespace NineStarKi.Models
                 Name = "Mose Allison",
                 Genres = new List<Genre> { Genres[13] },
                 Recording = "Allison Wonderland",
-                Occasions = new List<Occasion> { Occasions[6] },
+                Occasions = new List<Occasion> { Occasions[0] },
                 Numbers = "187"
             },
             new Musician
@@ -4248,7 +4248,7 @@ namespace NineStarKi.Models
                 Name = "Herb Alpert and the Tijuana Brass",
                 Genres = new List<Genre> { Genres[10] },
                 Recording = "Whipped Cream and Other Delights",
-                Occasions = new List<Occasion> { Occasions[6] },
+                Occasions = new List<Occasion> { Occasions[0] },
                 Numbers = "216, 225, 656, 914, 775 & 252"
             },
             new Musician
@@ -4256,7 +4256,7 @@ namespace NineStarKi.Models
                 Name = "Fred Astaire",
                 Genres = new List<Genre> { Genres[13] },
                 Recording = "Steppin' Out: Astaire Sings",
-                Occasions = new List<Occasion> { Occasions[6] },
+                Occasions = new List<Occasion> { Occasions[0] },
                 Numbers = "288"
             },
             new Musician
@@ -4264,7 +4264,7 @@ namespace NineStarKi.Models
                 Name = "Chet Atkins and Les Paul",
                 Genres = new List<Genre> { Genres[2], Genres[7] },
                 Recording = "Chester and Lester",
-                Occasions = new List<Occasion> { Occasions[6] },
+                Occasions = new List<Occasion> { Occasions[0] },
                 Numbers = "445 & 445"
             },
             new Musician
@@ -4272,7 +4272,7 @@ namespace NineStarKi.Models
                 Name = "Harry Belafonte",
                 Genres = new List<Genre> { Genres[13] },
                 Recording = "Live at Carnegie Hall",
-                Occasions = new List<Occasion> { Occasions[6] },
+                Occasions = new List<Occasion> { Occasions[0] },
                 Numbers = "187"
             },
             new Musician
@@ -4280,7 +4280,7 @@ namespace NineStarKi.Models
                 Name = "Tony Bennett and Bill Evans",
                 Genres = new List<Genre> { Genres[13] },
                 Recording = "The Tony Bennett-Bill Evans Album",
-                Occasions = new List<Occasion> { Occasions[6] },
+                Occasions = new List<Occasion> { Occasions[0] },
                 Numbers = "261 & 858"
             },
             new Musician
@@ -4288,7 +4288,7 @@ namespace NineStarKi.Models
                 Name = "Art Blakey and the Jazz Messengers",
                 Genres = new List<Genre> { Genres[7] },
                 Recording = "Moanin'",
-                Occasions = new List<Occasion> { Occasions[6] },
+                Occasions = new List<Occasion> { Occasions[0] },
                 Numbers = "519, 335, 959, 216, 867, 178, 178, 463, 519, 225, 418, 573, 638, 555, 932"
             },
             new Musician
@@ -4296,7 +4296,7 @@ namespace NineStarKi.Models
                 Name = "Bobby 'Blue' Bland",
                 Genres = new List<Genre> { Genres[0] },
                 Recording = "Two Steps from the Blues",
-                Occasions = new List<Occasion> { Occasions[6] },
+                Occasions = new List<Occasion> { Occasions[0] },
                 Numbers = "894"
             },
             new Musician
@@ -4304,7 +4304,7 @@ namespace NineStarKi.Models
                 Name = "Clifford Brown-Max Roach Quintet",
                 Genres = new List<Genre> { Genres[7] },
                 Recording = "Clifford Brown and Max Roach",
-                Occasions = new List<Occasion> { Occasions[6] },
+                Occasions = new List<Occasion> { Occasions[0] },
                 Numbers = "721, 683, 389, 941, 793 & 591"
             },
             new Musician
@@ -4312,7 +4312,7 @@ namespace NineStarKi.Models
                 Name = "Lord Buckley",
                 Genres = new List<Genre> { Genres[13] },
                 Recording = "His Royal Hipness",
-                Occasions = new List<Occasion> { Occasions[6] },
+                Occasions = new List<Occasion> { Occasions[0] },
                 Numbers = "472"
             },
             new Musician
@@ -4320,7 +4320,7 @@ namespace NineStarKi.Models
                 Name = "Sonny Clark",
                 Genres = new List<Genre> { Genres[7] },
                 Recording = "Cool Struttin'",
-                Occasions = new List<Occasion> { Occasions[6] },
+                Occasions = new List<Occasion> { Occasions[0] },
                 Numbers = "692"
             },
             new Musician
@@ -4328,7 +4328,7 @@ namespace NineStarKi.Models
                 Name = "John Coltrane and Johnny Hartman",
                 Genres = new List<Genre> { Genres[7], Genres[13] },
                 Recording = "John Coltrane and Johnny Hartman",
-                Occasions = new List<Occasion> { Occasions[6] },
+                Occasions = new List<Occasion> { Occasions[0] },
                 Numbers = "243 & 573"
             },
             new Musician
@@ -4336,7 +4336,7 @@ namespace NineStarKi.Models
                 Name = "Bing Crosby",
                 Genres = new List<Genre> { Genres[13] },
                 Recording = "A Centennial Anthology of Decca Recordings",
-                Occasions = new List<Occasion> { Occasions[6] },
+                Occasions = new List<Occasion> { Occasions[0] },
                 Numbers = "766"
             },
             new Musician
@@ -4344,7 +4344,7 @@ namespace NineStarKi.Models
                 Name = "Bobby Darin",
                 Genres = new List<Genre> { Genres[13] },
                 Recording = "That's All",
-                Occasions = new List<Occasion> { Occasions[6] },
+                Occasions = new List<Occasion> { Occasions[0] },
                 Numbers = "151"
             },
             new Musician
@@ -4352,7 +4352,7 @@ namespace NineStarKi.Models
                 Name = "Sammy Davis Jr.",
                 Genres = new List<Genre> { Genres[13] },
                 Recording = "I Gotta Right to Swing",
-                Occasions = new List<Occasion> { Occasions[6] },
+                Occasions = new List<Occasion> { Occasions[0] },
                 Numbers = "344"
             },
             new Musician
@@ -4360,7 +4360,7 @@ namespace NineStarKi.Models
                 Name = "Ella Fitzgerald",
                 Genres = new List<Genre> { Genres[7], Genres[13] },
                 Recording = "Ella Fitzgerald Sings the Cole Porter Songbook",
-                Occasions = new List<Occasion> { Occasions[6] },
+                Occasions = new List<Occasion> { Occasions[0] },
                 Numbers = "297"
             },
             new Musician
@@ -4368,7 +4368,7 @@ namespace NineStarKi.Models
                 Name = "Ella Fitzgerald and Louis Armstrong",
                 Genres = new List<Genre> { Genres[7], Genres[13] },
                 Recording = "Ella and Louis",
-                Occasions = new List<Occasion> { Occasions[6] },
+                Occasions = new List<Occasion> { Occasions[0] },
                 Numbers = "297 & 995"
             },
             new Musician
@@ -4376,7 +4376,7 @@ namespace NineStarKi.Models
                 Name = "The Four Freshmen",
                 Genres = new List<Genre> { Genres[13] },
                 Recording = "The Four Freshmen and Five Trombones",
-                Occasions = new List<Occasion> { Occasions[6] },
+                Occasions = new List<Occasion> { Occasions[0] },
                 Numbers = "941, 252, 894, 894, 472, 3"
             },
             new Musician
@@ -4384,7 +4384,7 @@ namespace NineStarKi.Models
                 Name = "Serge Gainsbourg",
                 Genres = new List<Genre> { Genres[12], Genres[13] },
                 Recording = "Histoire de Melody Nelson",
-                Occasions = new List<Occasion> { Occasions[6] },
+                Occasions = new List<Occasion> { Occasions[0] },
                 Numbers = "941"
             },
             new Musician
@@ -4392,7 +4392,7 @@ namespace NineStarKi.Models
                 Name = "Erroll Garner",
                 Genres = new List<Genre> { Genres[7] },
                 Recording = "Concert by the Sea",
-                Occasions = new List<Occasion> { Occasions[6] },
+                Occasions = new List<Occasion> { Occasions[0] },
                 Numbers = "748"
             },
             new Musician
@@ -4400,7 +4400,7 @@ namespace NineStarKi.Models
                 Name = "Stan Getz and João Gilberto",
                 Genres = new List<Genre> { Genres[7] },
                 Recording = "Getz/Gilberto",
-                Occasions = new List<Occasion> { Occasions[6] },
+                Occasions = new List<Occasion> { Occasions[0] },
                 Numbers = "297 & 611"
             },
             new Musician
@@ -4408,7 +4408,7 @@ namespace NineStarKi.Models
                 Name = "Dexter Gordon",
                 Genres = new List<Genre> { Genres[7] },
                 Recording = "Go!",
-                Occasions = new List<Occasion> { Occasions[6] },
+                Occasions = new List<Occasion> { Occasions[0] },
                 Numbers = "528"
             },
             new Musician
@@ -4416,7 +4416,7 @@ namespace NineStarKi.Models
                 Name = "Billie Holiday",
                 Genres = new List<Genre> { Genres[7], Genres[11], Genres[13] },
                 Recording = "The Ultimate Collection",
-                Occasions = new List<Occasion> { Occasions[6] },
+                Occasions = new List<Occasion> { Occasions[0] },
                 Numbers = "463"
             },
             new Musician
@@ -4424,7 +4424,7 @@ namespace NineStarKi.Models
                 Name = "Etta James",
                 Genres = new List<Genre> { Genres[11] },
                 Recording = "Tell Mama",
-                Occasions = new List<Occasion> { Occasions[6] },
+                Occasions = new List<Occasion> { Occasions[0] },
                 Numbers = "932"
             },
             new Musician
@@ -4432,7 +4432,7 @@ namespace NineStarKi.Models
                 Name = "George Jones",
                 Genres = new List<Genre> { Genres[2] },
                 Recording = "The Grand Tour",
-                Occasions = new List<Occasion> { Occasions[6] },
+                Occasions = new List<Occasion> { Occasions[0] },
                 Numbers = "674"
             },
             new Musician
@@ -4440,7 +4440,7 @@ namespace NineStarKi.Models
                 Name = "Ernesto Lecuona",
                 Genres = new List<Genre> { Genres[1], Genres[14], Genres[28] },
                 Recording = "The Ultimate Collection: Lecuona Plays Lecuona",
-                Occasions = new List<Occasion> { Occasions[6] },
+                Occasions = new List<Occasion> { Occasions[0] },
                 Numbers = "564"
             },
             new Musician
@@ -4448,7 +4448,7 @@ namespace NineStarKi.Models
                 Name = "Les McCann and Eddie Harris",
                 Genres = new List<Genre> { Genres[7] },
                 Recording = "Swiss Movement",
-                Occasions = new List<Occasion> { Occasions[6] },
+                Occasions = new List<Occasion> { Occasions[0] },
                 Numbers = "243 & 362"
             },
             new Musician
@@ -4456,7 +4456,7 @@ namespace NineStarKi.Models
                 Name = "Hank Mobley",
                 Genres = new List<Genre> { Genres[7] },
                 Recording = "Soul Station",
-                Occasions = new List<Occasion> { Occasions[6], Occasions[9] },
+                Occasions = new List<Occasion> { Occasions[0], Occasions[9] },
                 Numbers = "748"
             },
             new Musician
@@ -4464,7 +4464,7 @@ namespace NineStarKi.Models
                 Name = "Wes Montgomery",
                 Genres = new List<Genre> { Genres[7] },
                 Recording = "Smokin' at the Half Note",
-                Occasions = new List<Occasion> { Occasions[6], Occasions[8] },
+                Occasions = new List<Occasion> { Occasions[0], Occasions[6] },
                 Numbers = "519"
             },
             new Musician
@@ -4472,7 +4472,7 @@ namespace NineStarKi.Models
                 Name = "Oliver Nelson",
                 Genres = new List<Genre> { Genres[7] },
                 Recording = "The Blues and the Abstract Truth",
-                Occasions = new List<Occasion> { Occasions[6] },
+                Occasions = new List<Occasion> { Occasions[0] },
                 Numbers = "582"
             },
             new Musician
@@ -4480,7 +4480,7 @@ namespace NineStarKi.Models
                 Name = "Phineas Newborn Jr.",
                 Genres = new List<Genre> { Genres[7] },
                 Recording = "A World of Piano!",
-                Occasions = new List<Occasion> { Occasions[6] },
+                Occasions = new List<Occasion> { Occasions[0] },
                 Numbers = "647"
             },
             new Musician
@@ -4488,7 +4488,7 @@ namespace NineStarKi.Models
                 Name = "Charlie Parker",
                 Genres = new List<Genre> { Genres[7] },
                 Recording = "Charlie Parker with Strings",
-                Occasions = new List<Occasion> { Occasions[6] },
+                Occasions = new List<Occasion> { Occasions[0] },
                 Numbers = "858"
             },
             new Musician
@@ -4496,7 +4496,7 @@ namespace NineStarKi.Models
                 Name = "Les Paul with Mary Ford",
                 Genres = new List<Genre> { Genres[7], Genres[13] },
                 Recording = "The Best of the Capitol Masters: Ninetieth Birthday Edition",
-                Occasions = new List<Occasion> { Occasions[6], Occasions[8] },
+                Occasions = new List<Occasion> { Occasions[0], Occasions[6] },
                 Numbers = "445 & 445"
             },
             new Musician
@@ -4504,7 +4504,7 @@ namespace NineStarKi.Models
                 Name = "The Oscar Peterson Trio",
                 Genres = new List<Genre> { Genres[7] },
                 Recording = "Night Train",
-                Occasions = new List<Occasion> { Occasions[6] },
+                Occasions = new List<Occasion> { Occasions[0] },
                 Numbers = "389"
             },
             new Musician
@@ -4512,7 +4512,7 @@ namespace NineStarKi.Models
                 Name = "Charlie Rich",
                 Genres = new List<Genre> { Genres[2] },
                 Recording = "Behind Closed Doors",
-                Occasions = new List<Occasion> { Occasions[6] },
+                Occasions = new List<Occasion> { Occasions[0] },
                 Numbers = "519"
             },
             new Musician
@@ -4520,7 +4520,7 @@ namespace NineStarKi.Models
                 Name = "Nina Simone",
                 Genres = new List<Genre> { Genres[7] },
                 Recording = "Anthology",
-                Occasions = new List<Occasion> { Occasions[6] },
+                Occasions = new List<Occasion> { Occasions[0] },
                 Numbers = "481"
             },
             new Musician
@@ -4528,7 +4528,7 @@ namespace NineStarKi.Models
                 Name = "Frank Sinatra",
                 Genres = new List<Genre> { Genres[13] },
                 Recording = "Songs for Swingin' Lovers",
-                Occasions = new List<Occasion> { Occasions[6] },
+                Occasions = new List<Occasion> { Occasions[0] },
                 Numbers = "472"
             },
             new Musician
@@ -4536,7 +4536,7 @@ namespace NineStarKi.Models
                 Name = "Cal Tjader",
                 Genres = new List<Genre> { Genres[7] },
                 Recording = "Primo",
-                Occasions = new List<Occasion> { Occasions[6] },
+                Occasions = new List<Occasion> { Occasions[0] },
                 Numbers = "398"
             },
             new Musician
@@ -4544,7 +4544,7 @@ namespace NineStarKi.Models
                 Name = "Sarah Vaughan",
                 Genres = new List<Genre> { Genres[7] },
                 Recording = "Live in Japan",
-                Occasions = new List<Occasion> { Occasions[6] },
+                Occasions = new List<Occasion> { Occasions[0] },
                 Numbers = "472"
             },
             new Musician
@@ -4552,7 +4552,7 @@ namespace NineStarKi.Models
                 Name = "Dinah Washington",
                 Genres = new List<Genre> { Genres[7], Genres[13] },
                 Recording = "Dinah!",
-                Occasions = new List<Occasion> { Occasions[6] },
+                Occasions = new List<Occasion> { Occasions[0] },
                 Numbers = "427"
             },
             new Musician
@@ -4560,7 +4560,7 @@ namespace NineStarKi.Models
                 Name = "Muddy Waters",
                 Genres = new List<Genre> { Genres[0] },
                 Recording = "At Newport 1960",
-                Occasions = new List<Occasion> { Occasions[6], Occasions[8] },
+                Occasions = new List<Occasion> { Occasions[0], Occasions[6] },
                 Numbers = "647"
             },
             new Musician
@@ -4568,7 +4568,7 @@ namespace NineStarKi.Models
                 Name = "Joe Williams with the Count Basie Orchestra",
                 Genres = new List<Genre> { Genres[7] },
                 Recording = "Count Basie Swings, Joe Williams Sings",
-                Occasions = new List<Occasion> { Occasions[6] },
+                Occasions = new List<Occasion> { Occasions[0] },
                 Numbers = "178, 683, 124, 813, 519, 849, 178, 187, 977, 822, 775, 813, 499, 279, 297, 683, 344"
             },
             new Musician
@@ -4576,7 +4576,7 @@ namespace NineStarKi.Models
                 Name = "Lester Young",
                 Genres = new List<Genre> { Genres[7] },
                 Recording = "The 'Kansas City' Sessions",
-                Occasions = new List<Occasion> { Occasions[6] },
+                Occasions = new List<Occasion> { Occasions[0] },
                 Numbers = "124"
             },
             new Musician
@@ -4584,7 +4584,7 @@ namespace NineStarKi.Models
                 Name = "King Sunny Ade",
                 Genres = new List<Genre> { Genres[14], Genres[53] },
                 Recording = "The Best of the Classic Years",
-                Occasions = new List<Occasion> { Occasions[7] },
+                Occasions = new List<Occasion> { Occasions[1] },
                 Numbers = "977"
             },
             new Musician
@@ -4592,7 +4592,7 @@ namespace NineStarKi.Models
                 Name = "Aerosmith",
                 Genres = new List<Genre> { Genres[12] },
                 Recording = "Toys in the Attic",
-                Occasions = new List<Occasion> { Occasions[7] },
+                Occasions = new List<Occasion> { Occasions[1] },
                 Numbers = "775, 472, 546, 353, 573, 941, 142 & 353"
             },
             new Musician
@@ -4600,7 +4600,7 @@ namespace NineStarKi.Models
                 Name = "Los Amigos Invisibles",
                 Genres = new List<Genre> { Genres[14], Genres[65] },
                 Recording = "Arepa 3000: A Venezuelan Journey into Space",
-                Occasions = new List<Occasion> { Occasions[7] },
+                Occasions = new List<Occasion> { Occasions[1] },
                 Numbers = ""
             },
             new Musician
@@ -4608,7 +4608,7 @@ namespace NineStarKi.Models
                 Name = "Arrested Development",
                 Genres = new List<Genre> { Genres[6] },
                 Recording = "Three Years, Five Months, and Two Days in the Life of…",
-                Occasions = new List<Occasion> { Occasions[7] },
+                Occasions = new List<Occasion> { Occasions[1] },
                 Numbers = "537, 481, 692, 813, 582, 528"
             },
             new Musician
@@ -4616,7 +4616,7 @@ namespace NineStarKi.Models
                 Name = "Baby Huey and the Babysitters",
                 Genres = new List<Genre> { Genres[11] },
                 Recording = "The Baby Huey Story: The Living Legend",
-                Occasions = new List<Occasion> { Occasions[7] },
+                Occasions = new List<Occasion> { Occasions[1] },
                 Numbers = "252, 454, 344"
             },
             new Musician
@@ -4624,7 +4624,7 @@ namespace NineStarKi.Models
                 Name = "Afrika Bambaataa and the Soul Sonic Force",
                 Genres = new List<Genre> { Genres[6] },
                 Recording = "'Planet Rock'",
-                Occasions = new List<Occasion> { Occasions[7] },
+                Occasions = new List<Occasion> { Occasions[1] },
                 Numbers = "766, 1, 353, 582"
             },
             new Musician
@@ -4632,7 +4632,7 @@ namespace NineStarKi.Models
                 Name = "Ray Barretto",
                 Genres = new List<Genre> { Genres[14], Genres[45] },
                 Recording = "Barretto Power",
-                Occasions = new List<Occasion> { Occasions[7] },
+                Occasions = new List<Occasion> { Occasions[1] },
                 Numbers = "894"
             },
             new Musician
@@ -4640,7 +4640,7 @@ namespace NineStarKi.Models
                 Name = "The Beastie Boys",
                 Genres = new List<Genre> { Genres[6] },
                 Recording = "Paul's Boutique",
-                Occasions = new List<Occasion> { Occasions[7] },
+                Occasions = new List<Occasion> { Occasions[1] },
                 Numbers = "151, 822, 813, 995 & 793"
             },
             new Musician
@@ -4648,7 +4648,7 @@ namespace NineStarKi.Models
                 Name = "Bembeya Jazz National",
                 Genres = new List<Genre> { Genres[14], Genres[34] },
                 Recording = "The Syliphone Years",
-                Occasions = new List<Occasion> { Occasions[7] },
+                Occasions = new List<Occasion> { Occasions[1] },
                 Numbers = ""
             },
             new Musician
@@ -4656,7 +4656,7 @@ namespace NineStarKi.Models
                 Name = "Jorge Ben",
                 Genres = new List<Genre> { Genres[14], Genres[20] },
                 Recording = "Africa/Brazil",
-                Occasions = new List<Occasion> { Occasions[7] },
+                Occasions = new List<Occasion> { Occasions[1] },
                 Numbers = "472"
             },
             new Musician
@@ -4664,7 +4664,7 @@ namespace NineStarKi.Models
                 Name = "Chuck Berry",
                 Genres = new List<Genre> { Genres[12] },
                 Recording = "The Anthology",
-                Occasions = new List<Occasion> { Occasions[7] },
+                Occasions = new List<Occasion> { Occasions[1] },
                 Numbers = "234"
             },
             new Musician
@@ -4672,7 +4672,7 @@ namespace NineStarKi.Models
                 Name = "Rubén Blades and Willie Colón",
                 Genres = new List<Genre> { Genres[14], Genres[45] },
                 Recording = "Siembra",
-                Occasions = new List<Occasion> { Occasions[7] },
+                Occasions = new List<Occasion> { Occasions[1] },
                 Numbers = "591 & 739"
             },
             new Musician
@@ -4680,7 +4680,7 @@ namespace NineStarKi.Models
                 Name = "Bloque",
                 Genres = new List<Genre> { Genres[14], Genres[26] },
                 Recording = "Bloque",
-                Occasions = new List<Occasion> { Occasions[7] },
+                Occasions = new List<Occasion> { Occasions[1] },
                 Numbers = ""
             },
             new Musician
@@ -4688,7 +4688,7 @@ namespace NineStarKi.Models
                 Name = "Booker T. and the MGs",
                 Genres = new List<Genre> { Genres[11] },
                 Recording = "Melting Pot",
-                Occasions = new List<Occasion> { Occasions[7] },
+                Occasions = new List<Occasion> { Occasions[1] },
                 Numbers = "225, 537, 225, 418, 528, 187, 169, 555 & 894"
             },
             new Musician
@@ -4696,7 +4696,7 @@ namespace NineStarKi.Models
                 Name = "Chuck Brown and the Soul Searchers",
                 Genres = new List<Genre> { Genres[11] },
                 Recording = "Any Other Way to Go?",
-                Occasions = new List<Occasion> { Occasions[7] },
+                Occasions = new List<Occasion> { Occasions[1] },
                 Numbers = "124, 894"
             },
             new Musician
@@ -4704,7 +4704,7 @@ namespace NineStarKi.Models
                 Name = "James Brown and the JB's",
                 Genres = new List<Genre> { Genres[11] },
                 Recording = "'Sex Machine'",
-                Occasions = new List<Occasion> { Occasions[7] },
+                Occasions = new List<Occasion> { Occasions[1] },
                 Numbers = "463, 317, 353, 344, 831, 335, 499, 362, 398, 712, 279"
             },
             new Musician
@@ -4712,7 +4712,7 @@ namespace NineStarKi.Models
                 Name = "Buckwheat Zydeco",
                 Genres = new List<Genre> { Genres[0] },
                 Recording = "Buckwheat's Zydeco Party",
-                Occasions = new List<Occasion> { Occasions[7] },
+                Occasions = new List<Occasion> { Occasions[1] },
                 Numbers = "822"
             },
             new Musician
@@ -4720,7 +4720,7 @@ namespace NineStarKi.Models
                 Name = "Manu Chao",
                 Genres = new List<Genre> { Genres[14] },
                 Recording = "Clandestino",
-                Occasions = new List<Occasion> { Occasions[7] },
+                Occasions = new List<Occasion> { Occasions[1] },
                 Numbers = "317"
             },
             new Musician
@@ -4728,7 +4728,7 @@ namespace NineStarKi.Models
                 Name = "Ray Charles",
                 Genres = new List<Genre> { Genres[11] },
                 Recording = "The Best of Ray Charles: The Atlantic Years",
-                Occasions = new List<Occasion> { Occasions[7] },
+                Occasions = new List<Occasion> { Occasions[1] },
                 Numbers = "712"
             },
             new Musician
@@ -4736,7 +4736,7 @@ namespace NineStarKi.Models
                 Name = "Creedence Clearwater Revival",
                 Genres = new List<Genre> { Genres[12] },
                 Recording = "Willie and the Poor Boys",
-                Occasions = new List<Occasion> { Occasions[7] },
+                Occasions = new List<Occasion> { Occasions[1] },
                 Numbers = "151, 528, 169 & 169"
             },
             new Musician
@@ -4744,7 +4744,7 @@ namespace NineStarKi.Models
                 Name = "Celia Cruz and Johnny Pacheco",
                 Genres = new List<Genre> { Genres[14], Genres[45] },
                 Recording = "Celia y Johnny",
-                Occasions = new List<Occasion> { Occasions[7] },
+                Occasions = new List<Occasion> { Occasions[1] },
                 Numbers = "362 & 216"
             },
             new Musician
@@ -4752,7 +4752,7 @@ namespace NineStarKi.Models
                 Name = "Deep Purple",
                 Genres = new List<Genre> { Genres[12] },
                 Recording = "Machine Head",
-                Occasions = new List<Occasion> { Occasions[7] },
+                Occasions = new List<Occasion> { Occasions[1] },
                 Numbers = "748, 187, 124, 133, 748, 573, 169"
             },
             new Musician
@@ -4760,7 +4760,7 @@ namespace NineStarKi.Models
                 Name = "Bo Diddley",
                 Genres = new List<Genre> { Genres[12] },
                 Recording = "Bo Diddley",
-                Occasions = new List<Occasion> { Occasions[7] },
+                Occasions = new List<Occasion> { Occasions[1] },
                 Numbers = "941"
             },
             new Musician
@@ -4768,7 +4768,7 @@ namespace NineStarKi.Models
                 Name = "Dizzee Rascal",
                 Genres = new List<Genre> { Genres[6] },
                 Recording = "Boy in da Corner",
-                Occasions = new List<Occasion> { Occasions[7] },
+                Occasions = new List<Occasion> { Occasions[1] },
                 Numbers = "712"
             },
             new Musician
@@ -4776,7 +4776,7 @@ namespace NineStarKi.Models
                 Name = "Antoine 'Fats' Domino",
                 Genres = new List<Genre> { Genres[12] },
                 Recording = "They Call Me the Fat Man: The Legendary Imperial Recordings",
-                Occasions = new List<Occasion> { Occasions[7] },
+                Occasions = new List<Occasion> { Occasions[1] },
                 Numbers = "959"
             },
             new Musician
@@ -4784,7 +4784,7 @@ namespace NineStarKi.Models
                 Name = "Missy Elliott",
                 Genres = new List<Genre> { Genres[6] },
                 Recording = "Respect M.E.",
-                Occasions = new List<Occasion> { Occasions[7] },
+                Occasions = new List<Occasion> { Occasions[1] },
                 Numbers = "279"
             },
             new Musician
@@ -4792,7 +4792,7 @@ namespace NineStarKi.Models
                 Name = "The Fugees",
                 Genres = new List<Genre> { Genres[6] },
                 Recording = "The Score",
-                Occasions = new List<Occasion> { Occasions[7] },
+                Occasions = new List<Occasion> { Occasions[1] },
                 Numbers = "757, 499 & 196"
             },
             new Musician
@@ -4800,7 +4800,7 @@ namespace NineStarKi.Models
                 Name = "Bill Haley and His Comets",
                 Genres = new List<Genre> { Genres[12] },
                 Recording = "'Rock Around the Clock'",
-                Occasions = new List<Occasion> { Occasions[7] },
+                Occasions = new List<Occasion> { Occasions[1] },
                 Numbers = "317, 894, 353, 463, 995, 712, 427, 876, 784, 647"
             },
             new Musician
@@ -4808,7 +4808,7 @@ namespace NineStarKi.Models
                 Name = "Buddy Holly",
                 Genres = new List<Genre> { Genres[12] },
                 Recording = "The Buddy Holly Collection",
-                Occasions = new List<Occasion> { Occasions[7] },
+                Occasions = new List<Occasion> { Occasions[1] },
                 Numbers = "124"
             },
             new Musician
@@ -4816,7 +4816,7 @@ namespace NineStarKi.Models
                 Name = "The Jackson Five",
                 Genres = new List<Genre> { Genres[10], Genres[11] },
                 Recording = "'I Want You Back'",
-                Occasions = new List<Occasion> { Occasions[7] },
+                Occasions = new List<Occasion> { Occasions[1] },
                 Numbers = "463, 234, 178, 775 & 683"
             },
             new Musician
@@ -4824,7 +4824,7 @@ namespace NineStarKi.Models
                 Name = "Michael Jackson",
                 Genres = new List<Genre> { Genres[10] },
                 Recording = "Thriller",
-                Occasions = new List<Occasion> { Occasions[7] },
+                Occasions = new List<Occasion> { Occasions[1] },
                 Numbers = "683"
             },
             new Musician
@@ -4832,7 +4832,7 @@ namespace NineStarKi.Models
                 Name = "Elmore James",
                 Genres = new List<Genre> { Genres[0] },
                 Recording = "The Sky Is Crying",
-                Occasions = new List<Occasion> { Occasions[7] },
+                Occasions = new List<Occasion> { Occasions[1] },
                 Numbers = "297"
             },
             new Musician
@@ -4840,7 +4840,7 @@ namespace NineStarKi.Models
                 Name = "Rick James",
                 Genres = new List<Genre> { Genres[11] },
                 Recording = "Street Songs",
-                Occasions = new List<Occasion> { Occasions[7] },
+                Occasions = new List<Occasion> { Occasions[1] },
                 Numbers = "894"
             },
             new Musician
@@ -4848,7 +4848,7 @@ namespace NineStarKi.Models
                 Name = "Albert King",
                 Genres = new List<Genre> { Genres[0] },
                 Recording = "Born Under a Bad Sign",
-                Occasions = new List<Occasion> { Occasions[7] },
+                Occasions = new List<Occasion> { Occasions[1] },
                 Numbers = "591"
             },
             new Musician
@@ -4856,7 +4856,7 @@ namespace NineStarKi.Models
                 Name = "B.B. King",
                 Genres = new List<Genre> { Genres[0] },
                 Recording = "Live at the Regal",
-                Occasions = new List<Occasion> { Occasions[7] },
+                Occasions = new List<Occasion> { Occasions[1] },
                 Numbers = "371"
             },
             new Musician
@@ -4864,7 +4864,7 @@ namespace NineStarKi.Models
                 Name = "Kiss",
                 Genres = new List<Genre> { Genres[12] },
                 Recording = "'Rock and Roll All Nite'",
-                Occasions = new List<Occasion> { Occasions[7] },
+                Occasions = new List<Occasion> { Occasions[1] },
                 Numbers = "463, 683, 564 & 178"
             },
             new Musician
@@ -4872,7 +4872,7 @@ namespace NineStarKi.Models
                 Name = "Magic Sam",
                 Genres = new List<Genre> { Genres[0] },
                 Recording = "West Side Soul",
-                Occasions = new List<Occasion> { Occasions[7], Occasions[8] },
+                Occasions = new List<Occasion> { Occasions[1], Occasions[6] },
                 Numbers = "959"
             },
             new Musician
@@ -4880,7 +4880,7 @@ namespace NineStarKi.Models
                 Name = "Augustus Pablo",
                 Genres = new List<Genre> { Genres[14], Genres[42] },
                 Recording = "King Tubbys Meets Rockers Uptown",
-                Occasions = new List<Occasion> { Occasions[7] },
+                Occasions = new List<Occasion> { Occasions[1] },
                 Numbers = "142"
             },
             new Musician
@@ -4888,7 +4888,7 @@ namespace NineStarKi.Models
                 Name = "Parliament",
                 Genres = new List<Genre> { Genres[11] },
                 Recording = "Mothership Connection",
-                Occasions = new List<Occasion> { Occasions[7] },
+                Occasions = new List<Occasion> { Occasions[1] },
                 Numbers = "564, 647, 573, 454, 647, 591, 591, 712, 288, 297, 499, 362, 261, 867, 216, 822, 555, 317, 353, 187"
             },
             new Musician
@@ -4896,7 +4896,7 @@ namespace NineStarKi.Models
                 Name = "Carl Perkins",
                 Genres = new List<Genre> { Genres[12] },
                 Recording = "Dance Album",
-                Occasions = new List<Occasion> { Occasions[7] },
+                Occasions = new List<Occasion> { Occasions[1] },
                 Numbers = "591"
             },
             new Musician
@@ -4904,7 +4904,7 @@ namespace NineStarKi.Models
                 Name = "Itzhak Perlman",
                 Genres = new List<Genre> { Genres[14], Genres[44] },
                 Recording = "Live in the Fiddler's House",
-                Occasions = new List<Occasion> { Occasions[7] },
+                Occasions = new List<Occasion> { Occasions[1] },
                 Numbers = "124"
             },
             new Musician
@@ -4912,7 +4912,7 @@ namespace NineStarKi.Models
                 Name = "Wilson Pickett",
                 Genres = new List<Genre> { Genres[11] },
                 Recording = "The Exciting Wilson Pickett",
-                Occasions = new List<Occasion> { Occasions[7] },
+                Occasions = new List<Occasion> { Occasions[1] },
                 Numbers = "519"
             },
             new Musician
@@ -4920,7 +4920,7 @@ namespace NineStarKi.Models
                 Name = "Elvis Presley",
                 Genres = new List<Genre> { Genres[12] },
                 Recording = "Elvis at Sun",
-                Occasions = new List<Occasion> { Occasions[7] },
+                Occasions = new List<Occasion> { Occasions[1] },
                 Numbers = "335"
             },
             new Musician
@@ -4928,7 +4928,7 @@ namespace NineStarKi.Models
                 Name = "Louis Prima",
                 Genres = new List<Genre> { Genres[13] },
                 Recording = "The Wildest!",
-                Occasions = new List<Occasion> { Occasions[7] },
+                Occasions = new List<Occasion> { Occasions[1] },
                 Numbers = "959"
             },
             new Musician
@@ -4936,7 +4936,7 @@ namespace NineStarKi.Models
                 Name = "Otis Redding",
                 Genres = new List<Genre> { Genres[11] },
                 Recording = "Otis Blue",
-                Occasions = new List<Occasion> { Occasions[7] },
+                Occasions = new List<Occasion> { Occasions[1] },
                 Numbers = "546"
             },
             new Musician
@@ -4944,7 +4944,7 @@ namespace NineStarKi.Models
                 Name = "Jimmy Reed",
                 Genres = new List<Genre> { Genres[0] },
                 Recording = "The Very Best of Jimmy Reed",
-                Occasions = new List<Occasion> { Occasions[7] },
+                Occasions = new List<Occasion> { Occasions[1] },
                 Numbers = "389"
             },
             new Musician
@@ -4952,7 +4952,7 @@ namespace NineStarKi.Models
                 Name = "Tito Rodriguez",
                 Genres = new List<Genre> { Genres[14], Genres[45] },
                 Recording = "Live at the Palladium",
-                Occasions = new List<Occasion> { Occasions[7] },
+                Occasions = new List<Occasion> { Occasions[1] },
                 Numbers = "647"
             },
             new Musician
@@ -4960,7 +4960,7 @@ namespace NineStarKi.Models
                 Name = "Run-DMC",
                 Genres = new List<Genre> { Genres[6] },
                 Recording = "Raising Hell",
-                Occasions = new List<Occasion> { Occasions[7] },
+                Occasions = new List<Occasion> { Occasions[1] },
                 Numbers = "959, 923, 932"
             },
             new Musician
@@ -4968,7 +4968,7 @@ namespace NineStarKi.Models
                 Name = "Otis Rush",
                 Genres = new List<Genre> { Genres[0] },
                 Recording = "The Classic Cobra Recordings, 1956-1958",
-                Occasions = new List<Occasion> { Occasions[7] },
+                Occasions = new List<Occasion> { Occasions[1] },
                 Numbers = "335"
             },
             new Musician
@@ -4976,7 +4976,7 @@ namespace NineStarKi.Models
                 Name = "Mitch Ryder and the Detroit Wheels",
                 Genres = new List<Genre> { Genres[12] },
                 Recording = "'Devil with a Blue Dress On' and 'Good Golly Miss Molly'",
-                Occasions = new List<Occasion> { Occasions[7] },
+                Occasions = new List<Occasion> { Occasions[1] },
                 Numbers = "187, 151, 178, 674, 748"
             },
             new Musician
@@ -4984,7 +4984,7 @@ namespace NineStarKi.Models
                 Name = "Huey 'Piano' Smith and His Clowns",
                 Genres = new List<Genre> { Genres[11] },
                 Recording = "This Is…",
-                Occasions = new List<Occasion> { Occasions[7] },
+                Occasions = new List<Occasion> { Occasions[1] },
                 Numbers = "463"
             },
             new Musician
@@ -4992,7 +4992,7 @@ namespace NineStarKi.Models
                 Name = "Britney Spears",
                 Genres = new List<Genre> { Genres[10] },
                 Recording = "'Toxic'",
-                Occasions = new List<Occasion> { Occasions[7] },
+                Occasions = new List<Occasion> { Occasions[1] },
                 Numbers = "187"
             },
             new Musician
@@ -5000,7 +5000,7 @@ namespace NineStarKi.Models
                 Name = "The Streets",
                 Genres = new List<Genre> { Genres[6] },
                 Recording = "Original Pirate Material",
-                Occasions = new List<Occasion> { Occasions[7] },
+                Occasions = new List<Occasion> { Occasions[1] },
                 Numbers = "353, 234, 582"
             },
             new Musician
@@ -5008,7 +5008,7 @@ namespace NineStarKi.Models
                 Name = "Donna Summer",
                 Genres = new List<Genre> { Genres[11] },
                 Recording = "'I Feel Love'",
-                Occasions = new List<Occasion> { Occasions[7] },
+                Occasions = new List<Occasion> { Occasions[1] },
                 Numbers = "775"
             },
             new Musician
@@ -5016,7 +5016,7 @@ namespace NineStarKi.Models
                 Name = "The Supremes",
                 Genres = new List<Genre> { Genres[10], Genres[11] },
                 Recording = "'You Keep Me Hangin' On'",
-                Occasions = new List<Occasion> { Occasions[7] },
+                Occasions = new List<Occasion> { Occasions[1] },
                 Numbers = "216, 216, 317, 573, 317, 775, 225, 656, 234 & 674"
             },
             new Musician
@@ -5024,7 +5024,7 @@ namespace NineStarKi.Models
                 Name = "Big Mama Thornton",
                 Genres = new List<Genre> { Genres[0] },
                 Recording = "Hound Dog: The Peacock Recordings",
-                Occasions = new List<Occasion> { Occasions[7] },
+                Occasions = new List<Occasion> { Occasions[1] },
                 Numbers = "216"
             },
             new Musician
@@ -5032,7 +5032,7 @@ namespace NineStarKi.Models
                 Name = "Toots and the Maytals",
                 Genres = new List<Genre> { Genres[14], Genres[42] },
                 Recording = "Funky Kingston/In the Dark",
-                Occasions = new List<Occasion> { Occasions[7] },
+                Occasions = new List<Occasion> { Occasions[1] },
                 Numbers = "472, 2, 5, 813, 225, 243"
             },
             new Musician
@@ -5040,7 +5040,7 @@ namespace NineStarKi.Models
                 Name = "Allen Toussaint",
                 Genres = new List<Genre> { Genres[11] },
                 Recording = "Finger Poppin' and Stompin' Feet",
-                Occasions = new List<Occasion> { Occasions[7] },
+                Occasions = new List<Occasion> { Occasions[1] },
                 Numbers = "932"
             },
             new Musician
@@ -5048,7 +5048,7 @@ namespace NineStarKi.Models
                 Name = "Big Joe Turner",
                 Genres = new List<Genre> { Genres[11] },
                 Recording = "Big, Bad, and Blue",
-                Occasions = new List<Occasion> { Occasions[7] },
+                Occasions = new List<Occasion> { Occasions[1] },
                 Numbers = "885"
             },
             new Musician
@@ -5056,7 +5056,7 @@ namespace NineStarKi.Models
                 Name = "Ultramagnetic MCs",
                 Genres = new List<Genre> { Genres[6] },
                 Recording = "Critical Beatdown",
-                Occasions = new List<Occasion> { Occasions[7] },
+                Occasions = new List<Occasion> { Occasions[1] },
                 Numbers = "115, 124"
             },
             new Musician
@@ -5064,7 +5064,7 @@ namespace NineStarKi.Models
                 Name = "Usher",
                 Genres = new List<Genre> { Genres[11] },
                 Recording = "Confessions",
-                Occasions = new List<Occasion> { Occasions[7] },
+                Occasions = new List<Occasion> { Occasions[1] },
                 Numbers = "499"
             },
             new Musician
@@ -5072,7 +5072,7 @@ namespace NineStarKi.Models
                 Name = "Various Artists",
                 Genres = new List<Genre> { Genres[6] },
                 Recording = "The Best of Sugar Hill Records",
-                Occasions = new List<Occasion> { Occasions[7] },
+                Occasions = new List<Occasion> { Occasions[1] },
                 Numbers = ""
             },
             new Musician
@@ -5080,7 +5080,7 @@ namespace NineStarKi.Models
                 Name = "Various Artists",
                 Genres = new List<Genre> { Genres[12] },
                 Recording = "Dazed and Confused",
-                Occasions = new List<Occasion> { Occasions[7] },
+                Occasions = new List<Occasion> { Occasions[1] },
                 Numbers = ""
             },
             new Musician
@@ -5088,7 +5088,7 @@ namespace NineStarKi.Models
                 Name = "Various Artists",
                 Genres = new List<Genre> { Genres[7] },
                 Recording = "The Fabulous Swing Collection",
-                Occasions = new List<Occasion> { Occasions[7] },
+                Occasions = new List<Occasion> { Occasions[1] },
                 Numbers = ""
             },
             new Musician
@@ -5096,7 +5096,7 @@ namespace NineStarKi.Models
                 Name = "Fats Waller",
                 Genres = new List<Genre> { Genres[7] },
                 Recording = "If You Got to Ask, You Ain't Got It",
-                Occasions = new List<Occasion> { Occasions[7] },
+                Occasions = new List<Occasion> { Occasions[1] },
                 Numbers = "629"
             },
             new Musician
@@ -5104,7 +5104,7 @@ namespace NineStarKi.Models
                 Name = "War",
                 Genres = new List<Genre> { Genres[11] },
                 Recording = "Why Can't We Be Friends?",
-                Occasions = new List<Occasion> { Occasions[7] },
+                Occasions = new List<Occasion> { Occasions[1] },
                 Numbers = "784, 4"
             },
             new Musician
@@ -5112,7 +5112,7 @@ namespace NineStarKi.Models
                 Name = "The White Stripes",
                 Genres = new List<Genre> { Genres[12] },
                 Recording = "Elephant",
-                Occasions = new List<Occasion> { Occasions[7] },
+                Occasions = new List<Occasion> { Occasions[1] },
                 Numbers = "739 & 813"
             },
             new Musician
@@ -5120,7 +5120,7 @@ namespace NineStarKi.Models
                 Name = "The Wild Tchoupitoulas",
                 Genres = new List<Genre> { Genres[0], Genres[12] },
                 Recording = "The Wild Tchoupitoulas",
-                Occasions = new List<Occasion> { Occasions[7] },
+                Occasions = new List<Occasion> { Occasions[1] },
                 Numbers = ""
             },
             new Musician
@@ -5128,7 +5128,7 @@ namespace NineStarKi.Models
                 Name = "Jackie Wilson",
                 Genres = new List<Genre> { Genres[11] },
                 Recording = "The Very Best of Jackie Wilson",
-                Occasions = new List<Occasion> { Occasions[7] },
+                Occasions = new List<Occasion> { Occasions[1] },
                 Numbers = "317"
             },
             new Musician
@@ -5136,7 +5136,7 @@ namespace NineStarKi.Models
                 Name = "Fiona Apple",
                 Genres = new List<Genre> { Genres[12] },
                 Recording = "When the Pawn…",
-                Occasions = new List<Occasion> { Occasions[8] },
+                Occasions = new List<Occasion> { Occasions[6] },
                 Numbers = "546"
             },
             new Musician
@@ -5144,7 +5144,7 @@ namespace NineStarKi.Models
                 Name = "The Beatles",
                 Genres = new List<Genre> { Genres[12] },
                 Recording = "Revolver",
-                Occasions = new List<Occasion> { Occasions[8] },
+                Occasions = new List<Occasion> { Occasions[6] },
                 Numbers = "665, 445, 611, 353 & 528"
             },
             new Musician
@@ -5152,7 +5152,7 @@ namespace NineStarKi.Models
                 Name = "Buffalo Springfield",
                 Genres = new List<Genre> { Genres[12] },
                 Recording = "Retrospective",
-                Occasions = new List<Occasion> { Occasions[8] },
+                Occasions = new List<Occasion> { Occasions[6] },
                 Numbers = "288, 216, 187, 674, 977, 822, 923, 849"
             },
             new Musician
@@ -5160,7 +5160,7 @@ namespace NineStarKi.Models
                 Name = "Patsy Cline",
                 Genres = new List<Genre> { Genres[2] },
                 Recording = "The Patsy Cline Collection",
-                Occasions = new List<Occasion> { Occasions[8] },
+                Occasions = new List<Occasion> { Occasions[6] },
                 Numbers = "546"
             },
             new Musician
@@ -5168,7 +5168,7 @@ namespace NineStarKi.Models
                 Name = "Lester Flatt",
                 Genres = new List<Genre> { Genres[2] },
                 Recording = "Earl Scruggs, and the Foggy Mountain Boys, Foggy Mountain Jamboree",
-                Occasions = new List<Occasion> { Occasions[8] },
+                Occasions = new List<Occasion> { Occasions[6] },
                 Numbers = "573, 591, 326, 115, 941, 216, 418, 923, 638, 528, 445, 793"
             },
             new Musician
@@ -5176,7 +5176,7 @@ namespace NineStarKi.Models
                 Name = "Emmylou Harris",
                 Genres = new List<Genre> { Genres[2] },
                 Recording = "Pieces of the Sky",
-                Occasions = new List<Occasion> { Occasions[8] },
+                Occasions = new List<Occasion> { Occasions[6] },
                 Numbers = "813"
             },
             new Musician
@@ -5184,7 +5184,7 @@ namespace NineStarKi.Models
                 Name = "Jascha Heifetz",
                 Genres = new List<Genre> { Genres[1] },
                 Recording = "Brahms, Tchaikovsky Violin Concertos",
-                Occasions = new List<Occasion> { Occasions[8] },
+                Occasions = new List<Occasion> { Occasions[6] },
                 Numbers = "169, 528 & 757"
             },
             new Musician
@@ -5192,7 +5192,7 @@ namespace NineStarKi.Models
                 Name = "Waylon Jennings",
                 Genres = new List<Genre> { Genres[2] },
                 Recording = "Honky Tonk Heroes",
-                Occasions = new List<Occasion> { Occasions[8] },
+                Occasions = new List<Occasion> { Occasions[6] },
                 Numbers = "914"
             },
             new Musician
@@ -5200,7 +5200,7 @@ namespace NineStarKi.Models
                 Name = "Booker Little",
                 Genres = new List<Genre> { Genres[7] },
                 Recording = "Out Front",
-                Occasions = new List<Occasion> { Occasions[8] },
+                Occasions = new List<Occasion> { Occasions[6] },
                 Numbers = "813"
             },
             new Musician
@@ -5208,7 +5208,7 @@ namespace NineStarKi.Models
                 Name = "The Dave Matthews Band",
                 Genres = new List<Genre> { Genres[12] },
                 Recording = "The Gorge",
-                Occasions = new List<Occasion> { Occasions[8] },
+                Occasions = new List<Occasion> { Occasions[6] },
                 Numbers = "766, 665, 885, 775, 463, 867, 389, 472, 335, 923"
             },
             new Musician
@@ -5216,7 +5216,7 @@ namespace NineStarKi.Models
                 Name = "Blind Willie McTell",
                 Genres = new List<Genre> { Genres[0] },
                 Recording = "The Definitive Blind Willie McTell",
-                Occasions = new List<Occasion> { Occasions[8] },
+                Occasions = new List<Occasion> { Occasions[6] },
                 Numbers = "335"
             },
             new Musician
@@ -5224,7 +5224,7 @@ namespace NineStarKi.Models
                 Name = "Charles Mingus",
                 Genres = new List<Genre> { Genres[7] },
                 Recording = "Mingus Ah Um",
-                Occasions = new List<Occasion> { Occasions[8] },
+                Occasions = new List<Occasion> { Occasions[6] },
                 Numbers = "638"
             },
             new Musician
@@ -5232,7 +5232,7 @@ namespace NineStarKi.Models
                 Name = "Nitty Gritty Dirt Band",
                 Genres = new List<Genre> { Genres[2], Genres[12] },
                 Recording = "Will the Circle Be Unbroken",
-                Occasions = new List<Occasion> { Occasions[8] },
+                Occasions = new List<Occasion> { Occasions[6] },
                 Numbers = "867, 178, 775, 932, 793, 867, 261"
             },
             new Musician
@@ -5240,7 +5240,7 @@ namespace NineStarKi.Models
                 Name = "Marty Robbins",
                 Genres = new List<Genre> { Genres[2] },
                 Recording = "Gunfighter Ballads and Trail Songs",
-                Occasions = new List<Occasion> { Occasions[8] },
+                Occasions = new List<Occasion> { Occasions[6] },
                 Numbers = "371"
             },
             new Musician
@@ -5248,7 +5248,7 @@ namespace NineStarKi.Models
                 Name = "Santana",
                 Genres = new List<Genre> { Genres[12] },
                 Recording = "Abraxis",
-                Occasions = new List<Occasion> { Occasions[8] },
+                Occasions = new List<Occasion> { Occasions[6] },
                 Numbers = "867"
             },
             new Musician
@@ -5256,7 +5256,7 @@ namespace NineStarKi.Models
                 Name = "Hank Snow",
                 Genres = new List<Genre> { Genres[2] },
                 Recording = "The Essential",
-                Occasions = new List<Occasion> { Occasions[8] },
+                Occasions = new List<Occasion> { Occasions[6] },
                 Numbers = "582"
             },
             new Musician
@@ -5264,7 +5264,7 @@ namespace NineStarKi.Models
                 Name = "T. Rex",
                 Genres = new List<Genre> { Genres[12] },
                 Recording = "Electric Warrior",
-                Occasions = new List<Occasion> { Occasions[8] },
+                Occasions = new List<Occasion> { Occasions[6] },
                 Numbers = "849, 692, 885, 885, 914, 196, 472, 216, 169, 885, 344 & 9"
             },
             new Musician
@@ -5272,7 +5272,7 @@ namespace NineStarKi.Models
                 Name = "Hank Williams",
                 Genres = new List<Genre> { Genres[2] },
                 Recording = "Forty Greatest Hits",
-                Occasions = new List<Occasion> { Occasions[8] },
+                Occasions = new List<Occasion> { Occasions[6] },
                 Numbers = "546"
             },
             new Musician
@@ -5408,7 +5408,7 @@ namespace NineStarKi.Models
                 Name = "Pink Floyd",
                 Genres = new List<Genre> { Genres[12] },
                 Recording = "Dark Side of the Moon",
-                Occasions = new List<Occasion> { Occasions[9], Occasions[10] },
+                Occasions = new List<Occasion> { Occasions[9], Occasions[9] },
                 Numbers = "335, 389, 398, 169, 941"
             },
             new Musician
@@ -5440,7 +5440,7 @@ namespace NineStarKi.Models
                 Name = "Television",
                 Genres = new List<Genre> { Genres[12] },
                 Recording = "Marquee Moon",
-                Occasions = new List<Occasion> { Occasions[9], Occasions[10] },
+                Occasions = new List<Occasion> { Occasions[9], Occasions[9] },
                 Numbers = "647, 528, 766, 499, 674 & 8"
             },
             new Musician
@@ -5480,7 +5480,7 @@ namespace NineStarKi.Models
                 Name = "Alban Berg and Igor Stravinsky",
                 Genres = new List<Genre> { Genres[1] },
                 Recording = "Alban Berg: Violin Concerto; Igor Stravinsky: Violin Concerto",
-                Occasions = new List<Occasion> { Occasions[10] },
+                Occasions = new List<Occasion> { Occasions[9] },
                 Numbers = "784 & 142"
             },
             new Musician
@@ -5488,7 +5488,7 @@ namespace NineStarKi.Models
                 Name = "Hector Berlioz",
                 Genres = new List<Genre> { Genres[1] },
                 Recording = "Symphonie fantastique",
-                Occasions = new List<Occasion> { Occasions[10] },
+                Occasions = new List<Occasion> { Occasions[9] },
                 Numbers = "813"
             },
             new Musician
@@ -5496,7 +5496,7 @@ namespace NineStarKi.Models
                 Name = "Aaron Copland",
                 Genres = new List<Genre> { Genres[1] },
                 Recording = "Symphony No. 3",
-                Occasions = new List<Occasion> { Occasions[10] },
+                Occasions = new List<Occasion> { Occasions[9] },
                 Numbers = "187"
             },
             new Musician
@@ -5504,7 +5504,7 @@ namespace NineStarKi.Models
                 Name = "Antonín Dvořák",
                 Genres = new List<Genre> { Genres[1] },
                 Recording = "Symphony No. 9",
-                Occasions = new List<Occasion> { Occasions[10] },
+                Occasions = new List<Occasion> { Occasions[9] },
                 Numbers = "674"
             },
             new Musician
@@ -5512,7 +5512,7 @@ namespace NineStarKi.Models
                 Name = "Gustav Holst",
                 Genres = new List<Genre> { Genres[1] },
                 Recording = "The Planets",
-                Occasions = new List<Occasion> { Occasions[10] },
+                Occasions = new List<Occasion> { Occasions[9] },
                 Numbers = "977"
             },
             new Musician
@@ -5520,7 +5520,7 @@ namespace NineStarKi.Models
                 Name = "Olivier Messiaen",
                 Genres = new List<Genre> { Genres[1] },
                 Recording = "Quartet for the End of Time",
-                Occasions = new List<Occasion> { Occasions[10] },
+                Occasions = new List<Occasion> { Occasions[9] },
                 Numbers = "216"
             },
             new Musician
@@ -5528,7 +5528,7 @@ namespace NineStarKi.Models
                 Name = "Giuseppe Verdi",
                 Genres = new List<Genre> { Genres[1] },
                 Recording = "Requiem",
-                Occasions = new List<Occasion> { Occasions[10] },
+                Occasions = new List<Occasion> { Occasions[9] },
                 Numbers = "784"
             },
             new Musician
@@ -5536,7 +5536,7 @@ namespace NineStarKi.Models
                 Name = "Kraftwerk",
                 Genres = new List<Genre> { Genres[3], Genres[12] },
                 Recording = "Trans-Europe Express",
-                Occasions = new List<Occasion> { Occasions[10] },
+                Occasions = new List<Occasion> { Occasions[9] },
                 Numbers = "986, 885, 216, 894, 941, 4, 555, 968, 867, 766, 326, 4"
             },
             new Musician
@@ -5544,7 +5544,7 @@ namespace NineStarKi.Models
                 Name = "M83",
                 Genres = new List<Genre> { Genres[3] },
                 Recording = "Dead Cities, Red Seas, and Lost Ghosts",
-                Occasions = new List<Occasion> { Occasions[10] },
+                Occasions = new List<Occasion> { Occasions[9] },
                 Numbers = "216, 766, 8, 5, 225"
             },
             new Musician
@@ -5552,7 +5552,7 @@ namespace NineStarKi.Models
                 Name = "Neu!",
                 Genres = new List<Genre> { Genres[3] },
                 Recording = "Neu! '75",
-                Occasions = new List<Occasion> { Occasions[10] },
+                Occasions = new List<Occasion> { Occasions[9] },
                 Numbers = "941, 555, 178, 546, 362"
             },
             new Musician
@@ -5560,7 +5560,7 @@ namespace NineStarKi.Models
                 Name = "Paul Oakenfold",
                 Genres = new List<Genre> { Genres[3] },
                 Recording = "Tranceport",
-                Occasions = new List<Occasion> { Occasions[10] },
+                Occasions = new List<Occasion> { Occasions[9] },
                 Numbers = "124"
             },
             new Musician
@@ -5568,7 +5568,7 @@ namespace NineStarKi.Models
                 Name = "Tangerine Dream",
                 Genres = new List<Genre> { Genres[3], Genres[12] },
                 Recording = "Rubycon",
-                Occasions = new List<Occasion> { Occasions[10] },
+                Occasions = new List<Occasion> { Occasions[9] },
                 Numbers = "528, 1, 5, 279, 638, 867, 941, 297, 335, 472, 528, 216, 6, 353, 555, 481"
             },
             new Musician
@@ -5576,7 +5576,7 @@ namespace NineStarKi.Models
                 Name = "Various Artists",
                 Genres = new List<Genre> { Genres[3] },
                 Recording = "Trainspotting",
-                Occasions = new List<Occasion> { Occasions[10] },
+                Occasions = new List<Occasion> { Occasions[9] },
                 Numbers = ""
             },
             new Musician
@@ -5584,7 +5584,7 @@ namespace NineStarKi.Models
                 Name = "Steeleye Span",
                 Genres = new List<Genre> { Genres[4] },
                 Recording = "Parcel of Rogues",
-                Occasions = new List<Occasion> { Occasions[10] },
+                Occasions = new List<Occasion> { Occasions[9] },
                 Numbers = "858, 721, 6, 885, 582, 894, 528, 297, 822, 712, 582, 216, 766, 858"
             },
             new Musician
@@ -5592,7 +5592,7 @@ namespace NineStarKi.Models
                 Name = "Dr. Dre",
                 Genres = new List<Genre> { Genres[6] },
                 Recording = "The Chronic",
-                Occasions = new List<Occasion> { Occasions[10] },
+                Occasions = new List<Occasion> { Occasions[9] },
                 Numbers = "822"
             },
             new Musician
@@ -5600,7 +5600,7 @@ namespace NineStarKi.Models
                 Name = "Eminem",
                 Genres = new List<Genre> { Genres[6] },
                 Recording = "The Marshall Mathers LP",
-                Occasions = new List<Occasion> { Occasions[10] },
+                Occasions = new List<Occasion> { Occasions[9] },
                 Numbers = "196"
             },
             new Musician
@@ -5608,7 +5608,7 @@ namespace NineStarKi.Models
                 Name = "The Notorious B.I.G.",
                 Genres = new List<Genre> { Genres[6] },
                 Recording = "Ready to Die",
-                Occasions = new List<Occasion> { Occasions[10] },
+                Occasions = new List<Occasion> { Occasions[9] },
                 Numbers = "151"
             },
             new Musician
@@ -5616,7 +5616,7 @@ namespace NineStarKi.Models
                 Name = "The Roots",
                 Genres = new List<Genre> { Genres[6] },
                 Recording = "Phrenology",
-                Occasions = new List<Occasion> { Occasions[10] },
+                Occasions = new List<Occasion> { Occasions[9] },
                 Numbers = "243, 335, 977, 766, 8, 187, 546"
             },
             new Musician
@@ -5624,7 +5624,7 @@ namespace NineStarKi.Models
                 Name = "Anthony Braxton",
                 Genres = new List<Genre> { Genres[7] },
                 Recording = "For Alto",
-                Occasions = new List<Occasion> { Occasions[10] },
+                Occasions = new List<Occasion> { Occasions[9] },
                 Numbers = "151"
             },
             new Musician
@@ -5632,7 +5632,7 @@ namespace NineStarKi.Models
                 Name = "Uri Caine",
                 Genres = new List<Genre> { Genres[7] },
                 Recording = "Urlicht/Primal Light",
-                Occasions = new List<Occasion> { Occasions[10] },
+                Occasions = new List<Occasion> { Occasions[9] },
                 Numbers = "876"
             },
             new Musician
@@ -5640,7 +5640,7 @@ namespace NineStarKi.Models
                 Name = "Don Cherry, Dewey Redman, Charlie Haden, and Ed Blackwell",
                 Genres = new List<Genre> { Genres[7] },
                 Recording = "Old and New",
-                Occasions = new List<Occasion> { Occasions[10] },
+                Occasions = new List<Occasion> { Occasions[9] },
                 Numbers = "187, 629, 995 & 831"
             },
             new Musician
@@ -5648,7 +5648,7 @@ namespace NineStarKi.Models
                 Name = "Chick Corea and Return to Forever",
                 Genres = new List<Genre> { Genres[7] },
                 Recording = "Light as a Feather",
-                Occasions = new List<Occasion> { Occasions[10] },
+                Occasions = new List<Occasion> { Occasions[9] },
                 Numbers = "573, 445, 647, 647, 418, 941, 564, 472, 169, 243, 133"
             },
             new Musician
@@ -5656,7 +5656,7 @@ namespace NineStarKi.Models
                 Name = "Miles Davis",
                 Genres = new List<Genre> { Genres[7] },
                 Recording = "Bitches Brew",
-                Occasions = new List<Occasion> { Occasions[10] },
+                Occasions = new List<Occasion> { Occasions[9] },
                 Numbers = "288"
             },
             new Musician
@@ -5664,7 +5664,7 @@ namespace NineStarKi.Models
                 Name = "Dave Douglas",
                 Genres = new List<Genre> { Genres[7] },
                 Recording = "Charms of the Night Sky",
-                Occasions = new List<Occasion> { Occasions[10] },
+                Occasions = new List<Occasion> { Occasions[9] },
                 Numbers = "178"
             },
             new Musician
@@ -5672,7 +5672,7 @@ namespace NineStarKi.Models
                 Name = "Rahsaan Roland Kirk",
                 Genres = new List<Genre> { Genres[7] },
                 Recording = "Volunteered Slavery",
-                Occasions = new List<Occasion> { Occasions[10] },
+                Occasions = new List<Occasion> { Occasions[9] },
                 Numbers = "261"
             },
             new Musician
@@ -5680,7 +5680,7 @@ namespace NineStarKi.Models
                 Name = "Pat Martino",
                 Genres = new List<Genre> { Genres[7] },
                 Recording = "Consciousness/Live!",
-                Occasions = new List<Occasion> { Occasions[10] },
+                Occasions = new List<Occasion> { Occasions[9] },
                 Numbers = "252"
             },
             new Musician
@@ -5688,7 +5688,7 @@ namespace NineStarKi.Models
                 Name = "Jason Moran",
                 Genres = new List<Genre> { Genres[7] },
                 Recording = "The Bandwagon",
-                Occasions = new List<Occasion> { Occasions[10] },
+                Occasions = new List<Occasion> { Occasions[9] },
                 Numbers = "894"
             },
             new Musician
@@ -5696,7 +5696,7 @@ namespace NineStarKi.Models
                 Name = "Paul Motian",
                 Genres = new List<Genre> { Genres[7] },
                 Recording = "On Broadway Vol. 1",
-                Occasions = new List<Occasion> { Occasions[10] },
+                Occasions = new List<Occasion> { Occasions[9] },
                 Numbers = "647"
             },
             new Musician
@@ -5704,7 +5704,7 @@ namespace NineStarKi.Models
                 Name = "Sun Ra and His Arkestra",
                 Genres = new List<Genre> { Genres[7] },
                 Recording = "Jazz in Silhouette",
-                Occasions = new List<Occasion> { Occasions[10] },
+                Occasions = new List<Occasion> { Occasions[9] },
                 Numbers = "582, 454, 674, 187"
             },
             new Musician
@@ -5712,7 +5712,7 @@ namespace NineStarKi.Models
                 Name = "The Tony Williams Lifetime",
                 Genres = new List<Genre> { Genres[7] },
                 Recording = "Emergency!",
-                Occasions = new List<Occasion> { Occasions[10] },
+                Occasions = new List<Occasion> { Occasions[9] },
                 Numbers = "178, 519, 674, 326, 995, 317, 169, 326, 775, 784, 932, 959, 638"
             },
             new Musician
@@ -5720,7 +5720,7 @@ namespace NineStarKi.Models
                 Name = "Alban Berg",
                 Genres = new List<Genre> { Genres[9] },
                 Recording = "Wozzeck",
-                Occasions = new List<Occasion> { Occasions[10] },
+                Occasions = new List<Occasion> { Occasions[9] },
                 Numbers = "784"
             },
             new Musician
@@ -5728,7 +5728,7 @@ namespace NineStarKi.Models
                 Name = "Georges Bizet",
                 Genres = new List<Genre> { Genres[9] },
                 Recording = "Carmen",
-                Occasions = new List<Occasion> { Occasions[10] },
+                Occasions = new List<Occasion> { Occasions[9] },
                 Numbers = "968"
             },
             new Musician
@@ -5736,7 +5736,7 @@ namespace NineStarKi.Models
                 Name = "Philip Glass",
                 Genres = new List<Genre> { Genres[9] },
                 Recording = "Einstein on the Beach",
-                Occasions = new List<Occasion> { Occasions[10] },
+                Occasions = new List<Occasion> { Occasions[9] },
                 Numbers = "169"
             },
             new Musician
@@ -5744,7 +5744,7 @@ namespace NineStarKi.Models
                 Name = "Osvaldo Golijov",
                 Genres = new List<Genre> { Genres[9] },
                 Recording = "Ainadamar",
-                Occasions = new List<Occasion> { Occasions[10] },
+                Occasions = new List<Occasion> { Occasions[9] },
                 Numbers = "481"
             },
             new Musician
@@ -5752,7 +5752,7 @@ namespace NineStarKi.Models
                 Name = "Jean-Philippe Rameau",
                 Genres = new List<Genre> { Genres[9] },
                 Recording = "Platée",
-                Occasions = new List<Occasion> { Occasions[10] },
+                Occasions = new List<Occasion> { Occasions[9] },
                 Numbers = "243"
             },
             new Musician
@@ -5760,7 +5760,7 @@ namespace NineStarKi.Models
                 Name = "Kate Bush",
                 Genres = new List<Genre> { Genres[10] },
                 Recording = "The Kick Inside",
-                Occasions = new List<Occasion> { Occasions[10] },
+                Occasions = new List<Occasion> { Occasions[9] },
                 Numbers = "692"
             },
             new Musician
@@ -5768,7 +5768,7 @@ namespace NineStarKi.Models
                 Name = "Dr. John",
                 Genres = new List<Genre> { Genres[11] },
                 Recording = "Gris-Gris",
-                Occasions = new List<Occasion> { Occasions[10] },
+                Occasions = new List<Occasion> { Occasions[9] },
                 Numbers = "528"
             },
             new Musician
@@ -5776,7 +5776,7 @@ namespace NineStarKi.Models
                 Name = "Shuggie Otis",
                 Genres = new List<Genre> { Genres[11] },
                 Recording = "Inspiration Information",
-                Occasions = new List<Occasion> { Occasions[10] },
+                Occasions = new List<Occasion> { Occasions[9] },
                 Numbers = "225"
             },
             new Musician
@@ -5784,7 +5784,7 @@ namespace NineStarKi.Models
                 Name = "Bauhaus",
                 Genres = new List<Genre> { Genres[12] },
                 Recording = "In the Flat Field",
-                Occasions = new List<Occasion> { Occasions[10] },
+                Occasions = new List<Occasion> { Occasions[9] },
                 Numbers = "739, 739, 436 & 766"
             },
             new Musician
@@ -5792,7 +5792,7 @@ namespace NineStarKi.Models
                 Name = "The Beatles",
                 Genres = new List<Genre> { Genres[12] },
                 Recording = "Sgt. Pepper's Lonely Hearts Club Band",
-                Occasions = new List<Occasion> { Occasions[10] },
+                Occasions = new List<Occasion> { Occasions[9] },
                 Numbers = "665, 445, 611, 353 & 528"
             },
             new Musician
@@ -5800,7 +5800,7 @@ namespace NineStarKi.Models
                 Name = "The Beatles",
                 Genres = new List<Genre> { Genres[12] },
                 Recording = "The Beatles (The White Album)",
-                Occasions = new List<Occasion> { Occasions[10] },
+                Occasions = new List<Occasion> { Occasions[9] },
                 Numbers = "665, 445, 611, 353 & 528"
             },
             new Musician
@@ -5808,7 +5808,7 @@ namespace NineStarKi.Models
                 Name = "The Beatles",
                 Genres = new List<Genre> { Genres[12] },
                 Recording = "Abbey Road",
-                Occasions = new List<Occasion> { Occasions[10] },
+                Occasions = new List<Occasion> { Occasions[9] },
                 Numbers = "665, 445, 611, 353 & 528"
             },
             new Musician
@@ -5816,7 +5816,7 @@ namespace NineStarKi.Models
                 Name = "Beck",
                 Genres = new List<Genre> { Genres[12] },
                 Recording = "Mutations",
-                Occasions = new List<Occasion> { Occasions[10] },
+                Occasions = new List<Occasion> { Occasions[9] },
                 Numbers = "398"
             },
             new Musician
@@ -5824,7 +5824,7 @@ namespace NineStarKi.Models
                 Name = "Belle and Sebastian",
                 Genres = new List<Genre> { Genres[12] },
                 Recording = "If You're Feeling Sinister",
-                Occasions = new List<Occasion> { Occasions[10] },
+                Occasions = new List<Occasion> { Occasions[9] },
                 Numbers = "555, 822, 398, 178, 591, 793, 638, 941"
             },
             new Musician
@@ -5832,7 +5832,7 @@ namespace NineStarKi.Models
                 Name = "Björk",
                 Genres = new List<Genre> { Genres[12] },
                 Recording = "Homogenic",
-                Occasions = new List<Occasion> { Occasions[10] },
+                Occasions = new List<Occasion> { Occasions[9] },
                 Numbers = "822"
             },
             new Musician
@@ -5840,7 +5840,7 @@ namespace NineStarKi.Models
                 Name = "Blind Faith",
                 Genres = new List<Genre> { Genres[12] },
                 Recording = "Blind Faith",
-                Occasions = new List<Occasion> { Occasions[10] },
+                Occasions = new List<Occasion> { Occasions[9] },
                 Numbers = "757, 178, 721 & 196"
             },
             new Musician
@@ -5848,7 +5848,7 @@ namespace NineStarKi.Models
                 Name = "David Bowie",
                 Genres = new List<Genre> { Genres[12] },
                 Recording = "The Rise and Fall of Ziggy Stardust and the Spiders from Mars",
-                Occasions = new List<Occasion> { Occasions[10] },
+                Occasions = new List<Occasion> { Occasions[9] },
                 Numbers = "932"
             },
             new Musician
@@ -5856,7 +5856,7 @@ namespace NineStarKi.Models
                 Name = "Jeff Buckley",
                 Genres = new List<Genre> { Genres[12] },
                 Recording = "Grace",
-                Occasions = new List<Occasion> { Occasions[10] },
+                Occasions = new List<Occasion> { Occasions[9] },
                 Numbers = "784"
             },
             new Musician
@@ -5864,7 +5864,7 @@ namespace NineStarKi.Models
                 Name = "David Byrne and Brian Eno",
                 Genres = new List<Genre> { Genres[12] },
                 Recording = "My Life in the Bush of Ghosts",
-                Occasions = new List<Occasion> { Occasions[10] },
+                Occasions = new List<Occasion> { Occasions[9] },
                 Numbers = "326 & 757"
             },
             new Musician
@@ -5872,7 +5872,7 @@ namespace NineStarKi.Models
                 Name = "CAN",
                 Genres = new List<Genre> { Genres[12] },
                 Recording = "Tago Mago",
-                Occasions = new List<Occasion> { Occasions[10] },
+                Occasions = new List<Occasion> { Occasions[9] },
                 Numbers = "766, 885, 923, 813, 2, 638, 766, 225"
             },
             new Musician
@@ -5880,7 +5880,7 @@ namespace NineStarKi.Models
                 Name = "Captain Beefheart and His Magic Band",
                 Genres = new List<Genre> { Genres[12] },
                 Recording = "Trout Mask Replica",
-                Occasions = new List<Occasion> { Occasions[10] },
+                Occasions = new List<Occasion> { Occasions[9] },
                 Numbers = "638, 546, 712, 629, 766, 692, 721, 243, 555, 335, 813, 326, 867, 932, 353"
             },
             new Musician
@@ -5888,7 +5888,7 @@ namespace NineStarKi.Models
                 Name = "Cream",
                 Genres = new List<Genre> { Genres[12] },
                 Recording = "Disraeli Gears",
-                Occasions = new List<Occasion> { Occasions[10] },
+                Occasions = new List<Occasion> { Occasions[9] },
                 Numbers = "721, 326 & 178"
             },
             new Musician
@@ -5896,7 +5896,7 @@ namespace NineStarKi.Models
                 Name = "The Cure",
                 Genres = new List<Genre> { Genres[12] },
                 Recording = "The Head on the Door",
-                Occasions = new List<Occasion> { Occasions[10] },
+                Occasions = new List<Occasion> { Occasions[9] },
                 Numbers = "591, 454, 968, 766, 885, 656, 481, 591, 519, 638, 766, 427, 784"
             },
             new Musician
@@ -5904,7 +5904,7 @@ namespace NineStarKi.Models
                 Name = "The Decemberists",
                 Genres = new List<Genre> { Genres[12] },
                 Recording = "The Crane Wife",
-                Occasions = new List<Occasion> { Occasions[10] },
+                Occasions = new List<Occasion> { Occasions[9] },
                 Numbers = "849, 225, 216, 986, 481, 234"
             },
             new Musician
@@ -5912,7 +5912,7 @@ namespace NineStarKi.Models
                 Name = "Derek and the Dominos",
                 Genres = new List<Genre> { Genres[12] },
                 Recording = "Layla and Other Assorted Love Songs",
-                Occasions = new List<Occasion> { Occasions[10] },
+                Occasions = new List<Occasion> { Occasions[9] },
                 Numbers = "178, 775, 445, 133, 923, 959"
             },
             new Musician
@@ -5920,7 +5920,7 @@ namespace NineStarKi.Models
                 Name = "The Doors",
                 Genres = new List<Genre> { Genres[12] },
                 Recording = "The Doors",
-                Occasions = new List<Occasion> { Occasions[10] },
+                Occasions = new List<Occasion> { Occasions[9] },
                 Numbers = "344, 784, 169 & 225"
             },
             new Musician
@@ -5928,7 +5928,7 @@ namespace NineStarKi.Models
                 Name = "Emerson, Lake, and Palmer",
                 Genres = new List<Genre> { Genres[12] },
                 Recording = "Brain Salad Surgery",
-                Occasions = new List<Occasion> { Occasions[10] },
+                Occasions = new List<Occasion> { Occasions[9] },
                 Numbers = "234, 822 & 519"
             },
             new Musician
@@ -5936,7 +5936,7 @@ namespace NineStarKi.Models
                 Name = "Brian Eno",
                 Genres = new List<Genre> { Genres[12] },
                 Recording = "Another Green World",
-                Occasions = new List<Occasion> { Occasions[10] },
+                Occasions = new List<Occasion> { Occasions[9] },
                 Numbers = "757"
             },
             new Musician
@@ -5944,7 +5944,7 @@ namespace NineStarKi.Models
                 Name = "Faust",
                 Genres = new List<Genre> { Genres[12] },
                 Recording = "Faust/So Far",
-                Occasions = new List<Occasion> { Occasions[10] },
+                Occasions = new List<Occasion> { Occasions[9] },
                 Numbers = "5, 629, 9, 4, 2, 546"
             },
             new Musician
@@ -5952,7 +5952,7 @@ namespace NineStarKi.Models
                 Name = "The Flaming Lips",
                 Genres = new List<Genre> { Genres[12] },
                 Recording = "The Soft Bulletin",
-                Occasions = new List<Occasion> { Occasions[10] },
+                Occasions = new List<Occasion> { Occasions[9] },
                 Numbers = "463, 178, 445, 225, 757, 914"
             },
             new Musician
@@ -5960,7 +5960,7 @@ namespace NineStarKi.Models
                 Name = "Peter Gabriel",
                 Genres = new List<Genre> { Genres[12] },
                 Recording = "Peter Gabriel 3",
-                Occasions = new List<Occasion> { Occasions[10] },
+                Occasions = new List<Occasion> { Occasions[9] },
                 Numbers = "528"
             },
             new Musician
@@ -5968,7 +5968,7 @@ namespace NineStarKi.Models
                 Name = "Genesis",
                 Genres = new List<Genre> { Genres[12] },
                 Recording = "The Lamb Lies Down on Broadwa",
-                Occasions = new List<Occasion> { Occasions[10] },
+                Occasions = new List<Occasion> { Occasions[9] },
                 Numbers = "519, 546, 591, 528, 472, 472, 5, 813, 528, 546"
             },
             new Musician
@@ -5976,7 +5976,7 @@ namespace NineStarKi.Models
                 Name = "Gong",
                 Genres = new List<Genre> { Genres[12] },
                 Recording = "Gazeuse!",
-                Occasions = new List<Occasion> { Occasions[10] },
+                Occasions = new List<Occasion> { Occasions[9] },
                 Numbers = "463, 4, 225, 932, 454, 463, 629"
             },
             new Musician
@@ -5984,7 +5984,7 @@ namespace NineStarKi.Models
                 Name = "Jimi Hendrix",
                 Genres = new List<Genre> { Genres[12] },
                 Recording = "Band of Gypsys",
-                Occasions = new List<Occasion> { Occasions[10] },
+                Occasions = new List<Occasion> { Occasions[9] },
                 Numbers = "481"
             },
             new Musician
@@ -5992,7 +5992,7 @@ namespace NineStarKi.Models
                 Name = "The Jesus and Mary Chain",
                 Genres = new List<Genre> { Genres[12] },
                 Recording = "Psychocandy",
-                Occasions = new List<Occasion> { Occasions[10] },
+                Occasions = new List<Occasion> { Occasions[9] },
                 Numbers = "344, 665, 894, 279, 573, 335, 941"
             },
             new Musician
@@ -6000,7 +6000,7 @@ namespace NineStarKi.Models
                 Name = "Joy Division",
                 Genres = new List<Genre> { Genres[12] },
                 Recording = "Unknown Pleasures",
-                Occasions = new List<Occasion> { Occasions[10] },
+                Occasions = new List<Occasion> { Occasions[9] },
                 Numbers = "867, 941, 822 & 793"
             },
             new Musician
@@ -6008,7 +6008,7 @@ namespace NineStarKi.Models
                 Name = "King Crimson",
                 Genres = new List<Genre> { Genres[12] },
                 Recording = "In the Court of the Crimson King",
-                Occasions = new List<Occasion> { Occasions[10] },
+                Occasions = new List<Occasion> { Occasions[9] },
                 Numbers = "923, 858, 914, 977, 151, 611, 115, 344, 822, 481, 914, 932, 977, 995, 629, 611, 638, 647"
             },
             new Musician
@@ -6016,7 +6016,7 @@ namespace NineStarKi.Models
                 Name = "The Magnetic Fields",
                 Genres = new List<Genre> { Genres[12] },
                 Recording = "Sixty-nine Love Songs",
-                Occasions = new List<Occasion> { Occasions[10] },
+                Occasions = new List<Occasion> { Occasions[9] },
                 Numbers = "822, 519, 463"
             },
             new Musician
@@ -6024,7 +6024,7 @@ namespace NineStarKi.Models
                 Name = "The Mars Volta",
                 Genres = new List<Genre> { Genres[12] },
                 Recording = "The Bedlam in Goliath",
-                Occasions = new List<Occasion> { Occasions[10] },
+                Occasions = new List<Occasion> { Occasions[9] },
                 Numbers = "721, 831, 124, 849, 537, 822, 638, 739, 353, 353, 234"
             },
             new Musician
@@ -6032,7 +6032,7 @@ namespace NineStarKi.Models
                 Name = "Sarah McLachlan",
                 Genres = new List<Genre> { Genres[12] },
                 Recording = "Surfacing",
-                Occasions = new List<Occasion> { Occasions[10] },
+                Occasions = new List<Occasion> { Occasions[9] },
                 Numbers = "638"
             },
             new Musician
@@ -6040,7 +6040,7 @@ namespace NineStarKi.Models
                 Name = "My Bloody Valentine",
                 Genres = new List<Genre> { Genres[12] },
                 Recording = "Loveless",
-                Occasions = new List<Occasion> { Occasions[10] },
+                Occasions = new List<Occasion> { Occasions[9] },
                 Numbers = "151, 968, 234, 371, 1"
             },
             new Musician
@@ -6048,7 +6048,7 @@ namespace NineStarKi.Models
                 Name = "Nine Inch Nails",
                 Genres = new List<Genre> { Genres[12] },
                 Recording = "The Downward Spiral",
-                Occasions = new List<Occasion> { Occasions[10] },
+                Occasions = new List<Occasion> { Occasions[9] },
                 Numbers = "885, 638, 234, 629, 317, 656, 582, 225, 712, 344, 142, 243, 436, 279, 344, 178, 932, 344, 564, 793, 656"
             },
             new Musician
@@ -6056,7 +6056,7 @@ namespace NineStarKi.Models
                 Name = "Queen",
                 Genres = new List<Genre> { Genres[12] },
                 Recording = "A Night at the Opera",
-                Occasions = new List<Occasion> { Occasions[10] },
+                Occasions = new List<Occasion> { Occasions[9] },
                 Numbers = "867, 692, 986, 427"
             },
             new Musician
@@ -6064,7 +6064,7 @@ namespace NineStarKi.Models
                 Name = "Lou Reed",
                 Genres = new List<Genre> { Genres[12] },
                 Recording = "New York",
-                Occasions = new List<Occasion> { Occasions[10] },
+                Occasions = new List<Occasion> { Occasions[9] },
                 Numbers = "481"
             },
             new Musician
@@ -6072,7 +6072,7 @@ namespace NineStarKi.Models
                 Name = "Todd Rundgren",
                 Genres = new List<Genre> { Genres[12] },
                 Recording = "Something/Anything?",
-                Occasions = new List<Occasion> { Occasions[10] },
+                Occasions = new List<Occasion> { Occasions[9] },
                 Numbers = "748"
             },
             new Musician
@@ -6080,7 +6080,7 @@ namespace NineStarKi.Models
                 Name = "Sigur Rós",
                 Genres = new List<Genre> { Genres[12] },
                 Recording = "Ágætis byrjun",
-                Occasions = new List<Occasion> { Occasions[10] },
+                Occasions = new List<Occasion> { Occasions[9] },
                 Numbers = "766, 638, 674, 519, 573"
             },
             new Musician
@@ -6088,7 +6088,7 @@ namespace NineStarKi.Models
                 Name = "Spiritualized",
                 Genres = new List<Genre> { Genres[12] },
                 Recording = "Ladies and Gentlemen We Are Floating in Space",
-                Occasions = new List<Occasion> { Occasions[10] },
+                Occasions = new List<Occasion> { Occasions[9] },
                 Numbers = "822, 656, 656, 638, 656, 923"
             },
             new Musician
@@ -6096,7 +6096,7 @@ namespace NineStarKi.Models
                 Name = "Stereolab",
                 Genres = new List<Genre> { Genres[12] },
                 Recording = "Emperor Tomato Ketchup",
-                Occasions = new List<Occasion> { Occasions[10] },
+                Occasions = new List<Occasion> { Occasions[9] },
                 Numbers = "995, 582, 793, 591"
             },
             new Musician
@@ -6104,7 +6104,7 @@ namespace NineStarKi.Models
                 Name = "The Velvet Underground",
                 Genres = new List<Genre> { Genres[12] },
                 Recording = "The Velvet Underground and Nico",
-                Occasions = new List<Occasion> { Occasions[10] },
+                Occasions = new List<Occasion> { Occasions[9] },
                 Numbers = "481, 472, 427, 813, 252, 822, 995 & 463"
             },
             new Musician
@@ -6112,7 +6112,7 @@ namespace NineStarKi.Models
                 Name = "Tom Waits",
                 Genres = new List<Genre> { Genres[12] },
                 Recording = "Rain Dogs",
-                Occasions = new List<Occasion> { Occasions[10] },
+                Occasions = new List<Occasion> { Occasions[9] },
                 Numbers = "656"
             },
             new Musician
@@ -6120,7 +6120,7 @@ namespace NineStarKi.Models
                 Name = "Wilco",
                 Genres = new List<Genre> { Genres[12] },
                 Recording = "Yankee Hotel Foxtrot",
-                Occasions = new List<Occasion> { Occasions[10] },
+                Occasions = new List<Occasion> { Occasions[9] },
                 Numbers = "683, 656, 344, 151, 941, 445, 398, 187"
             },
             new Musician
@@ -6128,7 +6128,7 @@ namespace NineStarKi.Models
                 Name = "Yes",
                 Genres = new List<Genre> { Genres[12] },
                 Recording = "The Yes Album",
-                Occasions = new List<Occasion> { Occasions[10] },
+                Occasions = new List<Occasion> { Occasions[9] },
                 Numbers = "894, 611, 389, 813, 335, 234, 784, 867, 629, 297, 629, 748, 692, 297, 932, 867, 187, 766"
             },
             new Musician
@@ -6136,7 +6136,7 @@ namespace NineStarKi.Models
                 Name = "The Zombies",
                 Genres = new List<Genre> { Genres[12] },
                 Recording = "Odessey and Oracle",
-                Occasions = new List<Occasion> { Occasions[10] },
+                Occasions = new List<Occasion> { Occasions[9] },
                 Numbers = "142, 142, 941, 178, 344, 573, 151"
             },
             new Musician
@@ -6144,7 +6144,7 @@ namespace NineStarKi.Models
                 Name = "Juana Molina",
                 Genres = new List<Genre> { Genres[14], Genres[18] },
                 Recording = "Segundo",
-                Occasions = new List<Occasion> { Occasions[10] },
+                Occasions = new List<Occasion> { Occasions[9] },
                 Numbers = "371"
             },
             new Musician
@@ -6152,7 +6152,7 @@ namespace NineStarKi.Models
                 Name = "Lô Borges",
                 Genres = new List<Genre> { Genres[14], Genres[20] },
                 Recording = "Lô Borges",
-                Occasions = new List<Occasion> { Occasions[10] },
+                Occasions = new List<Occasion> { Occasions[9] },
                 Numbers = "463"
             },
             new Musician
@@ -6160,7 +6160,7 @@ namespace NineStarKi.Models
                 Name = "Os Mutantes",
                 Genres = new List<Genre> { Genres[14], Genres[20] },
                 Recording = "Mutantes",
-                Occasions = new List<Occasion> { Occasions[10] },
+                Occasions = new List<Occasion> { Occasions[9] },
                 Numbers = "528, 748, 813, 4, 968, 8"
             },
             new Musician
@@ -6168,7 +6168,7 @@ namespace NineStarKi.Models
                 Name = "Hermeto Pascoal",
                 Genres = new List<Genre> { Genres[14], Genres[20] },
                 Recording = "Slaves Mass",
-                Occasions = new List<Occasion> { Occasions[10] },
+                Occasions = new List<Occasion> { Occasions[9] },
                 Numbers = "142"
             },
             new Musician
@@ -6176,7 +6176,7 @@ namespace NineStarKi.Models
                 Name = "Tom Zé",
                 Genres = new List<Genre> { Genres[14], Genres[20] },
                 Recording = "Fabrication Defect",
-                Occasions = new List<Occasion> { Occasions[10] },
+                Occasions = new List<Occasion> { Occasions[9] },
                 Numbers = "196"
             },
             new Musician
@@ -6184,7 +6184,7 @@ namespace NineStarKi.Models
                 Name = "Lee 'Scratch' Perry",
                 Genres = new List<Genre> { Genres[14], Genres[42] },
                 Recording = "Arkology",
-                Occasions = new List<Occasion> { Occasions[10] },
+                Occasions = new List<Occasion> { Occasions[9] },
                 Numbers = "178"
             },
             new Musician
@@ -6192,7 +6192,7 @@ namespace NineStarKi.Models
                 Name = "Eddie Palmieri",
                 Genres = new List<Genre> { Genres[14], Genres[45] },
                 Recording = "Eddie Palmieri",
-                Occasions = new List<Occasion> { Occasions[10] },
+                Occasions = new List<Occasion> { Occasions[9] },
                 Numbers = "178"
             },
             new Musician
@@ -6200,7 +6200,7 @@ namespace NineStarKi.Models
                 Name = "Love",
                 Genres = new List<Genre> { Genres[12] },
                 Recording = "Forever Changes",
-                Occasions = new List<Occasion> { Occasions[10] },
+                Occasions = new List<Occasion> { Occasions[9] },
                 Numbers = "822, 178, 977, 344"
             },
             new Musician
@@ -6208,7 +6208,7 @@ namespace NineStarKi.Models
                 Name = "Wu-Tang Clan",
                 Genres = new List<Genre> { Genres[6] },
                 Recording = "Enter the Wu-Tang (36 Chambers)",
-                Occasions = new List<Occasion> { Occasions[10] },
+                Occasions = new List<Occasion> { Occasions[9] },
                 Numbers = "445, 721, 317, 353, 389, 225, 463, 427, 528"
             },
             new Musician
