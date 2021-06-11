@@ -48,7 +48,7 @@
         return DataType == 1 ? occasionMusicians : distinctMusicians;
     }
 
-    protected async override void OnParametersSet()
+    protected override void OnParametersSet()
     {
         string number = Number.ToString();
         Personality.Key = number[0];

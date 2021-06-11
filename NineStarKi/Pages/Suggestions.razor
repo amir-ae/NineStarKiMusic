@@ -5,7 +5,7 @@
 @inject IDistributedCache cache;
 @using System.Text.Json;
 
-<h5 class="text-center text-primary m-2 p-2"> @Personality.Key.@Personality.Value </h5>
+<h5 class="text-center text-danger m-2 p-2"> @Personality.Key.@Personality.Value </h5>
 @foreach (var occasion in Occasions)
 {
     <MusicView Name=@occasion.Name Musicians=@MusiciansToShow(occasion) DataType=@DataType />
