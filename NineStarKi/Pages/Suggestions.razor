@@ -115,14 +115,7 @@
             result.Add(ProcessNumbers(Personality, personality));
         }
 
-        if (result.Average() > 50)
-        {
-            return true;
-        }
-        else
-        {
-            return false;
-        }
+        return result.Average() > 50;
     }
 
     private void HandleClick()
