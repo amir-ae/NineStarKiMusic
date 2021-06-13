@@ -1857,7 +1857,7 @@ namespace NineStarKi.Models
                 Genres = new List<Genre> { Genres[12] },
                 Recording = "Daydream Nation",
                 Occasions = new List<Occasion> { Occasions[10] },
-                Numbers = "297, 692, 932, 216"
+                Numbers = "692, 297, 932, 216, 279, 968, 591, 234"
             },
             new Musician
             {
