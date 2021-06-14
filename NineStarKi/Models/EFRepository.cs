@@ -9,61 +9,64 @@ namespace NineStarKi.Models
     {
         private MusicContext context;
 
+        private void BreakCircularReference(ref IEnumerable<Musician> musicians)
+        {
+            foreach (Musician musician in musicians)
+            {
+                foreach (Genre genre in musician.Genres)
+                {
+                    genre.Musicians = null;
+                }
+                foreach (Occasion occasion in musician.Occasions)
+                {
+                    occasion.Musicians = null;
+                }
+            }
+        }
+
         public EFRepository(MusicContext ctx)
         {
             context = ctx;
         }
 
-        public List<Musician> Musicians => context.Musicians
-            .Include(m => m.Genres)
-            .Include(m => m.Occasions)
-            .Select(m => new Musician
-            {
-                Id = m.Id,
-                Name = m.Name,
-                Genres = m.Genres
-                    .Select(g => new Genre { Id = g.Id, Name = g.Name }).ToList(),
-                Occasions = m.Occasions
-                    .Select(o => new Occasion { Id = o.Id, Name = o.Name }).ToList(),
-                Recording = m.Recording,
-                Numbers = m.Numbers
-            })
-            .ToList();
+        public IEnumerable<Musician> Musicians => GetMusicians();
 
-        public List<Musician> GetMusicians(string number) => context.Musicians
-            .Include(m => m.Genres)
-            .Include(m => m.Occasions)
-            .Where(m => m.Numbers.Contains(number))
-            .Select(m => new Musician
-            {
-                Id = m.Id,
-                Name = m.Name,
-                Genres = m.Genres
-                    .Select(g => new Genre { Id = g.Id, Name = g.Name }).ToList(),
-                Occasions = m.Occasions
-                    .Select(o => new Occasion { Id = o.Id, Name = o.Name }).ToList(),
-                Recording = m.Recording,
-                Numbers = m.Numbers
-            })
-            .ToList();
+        public IEnumerable<Musician> GetMusicians()
+        {
+            IEnumerable<Musician> musicians = context.Musicians
+                .Include(m => m.Genres)
+                .Include(m => m.Occasions);
+            BreakCircularReference(ref musicians);
+            return musicians;
+        }
 
-        public List<Genre> Genres => context.Genres.ToList();
+        public IEnumerable<Musician> GetMusicians(string number)
+        {
+            IEnumerable<Musician> musicians = context.Musicians
+                .Include(m => m.Genres)
+                .Include(m => m.Occasions)
+                .Where(m => m.Numbers.Contains(number));
+            BreakCircularReference(ref musicians);
+            return musicians;
+        }
 
-        public List<Occasion> Occasions => context.Occasions.ToList();
+        public IEnumerable<Genre> Genres => context.Genres;
 
-        public void AddGenres(List<Genre> g)
+        public IEnumerable<Occasion> Occasions => context.Occasions;
+
+        public void AddGenres(IEnumerable<Genre> g)
         {
             context.AddRange(g);
             context.SaveChanges();
         }
 
-        public void AddOccasions(List<Occasion> o)
+        public void AddOccasions(IEnumerable<Occasion> o)
         {
             context.AddRange(o);
             context.SaveChanges();
         }
 
-        public void AddMusicians(List<Musician> m)
+        public void AddMusicians(IEnumerable<Musician> m)
         {
             context.AddRange(m);
             context.SaveChanges();

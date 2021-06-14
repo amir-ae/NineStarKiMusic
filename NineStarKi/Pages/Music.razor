@@ -25,11 +25,11 @@
     [Parameter]
     public int Number { get; set; }
 
-    public Personality Personality { get; set; } = new Personality();
+    public Personality Personality { get; set; }
 
-    public List<Musician> Musicians { get; set; } = new List<Musician>();
+    public IEnumerable<Musician> Musicians { get; set; }
 
-    public List<Occasion> Occasions { get; set; } = new List<Occasion>();
+    public IEnumerable<Occasion> Occasions { get; set; }
 
     public int DataType { get; set; } = 0;
 
@@ -37,10 +37,10 @@
 
     public string BackUrl => $"/{Id}";
 
-    public List<Musician> MusiciansToShow(Occasion o)
+    public IEnumerable<Musician> MusiciansToShow(Occasion o)
     {
         var occasionMusicians = Musicians
-            .FindAll(m => m.Occasions.Contains(o));
+            .Where(m => m.Occasions.Contains(o));
         var distinctMusicians = occasionMusicians
             .GroupBy(m => m.Name)
             .Select(g => g.First())
@@ -51,12 +51,11 @@
     protected override void OnParametersSet()
     {
         string number = Number.ToString();
-        Personality.Key = number[0];
-        Personality.Value = $"{number[1]}.{number[2]}";
+        Personality = new Personality(number);
 
         Musicians = Repository.GetMusicians(number);
 
-        Occasions = Musicians.SelectMany(m => m.Occasions).Distinct().OrderBy(o => o.Id).ToList();
+        Occasions = Musicians.SelectMany(m => m.Occasions).Distinct().OrderBy(o => o.Id);
     }
 
     private void HandleClick()

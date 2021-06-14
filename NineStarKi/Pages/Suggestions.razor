@@ -22,20 +22,20 @@
     [Parameter]
     public int Id { get; set; }
 
-    public Personality Personality { get; set; } = new Personality();
+    public Personality Personality { get; set; }
 
-    public List<Musician> Musicians { get; set; } = new List<Musician>();
+    public IEnumerable<Musician> Musicians { get; set; }
 
-    public List<Occasion> Occasions { get; set; } = new List<Occasion>();
+    public IEnumerable<Occasion> Occasions { get; set; }
 
     public int DataType { get; set; } = 0;
 
     public string ButtonLabel { get; set; } = "Recordings";
 
-    public List<Musician> MusiciansToShow(Occasion o)
+    public IEnumerable<Musician> MusiciansToShow(Occasion o)
     {
         var occasionMusicians = Musicians
-            .FindAll(m => m.Occasions.Contains(o));
+            .Where(m => m.Occasions.Contains(o));
         var distinctMusicians = occasionMusicians
             .GroupBy(m => m.Name)
             .Select(g => g.First())
@@ -46,10 +46,10 @@
     protected async override void OnParametersSet()
     {
         string number = Id.ToString();
-        Personality.Key = number[0];
-        Personality.Value = $"{number[1]}.{number[2]}";
+        Personality = new Personality(number);
 
-        List<Musician> musicians;
+        IEnumerable<Musician> allMusicians;
+        List<Musician> selectedMusicians = new List<Musician>();
 
         if (!typeof(Repository).IsAssignableFrom(Repository.GetType()))
         {
@@ -59,9 +59,9 @@
 
             if (musiciansData == null)
             {
-                musicians = Repository.Musicians;
+                allMusicians = Repository.Musicians;
 
-                await cache.SetStringAsync(musiciansKey, JsonSerializer.Serialize(musicians),
+                await cache.SetStringAsync(musiciansKey, JsonSerializer.Serialize(allMusicians),
                     new DistributedCacheEntryOptions
                     {
                         AbsoluteExpirationRelativeToNow = TimeSpan.FromMinutes(10)
@@ -69,23 +69,24 @@
             }
             else
             {
-                musicians = JsonSerializer.Deserialize<List<Musician>>(musiciansData);
+                allMusicians = JsonSerializer.Deserialize<List<Musician>>(musiciansData);
             }
         }
         else
         {
-            musicians = Repository.Musicians;
+            allMusicians = Repository.Musicians;
         }
 
-        foreach (Musician musician in musicians)
+        foreach (Musician musician in allMusicians)
         {
             if (Check(musician))
             {
-                Musicians.Add(musician);
+                selectedMusicians.Add(musician);
             }
         }
 
-        Occasions = Musicians.SelectMany(m => m.Occasions).Distinct().OrderBy(o => o.Id).ToList();
+        Musicians = selectedMusicians;
+        Occasions = Musicians.SelectMany(m => m.Occasions).Distinct().OrderBy(o => o.Id);
     }
 
     private bool Check(Musician musician)
@@ -108,9 +109,7 @@
             {
                 return false;
             }
-            Personality personality = new Personality();
-            personality.Key = num[0];
-            personality.Value = $"{num[1]}.{num[2]}";
+            Personality personality = new Personality(num);
 
             result.Add(ProcessNumbers(Personality, personality));
         }

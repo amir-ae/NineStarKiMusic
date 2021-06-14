@@ -14,10 +14,10 @@ namespace NineStarKi.Models
         public string Name { get; set; }
 
         [Required(ErrorMessage = "Please select a genre")]
-        public ICollection<Genre> Genres { get; set; }
+        public IEnumerable<Genre> Genres { get; set; }
 
         [Required(ErrorMessage = "Please select an occasion")]
-        public ICollection<Occasion> Occasions { get; set; }
+        public IEnumerable<Occasion> Occasions { get; set; }
 
         [Required(ErrorMessage = "Please enter a recording")]
         [MaxLength(150)]

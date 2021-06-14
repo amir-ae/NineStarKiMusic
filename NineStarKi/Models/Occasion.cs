@@ -16,7 +16,7 @@ namespace NineStarKi.Models
         public string Name { get; set; }
 
         [InverseProperty(nameof(Musician.Occasions))]
-        public ICollection<Musician> Musicians { get; set; }
+        public IEnumerable<Musician> Musicians { get; set; }
 
         public bool Equals(Occasion other)
         {

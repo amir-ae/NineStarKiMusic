@@ -6,35 +6,41 @@ namespace NineStarKi.Models
 {
     public class Repository : IRepository
     {
-        public List<Musician> Musicians { get; set; } = new List<Musician>();
+        private List<Musician> musicians { get; set; } = new List<Musician>();
 
-        public List<Genre> Genres { get; set; } = new List<Genre>();
+        private List<Genre> genres { get; set; } = new List<Genre>();
 
-        public List<Occasion> Occasions { get; set; } = new List<Occasion>();
+        private List<Occasion> occasions { get; set; } = new List<Occasion>();
 
-        public List<Musician> GetMusicians(string number) => Musicians
-            .FindAll(m => m.Numbers.Contains(number));
+        public IEnumerable<Musician> Musicians => musicians;
 
-        public void AddGenres(List<Genre> g)
+        public IEnumerable<Genre> Genres => genres;
+
+        public IEnumerable<Occasion> Occasions => occasions;
+
+        public IEnumerable<Musician> GetMusicians(string number) => Musicians
+            .Where(m => m.Numbers.Contains(number));
+
+        public void AddGenres(IEnumerable<Genre> g)
         {
-            Genres.AddRange(g);
+            genres.AddRange(g);
         }
 
-        public void AddOccasions(List<Occasion> o)
+        public void AddOccasions(IEnumerable<Occasion> o)
         {
-            Occasions.AddRange(o);
+            occasions.AddRange(o);
         }
 
-        public void AddMusicians(List<Musician> m)
+        public void AddMusicians(IEnumerable<Musician> m)
         {
-            Musicians.AddRange(m);
+            musicians.AddRange(m);
         }
 
         public void ClearRepository()
         {
-            Musicians.Clear();
-            Genres.Clear();
-            Occasions.Clear();
+            musicians.Clear();
+            genres.Clear();
+            occasions.Clear();
         }
     }
 }

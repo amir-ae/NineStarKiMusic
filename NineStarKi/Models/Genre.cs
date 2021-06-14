@@ -15,6 +15,6 @@ namespace NineStarKi.Models
         public string Name { get; set; }
 
         [InverseProperty(nameof(Musician.Genres))]
-        public ICollection<Musician> Musicians { get; set; }
+        public IEnumerable<Musician> Musicians { get; set; }
     }
 }

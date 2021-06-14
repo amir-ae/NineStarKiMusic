@@ -5,19 +5,19 @@ namespace NineStarKi.Models
 {
     public interface IRepository
     {
-        List<Musician> Musicians { get; }
+        IEnumerable<Musician> Musicians { get; }
 
-        List<Genre> Genres { get; }
+        IEnumerable<Genre> Genres { get; }
 
-        List<Occasion> Occasions { get; }
+        IEnumerable<Occasion> Occasions { get; }
 
-        List<Musician> GetMusicians(string number);
+        IEnumerable<Musician> GetMusicians(string number);
 
-        void AddGenres(List<Genre> g);
+        void AddGenres(IEnumerable<Genre> g);
 
-        void AddOccasions(List<Occasion> o);
+        void AddOccasions(IEnumerable<Occasion> o);
 
-        void AddMusicians(List<Musician> m);
+        void AddMusicians(IEnumerable<Musician> m);
 
         void ClearRepository();
     }
