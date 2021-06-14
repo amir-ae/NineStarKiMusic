@@ -6,6 +6,12 @@ namespace NineStarKi.Tests
 {
     public class CalculatorTests
     {
+        private Calculator calculator;
+
+        public CalculatorTests(Calculator calc)
+        {
+            calculator = calc;
+        }
         [Fact]
         public void Can_Calculate_Main_Personality()
         {
@@ -13,7 +19,7 @@ namespace NineStarKi.Tests
             int year = 2000;
 
             // Act
-            char mainPersonality = Calculator.MainPersonality(year);
+            char mainPersonality = calculator.MainPersonality(year);
 
             // Assert
             Assert.Equal('9', mainPersonality);
@@ -28,7 +34,7 @@ namespace NineStarKi.Tests
                 TimeZoneInfo.Local.GetUtcOffset(localTime));
 
             // Act
-            string numbers = Calculator.Personality(date);
+            string numbers = calculator.Personality(date);
 
             // Assert
             Assert.Equal("1.7.8", numbers);

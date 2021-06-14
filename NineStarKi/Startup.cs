@@ -34,6 +34,8 @@ namespace NineStarKi
                 Configuration["ConnectionStrings:MusicConnection"]);
             });
             services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
+            services.AddSingleton<ConstantData>();
+            services.AddSingleton<Calculator>();
             services.AddTransient<SeedData>();
             services.AddHttpContextAccessor();
         }

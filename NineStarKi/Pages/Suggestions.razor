@@ -1,9 +1,9 @@
 ﻿@page "/{id:int}/Music"
-@inherits OwningComponentBase<IRepository>
-@using static NineStarKi.Models.Calculator;
-@using Microsoft.Extensions.Caching.Distributed;
-@inject IDistributedCache cache;
 @using System.Text.Json;
+@using Microsoft.Extensions.Caching.Distributed;
+@inject IDistributedCache cache
+@inject IRepository Repository
+@inject Calculator Calculator
 
 <h5 class="text-center text-danger m-2 p-2"> @Personality.Key.@Personality.Value </h5>
 @foreach (var occasion in Occasions)
@@ -17,8 +17,6 @@
 </div>
 
 @code {
-    public IRepository Repository => Service;
-
     [Parameter]
     public int Id { get; set; }
 
@@ -111,7 +109,7 @@
             }
             Personality personality = new Personality(num);
 
-            result.Add(ProcessNumbers(Personality, personality));
+            result.Add(Calculator.ProcessNumbers(Personality, personality));
         }
 
         return result.Average() > 50;

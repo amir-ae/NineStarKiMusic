@@ -1,8 +1,5 @@
 ﻿@page "/{id:int}/Music/{number:int}"
-@inherits OwningComponentBase<IRepository>
-@using Microsoft.Extensions.Caching.Distributed;
-@inject IDistributedCache cache;
-@using System.Text.Json;
+@inject IRepository Repository
 
 <h5 class="text-center text-brown m-2 p-2"> @Personality.Key.@Personality.Value </h5>
 
@@ -17,8 +14,6 @@
 </div>
 
 @code {
-    public IRepository Repository => Service;
-
     [Parameter]
     public int Id { get; set; }
 

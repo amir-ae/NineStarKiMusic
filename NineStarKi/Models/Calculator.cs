@@ -4,7 +4,14 @@ namespace NineStarKi.Models
 {
     public class Calculator
     {
-        public static char MainPersonality(int year)                 // Returns Nine Star Ki main personality from year
+        private ConstantData constantData;
+
+        public Calculator(ConstantData constants)
+        {
+            constantData = constants;
+        }
+        
+        public char MainPersonality(int year)                 // Returns Nine Star Ki main personality from year
         {
             double sum = 0;
 
@@ -30,7 +37,7 @@ namespace NineStarKi.Models
             return number.ToString()[0];
         }
 
-        public static string Personality(DateTimeOffset date)             // Returns Nine Star Ki numbers from date
+        public string Personality(DateTimeOffset date)             // Returns Nine Star Ki numbers from date
         {
             int year = date.Year,
                 month = date.Month,
@@ -45,33 +52,33 @@ namespace NineStarKi.Models
 
             if (month == 2 & day >= 4 || month == 3 & day <= 5
                 || month == 11 & day >= 8 || month == 12 & day <= 7) {
-                value = Constants.starMap[key][0];
+                value = constantData.StarMap[key][0];
             }
             else if (month == 3 & day >= 6 || month == 4 & day <= 5
                 || month == 12 & day >= 8 || month == 1 & day <= 5) {
-                value = Constants.starMap[key][1];
+                value = constantData.StarMap[key][1];
             }
             else if (month == 4 & day >= 6 || month == 5 & day <= 5
                 || month == 1 & day >= 6 || month == 2 & day <= 3) {
-                value = Constants.starMap[key][2];
+                value = constantData.StarMap[key][2];
             }
             else if (month == 5 & day >= 6 || month == 6 & day <= 5) {
-                value = Constants.starMap[key][3];
+                value = constantData.StarMap[key][3];
             }
             else if (month == 6 & day >= 6 || month == 7 & day <= 7) {
-                value = Constants.starMap[key][4];
+                value = constantData.StarMap[key][4];
             }
             else if (month == 7 & day >= 8 || month == 8 & day <= 7) {
-                value = Constants.starMap[key][5];
+                value = constantData.StarMap[key][5];
             }
             else if (month == 8 & day >= 8 || month == 9 & day <= 7) {
-                value = Constants.starMap[key][6];
+                value = constantData.StarMap[key][6];
             }
             else if (month == 9 & day >= 8 || month == 10 & day <= 8) {
-                value = Constants.starMap[key][7];
+                value = constantData.StarMap[key][7];
             }
             else if (month == 10 & day >= 9 || month == 11 & day <= 7) {
-                value = Constants.starMap[key][8];
+                value = constantData.StarMap[key][8];
             }
 
             string numbers = value == "" ? $"{key}"
@@ -80,9 +87,9 @@ namespace NineStarKi.Models
             return numbers;
         }
 
-        public static char CompareNumbers(char a, char b)
+        public char CompareNumbers(char a, char b)
         {
-            int q = (int)Constants.starElement[a] - (int)Constants.starElement[b];
+            int q = (int)constantData.StarElement[a] - (int)constantData.StarElement[b];
 
             if (a == b)
                 return 'I';
@@ -100,7 +107,7 @@ namespace NineStarKi.Models
                 return 'n';
         }
 
-        public static int Evaluate(char r1, char r2, char r3)
+        public int Evaluate(char r1, char r2, char r3)
         {
             int x = 0;
 
@@ -149,7 +156,7 @@ namespace NineStarKi.Models
             return x;
         }
 
-        public static int ProcessNumbers(Personality x, Personality y)
+        public int ProcessNumbers(Personality x, Personality y)
         {
 
             char x1 = x.Key;
@@ -173,7 +180,7 @@ namespace NineStarKi.Models
             public string percentage;
         };
 
-        public static Relation[,] ProcessNumber(Personality x)
+        public Relation[,] ProcessNumber(Personality x)
         {
 
             char x1 = x.Key;
@@ -189,7 +196,7 @@ namespace NineStarKi.Models
 
                 for (int j = 0; j < 9; j++)
                 {
-                    string k = Constants.starMap[y1][j];
+                    string k = constantData.StarMap[y1][j];
                     char y2 = k[0];
                     char y3 = k[2];
                     char r2 = CompareNumbers(x2, y2);

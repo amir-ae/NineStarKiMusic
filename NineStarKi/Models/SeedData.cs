@@ -10,22 +10,21 @@ namespace NineStarKi.Models
     public class SeedData
     {
         private MusicContext context;
-
         private ILogger<SeedData> logger;
-
         private IRepository repository;
+        private IEnumerable<Genre> Genres;
+        private IEnumerable<Occasion> Occasions;
+        private IEnumerable<Musician> Musicians;
 
-        private List<Genre> Genres = Constants.Genres;
-
-        private List<Occasion> Occasions = Constants.Occasions;
-
-        private List<Musician> Musicians = Constants.Musicians;
-
-        public SeedData(MusicContext dataContext, ILogger<SeedData> log, IRepository repo)
+        public SeedData(MusicContext dataContext, ILogger<SeedData> log, 
+            IRepository repo, ConstantData constants)
         {
             context = dataContext;
             logger = log;
             repository = repo;
+            Genres = constants.Genres;
+            Occasions = constants.Occasions;
+            Musicians = constants.Musicians;
         }
 
         public void EnsurePopulated()

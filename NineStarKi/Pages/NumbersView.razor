@@ -1,8 +1,7 @@
 ﻿@page "/{id:int}"
 @using Microsoft.AspNetCore.Http;
-@using static NineStarKi.Models.Calculator;
-@inject IHttpContextAccessor httpContextAccessor
-
+@inject Calculator Calculator
+@inject NavigationManager NavManager
 
 <link href="/style.css" rel="stylesheet" />
 <h5 class="text-center text-danger m-2 p-2"> @Personality.Key.@Personality.Value </h5>
@@ -44,9 +43,6 @@
     [Parameter]
     public int Id { get; set; }
 
-    [Inject]
-    private NavigationManager NavManager { get; set; }
-
     public Personality Personality { get; set; } = new Personality();
 
     public Dictionary<string, List<string>> FormattedResult { get; set; }
@@ -56,18 +52,16 @@
         string number = Id.ToString();
         Personality.Key = number[0];
         Personality.Value = $"{number[1]}.{number[2]}";
-        FormattedResult = FormatResult(ProcessNumber(Personality)).Reverse()
+        FormattedResult = FormatResult(Calculator.ProcessNumber(Personality)).Reverse()
             .ToDictionary(entry => entry.Key, entry => entry.Value);
     }
-
-    public HttpContext Context => httpContextAccessor.HttpContext;
 
     private void HandleClick(string num)
     {
         NavManager.NavigateTo($"/{Id}/Music/{num}");
     }
 
-    SortedDictionary<string, List<string>> FormatResult(Relation[,] r)
+    SortedDictionary<string, List<string>> FormatResult(Calculator.Relation[,] r)
     {
         SortedDictionary<string, List<string>> f = new SortedDictionary<string, List<string>>();
 
@@ -87,7 +81,6 @@
                     f[key].Add(r[i, j].number);
                 }
             }
-
         }
         return f;
     }

@@ -1,6 +1,10 @@
 ﻿@page "/"
 @using BlazorDateRangePicker
 @inherits OwningComponentBase<IRepository>
+@inject IRepository Repository
+@inject ConstantData ConstantData
+@inject Calculator Calculator
+@inject NavigationManager NavManager
 
 <link href="/style.css" rel="stylesheet" />
 <EditForm Model="Personality" OnValidSubmit="@Submit" Context="formContext">
@@ -25,7 +29,7 @@
                 <div class="h5 px-5">
                     <select @bind="selectKey" style="width: 85px">
                         <option value="">---</option>
-                        @foreach (KeyValuePair<char, Constants.Element> star in Constants.starElement)
+                        @foreach (KeyValuePair<char, ConstantData.Element> star in ConstantData.StarElement)
                         {
                             <option key="@star.Key" value="@star.Key">@star.Key.ToString()</option>
                         }
@@ -34,7 +38,7 @@
                         <option value="">---</option>
                         @if (Personality.Key != '\0')
                         {
-                            foreach (string value in Constants.starMap[Personality.Key])
+                            foreach (string value in ConstantData.StarMap[Personality.Key])
                             {
                                 <option key="@value" value="@value">@value</option>
                             }
@@ -53,16 +57,9 @@
 </EditForm>
 
 @code {
-    public IRepository Repository => Service;
-
-    [Inject]
-    private NavigationManager NavManager { get; set; }
-
     private DateRangePicker Picker { get; set; }
 
     private Personality Personality { get; set; } = new Personality();
-
-    private bool ShowMusic = false;
 
     private char selectKey
     {
