@@ -1,13 +1,17 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using System.Collections.Generic;
 using System.Linq;
-using System.Threading.Tasks;
 
 namespace NineStarKi.Models
 {
     public class EFRepository : IRepository
     {
         private MusicContext context;
+
+        public EFRepository(MusicContext ctx)
+        {
+            context = ctx;
+        }
 
         private void BreakCircularReference(ref IEnumerable<Musician> musicians)
         {
@@ -24,23 +28,11 @@ namespace NineStarKi.Models
             }
         }
 
-        public EFRepository(MusicContext ctx)
-        {
-            context = ctx;
-        }
-
         public IEnumerable<Musician> Musicians => context.Musicians;
 
-        public IEnumerable<Musician> GetRelated(IEnumerable<Musician> musicians)
-        {
-            IEnumerable<Musician> data = context.Musicians
-                .Include(m => m.Genres)
-                .Include(m => m.Occasions)
-                .Where(m => musicians.Select(s => s.Id)
-                    .Any(id => id == m.Id));
-            BreakCircularReference(ref data);
-            return data;
-        }
+        public IEnumerable<Genre> Genres => context.Genres;
+
+        public IEnumerable<Occasion> Occasions => context.Occasions;
 
         public IEnumerable<Musician> GetMusicians(string number)
         {
@@ -52,9 +44,16 @@ namespace NineStarKi.Models
             return musicians;
         }
 
-        public IEnumerable<Genre> Genres => context.Genres;
-
-        public IEnumerable<Occasion> Occasions => context.Occasions;
+        public IEnumerable<Musician> GetRelated(IEnumerable<Musician> musicians)
+        {
+            IEnumerable<Musician> data = context.Musicians
+                .Include(m => m.Genres)
+                .Include(m => m.Occasions)
+                .Where(m => musicians.Select(s => s.Id)
+                    .Any(id => id == m.Id));
+            BreakCircularReference(ref data);
+            return data;
+        }
 
         public void AddGenres(IEnumerable<Genre> g)
         {

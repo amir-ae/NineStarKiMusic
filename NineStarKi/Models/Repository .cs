@@ -1,7 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 
-
 namespace NineStarKi.Models
 {
     public class Repository : IRepository
@@ -18,10 +17,11 @@ namespace NineStarKi.Models
 
         public IEnumerable<Occasion> Occasions => occasions;
 
-        public IEnumerable<Musician> GetMusicians(string number) => Musicians
-            .Where(m => m.Numbers.Contains(number));
+        public IEnumerable<Musician> GetMusicians(string number)
+            => musicians.Where(m => m.Numbers.Contains(number));
 
-        public IEnumerable<Musician> GetRelated(IEnumerable<Musician> musicians) => musicians;
+        public IEnumerable<Musician> GetRelated(IEnumerable<Musician> musicians)
+            => musicians;
 
         public void AddGenres(IEnumerable<Genre> g)
         {
