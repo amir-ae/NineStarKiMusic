@@ -46,10 +46,13 @@
         string number = Id.ToString();
         Personality = new Personality(number);
 
-        IEnumerable<Musician> allMusicians;
+        List<Musician> allMusicians;
         List<Musician> selectedMusicians = new List<Musician>();
 
-        if (!typeof(Repository).IsAssignableFrom(Repository.GetType()))
+        bool EFRepository = typeof(EFRepository)
+            .IsAssignableFrom(Repository.GetType());
+
+        if (EFRepository)
         {
             string musiciansKey = $"musicians";
 
@@ -57,7 +60,7 @@
 
             if (musiciansData == null)
             {
-                allMusicians = Repository.Musicians;
+                allMusicians = Repository.Musicians.ToList();
 
                 await cache.SetStringAsync(musiciansKey, JsonSerializer.Serialize(allMusicians),
                     new DistributedCacheEntryOptions
@@ -72,7 +75,11 @@
         }
         else
         {
-            allMusicians = Repository.Musicians;
+            allMusicians = Repository.Musicians.ToList();
+            foreach (Musician musician in allMusicians)
+            {
+                musician.Id = allMusicians.IndexOf(musician);
+            }
         }
 
         foreach (Musician musician in allMusicians)
@@ -83,7 +90,7 @@
             }
         }
 
-        Musicians = selectedMusicians;
+        Musicians = Repository.GetRelated(selectedMusicians);
         Occasions = Musicians.SelectMany(m => m.Occasions).Distinct().OrderBy(o => o.Id);
     }
 

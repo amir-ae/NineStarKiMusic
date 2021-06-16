@@ -21,6 +21,8 @@ namespace NineStarKi.Models
         public IEnumerable<Musician> GetMusicians(string number) => Musicians
             .Where(m => m.Numbers.Contains(number));
 
+        public IEnumerable<Musician> GetRelated(IEnumerable<Musician> musicians) => musicians;
+
         public void AddGenres(IEnumerable<Genre> g)
         {
             genres.AddRange(g);

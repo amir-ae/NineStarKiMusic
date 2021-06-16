@@ -29,15 +29,17 @@ namespace NineStarKi.Models
             context = ctx;
         }
 
-        public IEnumerable<Musician> Musicians => GetMusicians();
+        public IEnumerable<Musician> Musicians => context.Musicians;
 
-        public IEnumerable<Musician> GetMusicians()
+        public IEnumerable<Musician> GetRelated(IEnumerable<Musician> musicians)
         {
-            IEnumerable<Musician> musicians = context.Musicians
+            IEnumerable<Musician> data = context.Musicians
                 .Include(m => m.Genres)
-                .Include(m => m.Occasions);
-            BreakCircularReference(ref musicians);
-            return musicians;
+                .Include(m => m.Occasions)
+                .Where(m => musicians.Select(s => s.Id)
+                    .Any(id => id == m.Id));
+            BreakCircularReference(ref data);
+            return data;
         }
 
         public IEnumerable<Musician> GetMusicians(string number)
