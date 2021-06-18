@@ -1,7 +1,4 @@
-﻿@page "/{id:int}"
-@using Microsoft.AspNetCore.Http;
-@inject Calculator Calculator
-@inject NavigationManager NavManager
+﻿@page "/{number:int}"
 
 <link href="/style.css" rel="stylesheet" />
 <h5 class="text-center text-danger m-2 p-2"> @Personality.Key.@Personality.Value </h5>
@@ -34,14 +31,20 @@
     </div>
     <div class="text-center m-2 p-2">
         <NavLink class="btn btn-secondary mx-1 px-2" href="/">Back</NavLink>
-        <NavLink class="btn btn-primary mx-1 px-2" href=@($"{Id}/Music")>Suggestions</NavLink>
+        <NavLink class="btn btn-primary mx-1 px-2" href=@($"{Number}/Music")>Suggestions</NavLink>
     </div>
 
 </div>
 
 @code {
+    [Inject]
+    public NavigationManager NavManager { get; set; }
+
+    [Inject]
+    public Calculator Calculator { get; set; }
+
     [Parameter]
-    public int Id { get; set; }
+    public int Number { get; set; }
 
     public Personality Personality { get; set; } = new Personality();
 
@@ -49,7 +52,7 @@
 
     protected override void OnParametersSet()
     {
-        string number = Id.ToString();
+        string number = Number.ToString();
         Personality.Key = number[0];
         Personality.Value = $"{number[1]}.{number[2]}";
         FormattedResult = FormatResult(Calculator.ProcessNumber(Personality)).Reverse()
@@ -58,7 +61,7 @@
 
     private void HandleClick(string num)
     {
-        NavManager.NavigateTo($"/{Id}/Music/{num}");
+        NavManager.NavigateTo($"/{Number}/Music/{num}");
     }
 
     SortedDictionary<string, List<string>> FormatResult(Calculator.Relation[,] r)
@@ -72,6 +75,7 @@
                 string key = f.Where(pair => pair.Key == PadStr(r[i, j].percentage))
                     .Select(pair => pair.Key)
                     .FirstOrDefault();
+
                 if (String.IsNullOrEmpty(key))
                 {
                     f.Add(PadStr(r[i, j].percentage), new List<string>() { r[i, j].number });

@@ -1,5 +1,6 @@
-﻿@page "/{id:int}/Music/{number:int}"
-@inject IRepository Repository
+﻿@page "/{first:int}/Music/{second:int?}"
+@using System.Text.Json;
+@using Microsoft.Extensions.Caching.Distributed;
 
 <h5 class="text-center text-brown m-2 p-2"> @Personality.Key.@Personality.Value </h5>
 
@@ -14,11 +15,20 @@
 </div>
 
 @code {
-    [Parameter]
-    public int Id { get; set; }
+    [Inject]
+    public IRepository Repository { get; set; }
+
+    [Inject]
+    public IDistributedCache Cache { get; set; }
+
+    [Inject]
+    public Calculator Calculator { get; set; }
 
     [Parameter]
-    public int Number { get; set; }
+    public int First { get; set; }
+
+    [Parameter]
+    public int? Second { get; set; }
 
     public Personality Personality { get; set; }
 
@@ -30,7 +40,7 @@
 
     public string ButtonLabel { get; set; } = "Recordings";
 
-    public string BackUrl => $"/{Id}";
+    public string BackUrl => $"/{First}";
 
     public IEnumerable<Musician> MusiciansToShow(Occasion o)
     {
@@ -43,14 +53,94 @@
         return DataType == 1 ? occasionMusicians : distinctMusicians;
     }
 
-    protected override void OnParametersSet()
+    protected override async Task OnParametersSetAsync()
     {
-        string number = Number.ToString();
+        bool Suggestion = Second == null;
+        bool EFRepository = typeof(EFRepository)
+            .IsAssignableFrom(Repository.GetType());
+
+        string number = (Suggestion ? First : Second).ToString();
         Personality = new Personality(number);
 
-        Musicians = Repository.GetMusicians(number);
+        List<Musician> allMusicians;
+        List<Musician> selectedMusicians = new List<Musician>();
+
+        if (EFRepository)
+        {
+            string musiciansKey = $"musicians";
+            string musiciansData = await Cache.GetStringAsync(musiciansKey);
+
+            if (musiciansData == null)
+            {
+                allMusicians = Repository.Musicians.ToList();
+
+                await Cache.SetStringAsync(musiciansKey, JsonSerializer.Serialize(allMusicians),
+                    new DistributedCacheEntryOptions
+                    {
+                        AbsoluteExpirationRelativeToNow = TimeSpan.FromMinutes(10)
+                    });
+            }
+            else
+            {
+                allMusicians = JsonSerializer.Deserialize<List<Musician>>(musiciansData);
+            }
+        }
+        else
+        {
+            allMusicians = Repository.Musicians.ToList();
+            foreach (Musician musician in allMusicians)
+            {
+                musician.Id = allMusicians.IndexOf(musician);
+            }
+        }
+
+        if (Suggestion)
+        {
+            foreach (Musician musician in allMusicians)
+            {
+                if (Check(musician, Personality))
+                {
+                    selectedMusicians.Add(musician);
+                }
+            }
+        }
+        else
+        {
+            selectedMusicians = allMusicians
+                .Where(m => m.Numbers.Contains(number)).ToList();
+        }
+
+        Musicians = Repository.GetRelated(selectedMusicians);
 
         Occasions = Musicians.SelectMany(m => m.Occasions).Distinct().OrderBy(o => o.Id);
+    }
+
+    private bool Check(Musician musician, Personality personality)
+    {
+        if (string.IsNullOrEmpty(musician.Numbers) || !musician.Numbers.Contains(',')
+            || !musician.Numbers.Contains('&') && musician.Numbers.Count(f => f == ',') < 2)
+        {
+            return false;
+        }
+
+        String[] numbers = musician.Numbers
+            .Replace(" & ", ", ")
+            .Split(", ", StringSplitOptions.RemoveEmptyEntries);
+
+        List<int> result = new List<int>(numbers.Length);
+
+        foreach (string num in numbers)
+        {
+            if (num.Length == 1)
+            {
+                return false;
+            }
+            Personality p = new Personality(num);
+
+            result.Add(Calculator.ProcessNumbers(personality, p));
+        }
+
+        return result.Average() > 50;
     }
 
     private void HandleClick()
@@ -59,7 +149,7 @@
         {
             case 0:
                 DataType = 1;
-                ButtonLabel = "Numbers";
+                ButtonLabel = "Seconds";
                 break;
             case 1:
                 DataType = 2;

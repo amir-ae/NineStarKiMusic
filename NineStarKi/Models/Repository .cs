@@ -17,9 +17,6 @@ namespace NineStarKi.Models
 
         public IEnumerable<Occasion> Occasions => occasions;
 
-        public IEnumerable<Musician> GetMusicians(string number)
-            => musicians.Where(m => m.Numbers.Contains(number));
-
         public IEnumerable<Musician> GetRelated(IEnumerable<Musician> musicians)
             => musicians;
 

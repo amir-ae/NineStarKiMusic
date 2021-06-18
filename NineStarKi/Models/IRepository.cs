@@ -10,8 +10,6 @@ namespace NineStarKi.Models
 
         IEnumerable<Occasion> Occasions { get; }
 
-        IEnumerable<Musician> GetMusicians(string number);
-
         IEnumerable<Musician> GetRelated(IEnumerable<Musician> musicians);
 
         void AddGenres(IEnumerable<Genre> g);

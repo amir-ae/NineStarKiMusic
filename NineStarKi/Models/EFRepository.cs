@@ -34,16 +34,6 @@ namespace NineStarKi.Models
 
         public IEnumerable<Occasion> Occasions => context.Occasions;
 
-        public IEnumerable<Musician> GetMusicians(string number)
-        {
-            IEnumerable<Musician> musicians = context.Musicians
-                .Include(m => m.Genres)
-                .Include(m => m.Occasions)
-                .Where(m => m.Numbers.Contains(number));
-            BreakCircularReference(ref musicians);
-            return musicians;
-        }
-
         public IEnumerable<Musician> GetRelated(IEnumerable<Musician> musicians)
         {
             IEnumerable<Musician> data = context.Musicians

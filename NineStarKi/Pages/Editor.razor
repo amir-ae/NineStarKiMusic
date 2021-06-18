@@ -1,10 +1,6 @@
 ﻿@page "/"
 @using BlazorDateRangePicker
 @inherits OwningComponentBase<IRepository>
-@inject IRepository Repository
-@inject ConstantData ConstantData
-@inject Calculator Calculator
-@inject NavigationManager NavManager
 
 <link href="/style.css" rel="stylesheet" />
 <EditForm Model="Personality" OnValidSubmit="@Submit" Context="formContext">
@@ -57,9 +53,21 @@
 </EditForm>
 
 @code {
-    private DateRangePicker Picker { get; set; }
+    [Inject]
+    public NavigationManager NavManager { get; set; }
 
-    private Personality Personality { get; set; } = new Personality();
+    [Inject]
+    public IRepository Repository { get; set; }
+
+    [Inject]
+    public ConstantData ConstantData { get; set; }
+
+    [Inject]
+    public Calculator Calculator { get; set; }
+
+    public DateRangePicker Picker { get; set; }
+
+    public Personality Personality { get; set; } = new Personality();
 
     private char selectKey
     {
