@@ -163,7 +163,7 @@ namespace NineStarKi.Models
                 Genres = new List<Genre> { genres[7] },
                 Recording = "The First Day",
                 Occasions = new List<Occasion> { occasions[5] },
-                Numbers = "353 & 555"
+                Numbers = "353, 555"
             },
             new Musician
             {
@@ -211,7 +211,7 @@ namespace NineStarKi.Models
                 Genres = new List<Genre> { genres[12] },
                 Recording = "A Hard Day's Night",
                 Occasions = new List<Occasion> { occasions[5] },
-                Numbers = "665, 445, 611, 353 & 528"
+                Numbers = "665, 445, 611, 353, 528"
             },
             new Musician
             {
@@ -219,7 +219,7 @@ namespace NineStarKi.Models
                 Genres = new List<Genre> { genres[12] },
                 Recording = "Rubber Soul",
                 Occasions = new List<Occasion> { occasions[5] },
-                Numbers = "665, 445, 611, 353 & 528"
+                Numbers = "665, 445, 611, 353, 528"
             },
             new Musician
             {
@@ -235,7 +235,7 @@ namespace NineStarKi.Models
                 Genres = new List<Genre> { genres[8] },
                 Recording = "West Side Story",
                 Occasions = new List<Occasion> { occasions[5] },
-                Numbers = "124 & 775"
+                Numbers = "124, 775"
             },
             new Musician
             {
@@ -251,7 +251,7 @@ namespace NineStarKi.Models
                 Genres = new List<Genre> { genres[8] },
                 Recording = "Fiddler on the Roof",
                 Occasions = new List<Occasion> { occasions[5] },
-                Numbers = "959 & 463"
+                Numbers = "959, 463"
             },
             new Musician
             {
@@ -459,7 +459,7 @@ namespace NineStarKi.Models
                 Genres = new List<Genre> { genres[12] },
                 Recording = "Are You Experienced",
                 Occasions = new List<Occasion> { occasions[5], occasions[10] },
-                Numbers = "481, 995 & 178"
+                Numbers = "481, 995, 178"
             },
             new Musician
             {
@@ -531,7 +531,7 @@ namespace NineStarKi.Models
                 Genres = new List<Genre> { genres[14], genres[47] },
                 Recording = "A World Out of Time",
                 Occasions = new List<Occasion> { occasions[5], occasions[8] },
-                Numbers = "151 & 216"
+                Numbers = "151, 216"
             },
             new Musician
             {
@@ -595,7 +595,7 @@ namespace NineStarKi.Models
                 Genres = new List<Genre> { genres[0], genres[12] },
                 Recording = "Blues Breakers",
                 Occasions = new List<Occasion> { occasions[5], occasions[6] },
-                Numbers = "481 & 178"
+                Numbers = "481, 178"
             },
             new Musician
             {
@@ -635,7 +635,7 @@ namespace NineStarKi.Models
                 Genres = new List<Genre> { genres[14], genres[20] },
                 Recording = "Clube da esquina",
                 Occasions = new List<Occasion> { occasions[5], occasions[6] },
-                Numbers = "499 & 463"
+                Numbers = "499, 463"
             },
             new Musician
             {
@@ -707,7 +707,7 @@ namespace NineStarKi.Models
                 Genres = new List<Genre> { genres[4] },
                 Recording = "Peter, Paul and Mary",
                 Occasions = new List<Occasion> { occasions[5] },
-                Numbers = "885, 941 & 187"
+                Numbers = "885, 941, 187"
             },
             new Musician
             {
@@ -731,7 +731,7 @@ namespace NineStarKi.Models
                 Genres = new List<Genre> { genres[8] },
                 Recording = "The Sound of Music",
                 Occasions = new List<Occasion> { occasions[5] },
-                Numbers = "876 & 692"
+                Numbers = "876, 692"
             },
             new Musician
             {
@@ -779,7 +779,7 @@ namespace NineStarKi.Models
                 Genres = new List<Genre> { genres[2] },
                 Recording = "The Complete Columbia Recordings",
                 Occasions = new List<Occasion> { occasions[5] },
-                Numbers = "389 & 187"
+                Numbers = "389, 187"
             },
             new Musician
             {
@@ -787,7 +787,7 @@ namespace NineStarKi.Models
                 Genres = new List<Genre> { genres[12] },
                 Recording = "Aja",
                 Occasions = new List<Occasion> { occasions[5], occasions[9] },
-                Numbers = "528 & 894"
+                Numbers = "528, 894"
             },
             new Musician
             {
@@ -803,7 +803,7 @@ namespace NineStarKi.Models
                 Genres = new List<Genre> { genres[1] },
                 Recording = "The Nutcracker",
                 Occasions = new List<Occasion> { occasions[5] },
-                Numbers = "757 & 297"
+                Numbers = "757, 297"
             },
             new Musician
             {
@@ -867,7 +867,7 @@ namespace NineStarKi.Models
                 Genres = new List<Genre> { genres[2] },
                 Recording = "Stratosphere Boogie",
                 Occasions = new List<Occasion> { occasions[5] },
-                Numbers = "591 & 353"
+                Numbers = "591, 353"
             },
             new Musician
             {
@@ -979,7 +979,7 @@ namespace NineStarKi.Models
                 Genres = new List<Genre> { genres[7] },
                 Recording = "Sketches of Spain",
                 Occasions = new List<Occasion> { occasions[3] },
-                Numbers = "288 & 757"
+                Numbers = "288, 757"
             },
             new Musician
             {
@@ -1137,9 +1137,9 @@ namespace NineStarKi.Models
             {
                 Name = "Antonio Carlos Jobim and Elis Regina",
                 Genres = new List<Genre> { genres[14], genres[20] },
-                Recording = "Elis & Tom",
+                Recording = "Elis, Tom",
                 Occasions = new List<Occasion> { occasions[3] },
-                Numbers = "297 & 178"
+                Numbers = "297, 178"
             },
             new Musician
             {
@@ -1163,7 +1163,7 @@ namespace NineStarKi.Models
                 Genres = new List<Genre> { genres[11] },
                 Recording = "Imagination",
                 Occasions = new List<Occasion> { occasions[3] },
-                Numbers = "288, 427, 573 & 721"
+                Numbers = "288, 427, 573, 721"
             },
             new Musician
             {
@@ -1171,7 +1171,7 @@ namespace NineStarKi.Models
                 Genres = new List<Genre> { genres[7] },
                 Recording = "Hot House",
                 Occasions = new List<Occasion> { occasions[3] },
-                Numbers = "288 & 389"
+                Numbers = "288, 389"
             },
             new Musician
             {
@@ -1219,7 +1219,7 @@ namespace NineStarKi.Models
                 Genres = new List<Genre> { genres[7] },
                 Recording = "European Concert",
                 Occasions = new List<Occasion> { occasions[3], occasions[0] },
-                Numbers = "638, 647, 894, 591, 169, 555 & 288"
+                Numbers = "638, 647, 894, 591, 169, 555, 288"
             },
             new Musician
             {
@@ -1267,7 +1267,7 @@ namespace NineStarKi.Models
                 Genres = new List<Genre> { genres[11] },
                 Recording = "Princesses Nubiennes",
                 Occasions = new List<Occasion> { occasions[3], occasions[1] },
-                Numbers = "418 & 849"
+                Numbers = "418, 849"
             },
             new Musician
             {
@@ -1283,7 +1283,7 @@ namespace NineStarKi.Models
                 Genres = new List<Genre> { genres[14], genres[28] },
                 Recording = "Memories of Cuba",
                 Occasions = new List<Occasion> { occasions[3] },
-                Numbers = "858, 784, 721, 849 & 344"
+                Numbers = "858, 784, 721, 849, 344"
             },
             new Musician
             {
@@ -1313,7 +1313,7 @@ namespace NineStarKi.Models
             {
                 Name = "Elis Regina",
                 Genres = new List<Genre> { genres[14], genres[20] },
-                Recording = "Como & porque",
+                Recording = "Como, porque",
                 Occasions = new List<Occasion> { occasions[3] },
                 Numbers = "178"
             },
@@ -1331,7 +1331,7 @@ namespace NineStarKi.Models
                 Genres = new List<Genre> { genres[7], genres[11] },
                 Recording = "The Ultimate Collection",
                 Occasions = new List<Occasion> { occasions[3] },
-                Numbers = "656, 995, 775, 822, 656, 445, 573 & 555"
+                Numbers = "656, 995, 775, 822, 656, 445, 573, 555"
             },
             new Musician
             {
@@ -1347,7 +1347,7 @@ namespace NineStarKi.Models
                 Genres = new List<Genre> { genres[12] },
                 Recording = "Avalon",
                 Occasions = new List<Occasion> { occasions[3] },
-                Numbers = "115, 591, 995 & 454"
+                Numbers = "115, 591, 995, 454"
             },
             new Musician
             {
@@ -1401,9 +1401,9 @@ namespace NineStarKi.Models
             {
                 Name = "Frank Sinatra and Antonio Carlos Jobim",
                 Genres = new List<Genre> { genres[13] },
-                Recording = "Francis Albert Sinatra & Antonio Carlos Jobim",
+                Recording = "Francis Albert Sinatra, Antonio Carlos Jobim",
                 Occasions = new List<Occasion> { occasions[3] },
-                Numbers = "472 & 297"
+                Numbers = "472, 297"
             },
             new Musician
             {
@@ -1491,7 +1491,7 @@ namespace NineStarKi.Models
                 Genres = new List<Genre> { genres[12] },
                 Recording = "Dirt",
                 Occasions = new List<Occasion> { occasions[10] },
-                Numbers = "775, 757, 757, 683, 683 & 775"
+                Numbers = "775, 757, 757, 683, 683, 775"
             },
             new Musician
             {
@@ -1547,7 +1547,7 @@ namespace NineStarKi.Models
                 Genres = new List<Genre> { genres[12] },
                 Recording = "Damaged",
                 Occasions = new List<Occasion> { occasions[10] },
-                Numbers = "142, 977, 297 & 353"
+                Numbers = "142, 977, 297, 353"
             },
             new Musician
             {
@@ -1555,7 +1555,7 @@ namespace NineStarKi.Models
                 Genres = new List<Genre> { genres[14], genres[50] },
                 Recording = "Cuatro caminos",
                 Occasions = new List<Occasion> { occasions[10] },
-                Numbers = "472, 683 & 472"
+                Numbers = "472, 683, 472"
             },
             new Musician
             {
@@ -1579,7 +1579,7 @@ namespace NineStarKi.Models
                 Genres = new List<Genre> { genres[12] },
                 Recording = "Armed Forces",
                 Occasions = new List<Occasion> { occasions[10] },
-                Numbers = "124, 721, 656 & 124"
+                Numbers = "124, 721, 656, 124"
             },
             new Musician
             {
@@ -1611,7 +1611,7 @@ namespace NineStarKi.Models
                 Genres = new List<Genre> { genres[12] },
                 Recording = "Repeater",
                 Occasions = new List<Occasion> { occasions[10] },
-                Numbers = "297, 187, 775 & 849"
+                Numbers = "297, 187, 775, 849"
             },
             new Musician
             {
@@ -1619,7 +1619,7 @@ namespace NineStarKi.Models
                 Genres = new List<Genre> { genres[12] },
                 Recording = "Entertainment!",
                 Occasions = new List<Occasion> { occasions[10] },
-                Numbers = "914, 813 & 941"
+                Numbers = "914, 813, 941"
             },
             new Musician
             {
@@ -1635,7 +1635,7 @@ namespace NineStarKi.Models
                 Genres = new List<Genre> { genres[12] },
                 Recording = "American Idiot",
                 Occasions = new List<Occasion> { occasions[10] },
-                Numbers = "187, 169 & 178"
+                Numbers = "187, 169, 178"
             },
             new Musician
             {
@@ -1659,7 +1659,7 @@ namespace NineStarKi.Models
                 Genres = new List<Genre> { genres[12] },
                 Recording = "Raw Power",
                 Occasions = new List<Occasion> { occasions[10] },
-                Numbers = "894, 739, 683 & 885"
+                Numbers = "894, 739, 683, 885"
             },
             new Musician
             {
@@ -1675,7 +1675,7 @@ namespace NineStarKi.Models
                 Genres = new List<Genre> { genres[12] },
                 Recording = "Ritual de lo Habitual",
                 Occasions = new List<Occasion> { occasions[10] },
-                Numbers = "519, 611, 674 & 317"
+                Numbers = "519, 611, 674, 317"
             },
             new Musician
             {
@@ -1683,7 +1683,7 @@ namespace NineStarKi.Models
                 Genres = new List<Genre> { genres[14], genres[43] },
                 Recording = "Live at Acropolis, Athens, Greece",
                 Occasions = new List<Occasion> { occasions[10] },
-                Numbers = "656 & 463"
+                Numbers = "656, 463"
             },
             new Musician
             {
@@ -1691,7 +1691,7 @@ namespace NineStarKi.Models
                 Genres = new List<Genre> { genres[7] },
                 Recording = "The Inner Mounting Flame",
                 Occasions = new List<Occasion> { occasions[10] },
-                Numbers = "519, 288, 766, 647 & 528"
+                Numbers = "519, 288, 766, 647, 528"
             },
             new Musician
             {
@@ -1723,7 +1723,7 @@ namespace NineStarKi.Models
                 Genres = new List<Genre> { genres[12] },
                 Recording = "Kick Out the Jams",
                 Occasions = new List<Occasion> { occasions[10] },
-                Numbers = "766, 674, 216, 326 & 721"
+                Numbers = "766, 674, 216, 326, 721"
             },
             new Musician
             {
@@ -1731,7 +1731,7 @@ namespace NineStarKi.Models
                 Genres = new List<Genre> { genres[1] },
                 Recording = "Beethoven Violin Concerto, Mendelssohn Violin Concerto",
                 Occasions = new List<Occasion> { occasions[10] },
-                Numbers = "335 &  519"
+                Numbers = "335,  519"
             },
             new Musician
             {
@@ -1739,7 +1739,7 @@ namespace NineStarKi.Models
                 Genres = new List<Genre> { genres[12] },
                 Recording = "Master of Puppets",
                 Occasions = new List<Occasion> { occasions[10] },
-                Numbers = "133, 178, 225 & 968"
+                Numbers = "133, 178, 225, 968"
             },
             new Musician
             {
@@ -1747,7 +1747,7 @@ namespace NineStarKi.Models
                 Genres = new List<Genre> { genres[12] },
                 Recording = "The Mind Is a Terrible Thing to Taste",
                 Occasions = new List<Occasion> { occasions[10] },
-                Numbers = "528, 665 & 418"
+                Numbers = "528, 665, 418"
             },
             new Musician
             {
@@ -1755,7 +1755,7 @@ namespace NineStarKi.Models
                 Genres = new List<Genre> { genres[12] },
                 Recording = "Apple",
                 Occasions = new List<Occasion> { occasions[10] },
-                Numbers = "178, 472, 344, 739 & 894"
+                Numbers = "178, 472, 344, 739, 894"
             },
             new Musician
             {
@@ -1763,7 +1763,7 @@ namespace NineStarKi.Models
                 Genres = new List<Genre> { genres[12] },
                 Recording = "It Still Moves",
                 Occasions = new List<Occasion> { occasions[10] },
-                Numbers = "463, 481, 858 & 932"
+                Numbers = "463, 481, 858, 932"
             },
             new Musician
             {
@@ -1779,7 +1779,7 @@ namespace NineStarKi.Models
                 Genres = new List<Genre> { genres[12] },
                 Recording = "Vulgar Display of Power",
                 Occasions = new List<Occasion> { occasions[10] },
-                Numbers = "721, 941, 959, 995 & 573"
+                Numbers = "721, 941, 959, 995, 573"
             },
             new Musician
             {
@@ -1795,7 +1795,7 @@ namespace NineStarKi.Models
                 Genres = new List<Genre> { genres[12] },
                 Recording = "Synchronicity",
                 Occasions = new List<Occasion> { occasions[10] },
-                Numbers = "418, 398, 362 & 472"
+                Numbers = "418, 398, 362, 472"
             },
             new Musician
             {
@@ -1803,7 +1803,7 @@ namespace NineStarKi.Models
                 Genres = new List<Genre> { genres[6] },
                 Recording = "It Takes a Nation of Millions to Hold Us Back",
                 Occasions = new List<Occasion> { occasions[10] },
-                Numbers = "436, 775, 721, 436 & 519"
+                Numbers = "436, 775, 721, 436, 519"
             },
             new Musician
             {
@@ -1811,7 +1811,7 @@ namespace NineStarKi.Models
                 Genres = new List<Genre> { genres[12] },
                 Recording = "OK Computer",
                 Occasions = new List<Occasion> { occasions[10], occasions[9] },
-                Numbers = "546, 234, 591, 445 & 629"
+                Numbers = "546, 234, 591, 445, 629"
             },
             new Musician
             {
@@ -1891,7 +1891,7 @@ namespace NineStarKi.Models
                 Genres = new List<Genre> { genres[1] },
                 Recording = "Stimmung Richard Strauss, Also sprach Zarathustra",
                 Occasions = new List<Occasion> { occasions[10] },
-                Numbers = "986 & 142"
+                Numbers = "986, 142"
             },
             new Musician
             {
@@ -1899,7 +1899,7 @@ namespace NineStarKi.Models
                 Genres = new List<Genre> { genres[12] },
                 Recording = "Toxicity",
                 Occasions = new List<Occasion> { occasions[10] },
-                Numbers = "683, 739, 894, 995 & 766"
+                Numbers = "683, 739, 894, 995, 766"
             },
             new Musician
             {
@@ -1907,7 +1907,7 @@ namespace NineStarKi.Models
                 Genres = new List<Genre> { genres[6] },
                 Recording = "The Low End Theory",
                 Occasions = new List<Occasion> { occasions[10] },
-                Numbers = "335, 353, 389 & 279"
+                Numbers = "335, 353, 389, 279"
             },
             new Musician
             {
@@ -1915,7 +1915,7 @@ namespace NineStarKi.Models
                 Genres = new List<Genre> { genres[12] },
                 Recording = "The Joshua Tree",
                 Occasions = new List<Occasion> { occasions[10] },
-                Numbers = "454, 389, 472 & 362"
+                Numbers = "454, 389, 472, 362"
             },
             new Musician
             {
@@ -1939,7 +1939,7 @@ namespace NineStarKi.Models
                 Genres = new List<Genre> { genres[12] },
                 Recording = "Tommy",
                 Occasions = new List<Occasion> { occasions[10] },
-                Numbers = "225, 151, 234, 784, 986 & 712"
+                Numbers = "225, 151, 234, 784, 986, 712"
             },
             new Musician
             {
@@ -1947,7 +1947,7 @@ namespace NineStarKi.Models
                 Genres = new List<Genre> { genres[12] },
                 Recording = "Who's Next",
                 Occasions = new List<Occasion> { occasions[10] },
-                Numbers = "225, 151, 234, 784, 986 & 712"
+                Numbers = "225, 151, 234, 784, 986, 712"
             },
             new Musician
             {
@@ -1963,7 +1963,7 @@ namespace NineStarKi.Models
                 Genres = new List<Genre> { genres[12] },
                 Recording = "Wild Gift",
                 Occasions = new List<Occasion> { occasions[10] },
-                Numbers = "225, 784, 932, 941, 959 & 398"
+                Numbers = "225, 784, 932, 941, 959, 398"
             },
             new Musician
             {
@@ -2091,7 +2091,7 @@ namespace NineStarKi.Models
                 Genres = new List<Genre> { genres[12] },
                 Recording = "Déjà vu",
                 Occasions = new List<Occasion> { occasions[8] },
-                Numbers = "555, 216, 591 & 187"
+                Numbers = "555, 216, 591, 187"
             },
             new Musician
             {
@@ -2123,7 +2123,7 @@ namespace NineStarKi.Models
                 Genres = new List<Genre> { genres[7] },
                 Recording = "Take Ten",
                 Occasions = new List<Occasion> { occasions[8], occasions[0] },
-                Numbers = "481 & 784"
+                Numbers = "481, 784"
             },
             new Musician
             {
@@ -2131,7 +2131,7 @@ namespace NineStarKi.Models
                 Genres = new List<Genre> { genres[14], genres[48] },
                 Recording = "New Ancient Strings",
                 Occasions = new List<Occasion> { occasions[8], occasions[2] },
-                Numbers = "858 & 5"
+                Numbers = "858, 5"
             },
             new Musician
             {
@@ -2147,7 +2147,7 @@ namespace NineStarKi.Models
                 Genres = new List<Genre> { genres[7] },
                 Recording = "Undercurrent",
                 Occasions = new List<Occasion> { occasions[8] },
-                Numbers = "858 & 784"
+                Numbers = "858, 784"
             },
             new Musician
             {
@@ -2171,7 +2171,7 @@ namespace NineStarKi.Models
                 Genres = new List<Genre> { genres[1] },
                 Recording = "Brahms: Lieder",
                 Occasions = new List<Occasion> { occasions[8] },
-                Numbers = "986 & 582"
+                Numbers = "986, 582"
             },
             new Musician
             {
@@ -2179,7 +2179,7 @@ namespace NineStarKi.Models
                 Genres = new List<Genre> { genres[1] },
                 Recording = "J. S. Bach, Volume 1",
                 Occasions = new List<Occasion> { occasions[8] },
-                Numbers = "178 & 941"
+                Numbers = "178, 941"
             },
             new Musician
             {
@@ -2203,7 +2203,7 @@ namespace NineStarKi.Models
                 Genres = new List<Genre> { genres[1] },
                 Recording = "A State of Wonder: J. S. Bach Goldberg Variations",
                 Occasions = new List<Occasion> { occasions[8] },
-                Numbers = "546 & 941"
+                Numbers = "546, 941"
             },
             new Musician
             {
@@ -2275,7 +2275,7 @@ namespace NineStarKi.Models
                 Genres = new List<Genre> { genres[1] },
                 Recording = "Bach: Cantatas",
                 Occasions = new List<Occasion> { occasions[8] },
-                Numbers = "187 & 941"
+                Numbers = "187, 941"
             },
             new Musician
             {
@@ -2363,7 +2363,7 @@ namespace NineStarKi.Models
                 Genres = new List<Genre> { genres[2] },
                 Recording = "Satan Is Real",
                 Occasions = new List<Occasion> { occasions[8] },
-                Numbers = "463 & 142"
+                Numbers = "463, 142"
             },
             new Musician
             {
@@ -2427,7 +2427,7 @@ namespace NineStarKi.Models
                 Genres = new List<Genre> { genres[7] },
                 Recording = "The Complete Blue Note and Capitol Recordings",
                 Occasions = new List<Occasion> { occasions[8] },
-                Numbers = "546 & 225"
+                Numbers = "546, 225"
             },
             new Musician
             {
@@ -2587,7 +2587,7 @@ namespace NineStarKi.Models
                 Genres = new List<Genre> { genres[14], genres[24] },
                 Recording = "Forgotten Days",
                 Occasions = new List<Occasion> { occasions[8] },
-                Numbers = "638 & 187"
+                Numbers = "638, 187"
             },
             new Musician
             {
@@ -2611,7 +2611,7 @@ namespace NineStarKi.Models
                 Genres = new List<Genre> { genres[5] },
                 Recording = "The Swan Silvertones/Saviour Pass Me Not Taj Mahal, The Natch'l Blues",
                 Occasions = new List<Occasion> { occasions[8] },
-                Numbers = "537 & 436"
+                Numbers = "537, 436"
             },
             new Musician
             {
@@ -2675,7 +2675,7 @@ namespace NineStarKi.Models
                 Genres = new List<Genre> { genres[14], genres[20] },
                 Recording = "Tropicália 2",
                 Occasions = new List<Occasion> { occasions[8] },
-                Numbers = "436 & 445"
+                Numbers = "436, 445"
             },
             new Musician
             {
@@ -2747,7 +2747,7 @@ namespace NineStarKi.Models
                 Genres = new List<Genre> { genres[12] },
                 Recording = "Back in Black",
                 Occasions = new List<Occasion> { occasions[4] },
-                Numbers = "941, 813, 849, 151, 647, 335, 995, 822, 968 & 142"
+                Numbers = "941, 813, 849, 151, 647, 335, 995, 822, 968, 142"
             },
             new Musician
             {
@@ -2795,7 +2795,7 @@ namespace NineStarKi.Models
                 Genres = new List<Genre> { genres[11] },
                 Recording = "Soul Pride: The Instrumentals, 1960-1969",
                 Occasions = new List<Occasion> { occasions[4] },
-                Numbers = "463 & 591"
+                Numbers = "463, 591"
             },
             new Musician
             {
@@ -2835,7 +2835,7 @@ namespace NineStarKi.Models
                 Genres = new List<Genre> { genres[6] },
                 Recording = "Three Feet High and Rising",
                 Occasions = new List<Occasion> { occasions[4] },
-                Numbers = "427, 546 & 344"
+                Numbers = "427, 546, 344"
             },
             new Musician
             {
@@ -2863,7 +2863,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
-                Name = "Earth Wind & Fire",
+                Name = "Earth Wind, Fire",
                 Genres = new List<Genre> { genres[11] },
                 Recording = "All 'n' All",
                 Occasions = new List<Occasion> { occasions[4] },
@@ -2995,7 +2995,7 @@ namespace NineStarKi.Models
                 Genres = new List<Genre> { genres[3] },
                 Recording = "We Are Three",
                 Occasions = new List<Occasion> { occasions[4], occasions[9] },
-                Numbers = "537 & 822"
+                Numbers = "537, 822"
             },
             new Musician
             {
@@ -3075,7 +3075,7 @@ namespace NineStarKi.Models
                 Genres = new List<Genre> { genres[14], genres[60] },
                 Recording = "Paris/Soweto",
                 Occasions = new List<Occasion> { occasions[4], occasions[1] },
-                Numbers = "8, 4, 169 & 335"
+                Numbers = "8, 4, 169, 335"
             },
             new Musician
             {
@@ -3099,7 +3099,7 @@ namespace NineStarKi.Models
                 Genres = new List<Genre> { genres[14], genres[63] },
                 Recording = "Sixteen Carnival Hits",
                 Occasions = new List<Occasion> { occasions[4], occasions[1] },
-                Numbers = "261 & 638"
+                Numbers = "261, 638"
             },
             new Musician
             {
@@ -3203,7 +3203,7 @@ namespace NineStarKi.Models
                 Genres = new List<Genre> { genres[14], genres[54] },
                 Recording = "Lo último en la avenida",
                 Occasions = new List<Occasion> { occasions[4] },
-                Numbers = "674 & 142"
+                Numbers = "674, 142"
             },
             new Musician
             {
@@ -3299,7 +3299,7 @@ namespace NineStarKi.Models
                 Genres = new List<Genre> { genres[11] },
                 Recording = "Proud Mary",
                 Occasions = new List<Occasion> { occasions[4], occasions[1] },
-                Numbers = "665 & 784"
+                Numbers = "665, 784"
             },
             new Musician
             {
@@ -3435,7 +3435,7 @@ namespace NineStarKi.Models
                 Genres = new List<Genre> { genres[14], genres[39] },
                 Recording = "A Meeting by the River",
                 Occasions = new List<Occasion> { occasions[2] },
-                Numbers = "564 & 813"
+                Numbers = "564, 813"
             },
             new Musician
             {
@@ -3475,7 +3475,7 @@ namespace NineStarKi.Models
                 Genres = new List<Genre> { genres[12] },
                 Recording = "I'm Wide Awake, It's Morning",
                 Occasions = new List<Occasion> { occasions[2] },
-                Numbers = "885, 225 & 472"
+                Numbers = "885, 225, 472"
             },
             new Musician
             {
@@ -3547,7 +3547,7 @@ namespace NineStarKi.Models
                 Genres = new List<Genre> { genres[1] },
                 Recording = "Rachmaninoff: Piano Concerto No. 3; Prokofiev: Piano Concerto No. 3",
                 Occasions = new List<Occasion> { occasions[2] },
-                Numbers = "398 & 178"
+                Numbers = "398, 178"
             },
             new Musician
             {
@@ -3635,7 +3635,7 @@ namespace NineStarKi.Models
                 Genres = new List<Genre> { genres[7] },
                 Recording = "Sunday at the Village Vanguard/Waltz for Debby",
                 Occasions = new List<Occasion> { occasions[2] },
-                Numbers = "858, 178 & 647"
+                Numbers = "858, 178, 647"
             },
             new Musician
             {
@@ -3659,7 +3659,7 @@ namespace NineStarKi.Models
                 Genres = new List<Genre> { genres[7] },
                 Recording = "Dis",
                 Occasions = new List<Occasion> { occasions[2] },
-                Numbers = "822 & 656"
+                Numbers = "822, 656"
             },
             new Musician
             {
@@ -3795,7 +3795,7 @@ namespace NineStarKi.Models
                 Genres = new List<Genre> { genres[14], genres[48] },
                 Recording = "Moffou",
                 Occasions = new List<Occasion> { occasions[2] },
-                Numbers = "683 & 638"
+                Numbers = "683, 638"
             },
             new Musician
             {
@@ -3851,7 +3851,7 @@ namespace NineStarKi.Models
                 Genres = new List<Genre> { genres[4], genres[12] },
                 Recording = "Kate and Anna McGarrigle",
                 Occasions = new List<Occasion> { occasions[2] },
-                Numbers = "959 & 225"
+                Numbers = "959, 225"
             },
             new Musician
             {
@@ -4051,7 +4051,7 @@ namespace NineStarKi.Models
                 Genres = new List<Genre> { genres[7], genres[5] },
                 Recording = "Goin' Home",
                 Occasions = new List<Occasion> { occasions[2] },
-                Numbers = "923 & 766"
+                Numbers = "923, 766"
             },
             new Musician
             {
@@ -4059,7 +4059,7 @@ namespace NineStarKi.Models
                 Genres = new List<Genre> { genres[12] },
                 Recording = "Bridge Over Troubled Water",
                 Occasions = new List<Occasion> { occasions[2] },
-                Numbers = "537 & 537"
+                Numbers = "537, 537"
             },
             new Musician
             {
@@ -4259,7 +4259,7 @@ namespace NineStarKi.Models
                 Genres = new List<Genre> { genres[10] },
                 Recording = "Whipped Cream and Other Delights",
                 Occasions = new List<Occasion> { occasions[0] },
-                Numbers = "216, 225, 656, 914, 775 & 252"
+                Numbers = "216, 225, 656, 914, 775, 252"
             },
             new Musician
             {
@@ -4275,7 +4275,7 @@ namespace NineStarKi.Models
                 Genres = new List<Genre> { genres[2], genres[7] },
                 Recording = "Chester and Lester",
                 Occasions = new List<Occasion> { occasions[0] },
-                Numbers = "445 & 445"
+                Numbers = "445, 445"
             },
             new Musician
             {
@@ -4291,7 +4291,7 @@ namespace NineStarKi.Models
                 Genres = new List<Genre> { genres[13] },
                 Recording = "The Tony Bennett-Bill Evans Album",
                 Occasions = new List<Occasion> { occasions[0] },
-                Numbers = "261 & 858"
+                Numbers = "261, 858"
             },
             new Musician
             {
@@ -4315,7 +4315,7 @@ namespace NineStarKi.Models
                 Genres = new List<Genre> { genres[7] },
                 Recording = "Clifford Brown and Max Roach",
                 Occasions = new List<Occasion> { occasions[0] },
-                Numbers = "721, 683, 389, 941, 793 & 591"
+                Numbers = "721, 683, 389, 941, 793, 591"
             },
             new Musician
             {
@@ -4339,7 +4339,7 @@ namespace NineStarKi.Models
                 Genres = new List<Genre> { genres[7], genres[13] },
                 Recording = "John Coltrane and Johnny Hartman",
                 Occasions = new List<Occasion> { occasions[0] },
-                Numbers = "243 & 573"
+                Numbers = "243, 573"
             },
             new Musician
             {
@@ -4379,7 +4379,7 @@ namespace NineStarKi.Models
                 Genres = new List<Genre> { genres[7], genres[13] },
                 Recording = "Ella and Louis",
                 Occasions = new List<Occasion> { occasions[0] },
-                Numbers = "297 & 995"
+                Numbers = "297, 995"
             },
             new Musician
             {
@@ -4411,7 +4411,7 @@ namespace NineStarKi.Models
                 Genres = new List<Genre> { genres[7] },
                 Recording = "Getz/Gilberto",
                 Occasions = new List<Occasion> { occasions[0] },
-                Numbers = "297 & 611"
+                Numbers = "297, 611"
             },
             new Musician
             {
@@ -4459,7 +4459,7 @@ namespace NineStarKi.Models
                 Genres = new List<Genre> { genres[7] },
                 Recording = "Swiss Movement",
                 Occasions = new List<Occasion> { occasions[0] },
-                Numbers = "243 & 362"
+                Numbers = "243, 362"
             },
             new Musician
             {
@@ -4507,7 +4507,7 @@ namespace NineStarKi.Models
                 Genres = new List<Genre> { genres[7], genres[13] },
                 Recording = "The Best of the Capitol Masters: Ninetieth Birthday Edition",
                 Occasions = new List<Occasion> { occasions[0], occasions[6] },
-                Numbers = "445 & 445"
+                Numbers = "445, 445"
             },
             new Musician
             {
@@ -4603,7 +4603,7 @@ namespace NineStarKi.Models
                 Genres = new List<Genre> { genres[12] },
                 Recording = "Toys in the Attic",
                 Occasions = new List<Occasion> { occasions[1] },
-                Numbers = "775, 472, 546, 353, 573, 941, 142 & 353"
+                Numbers = "775, 472, 546, 353, 573, 941, 142, 353"
             },
             new Musician
             {
@@ -4651,7 +4651,7 @@ namespace NineStarKi.Models
                 Genres = new List<Genre> { genres[6] },
                 Recording = "Paul's Boutique",
                 Occasions = new List<Occasion> { occasions[1] },
-                Numbers = "151, 822, 813, 995 & 793"
+                Numbers = "151, 822, 813, 995, 793"
             },
             new Musician
             {
@@ -4683,7 +4683,7 @@ namespace NineStarKi.Models
                 Genres = new List<Genre> { genres[14], genres[45] },
                 Recording = "Siembra",
                 Occasions = new List<Occasion> { occasions[1] },
-                Numbers = "591 & 739"
+                Numbers = "591, 739"
             },
             new Musician
             {
@@ -4699,7 +4699,7 @@ namespace NineStarKi.Models
                 Genres = new List<Genre> { genres[11] },
                 Recording = "Melting Pot",
                 Occasions = new List<Occasion> { occasions[1] },
-                Numbers = "225, 537, 225, 418, 528, 187, 169, 555 & 894"
+                Numbers = "225, 537, 225, 418, 528, 187, 169, 555, 894"
             },
             new Musician
             {
@@ -4747,7 +4747,7 @@ namespace NineStarKi.Models
                 Genres = new List<Genre> { genres[12] },
                 Recording = "Willie and the Poor Boys",
                 Occasions = new List<Occasion> { occasions[1] },
-                Numbers = "151, 528, 169 & 169"
+                Numbers = "151, 528, 169, 169"
             },
             new Musician
             {
@@ -4755,7 +4755,7 @@ namespace NineStarKi.Models
                 Genres = new List<Genre> { genres[14], genres[45] },
                 Recording = "Celia y Johnny",
                 Occasions = new List<Occasion> { occasions[1] },
-                Numbers = "362 & 216"
+                Numbers = "362, 216"
             },
             new Musician
             {
@@ -4803,7 +4803,7 @@ namespace NineStarKi.Models
                 Genres = new List<Genre> { genres[6] },
                 Recording = "The Score",
                 Occasions = new List<Occasion> { occasions[1] },
-                Numbers = "757, 499 & 196"
+                Numbers = "757, 499, 196"
             },
             new Musician
             {
@@ -4827,7 +4827,7 @@ namespace NineStarKi.Models
                 Genres = new List<Genre> { genres[10], genres[11] },
                 Recording = "'I Want You Back'",
                 Occasions = new List<Occasion> { occasions[1] },
-                Numbers = "463, 234, 178, 775 & 683"
+                Numbers = "463, 234, 178, 775, 683"
             },
             new Musician
             {
@@ -4875,7 +4875,7 @@ namespace NineStarKi.Models
                 Genres = new List<Genre> { genres[12] },
                 Recording = "'Rock and Roll All Nite'",
                 Occasions = new List<Occasion> { occasions[1] },
-                Numbers = "463, 683, 564 & 178"
+                Numbers = "463, 683, 564, 178"
             },
             new Musician
             {
@@ -5027,7 +5027,7 @@ namespace NineStarKi.Models
                 Genres = new List<Genre> { genres[10], genres[11] },
                 Recording = "'You Keep Me Hangin' On'",
                 Occasions = new List<Occasion> { occasions[1] },
-                Numbers = "216, 216, 317, 573, 317, 775, 225, 656, 234 & 674"
+                Numbers = "216, 216, 317, 573, 317, 775, 225, 656, 234, 674"
             },
             new Musician
             {
@@ -5123,7 +5123,7 @@ namespace NineStarKi.Models
                 Genres = new List<Genre> { genres[12] },
                 Recording = "Elephant",
                 Occasions = new List<Occasion> { occasions[1] },
-                Numbers = "739 & 813"
+                Numbers = "739, 813"
             },
             new Musician
             {
@@ -5155,7 +5155,7 @@ namespace NineStarKi.Models
                 Genres = new List<Genre> { genres[12] },
                 Recording = "Revolver",
                 Occasions = new List<Occasion> { occasions[6] },
-                Numbers = "665, 445, 611, 353 & 528"
+                Numbers = "665, 445, 611, 353, 528"
             },
             new Musician
             {
@@ -5195,7 +5195,7 @@ namespace NineStarKi.Models
                 Genres = new List<Genre> { genres[1] },
                 Recording = "Brahms, Tchaikovsky Violin Concertos",
                 Occasions = new List<Occasion> { occasions[6] },
-                Numbers = "169, 528 & 757"
+                Numbers = "169, 528, 757"
             },
             new Musician
             {
@@ -5275,7 +5275,7 @@ namespace NineStarKi.Models
                 Genres = new List<Genre> { genres[12] },
                 Recording = "Electric Warrior",
                 Occasions = new List<Occasion> { occasions[6] },
-                Numbers = "849, 692, 885, 885, 914, 196, 472, 216, 169, 885, 344 & 9"
+                Numbers = "849, 692, 885, 885, 914, 196, 472, 216, 169, 885, 344, 9"
             },
             new Musician
             {
@@ -5323,7 +5323,7 @@ namespace NineStarKi.Models
                 Genres = new List<Genre> { genres[7], genres[14] },
                 Recording = "Codona 3",
                 Occasions = new List<Occasion> { occasions[7] },
-                Numbers = "187, 261 & 169"
+                Numbers = "187, 261, 169"
             },
             new Musician
             {
@@ -5451,7 +5451,7 @@ namespace NineStarKi.Models
                 Genres = new List<Genre> { genres[12] },
                 Recording = "Marquee Moon",
                 Occasions = new List<Occasion> { occasions[7], occasions[9] },
-                Numbers = "647, 528, 766, 499, 674 & 8"
+                Numbers = "647, 528, 766, 499, 674, 8"
             },
             new Musician
             {
@@ -5459,7 +5459,7 @@ namespace NineStarKi.Models
                 Genres = new List<Genre> { genres[4], genres[12] },
                 Recording = "Shoot Out the Lights",
                 Occasions = new List<Occasion> { occasions[7] },
-                Numbers = "647 & 858"
+                Numbers = "647, 858"
             },
             new Musician
             {
@@ -5491,7 +5491,7 @@ namespace NineStarKi.Models
                 Genres = new List<Genre> { genres[1] },
                 Recording = "Alban Berg: Violin Concerto; Igor Stravinsky: Violin Concerto",
                 Occasions = new List<Occasion> { occasions[9] },
-                Numbers = "784 & 142"
+                Numbers = "784, 142"
             },
             new Musician
             {
@@ -5651,7 +5651,7 @@ namespace NineStarKi.Models
                 Genres = new List<Genre> { genres[7] },
                 Recording = "Old and New",
                 Occasions = new List<Occasion> { occasions[9] },
-                Numbers = "187, 629, 995 & 831"
+                Numbers = "187, 629, 995, 831"
             },
             new Musician
             {
@@ -5795,7 +5795,7 @@ namespace NineStarKi.Models
                 Genres = new List<Genre> { genres[12] },
                 Recording = "In the Flat Field",
                 Occasions = new List<Occasion> { occasions[9] },
-                Numbers = "739, 739, 436 & 766"
+                Numbers = "739, 739, 436, 766"
             },
             new Musician
             {
@@ -5803,7 +5803,7 @@ namespace NineStarKi.Models
                 Genres = new List<Genre> { genres[12] },
                 Recording = "Sgt. Pepper's Lonely Hearts Club Band",
                 Occasions = new List<Occasion> { occasions[9] },
-                Numbers = "665, 445, 611, 353 & 528"
+                Numbers = "665, 445, 611, 353, 528"
             },
             new Musician
             {
@@ -5811,7 +5811,7 @@ namespace NineStarKi.Models
                 Genres = new List<Genre> { genres[12] },
                 Recording = "The Beatles (The White Album)",
                 Occasions = new List<Occasion> { occasions[9] },
-                Numbers = "665, 445, 611, 353 & 528"
+                Numbers = "665, 445, 611, 353, 528"
             },
             new Musician
             {
@@ -5819,7 +5819,7 @@ namespace NineStarKi.Models
                 Genres = new List<Genre> { genres[12] },
                 Recording = "Abbey Road",
                 Occasions = new List<Occasion> { occasions[9] },
-                Numbers = "665, 445, 611, 353 & 528"
+                Numbers = "665, 445, 611, 353, 528"
             },
             new Musician
             {
@@ -5851,7 +5851,7 @@ namespace NineStarKi.Models
                 Genres = new List<Genre> { genres[12] },
                 Recording = "Blind Faith",
                 Occasions = new List<Occasion> { occasions[9] },
-                Numbers = "757, 178, 721 & 196"
+                Numbers = "757, 178, 721, 196"
             },
             new Musician
             {
@@ -5875,7 +5875,7 @@ namespace NineStarKi.Models
                 Genres = new List<Genre> { genres[12] },
                 Recording = "My Life in the Bush of Ghosts",
                 Occasions = new List<Occasion> { occasions[9] },
-                Numbers = "326 & 757"
+                Numbers = "326, 757"
             },
             new Musician
             {
@@ -5899,7 +5899,7 @@ namespace NineStarKi.Models
                 Genres = new List<Genre> { genres[12] },
                 Recording = "Disraeli Gears",
                 Occasions = new List<Occasion> { occasions[9] },
-                Numbers = "721, 326 & 178"
+                Numbers = "721, 326, 178"
             },
             new Musician
             {
@@ -5931,7 +5931,7 @@ namespace NineStarKi.Models
                 Genres = new List<Genre> { genres[12] },
                 Recording = "The Doors",
                 Occasions = new List<Occasion> { occasions[9] },
-                Numbers = "344, 784, 169 & 225"
+                Numbers = "344, 784, 169, 225"
             },
             new Musician
             {
@@ -5939,7 +5939,7 @@ namespace NineStarKi.Models
                 Genres = new List<Genre> { genres[12] },
                 Recording = "Brain Salad Surgery",
                 Occasions = new List<Occasion> { occasions[9] },
-                Numbers = "234, 822 & 519"
+                Numbers = "234, 822, 519"
             },
             new Musician
             {
@@ -6011,7 +6011,7 @@ namespace NineStarKi.Models
                 Genres = new List<Genre> { genres[12] },
                 Recording = "Unknown Pleasures",
                 Occasions = new List<Occasion> { occasions[9] },
-                Numbers = "867, 941, 822 & 793"
+                Numbers = "867, 941, 822, 793"
             },
             new Musician
             {
@@ -6115,7 +6115,7 @@ namespace NineStarKi.Models
                 Genres = new List<Genre> { genres[12] },
                 Recording = "The Velvet Underground and Nico",
                 Occasions = new List<Occasion> { occasions[9] },
-                Numbers = "481, 472, 427, 813, 252, 822, 995 & 463"
+                Numbers = "481, 472, 427, 813, 252, 822, 995, 463"
             },
             new Musician
             {
@@ -6315,7 +6315,7 @@ namespace NineStarKi.Models
                 Genres = new List<Genre> { genres[1] },
                 Recording = "Bartók: Concerto No. 3 for Piano and Orchestra; Tchaikovsky: Symphony No. 6",
                 Occasions = new List<Occasion> { occasions[11] },
-                Numbers = "216 & 757"
+                Numbers = "216, 757"
             },
             new Musician
             {
@@ -6387,7 +6387,7 @@ namespace NineStarKi.Models
                 Genres = new List<Genre> { genres[1] },
                 Recording = "Crespin Sings Berlioz and Ravel",
                 Occasions = new List<Occasion> { occasions[11] },
-                Numbers = "187, 813 & 813"
+                Numbers = "187, 813, 813"
             },
             new Musician
             {
@@ -6641,7 +6641,7 @@ namespace NineStarKi.Models
             {
                 Name = "Ray Charles",
                 Genres = new List<Genre> { genres[2] },
-                Recording = "Modern Sounds in Country & Western, Vols. 1 and 2",
+                Recording = "Modern Sounds in Country, Western, Vols. 1 and 2",
                 Occasions = new List<Occasion> { occasions[11] },
                 Numbers = "712"
             },
@@ -6763,7 +6763,7 @@ namespace NineStarKi.Models
                 Genres = new List<Genre> { genres[3] },
                 Recording = "Dig Your Own Hole",
                 Occasions = new List<Occasion> { occasions[11] },
-                Numbers = "335 & 317"
+                Numbers = "335, 317"
             },
             new Musician
             {
@@ -6795,7 +6795,7 @@ namespace NineStarKi.Models
                 Genres = new List<Genre> { genres[4] },
                 Recording = "Byker Hill",
                 Occasions = new List<Occasion> { occasions[11] },
-                Numbers = "582 & 519"
+                Numbers = "582, 519"
             },
             new Musician
             {
@@ -6859,7 +6859,7 @@ namespace NineStarKi.Models
                 Genres = new List<Genre> { genres[6] },
                 Recording = "By All Means Necessary",
                 Occasions = new List<Occasion> { occasions[11] },
-                Numbers = "858, 317 & 225"
+                Numbers = "858, 317, 225"
             },
             new Musician
             {
@@ -6867,7 +6867,7 @@ namespace NineStarKi.Models
                 Genres = new List<Genre> { genres[6] },
                 Recording = "Black Sunday",
                 Occasions = new List<Occasion> { occasions[11] },
-                Numbers = "326, 638, 822, 555 & 638"
+                Numbers = "326, 638, 822, 555, 638"
             },
             new Musician
             {
@@ -6883,7 +6883,7 @@ namespace NineStarKi.Models
                 Genres = new List<Genre> { genres[6] },
                 Recording = "Paid in Full",
                 Occasions = new List<Occasion> { occasions[11] },
-                Numbers = "187 & 638"
+                Numbers = "187, 638"
             },
             new Musician
             {
@@ -6891,7 +6891,7 @@ namespace NineStarKi.Models
                 Genres = new List<Genre> { genres[6] },
                 Recording = "Mos Def and Talib Kweli Are Black Star",
                 Occasions = new List<Occasion> { occasions[11] },
-                Numbers = "941 & 712"
+                Numbers = "941, 712"
             },
             new Musician
             {
@@ -6899,7 +6899,7 @@ namespace NineStarKi.Models
                 Genres = new List<Genre> { genres[6] },
                 Recording = "Straight Outta Compton",
                 Occasions = new List<Occasion> { occasions[11] },
-                Numbers = "876, 647, 822, 986, 445, 445 & 234"
+                Numbers = "876, 647, 822, 986, 445, 445, 234"
             },
             new Musician
             {
@@ -6907,7 +6907,7 @@ namespace NineStarKi.Models
                 Genres = new List<Genre> { genres[6] },
                 Recording = "Antidiotico",
                 Occasions = new List<Occasion> { occasions[11] },
-                Numbers = "674, 288 & 151"
+                Numbers = "674, 288, 151"
             },
             new Musician
             {
@@ -6939,7 +6939,7 @@ namespace NineStarKi.Models
                 Genres = new List<Genre> { genres[7] },
                 Recording = "Air Lore",
                 Occasions = new List<Occasion> { occasions[11] },
-                Numbers = "472 & 427"
+                Numbers = "472, 427"
             },
             new Musician
             {
@@ -7075,7 +7075,7 @@ namespace NineStarKi.Models
                 Genres = new List<Genre> { genres[7], genres[13] },
                 Recording = "The Hottest New Group in Jazz",
                 Occasions = new List<Occasion> { occasions[11] },
-                Numbers = "279, 712, 739, 454, 959 & 225"
+                Numbers = "279, 712, 739, 454, 959, 225"
             },
             new Musician
             {
@@ -7171,7 +7171,7 @@ namespace NineStarKi.Models
                 Genres = new List<Genre> { genres[8] },
                 Recording = "The Ziegfeld Follies of 1936",
                 Occasions = new List<Occasion> { occasions[11] },
-                Numbers = "793 & 528"
+                Numbers = "793, 528"
             },
             new Musician
             {
@@ -7179,7 +7179,7 @@ namespace NineStarKi.Models
                 Genres = new List<Genre> { genres[8] },
                 Recording = "Show Boat",
                 Occasions = new List<Occasion> { occasions[11] },
-                Numbers = "692 & 894"
+                Numbers = "692, 894"
             },
             new Musician
             {
@@ -7187,7 +7187,7 @@ namespace NineStarKi.Models
                 Genres = new List<Genre> { genres[8] },
                 Recording = "Chicago",
                 Occasions = new List<Occasion> { occasions[11] },
-                Numbers = "178 & 932"
+                Numbers = "178, 932"
             },
             new Musician
             {
@@ -7195,7 +7195,7 @@ namespace NineStarKi.Models
                 Genres = new List<Genre> { genres[8] },
                 Recording = "My Fair Lady",
                 Occasions = new List<Occasion> { occasions[11] },
-                Numbers = "124 & 914"
+                Numbers = "124, 914"
             },
             new Musician
             {
@@ -7211,7 +7211,7 @@ namespace NineStarKi.Models
                 Genres = new List<Genre> { genres[8] },
                 Recording = "Funny Girl",
                 Occasions = new List<Occasion> { occasions[11] },
-                Numbers = "519 & 757"
+                Numbers = "519, 757"
             },
             new Musician
             {
@@ -7227,7 +7227,7 @@ namespace NineStarKi.Models
                 Genres = new List<Genre> { genres[8] },
                 Recording = "Jesus Christ Superstar",
                 Occasions = new List<Occasion> { occasions[11] },
-                Numbers = "775 & 225"
+                Numbers = "775, 225"
             },
             new Musician
             {
@@ -7235,7 +7235,7 @@ namespace NineStarKi.Models
                 Genres = new List<Genre> { genres[8] },
                 Recording = "The Seven Deadly Sins",
                 Occasions = new List<Occasion> { occasions[11] },
-                Numbers = "187 & 353"
+                Numbers = "187, 353"
             },
             new Musician
             {
@@ -7299,7 +7299,7 @@ namespace NineStarKi.Models
                 Genres = new List<Genre> { genres[9] },
                 Recording = "The Mikado",
                 Occasions = new List<Occasion> { occasions[11] },
-                Numbers = "225 & 582"
+                Numbers = "225, 582"
             },
             new Musician
             {
@@ -7331,7 +7331,7 @@ namespace NineStarKi.Models
                 Genres = new List<Genre> { genres[9] },
                 Recording = "The Ballad of Baby Doe",
                 Occasions = new List<Occasion> { occasions[11] },
-                Numbers = "858 & 528"
+                Numbers = "858, 528"
             },
             new Musician
             {
@@ -7435,7 +7435,7 @@ namespace NineStarKi.Models
                 Genres = new List<Genre> { genres[10] },
                 Recording = "'Leader of the Pack'",
                 Occasions = new List<Occasion> { occasions[11] },
-                Numbers = "775, 784, 959 & 784"
+                Numbers = "775, 784, 959, 784"
             },
             new Musician
             {
@@ -7491,7 +7491,7 @@ namespace NineStarKi.Models
                 Genres = new List<Genre> { genres[11] },
                 Recording = "Live from This Theater",
                 Occasions = new List<Occasion> { occasions[11] },
-                Numbers = "528 & 317"
+                Numbers = "528, 317"
             },
             new Musician
             {
@@ -7531,7 +7531,7 @@ namespace NineStarKi.Models
                 Genres = new List<Genre> { genres[12] },
                 Recording = "Triangle",
                 Occasions = new List<Occasion> { occasions[11] },
-                Numbers = "418, 362, 546, 813, 591 & 977"
+                Numbers = "418, 362, 546, 813, 591, 977"
             },
             new Musician
             {
@@ -7571,7 +7571,7 @@ namespace NineStarKi.Models
                 Genres = new List<Genre> { genres[12] },
                 Recording = "Cadence Classics: Their Twenty Greatest Hits",
                 Occasions = new List<Occasion> { occasions[11] },
-                Numbers = "169 & 894"
+                Numbers = "169, 894"
             },
             new Musician
             {
@@ -7627,7 +7627,7 @@ namespace NineStarKi.Models
                 Genres = new List<Genre> { genres[12] },
                 Recording = "'California Dreamin''",
                 Occasions = new List<Occasion> { occasions[11] },
-                Numbers = "656, 546, 252, 288 & 445"
+                Numbers = "656, 546, 252, 288, 445"
             },
             new Musician
             {
@@ -7747,7 +7747,7 @@ namespace NineStarKi.Models
                 Genres = new List<Genre> { genres[12] },
                 Recording = "Doolittle",
                 Occasions = new List<Occasion> { occasions[11] },
-                Numbers = "894, 876, 353, 941, 317 & 133"
+                Numbers = "894, 876, 353, 941, 317, 133"
             },
             new Musician
             {
@@ -7827,7 +7827,7 @@ namespace NineStarKi.Models
                 Genres = new List<Genre> { genres[12] },
                 Recording = "Reign in Blood",
                 Occasions = new List<Occasion> { occasions[11] },
-                Numbers = "923, 317, 169, 822, 959, 335 & 932"
+                Numbers = "923, 317, 169, 822, 959, 335, 932"
             },
             new Musician
             {
@@ -8059,7 +8059,7 @@ namespace NineStarKi.Models
                 Genres = new List<Genre> { genres[14], genres[39] },
                 Recording = "Ghazal: Lost Songs of the Silk Road",
                 Occasions = new List<Occasion> { occasions[11] },
-                Numbers = "187, 454 & 813"
+                Numbers = "187, 454, 813"
             },
             new Musician
             {

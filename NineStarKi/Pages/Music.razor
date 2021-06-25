@@ -2,7 +2,9 @@
 @using System.Text.Json;
 @using Microsoft.Extensions.Caching.Distributed;
 
-<h5 class="text-center text-brown m-2 p-2"> @Personality.Key.@Personality.Value </h5>
+<h5 class=@($"text-center text-{(Suggestion ? "danger" : "brown")} m-2 p-2")>
+    @Personality.Key.@Personality.Value
+</h5>
 
 @foreach (var occasion in Occasions)
 {
@@ -27,8 +29,18 @@
     [Parameter]
     public int First { get; set; }
 
+    private int? second;
     [Parameter]
-    public int? Second { get; set; }
+    public int? Second {
+        get { return second; }
+        set
+        {
+            second = value;
+            Suggestion = value == null;
+        }
+    }
+
+    public bool Suggestion { get; set; }
 
     public Personality Personality { get; set; }
 
@@ -55,15 +67,13 @@
 
     protected override async Task OnParametersSetAsync()
     {
-        bool Suggestion = Second == null;
-        bool EFRepository = typeof(EFRepository)
-            .IsAssignableFrom(Repository.GetType());
-
+        Suggestion = Second == null;
         string number = (Suggestion ? First : Second).ToString();
         Personality = new Personality(number);
-
         List<Musician> allMusicians;
         List<Musician> selectedMusicians = new List<Musician>();
+        bool EFRepository = typeof(EFRepository)
+            .IsAssignableFrom(Repository.GetType());
 
         if (EFRepository)
         {
@@ -149,7 +159,7 @@
         {
             case 0:
                 DataType = 1;
-                ButtonLabel = "Seconds";
+                ButtonLabel = "Numbers";
                 break;
             case 1:
                 DataType = 2;
