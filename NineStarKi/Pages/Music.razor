@@ -31,7 +31,8 @@
 
     private int? second;
     [Parameter]
-    public int? Second {
+    public int? Second
+    {
         get { return second; }
         set
         {
@@ -127,30 +128,33 @@
 
     private bool Check(Musician musician, Personality personality)
     {
-        if (string.IsNullOrEmpty(musician.Numbers) || !musician.Numbers.Contains(',')
-            || !musician.Numbers.Contains('&') && musician.Numbers.Count(f => f == ',') < 2)
+        if (string.IsNullOrEmpty(musician.Numbers) || !musician.Numbers.Contains(','))
         {
             return false;
         }
 
-        String[] numbers = musician.Numbers
-            .Replace(" & ", ", ")
-            .Split(", ", StringSplitOptions.RemoveEmptyEntries);
+        string[] numbers = (musician.Numbers
+            .Split(", ", StringSplitOptions.RemoveEmptyEntries))
+            .Where(n => n.Length != 1).ToArray();
 
-        List<int> result = new List<int>(numbers.Length);
+        List<double> result = new List<double>(numbers.Length);
 
-        foreach (string num in numbers)
+        for (int i = 0; i < numbers.Length; i++)
         {
-            if (num.Length == 1)
-            {
-                return false;
-            }
-            Personality p = new Personality(num);
-
-            result.Add(Calculator.ProcessNumbers(personality, p));
+            Personality p = new Personality(numbers[i]);
+            result.Add(Normal(i + 1) * Calculator.ProcessNumbers(personality, p));
         }
 
-        return result.Average() > 50;
+        double threshold = 50 * result.Select((r, i) => Normal(i + 1)).Average();
+
+        return result.Average() > threshold;
+    }
+
+    private double Normal(double x)
+    {
+        double f = 1 / Math.Sqrt(2 * Math.PI * 10)
+            * Math.Exp(-Math.Pow(x, 2) / (2 * 10));
+        return 0.12 + 2.4 * Math.Sqrt(f);
     }
 
     private void HandleClick()

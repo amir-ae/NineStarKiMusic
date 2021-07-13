@@ -121,6 +121,9 @@ namespace NineStarKi.Models
                 case 'i':
                     x += 30;
                     break;
+                case 'c':
+                    x += 10;
+                    break;
                 default:
                     break;
             }
@@ -148,6 +151,9 @@ namespace NineStarKi.Models
                 case 'I':
                 case 'i':
                     x += 15;
+                    break;
+                case 'd':
+                    x += 5;
                     break;
                 default:
                     break;

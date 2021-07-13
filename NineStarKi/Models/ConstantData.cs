@@ -135,6 +135,7 @@ namespace NineStarKi.Models
         private static List<Musician> musicians = new List<Musician> {
             new Musician
             {
+                Id = 0,
                 Name = "ABBA",
                 Genres = new List<Genre> { genres[10] },
                 Recording = "Gold",
@@ -143,6 +144,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 1,
                 Name = "The Abyssinian Baptist Choir",
                 Genres = new List<Genre> { genres[5] },
                 Recording = "Shakin' the Rafters",
@@ -151,6 +153,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 2,
                 Name = "The Almanac Singers",
                 Genres = new List<Genre> { genres[4] },
                 Recording = "Complete General Recordings",
@@ -159,6 +162,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 3,
                 Name = "Albert Ammons and Meade 'Lux' Lewis",
                 Genres = new List<Genre> { genres[7] },
                 Recording = "The First Day",
@@ -167,6 +171,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 4,
                 Name = "Louis Armstrong",
                 Genres = new List<Genre> { genres[7] },
                 Recording = "The Complete Hot Fives and Hot Sevens",
@@ -175,6 +180,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 5,
                 Name = "Erykah Badu",
                 Genres = new List<Genre> { genres[11] },
                 Recording = "Mama's Gun",
@@ -183,6 +189,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 6,
                 Name = "The Balfa Brothers",
                 Genres = new List<Genre> { genres[4] },
                 Recording = "The Balfa Brothers Play Traditional Cajun Music",
@@ -191,6 +198,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 7,
                 Name = "Béla Bartók",
                 Genres = new List<Genre> { genres[1] },
                 Recording = "Concerto for Orchestra; Music for Strings, Percussion, and Celesta",
@@ -199,6 +207,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 8,
                 Name = "The Beach Boys",
                 Genres = new List<Genre> { genres[10] },
                 Recording = "'Good Vibrations'",
@@ -207,6 +216,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 9,
                 Name = "The Beatles",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "A Hard Day's Night",
@@ -215,6 +225,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 10,
                 Name = "The Beatles",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "Rubber Soul",
@@ -223,6 +234,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 11,
                 Name = "Harry Belafonte",
                 Genres = new List<Genre> { genres[7], genres[13] },
                 Recording = "At Carnegie Hall",
@@ -231,6 +243,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 12,
                 Name = "Leonard Bernstein and Stephen Sondheim",
                 Genres = new List<Genre> { genres[8] },
                 Recording = "West Side Story",
@@ -239,6 +252,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 13,
                 Name = "Blind Blake",
                 Genres = new List<Genre> { genres[0] },
                 Recording = "Ragtime Guitar's Foremost Fingerpicker",
@@ -247,6 +261,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 14,
                 Name = "Jerry Bock and Sheldon Harnick",
                 Genres = new List<Genre> { genres[8] },
                 Recording = "Fiddler on the Roof",
@@ -255,6 +270,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 15,
                 Name = "James Booker",
                 Genres = new List<Genre> { genres[7], genres[11] },
                 Recording = "New Orleans Piano Wizard Live!",
@@ -263,6 +279,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 16,
                 Name = "Boston",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "Boston",
@@ -271,6 +288,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 17,
                 Name = "The Caravans",
                 Genres = new List<Genre> { genres[5] },
                 Recording = "The Best of the Caravans",
@@ -279,6 +297,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 18,
                 Name = "The Original Carter Family",
                 Genres = new List<Genre> { genres[2] },
                 Recording = "The Carter Family: 1927-1934",
@@ -287,6 +306,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 19,
                 Name = "Pablo Casals",
                 Genres = new List<Genre> { genres[1] },
                 Recording = "J. S. Bach, Suites for Cello, Vols. 1 and 2",
@@ -295,6 +315,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 20,
                 Name = "Chicago",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "The Chicago Transit Authority",
@@ -303,6 +324,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 21,
                 Name = "The Chieftains",
                 Genres = new List<Genre> { genres[14], genres[24] },
                 Recording = "The Chieftains 4",
@@ -311,6 +333,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 22,
                 Name = "Frédéric Chopin",
                 Genres = new List<Genre> { genres[1] },
                 Recording = "Ballades and Scherzos",
@@ -319,6 +342,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 23,
                 Name = "The Coasters",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "'Yakety Yak'",
@@ -327,6 +351,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 24,
                 Name = "Joe Cocker",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "Mad Dogs and Englishmen",
@@ -335,6 +360,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 25,
                 Name = "Sam Cooke and the Soul Stirrers",
                 Genres = new List<Genre> { genres[5] },
                 Recording = "Sam Cooke with the Soul Stirrers",
@@ -343,6 +369,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 26,
                 Name = "Dick Dale and His Del-Tones",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "King of the Surf Guitar",
@@ -351,6 +378,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 27,
                 Name = "Miles Davis Quintet",
                 Genres = new List<Genre> { genres[7] },
                 Recording = "Highlights from the Plugged Nickel",
@@ -359,6 +387,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 28,
                 Name = "The Dixie Chicks",
                 Genres = new List<Genre> { genres[2] },
                 Recording = "Wide Open Spaces",
@@ -367,6 +396,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 29,
                 Name = "Michael Doucet and BeauSoleil",
                 Genres = new List<Genre> { genres[0] },
                 Recording = "Bayou Deluxe",
@@ -375,6 +405,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 30,
                 Name = "Bob Dylan",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "Highway 61 Revisited",
@@ -383,6 +414,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 31,
                 Name = "The Eagles",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "Hotel California",
@@ -391,6 +423,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 32,
                 Name = "Ramblin' Jack Elliott",
                 Genres = new List<Genre> { genres[4] },
                 Recording = "The Essential Ramblin' Jack Elliott",
@@ -399,6 +432,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 33,
                 Name = "Tal Farlow",
                 Genres = new List<Genre> { genres[7] },
                 Recording = "The Swinging Guitar of Tal Farlow",
@@ -407,6 +441,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 34,
                 Name = "Fleetwood Mac",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "Fleetwood Mac",
@@ -415,6 +450,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 35,
                 Name = "Judy Garland",
                 Genres = new List<Genre> { genres[13] },
                 Recording = "Judy at Carnegie Hall",
@@ -423,6 +459,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 36,
                 Name = "George Gershwin",
                 Genres = new List<Genre> { genres[9] },
                 Recording = "Porgy and Bess",
@@ -431,6 +468,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 37,
                 Name = "Benny Goodman and His Orchestra",
                 Genres = new List<Genre> { genres[7] },
                 Recording = "The Complete 1938 Carnegie Hall Concert",
@@ -439,6 +477,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 38,
                 Name = "The Grateful Dead",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "American Beauty",
@@ -447,6 +486,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 39,
                 Name = "Woody Guthrie",
                 Genres = new List<Genre> { genres[4] },
                 Recording = "Dust Bowl Ballads",
@@ -455,6 +495,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 40,
                 Name = "The Jimi Hendrix Experience",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "Are You Experienced",
@@ -463,6 +504,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 41,
                 Name = "Jerry Herman",
                 Genres = new List<Genre> { genres[8] },
                 Recording = "Hello, Dolly!",
@@ -471,6 +513,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 42,
                 Name = "Vladimir Horowitz",
                 Genres = new List<Genre> { genres[1] },
                 Recording = "Horowitz at the Met",
@@ -479,6 +522,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 43,
                 Name = "The Incredible String Band",
                 Genres = new List<Genre> { genres[4] },
                 Recording = "The Hangman's Beautiful Daughter",
@@ -487,6 +531,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 44,
                 Name = "Burl Ives",
                 Genres = new List<Genre> { genres[4] },
                 Recording = "The Wayfaring Stranger",
@@ -495,6 +540,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 45,
                 Name = "Joe Jackson",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "Night and Day",
@@ -503,6 +549,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 46,
                 Name = "Elton John",
                 Genres = new List<Genre> { genres[10] },
                 Recording = "Goodbye Yellow Brick Road",
@@ -511,6 +558,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 47,
                 Name = "Lonnie Johnson",
                 Genres = new List<Genre> { genres[0] },
                 Recording = "The Original Guitar Wizard",
@@ -519,6 +567,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 48,
                 Name = "Robert Johnson",
                 Genres = new List<Genre> { genres[0] },
                 Recording = "The Complete Recordings",
@@ -527,6 +576,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 49,
                 Name = "Henry Kaiser and David Lindley with Musicians from Madagascar",
                 Genres = new List<Genre> { genres[14], genres[47] },
                 Recording = "A World Out of Time",
@@ -535,6 +585,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 50,
                 Name = "The Kinks",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "The Kinks Are the Village Green Preservation Society",
@@ -543,6 +594,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 51,
                 Name = "Leadbelly",
                 Genres = new List<Genre> { genres[0], genres[4] },
                 Recording = "Where Did You Sleep Last Night?",
@@ -551,6 +603,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 52,
                 Name = "Led Zeppelin",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "How the West Was Won",
@@ -559,6 +612,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 53,
                 Name = "Jerry Lee Lewis",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "Live at the Star Club, Hamburg",
@@ -567,6 +621,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 54,
                 Name = "Lyle Lovett",
                 Genres = new List<Genre> { genres[2] },
                 Recording = "Joshua Judges Ruth",
@@ -575,6 +630,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 55,
                 Name = "Henry Mancini",
                 Genres = new List<Genre> { genres[10] },
                 Recording = "Breakfast at Tiffany's",
@@ -583,6 +639,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 56,
                 Name = "Bob Marley and the Wailers",
                 Genres = new List<Genre> { genres[14], genres[42] },
                 Recording = "Natty Dread",
@@ -591,6 +648,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 57,
                 Name = "John Mayall with Eric Clapton",
                 Genres = new List<Genre> { genres[0], genres[12] },
                 Recording = "Blues Breakers",
@@ -599,6 +657,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 58,
                 Name = "Curtis Mayfield",
                 Genres = new List<Genre> { genres[11] },
                 Recording = "There's No Place like America Today",
@@ -607,6 +666,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 59,
                 Name = "The Mighty Diamonds",
                 Genres = new List<Genre> { genres[14], genres[42] },
                 Recording = "Right Time",
@@ -615,6 +675,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 60,
                 Name = "Joni Mitchell",
                 Genres = new List<Genre> { genres[10] },
                 Recording = "Court and Spark",
@@ -623,6 +684,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 61,
                 Name = "Bill Monroe",
                 Genres = new List<Genre> { genres[2] },
                 Recording = "The Music of Bill Monroe",
@@ -631,6 +693,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 62,
                 Name = "Milton Nascimento with Lô Borges",
                 Genres = new List<Genre> { genres[14], genres[20] },
                 Recording = "Clube da esquina",
@@ -639,6 +702,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 63,
                 Name = "Ricky Nelson",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "Greatest Hits",
@@ -647,6 +711,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 64,
                 Name = "Harry Nilsson",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "Nilsson Schmilsson",
@@ -655,6 +720,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 65,
                 Name = "Laura Nyro",
                 Genres = new List<Genre> { genres[10] },
                 Recording = "Eli and the Thirteenth Confession",
@@ -663,6 +729,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 66,
                 Name = "Odetta",
                 Genres = new List<Genre> { genres[4] },
                 Recording = "Odetta Sings Ballads and Blues",
@@ -671,6 +738,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 67,
                 Name = "King Oliver and His Creole Jazz Band",
                 Genres = new List<Genre> { genres[7] },
                 Recording = "Off the Record: The Complete 1923 Jazz Band Recordings",
@@ -679,6 +747,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 68,
                 Name = "Ivo Papasov and His Orchestra",
                 Genres = new List<Genre> { genres[14], genres[21] },
                 Recording = "Balkanology",
@@ -687,6 +756,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 69,
                 Name = "Charlie Parker",
                 Genres = new List<Genre> { genres[7] },
                 Recording = "A Studio Chronicle, 1940-1948",
@@ -695,6 +765,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 70,
                 Name = "Dolly Parton",
                 Genres = new List<Genre> { genres[2] },
                 Recording = "Coat of Many Colors",
@@ -703,6 +774,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 71,
                 Name = "Peter, Paul and Mary",
                 Genres = new List<Genre> { genres[4] },
                 Recording = "Peter, Paul and Mary",
@@ -711,6 +783,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 72,
                 Name = "Bud Powell",
                 Genres = new List<Genre> { genres[7] },
                 Recording = "The Amazing Bud Powell, Vol. 1",
@@ -719,6 +792,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 73,
                 Name = "Sergey Rachmaninoff",
                 Genres = new List<Genre> { genres[1] },
                 Recording = "His Complete Recordings",
@@ -727,6 +801,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 74,
                 Name = "Richard Rodgers and Oscar Hammerstein II",
                 Genres = new List<Genre> { genres[8] },
                 Recording = "The Sound of Music",
@@ -735,6 +810,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 75,
                 Name = "Jimmie Rodgers",
                 Genres = new List<Genre> { genres[2] },
                 Recording = "The Essential Jimmie Rodgers",
@@ -743,6 +819,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 76,
                 Name = "Sonny Rollins",
                 Genres = new List<Genre> { genres[7] },
                 Recording = "A Night at the Village Vanguard",
@@ -751,6 +828,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 77,
                 Name = "Pete Seeger",
                 Genres = new List<Genre> { genres[4] },
                 Recording = "We Shall Overcome: The Complete Carnegie Hall Concert",
@@ -759,6 +837,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 78,
                 Name = "Paul Simon",
                 Genres = new List<Genre> { genres[10] },
                 Recording = "Graceland",
@@ -767,6 +846,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 79,
                 Name = "Willie 'The Lion' Smith",
                 Genres = new List<Genre> { genres[7] },
                 Recording = "The Lion Roars! His Greatest 1934-1944",
@@ -775,6 +855,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 80,
                 Name = "The Stanley Brothers",
                 Genres = new List<Genre> { genres[2] },
                 Recording = "The Complete Columbia Recordings",
@@ -783,6 +864,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 81,
                 Name = "Steely Dan",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "Aja",
@@ -791,6 +873,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 82,
                 Name = "Art Tatum",
                 Genres = new List<Genre> { genres[7] },
                 Recording = "Piano Starts Here",
@@ -799,6 +882,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 83,
                 Name = "Pyotr Ilyich Tchaikovsky",
                 Genres = new List<Genre> { genres[1] },
                 Recording = "The Nutcracker",
@@ -807,6 +891,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 84,
                 Name = "Sister Rosetta Tharpe",
                 Genres = new List<Genre> { genres[5] },
                 Recording = "Complete Recorded Works in Chronological Order, 1938-1947",
@@ -815,6 +900,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 85,
                 Name = "The Tokens",
                 Genres = new List<Genre> { genres[10] },
                 Recording = "'The Lion Sleeps Tonight'",
@@ -823,6 +909,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 86,
                 Name = "United Sacred Harp Musical Association Singing Convention",
                 Genres = new List<Genre> { genres[4], genres[5] },
                 Recording = "Southern Journey, Vol 9: Harp of a Thousand Strings",
@@ -831,6 +918,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 87,
                 Name = "Ritchie Valens",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "'La bamba'",
@@ -839,6 +927,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 88,
                 Name = "Various Artists",
                 Genres = new List<Genre> { genres[4] },
                 Recording = "edited by Harry Smith, Anthology of American Folk Music",
@@ -847,6 +936,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 89,
                 Name = "Various Artists",
                 Genres = new List<Genre> { genres[10] },
                 Recording = "The Doo Wop Box",
@@ -855,6 +945,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 90,
                 Name = "Various Artists",
                 Genres = new List<Genre> { genres[2] },
                 Recording = "O Brother, Where Art Thou?",
@@ -863,6 +954,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 91,
                 Name = "Speedy West and Jimmy Bryant",
                 Genres = new List<Genre> { genres[2] },
                 Recording = "Stratosphere Boogie",
@@ -871,6 +963,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 92,
                 Name = "Stevie Wonder",
                 Genres = new List<Genre> { genres[11] },
                 Recording = "Songs in the Key of Life",
@@ -879,6 +972,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 93,
                 Name = "Anita Baker",
                 Genres = new List<Genre> { genres[11] },
                 Recording = "Rapture",
@@ -887,6 +981,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 94,
                 Name = "Chet Baker",
                 Genres = new List<Genre> { genres[7] },
                 Recording = "Let's Get Lost: The Best of Chet Baker Sings",
@@ -895,6 +990,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 95,
                 Name = "Ludwig van Beethoven",
                 Genres = new List<Genre> { genres[1] },
                 Recording = "Piano Concertos Nos. 4 and 5",
@@ -903,6 +999,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 96,
                 Name = "Asha Bhosle",
                 Genres = new List<Genre> { genres[14], genres[39] },
                 Recording = "The Rough Guide to Asha Bhosle",
@@ -911,6 +1008,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 97,
                 Name = "Camarón de la Isla",
                 Genres = new List<Genre> { genres[14], genres[61] },
                 Recording = "La leyenda del tiempo",
@@ -919,6 +1017,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 98,
                 Name = "James Carr",
                 Genres = new List<Genre> { genres[11] },
                 Recording = "You Got My Mind Messed Up",
@@ -927,6 +1026,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 99,
                 Name = "Cartola",
                 Genres = new List<Genre> { genres[14], genres[20] },
                 Recording = "Cartola",
@@ -935,6 +1035,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 100,
                 Name = "Dorival Caymmi",
                 Genres = new List<Genre> { genres[14], genres[20] },
                 Recording = "Caymmi e seu violão",
@@ -943,6 +1044,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 101,
                 Name = "Frédéric Chopin",
                 Genres = new List<Genre> { genres[1] },
                 Recording = "Piano Concertos Nos. 1 and 2",
@@ -951,6 +1053,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 102,
                 Name = "Jimmy Cliff",
                 Genres = new List<Genre> { genres[14], genres[42] },
                 Recording = "The Harder They Come",
@@ -959,6 +1062,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 103,
                 Name = "Nat King Cole and His Trio",
                 Genres = new List<Genre> { genres[13] },
                 Recording = "The Complete After Midnight Sessions",
@@ -967,6 +1071,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 104,
                 Name = "D'Angelo",
                 Genres = new List<Genre> { genres[11] },
                 Recording = "Brown Sugar",
@@ -975,6 +1080,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 105,
                 Name = "Miles Davis and Gil Evans",
                 Genres = new List<Genre> { genres[7] },
                 Recording = "Sketches of Spain",
@@ -983,6 +1089,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 106,
                 Name = "Claude Debussy",
                 Genres = new List<Genre> { genres[1] },
                 Recording = "Preludes",
@@ -991,6 +1098,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 107,
                 Name = "Djavan",
                 Genres = new List<Genre> { genres[14], genres[20] },
                 Recording = "Luz",
@@ -999,6 +1107,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 108,
                 Name = "Jacqueline du Pré",
                 Genres = new List<Genre> { genres[1] },
                 Recording = "Elgar: Cello Concerto",
@@ -1007,6 +1116,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 109,
                 Name = "ESG",
                 Genres = new List<Genre> { genres[6], genres[11] },
                 Recording = "A South Bronx Story",
@@ -1015,6 +1125,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 110,
                 Name = "Cesaria Evora",
                 Genres = new List<Genre> { genres[14], genres[23] },
                 Recording = "Cesaria",
@@ -1023,6 +1134,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 111,
                 Name = "Cheo Feliciano",
                 Genres = new List<Genre> { genres[14], genres[54] },
                 Recording = "Cheo",
@@ -1031,6 +1143,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 112,
                 Name = "Jose Feliciano",
                 Genres = new List<Genre> { genres[13] },
                 Recording = "El sentimiento, la voz, y la guitarra",
@@ -1039,6 +1152,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 113,
                 Name = "Aretha Franklin",
                 Genres = new List<Genre> { genres[11] },
                 Recording = "I Never Loved a Man the Way I Love You",
@@ -1047,6 +1161,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 114,
                 Name = "Carlos Gardel",
                 Genres = new List<Genre> { genres[14], genres[18] },
                 Recording = "The Best of Carlos Gardel",
@@ -1055,6 +1170,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 115,
                 Name = "Marvin Gaye",
                 Genres = new List<Genre> { genres[11] },
                 Recording = "Let's Get It On",
@@ -1063,6 +1179,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 116,
                 Name = "Bebel Gilberto",
                 Genres = new List<Genre> { genres[14], genres[20] },
                 Recording = "Tanto tempo",
@@ -1071,6 +1188,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 117,
                 Name = "João Gilberto",
                 Genres = new List<Genre> { genres[14], genres[20] },
                 Recording = "João Gilberto",
@@ -1079,6 +1197,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 118,
                 Name = "The Jimmy Giuffre Three",
                 Genres = new List<Genre> { genres[7] },
                 Recording = "1961",
@@ -1087,6 +1206,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 119,
                 Name = "Al Green",
                 Genres = new List<Genre> { genres[11] },
                 Recording = "Call Me",
@@ -1095,6 +1215,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 120,
                 Name = "Edvard Grieg",
                 Genres = new List<Genre> { genres[1] },
                 Recording = "Lyric Pieces",
@@ -1103,6 +1224,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 121,
                 Name = "Donny Hathaway",
                 Genres = new List<Genre> { genres[11] },
                 Recording = "Everything Is Everything",
@@ -1111,6 +1233,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 122,
                 Name = "Coleman Hawkins",
                 Genres = new List<Genre> { genres[7] },
                 Recording = "'Body and Soul'",
@@ -1119,6 +1242,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 123,
                 Name = "Whitney Houston",
                 Genres = new List<Genre> { genres[11] },
                 Recording = "Whitney Houston",
@@ -1127,6 +1251,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 124,
                 Name = "Antonio Carlos Jobim",
                 Genres = new List<Genre> { genres[14], genres[20] },
                 Recording = "The Composer of 'Desafinado' Plays",
@@ -1135,6 +1260,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 125,
                 Name = "Antonio Carlos Jobim and Elis Regina",
                 Genres = new List<Genre> { genres[14], genres[20] },
                 Recording = "Elis, Tom",
@@ -1143,6 +1269,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 126,
                 Name = "Little Willie John",
                 Genres = new List<Genre> { genres[11] },
                 Recording = "The Very Best of Little Willie John",
@@ -1151,6 +1278,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 127,
                 Name = "Norah Jones",
                 Genres = new List<Genre> { genres[13] },
                 Recording = "Come Away with Me",
@@ -1159,6 +1287,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 128,
                 Name = "Gladys Knight and the Pips",
                 Genres = new List<Genre> { genres[11] },
                 Recording = "Imagination",
@@ -1167,6 +1296,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 129,
                 Name = "Steve Lacy and Mal Waldron",
                 Genres = new List<Genre> { genres[7] },
                 Recording = "Hot House",
@@ -1175,6 +1305,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 130,
                 Name = "Peggy Lee",
                 Genres = new List<Genre> { genres[13] },
                 Recording = "Black Coffee",
@@ -1183,6 +1314,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 131,
                 Name = "Franz Liszt",
                 Genres = new List<Genre> { genres[1] },
                 Recording = "The Two Piano Concertos, The Piano Sonata",
@@ -1191,6 +1323,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 132,
                 Name = "Julie London",
                 Genres = new List<Genre> { genres[13] },
                 Recording = "At Home/Around Midnight",
@@ -1199,6 +1332,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 133,
                 Name = "Loretta Lynn",
                 Genres = new List<Genre> { genres[2] },
                 Recording = "The Definitive Collection",
@@ -1207,6 +1341,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 134,
                 Name = "Johnny Mathis",
                 Genres = new List<Genre> { genres[13] },
                 Recording = "Open Fire, Two Guitars",
@@ -1215,6 +1350,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 135,
                 Name = "The Modern Jazz Quartet",
                 Genres = new List<Genre> { genres[7] },
                 Recording = "European Concert",
@@ -1223,6 +1359,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 136,
                 Name = "Gabriel Montero",
                 Genres = new List<Genre> { genres[1] },
                 Recording = "Bach and Beyond",
@@ -1231,6 +1368,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 137,
                 Name = "Beny Moré",
                 Genres = new List<Genre> { genres[14], genres[28] },
                 Recording = "Cuban Originals",
@@ -1239,6 +1377,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 138,
                 Name = "Maria Muldaur",
                 Genres = new List<Genre> { genres[10], genres[12] },
                 Recording = "Maria Muldaur",
@@ -1247,6 +1386,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 139,
                 Name = "Willie Nelson",
                 Genres = new List<Genre> { genres[2] },
                 Recording = "Stardust",
@@ -1255,6 +1395,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 140,
                 Name = "Aaron Neville",
                 Genres = new List<Genre> { genres[11] },
                 Recording = "Tell It like It Is",
@@ -1263,6 +1404,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 141,
                 Name = "Les Nubians",
                 Genres = new List<Genre> { genres[11] },
                 Recording = "Princesses Nubiennes",
@@ -1271,6 +1413,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 142,
                 Name = "Roy Orbison",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "For the Lonely: Eighteen Greatest Hits",
@@ -1279,6 +1422,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 143,
                 Name = "Orquesta Casino de la Playa",
                 Genres = new List<Genre> { genres[14], genres[28] },
                 Recording = "Memories of Cuba",
@@ -1287,6 +1431,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 144,
                 Name = "Billy Paul",
                 Genres = new List<Genre> { genres[11] },
                 Recording = "'Me and Mrs. Jones'",
@@ -1295,6 +1440,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 145,
                 Name = "Baden Powell",
                 Genres = new List<Genre> { genres[14], genres[20] },
                 Recording = "O universe musical de Baden Powell",
@@ -1303,6 +1449,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 146,
                 Name = "Maurice Ravel",
                 Genres = new List<Genre> { genres[1] },
                 Recording = "Complete Works for Piano",
@@ -1311,6 +1458,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 147,
                 Name = "Elis Regina",
                 Genres = new List<Genre> { genres[14], genres[20] },
                 Recording = "Como, porque",
@@ -1319,6 +1467,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 148,
                 Name = "Django Reinhardt",
                 Genres = new List<Genre> { genres[7] },
                 Recording = "The Classic Early Recordings in Chronological Order",
@@ -1327,6 +1476,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 149,
                 Name = "Smokey Robinson and the Miracles",
                 Genres = new List<Genre> { genres[7], genres[11] },
                 Recording = "The Ultimate Collection",
@@ -1335,6 +1485,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 150,
                 Name = "Amália Rodrigues",
                 Genres = new List<Genre> { genres[14], genres[56] },
                 Recording = "The Art of Amália Rodrigues",
@@ -1343,6 +1494,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 151,
                 Name = "Roxy Music",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "Avalon",
@@ -1351,6 +1503,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 152,
                 Name = "Gustavo Santaolalla",
                 Genres = new List<Genre> { genres[14], genres[18] },
                 Recording = "Ronroco",
@@ -1359,6 +1512,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 153,
                 Name = "Jill Scott",
                 Genres = new List<Genre> { genres[11] },
                 Recording = "Who Is Jill Scott? Words and Sounds, Vol. 1",
@@ -1367,6 +1521,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 154,
                 Name = "Jimmy Scott",
                 Genres = new List<Genre> { genres[13] },
                 Recording = "Falling in Love Is Wonderful",
@@ -1375,6 +1530,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 155,
                 Name = "Wayne Shorter featuring Milton Nascimento",
                 Genres = new List<Genre> { genres[7] },
                 Recording = "Native Dancer",
@@ -1383,6 +1539,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 156,
                 Name = "Simply Red",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "Picture Book",
@@ -1391,6 +1548,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 157,
                 Name = "Frank Sinatra",
                 Genres = new List<Genre> { genres[13] },
                 Recording = "Sings for Only the Lonely",
@@ -1399,6 +1557,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 158,
                 Name = "Frank Sinatra and Antonio Carlos Jobim",
                 Genres = new List<Genre> { genres[13] },
                 Recording = "Francis Albert Sinatra, Antonio Carlos Jobim",
@@ -1407,6 +1566,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 159,
                 Name = "Percy Sledge",
                 Genres = new List<Genre> { genres[11] },
                 Recording = "'When a Man Loves a Woman'",
@@ -1415,6 +1575,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 160,
                 Name = "Stephen Sondheim",
                 Genres = new List<Genre> { genres[8] },
                 Recording = "A Little Night Music",
@@ -1423,6 +1584,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 161,
                 Name = "Dusty Springfield",
                 Genres = new List<Genre> { genres[13] },
                 Recording = "Dusty in Memphis",
@@ -1431,6 +1593,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 162,
                 Name = "Rod Stewart",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "Every Picture Tells a Story",
@@ -1439,6 +1602,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 163,
                 Name = "Howard Tate",
                 Genres = new List<Genre> { genres[11] },
                 Recording = "Get It While You Can",
@@ -1447,6 +1611,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 164,
                 Name = "Pyotr Ilyich Tchaikovsky",
                 Genres = new List<Genre> { genres[1] },
                 Recording = "Symphony No. 6 'Pathétique'",
@@ -1455,6 +1620,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 165,
                 Name = "The Temptations",
                 Genres = new List<Genre> { genres[11] },
                 Recording = "'Ain't Too Proud to Beg'",
@@ -1463,6 +1629,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 166,
                 Name = "Various Artists",
                 Genres = new List<Genre> { genres[14], genres[28] },
                 Recording = "Buena Vista Social Club",
@@ -1471,6 +1638,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 167,
                 Name = "Barry White",
                 Genres = new List<Genre> { genres[11] },
                 Recording = "Can't Get Enough",
@@ -1479,6 +1647,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 168,
                 Name = "Bill Withers",
                 Genres = new List<Genre> { genres[11] },
                 Recording = "Still Bill",
@@ -1487,6 +1656,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 169,
                 Name = "Alice in Chains",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "Dirt",
@@ -1495,6 +1665,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 170,
                 Name = "The Arcade Fire",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "Neon Bible",
@@ -1503,6 +1674,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 171,
                 Name = "Bad Brains",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "I Against I",
@@ -1511,6 +1683,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 172,
                 Name = "The Beach Boys",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "Pet Sounds",
@@ -1519,6 +1692,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 173,
                 Name = "Ludwig van Beethoven",
                 Genres = new List<Genre> { genres[1] },
                 Recording = "String Quartets, Opp. 131, 135, 66-67",
@@ -1527,6 +1701,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 174,
                 Name = "Ludwig van Beethoven",
                 Genres = new List<Genre> { genres[1] },
                 Recording = "Symphonies Nos. 1-9",
@@ -1535,6 +1710,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 175,
                 Name = "Ludwig van Beethoven",
                 Genres = new List<Genre> { genres[1] },
                 Recording = "Violin Concerto",
@@ -1543,6 +1719,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 176,
                 Name = "Black Flag",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "Damaged",
@@ -1551,6 +1728,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 177,
                 Name = "Café Tacuba",
                 Genres = new List<Genre> { genres[14], genres[50] },
                 Recording = "Cuatro caminos",
@@ -1559,6 +1737,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 178,
                 Name = "Johnny Cash",
                 Genres = new List<Genre> { genres[2] },
                 Recording = "At Folsom Prison",
@@ -1567,6 +1746,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 179,
                 Name = "The Clash",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "London Calling",
@@ -1575,6 +1755,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 180,
                 Name = "Elvis Costello and the Attractions",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "Armed Forces",
@@ -1583,6 +1764,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 181,
                 Name = "Bob Dylan",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "Blonde on Blonde",
@@ -1591,6 +1773,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 182,
                 Name = "Fishbone",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "Truth and Soul",
@@ -1599,6 +1782,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 183,
                 Name = "Aretha Franklin",
                 Genres = new List<Genre> { genres[5] },
                 Recording = "Amazing Grace",
@@ -1607,6 +1791,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 184,
                 Name = "Fugazi",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "Repeater",
@@ -1615,6 +1800,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 185,
                 Name = "Gang of Four",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "Entertainment!",
@@ -1623,6 +1809,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 186,
                 Name = "Marvin Gaye",
                 Genres = new List<Genre> { genres[11] },
                 Recording = "What's Going On",
@@ -1631,6 +1818,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 187,
                 Name = "Green Day",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "American Idiot",
@@ -1639,6 +1827,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 188,
                 Name = "George Frideric Handel",
                 Genres = new List<Genre> { genres[1] },
                 Recording = "Messiah",
@@ -1647,6 +1836,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 189,
                 Name = "Hüsker Dü",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "Zen Arcade",
@@ -1655,6 +1845,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 190,
                 Name = "Iggy and the Stooges",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "Raw Power",
@@ -1663,6 +1854,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 191,
                 Name = "Mahalia Jackson",
                 Genres = new List<Genre> { genres[5] },
                 Recording = "The Apollo Sessions: 1946-1951",
@@ -1671,6 +1863,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 192,
                 Name = "Jane's Addiction",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "Ritual de lo Habitual",
@@ -1679,6 +1872,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 193,
                 Name = "Kodo",
                 Genres = new List<Genre> { genres[14], genres[43] },
                 Recording = "Live at Acropolis, Athens, Greece",
@@ -1687,6 +1881,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 194,
                 Name = "The Mahavishnu Orchestra",
                 Genres = new List<Genre> { genres[7] },
                 Recording = "The Inner Mounting Flame",
@@ -1695,6 +1890,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 195,
                 Name = "Gustav Mahler",
                 Genres = new List<Genre> { genres[1] },
                 Recording = "Symphony No. 9",
@@ -1703,6 +1899,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 196,
                 Name = "Thomas Mapfumo and the Blacks Unlimited",
                 Genres = new List<Genre> { genres[14], genres[66] },
                 Recording = "Chimurenga Singles, 1976-1980",
@@ -1711,6 +1908,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 197,
                 Name = "Bob Marley and the Wailers",
                 Genres = new List<Genre> { genres[14], genres[42] },
                 Recording = "Exodus",
@@ -1719,6 +1917,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 198,
                 Name = "MC5",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "Kick Out the Jams",
@@ -1727,14 +1926,16 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 199,
                 Name = "Yehudi Menuhin",
                 Genres = new List<Genre> { genres[1] },
                 Recording = "Beethoven Violin Concerto, Mendelssohn Violin Concerto",
                 Occasions = new List<Occasion> { occasions[10] },
-                Numbers = "335,  519"
+                Numbers = "335, 519"
             },
             new Musician
             {
+                Id = 200,
                 Name = "Metallica",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "Master of Puppets",
@@ -1743,6 +1944,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 201,
                 Name = "Ministry",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "The Mind Is a Terrible Thing to Taste",
@@ -1751,6 +1953,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 202,
                 Name = "Mother Love Bone",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "Apple",
@@ -1759,6 +1962,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 203,
                 Name = "My Morning Jacket",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "It Still Moves",
@@ -1767,6 +1971,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 204,
                 Name = "Nirvana",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "Nevermind",
@@ -1775,6 +1980,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 205,
                 Name = "Pantera",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "Vulgar Display of Power",
@@ -1783,6 +1989,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 206,
                 Name = "Pearl Jam",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "Ten",
@@ -1791,6 +1998,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 207,
                 Name = "The Police",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "Synchronicity",
@@ -1799,6 +2007,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 208,
                 Name = "Public Enemy",
                 Genres = new List<Genre> { genres[6] },
                 Recording = "It Takes a Nation of Millions to Hold Us Back",
@@ -1807,6 +2016,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 209,
                 Name = "Radiohead",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "OK Computer",
@@ -1815,6 +2025,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 210,
                 Name = "Max Roach",
                 Genres = new List<Genre> { genres[7] },
                 Recording = "We Insist! Freedom Now Suite",
@@ -1823,6 +2034,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 211,
                 Name = "The Rolling Stones",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "Exile on Main St",
@@ -1831,6 +2043,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 212,
                 Name = "Franz Schubert",
                 Genres = new List<Genre> { genres[1] },
                 Recording = "Symphony No. 9",
@@ -1839,6 +2052,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 213,
                 Name = "Sepultura",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "Roots",
@@ -1847,6 +2061,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 214,
                 Name = "Sleater-Kinney",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "Call the Doctor",
@@ -1855,6 +2070,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 215,
                 Name = "Sly and the Family Stone",
                 Genres = new List<Genre> { genres[11] },
                 Recording = "Stand!",
@@ -1863,6 +2079,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 216,
                 Name = "Sonic Youth",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "Daydream Nation",
@@ -1871,6 +2088,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 217,
                 Name = "Soundgarden",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "Superunknown",
@@ -1879,6 +2097,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 218,
                 Name = "Bruce Springsteen",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "Born to Run",
@@ -1887,6 +2106,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 219,
                 Name = "Karlheinz Stockhausen",
                 Genres = new List<Genre> { genres[1] },
                 Recording = "Stimmung Richard Strauss, Also sprach Zarathustra",
@@ -1895,6 +2115,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 220,
                 Name = "System of a Down",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "Toxicity",
@@ -1903,6 +2124,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 221,
                 Name = "A Tribe Called Quest",
                 Genres = new List<Genre> { genres[6] },
                 Recording = "The Low End Theory",
@@ -1911,6 +2133,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 222,
                 Name = "U2",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "The Joshua Tree",
@@ -1919,6 +2142,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 223,
                 Name = "Richard Wagner",
                 Genres = new List<Genre> { genres[9] },
                 Recording = "Götterdämmerung",
@@ -1927,6 +2151,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 224,
                 Name = "Kanye West",
                 Genres = new List<Genre> { genres[6] },
                 Recording = "College Dropout",
@@ -1935,6 +2160,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 225,
                 Name = "The Who",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "Tommy",
@@ -1943,6 +2169,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 226,
                 Name = "The Who",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "Who's Next",
@@ -1951,6 +2178,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 227,
                 Name = "Stevie Wonder",
                 Genres = new List<Genre> { genres[11] },
                 Recording = "Innervisions",
@@ -1959,6 +2187,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 228,
                 Name = "X",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "Wild Gift",
@@ -1967,6 +2196,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 229,
                 Name = "Frank Zappa",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "The Best Band You Never Heard in Your Life",
@@ -1975,6 +2205,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 230,
                 Name = "Marian Anderson",
                 Genres = new List<Genre> { genres[1], genres[5] },
                 Recording = "Spirituals",
@@ -1983,6 +2214,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 231,
                 Name = "Martha Argerich",
                 Genres = new List<Genre> { genres[1] },
                 Recording = "Prokofiev: Piano Concerto No. 3; Ravel: Piano Concerto in G",
@@ -1991,6 +2223,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 232,
                 Name = "J. S. Bach",
                 Genres = new List<Genre> { genres[1] },
                 Recording = "The Brandenburg Concertos",
@@ -1999,6 +2232,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 233,
                 Name = "J. S. Bach",
                 Genres = new List<Genre> { genres[1] },
                 Recording = "Complete Sonatas and Partitas for Solo Violin",
@@ -2007,6 +2241,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 234,
                 Name = "Cecilia Bartoli",
                 Genres = new List<Genre> { genres[1] },
                 Recording = "The Vivaldi Album",
@@ -2015,6 +2250,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 235,
                 Name = "Ludwig van Beethoven",
                 Genres = new List<Genre> { genres[1] },
                 Recording = "'Archduke' Trio, Kreutzer Sonata",
@@ -2023,6 +2259,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 236,
                 Name = "Dock Boggs",
                 Genres = new List<Genre> { genres[4] },
                 Recording = "Dock Boggs: His Folkway Years, 1963-1968",
@@ -2031,6 +2268,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 237,
                 Name = "Johannes Brahms",
                 Genres = new List<Genre> { genres[1] },
                 Recording = "Sonatas for Cello and Piano, Opp. 38, 99, 108, 111",
@@ -2039,6 +2277,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 238,
                 Name = "Johannes Brahms",
                 Genres = new List<Genre> { genres[1] },
                 Recording = "Violin Sonatas, Opp. 78, 100, 108, 113",
@@ -2047,6 +2286,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 239,
                 Name = "Johannes Brahms",
                 Genres = new List<Genre> { genres[1] },
                 Recording = "Piano Concerto No. 2",
@@ -2055,6 +2295,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 240,
                 Name = "R. L. Burnside",
                 Genres = new List<Genre> { genres[0] },
                 Recording = "Wish I Was in Heaven Sitting Down",
@@ -2063,6 +2304,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 241,
                 Name = "The Byrds",
                 Genres = new List<Genre> { genres[12], genres[4] },
                 Recording = "Mr. Tambourine Man",
@@ -2071,6 +2313,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 242,
                 Name = "Charlie Christian",
                 Genres = new List<Genre> { genres[7] },
                 Recording = "The Genius of the Electric Guitar",
@@ -2079,6 +2322,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 243,
                 Name = "Guy Clark",
                 Genres = new List<Genre> { genres[2] },
                 Recording = "Old No. 1",
@@ -2087,6 +2331,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 244,
                 Name = "Crosby, Stills, Nash, and Young",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "Déjà vu",
@@ -2095,6 +2340,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 245,
                 Name = "Rev. Gary Davis",
                 Genres = new List<Genre> { genres[0], genres[5] },
                 Recording = "Harlem Street Singer",
@@ -2103,6 +2349,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 246,
                 Name = "Miles Davis",
                 Genres = new List<Genre> { genres[7] },
                 Recording = "The Complete In a Silent Way Sessions",
@@ -2111,6 +2358,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 247,
                 Name = "Sandy Denny",
                 Genres = new List<Genre> { genres[4] },
                 Recording = "Sandy",
@@ -2119,6 +2367,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 248,
                 Name = "Paul Desmond with Jim Hall",
                 Genres = new List<Genre> { genres[7] },
                 Recording = "Take Ten",
@@ -2127,6 +2376,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 249,
                 Name = "Toumani Diabaté and Ballake Sissoko",
                 Genres = new List<Genre> { genres[14], genres[48] },
                 Recording = "New Ancient Strings",
@@ -2135,6 +2385,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 250,
                 Name = "Thomas A. Dorsey",
                 Genres = new List<Genre> { genres[5] },
                 Recording = "Precious Lord Snooks Eaglin, New Orleans Street Singer",
@@ -2143,6 +2394,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 251,
                 Name = "Bill Evans and Jim Hall",
                 Genres = new List<Genre> { genres[7] },
                 Recording = "Undercurrent",
@@ -2151,6 +2403,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 252,
                 Name = "John Fahey",
                 Genres = new List<Genre> { genres[4] },
                 Recording = "The Transfiguration of Blind Joe Death",
@@ -2159,6 +2412,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 253,
                 Name = "Gabriel Fauré",
                 Genres = new List<Genre> { genres[1] },
                 Recording = "Requiem, Pelléas et Mélisande, Pavane",
@@ -2167,6 +2421,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 254,
                 Name = "Bernarda Fink",
                 Genres = new List<Genre> { genres[1] },
                 Recording = "Brahms: Lieder",
@@ -2175,6 +2430,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 255,
                 Name = "Sergio Fiorentino",
                 Genres = new List<Genre> { genres[1] },
                 Recording = "J. S. Bach, Volume 1",
@@ -2183,6 +2439,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 256,
                 Name = "Frank Emilio Flynn",
                 Genres = new List<Genre> { genres[14], genres[28] },
                 Recording = "Musica original de Cuba",
@@ -2191,6 +2448,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 257,
                 Name = "George Gershwin",
                 Genres = new List<Genre> { genres[1] },
                 Recording = "Complete Works for Piano and Orchestra, with Rhapsody in Blue",
@@ -2199,6 +2457,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 258,
                 Name = "Glenn Gould",
                 Genres = new List<Genre> { genres[1] },
                 Recording = "A State of Wonder: J. S. Bach Goldberg Variations",
@@ -2207,6 +2466,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 259,
                 Name = "Grant Green",
                 Genres = new List<Genre> { genres[7] },
                 Recording = "Feelin' the Spirit",
@@ -2215,6 +2475,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 260,
                 Name = "Edvard Grieg and Robert Schumann",
                 Genres = new List<Genre> { genres[1] },
                 Recording = "Grieg, Schumann Piano Concertos",
@@ -2223,6 +2484,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 261,
                 Name = "Clara Haskil",
                 Genres = new List<Genre> { genres[1] },
                 Recording = "Mozart: Piano Concerto No. 20 in D Minor; Scarlatti: Eleven Sonatas",
@@ -2231,6 +2493,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 262,
                 Name = "Ted Hawkins",
                 Genres = new List<Genre> { genres[0] },
                 Recording = "The Next Hundred Years",
@@ -2239,6 +2502,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 263,
                 Name = "Joe Henderson",
                 Genres = new List<Genre> { genres[7] },
                 Recording = "Power to the People",
@@ -2247,6 +2511,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 264,
                 Name = "Roscoe Holcomb",
                 Genres = new List<Genre> { genres[4] },
                 Recording = "The High Lonesome Sound",
@@ -2255,6 +2520,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 265,
                 Name = "Son House",
                 Genres = new List<Genre> { genres[0] },
                 Recording = "Martin Scorsese Presents the Blues: Son House",
@@ -2263,6 +2529,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 266,
                 Name = "Freddie Hubbard",
                 Genres = new List<Genre> { genres[7] },
                 Recording = "Red Clay",
@@ -2271,6 +2538,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 267,
                 Name = "Lorraine Hunt Lieberson",
                 Genres = new List<Genre> { genres[1] },
                 Recording = "Bach: Cantatas",
@@ -2279,6 +2547,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 268,
                 Name = "Mississippi John Hurt",
                 Genres = new List<Genre> { genres[0] },
                 Recording = "Today!",
@@ -2287,6 +2556,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 269,
                 Name = "Abdullah Ibrahim Trio",
                 Genres = new List<Genre> { genres[7] },
                 Recording = "Yarona",
@@ -2295,6 +2565,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 270,
                 Name = "Ahmad Jamal",
                 Genres = new List<Genre> { genres[7] },
                 Recording = "But Not for Me: Live at the Pershing",
@@ -2303,6 +2574,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 271,
                 Name = "Skip James",
                 Genres = new List<Genre> { genres[0] },
                 Recording = "The Complete Early Recordings of Skip James",
@@ -2311,6 +2583,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 272,
                 Name = "Keith Jarrett",
                 Genres = new List<Genre> { genres[7] },
                 Recording = "My Song",
@@ -2319,6 +2592,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 273,
                 Name = "Blind Willie Johnson",
                 Genres = new List<Genre> { genres[0], genres[5] },
                 Recording = "The Complete Blind Willie Johnson",
@@ -2327,6 +2601,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 274,
                 Name = "Fern Jones",
                 Genres = new List<Genre> { genres[2], genres[5] },
                 Recording = "The Glory Road",
@@ -2335,6 +2610,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 275,
                 Name = "Ali Akbar Khan",
                 Genres = new List<Genre> { genres[14], genres[39] },
                 Recording = "Traditional Music of India",
@@ -2343,6 +2619,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 276,
                 Name = "Leo Kottke",
                 Genres = new List<Genre> { genres[4] },
                 Recording = "6-and 12-String Guitar",
@@ -2351,6 +2628,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 277,
                 Name = "Lili Kraus",
                 Genres = new List<Genre> { genres[1] },
                 Recording = "Mozart Piano Sonata No. 11, Piano Concertos Nos. 12 and 18",
@@ -2359,6 +2637,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 278,
                 Name = "The Louvin Brothers",
                 Genres = new List<Genre> { genres[2] },
                 Recording = "Satan Is Real",
@@ -2367,6 +2646,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 279,
                 Name = "Joe Lovano",
                 Genres = new List<Genre> { genres[7] },
                 Recording = "Quartets: Live at the Village Vanguard",
@@ -2375,6 +2655,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 280,
                 Name = "Irén Marik",
                 Genres = new List<Genre> { genres[1] },
                 Recording = "Bartók in the Desert: The Art of Irén Marik",
@@ -2383,6 +2664,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 281,
                 Name = "The Pat Metheny Group",
                 Genres = new List<Genre> { genres[7] },
                 Recording = "The Pat Metheny Group",
@@ -2391,6 +2673,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 282,
                 Name = "Arturo Benedetti Michelangeli",
                 Genres = new List<Genre> { genres[1] },
                 Recording = "Ravel: Piano Concerto in G; Rachmaninoff: Piano Concerto No. 4",
@@ -2399,6 +2682,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 283,
                 Name = "Thelonious Monk",
                 Genres = new List<Genre> { genres[7] },
                 Recording = "The Unique Thelonious Monk",
@@ -2407,6 +2691,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 284,
                 Name = "Lee Morgan",
                 Genres = new List<Genre> { genres[7] },
                 Recording = "Search for the New Land",
@@ -2415,6 +2700,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 285,
                 Name = "Ennio Morricone",
                 Genres = new List<Genre> { genres[1] },
                 Recording = "A Fistful of Film Music",
@@ -2423,6 +2709,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 286,
                 Name = "Fats Navarro and Tadd Dameron",
                 Genres = new List<Genre> { genres[7] },
                 Recording = "The Complete Blue Note and Capitol Recordings",
@@ -2431,6 +2718,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 287,
                 Name = "Herbie Nichols",
                 Genres = new List<Genre> { genres[7] },
                 Recording = "The Complete Blue Note Recordings",
@@ -2439,6 +2727,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 288,
                 Name = "Remmy Ongala and Orchestre Super Matimila",
                 Genres = new List<Genre> { genres[14], genres[62] },
                 Recording = "Songs for the Poor Man",
@@ -2447,6 +2736,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 289,
                 Name = "Gabby Pahinui",
                 Genres = new List<Genre> { genres[14], genres[36] },
                 Recording = "Best of the Gabby Band 1972-1977",
@@ -2455,6 +2745,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 290,
                 Name = "Art Pepper",
                 Genres = new List<Genre> { genres[7] },
                 Recording = "Art Pepper Meets the Rhythm Section",
@@ -2463,6 +2754,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 291,
                 Name = "Washington Phillips",
                 Genres = new List<Genre> { genres[5] },
                 Recording = "The Keys to the Kingdom",
@@ -2471,6 +2763,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 292,
                 Name = "Elvis Presley",
                 Genres = new List<Genre> { genres[10], genres[5] },
                 Recording = "How Great Thou Art",
@@ -2479,6 +2772,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 293,
                 Name = "John Prine",
                 Genres = new List<Genre> { genres[12], genres[4] },
                 Recording = "John Prine",
@@ -2487,6 +2781,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 294,
                 Name = "Procol Harum",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "'A Whiter Shade of Pale'",
@@ -2495,6 +2790,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 295,
                 Name = "Bonnie Raitt",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "Give It Up",
@@ -2503,6 +2799,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 296,
                 Name = "Ernest Ranglin",
                 Genres = new List<Genre> { genres[14], genres[42] },
                 Recording = "Below the Bassline",
@@ -2511,6 +2808,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 297,
                 Name = "Maurice Ravel",
                 Genres = new List<Genre> { genres[1] },
                 Recording = "Claude Debussy, Modest Mussorgsky/Ravel, Boléro, La mer, Pictures at an Exhibition",
@@ -2519,6 +2817,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 298,
                 Name = "R.E.M.",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "Murmur",
@@ -2527,6 +2826,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 299,
                 Name = "Minnie Riperton",
                 Genres = new List<Genre> { genres[11] },
                 Recording = "Perfect Angel",
@@ -2535,6 +2835,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 300,
                 Name = "Linda Ronstadt",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "Heart like a Wheel",
@@ -2543,6 +2844,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 301,
                 Name = "Marta Sebestyen and Muzsikás",
                 Genres = new List<Genre> { genres[14], genres[38] },
                 Recording = "Marta Sebestyen and Muzsikas",
@@ -2551,6 +2853,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 302,
                 Name = "Andrés Segovia",
                 Genres = new List<Genre> { genres[1] },
                 Recording = "The Art of Segovia",
@@ -2559,6 +2862,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 303,
                 Name = "The Horace Silver Quintet",
                 Genres = new List<Genre> { genres[7] },
                 Recording = "Song for My Father",
@@ -2567,6 +2871,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 304,
                 Name = "Bessie Smith",
                 Genres = new List<Genre> { genres[0] },
                 Recording = "The Essential Bessie Smith",
@@ -2575,6 +2880,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 305,
                 Name = "Elliott Smith",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "XO",
@@ -2583,6 +2889,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 306,
                 Name = "Davy Spillane and Kevin Glackin",
                 Genres = new List<Genre> { genres[14], genres[24] },
                 Recording = "Forgotten Days",
@@ -2591,6 +2898,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 307,
                 Name = "The Staple Singers",
                 Genres = new List<Genre> { genres[5], genres[11] },
                 Recording = "The Best of the Staple Singers",
@@ -2599,6 +2907,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 308,
                 Name = "Isaac Stern",
                 Genres = new List<Genre> { genres[1] },
                 Recording = "Lalo: Symphonie espagnole; Bruch: Violin Concerto No. 1",
@@ -2607,6 +2916,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 309,
                 Name = "The Swan Silvertones",
                 Genres = new List<Genre> { genres[5] },
                 Recording = "The Swan Silvertones/Saviour Pass Me Not Taj Mahal, The Natch'l Blues",
@@ -2615,6 +2925,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 310,
                 Name = "Pyotr Ilyich Tchaikovsky",
                 Genres = new List<Genre> { genres[1] },
                 Recording = "Violin Concerto, Piano Concerto No. 1",
@@ -2623,6 +2934,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 311,
                 Name = "10cc",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "I'm Not in Love",
@@ -2631,6 +2943,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 312,
                 Name = "Ali Farka Touré",
                 Genres = new List<Genre> { genres[14], genres[48] },
                 Recording = "The River",
@@ -2639,6 +2952,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 313,
                 Name = "Lennie Tristano",
                 Genres = new List<Genre> { genres[7] },
                 Recording = "Tristano/The New Tristano",
@@ -2647,6 +2961,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 314,
                 Name = "McCoy Tyner",
                 Genres = new List<Genre> { genres[7] },
                 Recording = "The Real McCoy",
@@ -2655,6 +2970,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 315,
                 Name = "Various Artists",
                 Genres = new List<Genre> { genres[1] },
                 Recording = "Concert of the Century",
@@ -2663,6 +2979,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 316,
                 Name = "Various Artists",
                 Genres = new List<Genre> { genres[14], genres[25] },
                 Recording = "Phases of the Moon: Traditional Chinese Music",
@@ -2671,6 +2988,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 317,
                 Name = "Caetano Veloso and Gilberto Gil",
                 Genres = new List<Genre> { genres[14], genres[20] },
                 Recording = "Tropicália 2",
@@ -2679,6 +2997,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 318,
                 Name = "Heitor Villa-Lobos",
                 Genres = new List<Genre> { genres[1] },
                 Recording = "Bachianas brasileiras",
@@ -2687,6 +3006,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 319,
                 Name = "Antonio Vivaldi",
                 Genres = new List<Genre> { genres[1] },
                 Recording = "The Four Seasons",
@@ -2695,6 +3015,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 320,
                 Name = "Rufus Wainwright",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "Want One",
@@ -2703,6 +3024,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 321,
                 Name = "Gillian Welch",
                 Genres = new List<Genre> { genres[2] },
                 Recording = "Time (The Revelator)",
@@ -2711,6 +3033,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 322,
                 Name = "Kenny Wheeler",
                 Genres = new List<Genre> { genres[7] },
                 Recording = "Gnu High",
@@ -2719,6 +3042,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 323,
                 Name = "Marion Williams",
                 Genres = new List<Genre> { genres[5] },
                 Recording = "Strong Again",
@@ -2727,6 +3051,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 324,
                 Name = "Mary Lou Williams",
                 Genres = new List<Genre> { genres[7] },
                 Recording = "Zodiac Suite",
@@ -2735,6 +3060,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 325,
                 Name = "Tammy Wynette",
                 Genres = new List<Genre> { genres[2] },
                 Recording = "Anniversary: Twenty Years of Hits Neil Young, After the Gold Rush",
@@ -2743,6 +3069,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 326,
                 Name = "AC/DC",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "Back in Black",
@@ -2751,6 +3078,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 327,
                 Name = "Count Basie and His Orchestra",
                 Genres = new List<Genre> { genres[7] },
                 Recording = "Complete Decca Recordings",
@@ -2759,6 +3087,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 328,
                 Name = "Batacumbele",
                 Genres = new List<Genre> { genres[14], genres[28] },
                 Recording = "Con un poco de songo",
@@ -2767,6 +3096,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 329,
                 Name = "Big Daddy Kane",
                 Genres = new List<Genre> { genres[6] },
                 Recording = "Long Live the Kane",
@@ -2775,6 +3105,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 330,
                 Name = "Black Sabbath",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "Paranoid",
@@ -2783,6 +3114,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 331,
                 Name = "James Brown",
                 Genres = new List<Genre> { genres[11] },
                 Recording = "Live at the Apollo (1962)",
@@ -2791,6 +3123,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 332,
                 Name = "James Brown",
                 Genres = new List<Genre> { genres[11] },
                 Recording = "Soul Pride: The Instrumentals, 1960-1969",
@@ -2799,6 +3132,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 333,
                 Name = "Clifton Chenier",
                 Genres = new List<Genre> { genres[0] },
                 Recording = "Bogalusa Boogie",
@@ -2807,6 +3141,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 334,
                 Name = "Chic",
                 Genres = new List<Genre> { genres[11] },
                 Recording = "C'est Chic",
@@ -2815,6 +3150,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 335,
                 Name = "Sam Cooke",
                 Genres = new List<Genre> { genres[11] },
                 Recording = "Live at the Harlem Square Club",
@@ -2823,6 +3159,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 336,
                 Name = "I. K. Dairo and His Blue Spots",
                 Genres = new List<Genre> { genres[14], genres[53] },
                 Recording = "Definitie Dairo",
@@ -2831,6 +3168,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 337,
                 Name = "De La Soul",
                 Genres = new List<Genre> { genres[6] },
                 Recording = "Three Feet High and Rising",
@@ -2839,6 +3177,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 338,
                 Name = "Manu Dibango",
                 Genres = new List<Genre> { genres[14], genres[22] },
                 Recording = "'Soul Makossa'",
@@ -2847,6 +3186,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 339,
                 Name = "Digital Underground",
                 Genres = new List<Genre> { genres[6] },
                 Recording = "Sex Packets",
@@ -2855,6 +3195,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 340,
                 Name = "DJ Shadow",
                 Genres = new List<Genre> { genres[3] },
                 Recording = "Endtroducing",
@@ -2863,6 +3204,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 341,
                 Name = "Earth Wind, Fire",
                 Genres = new List<Genre> { genres[11] },
                 Recording = "All 'n' All",
@@ -2871,6 +3213,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 342,
                 Name = "Duke Ellington and His Orchestra",
                 Genres = new List<Genre> { genres[7] },
                 Recording = "Never No Lament: The Blanton-Webster Band",
@@ -2879,6 +3222,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 343,
                 Name = "Estrellas de Areito",
                 Genres = new List<Genre> { genres[14], genres[28] },
                 Recording = "Los Heroes",
@@ -2887,6 +3231,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 344,
                 Name = "Fatboy Slim",
                 Genres = new List<Genre> { genres[3] },
                 Recording = "Better Living Through Chemistry",
@@ -2895,6 +3240,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 345,
                 Name = "The Four Tops",
                 Genres = new List<Genre> { genres[11] },
                 Recording = "Anthology",
@@ -2903,6 +3249,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 346,
                 Name = "Franco and the TPOK Jazz",
                 Genres = new List<Genre> { genres[14], genres[27] },
                 Recording = "The Rough Guide to Franco",
@@ -2911,6 +3258,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 347,
                 Name = "Funkadelic",
                 Genres = new List<Genre> { genres[11] },
                 Recording = "Maggot Brain",
@@ -2919,6 +3267,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 348,
                 Name = "Dizzy Gillespie and His Orchestra",
                 Genres = new List<Genre> { genres[7] },
                 Recording = "Afro",
@@ -2927,6 +3276,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 349,
                 Name = "El Gran Combo de Puerto Rico",
                 Genres = new List<Genre> { genres[14], genres[54] },
                 Recording = "30 Aniversario",
@@ -2935,6 +3285,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 350,
                 Name = "Juan Luis Guerra y 440",
                 Genres = new List<Genre> { genres[14], genres[29] },
                 Recording = "Fogaraté!",
@@ -2943,6 +3294,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 351,
                 Name = "Guns N' Roses",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "Appetite for Destruction",
@@ -2951,6 +3303,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 352,
                 Name = "Herbie Hancock",
                 Genres = new List<Genre> { genres[7] },
                 Recording = "Head Hunters",
@@ -2959,6 +3312,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 353,
                 Name = "Isaac Hayes",
                 Genres = new List<Genre> { genres[11] },
                 Recording = "Shaft",
@@ -2967,6 +3321,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 354,
                 Name = "Ilê Aiyê",
                 Genres = new List<Genre> { genres[14], genres[20] },
                 Recording = "Canto Negro",
@@ -2975,6 +3330,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 355,
                 Name = "The Isley Brothers",
                 Genres = new List<Genre> { genres[11] },
                 Recording = "The Heat Is On",
@@ -2983,6 +3339,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 356,
                 Name = "Flaco Jiménez",
                 Genres = new List<Genre> { genres[14], genres[50] },
                 Recording = "Squeeze Box King",
@@ -2991,6 +3348,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 357,
                 Name = "Joi",
                 Genres = new List<Genre> { genres[3] },
                 Recording = "We Are Three",
@@ -2999,6 +3357,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 358,
                 Name = "Louis Jordan",
                 Genres = new List<Genre> { genres[11] },
                 Recording = "The Best of Louis Jordan",
@@ -3007,6 +3366,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 359,
                 Name = "Pepe Kalle",
                 Genres = new List<Genre> { genres[14], genres[27] },
                 Recording = "Gigantafrique!",
@@ -3015,6 +3375,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 360,
                 Name = "Khaled",
                 Genres = new List<Genre> { genres[14], genres[15] },
                 Recording = "N'ssi, N'ssi",
@@ -3023,6 +3384,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 361,
                 Name = "Konono No. 1",
                 Genres = new List<Genre> { genres[14], genres[27] },
                 Recording = "Congotronics",
@@ -3031,6 +3393,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 362,
                 Name = "Fela Kuti and the Afrika 70",
                 Genres = new List<Genre> { genres[14], genres[53] },
                 Recording = "Confusion/Gentleman",
@@ -3039,6 +3402,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 363,
                 Name = "Héctor Lavoe",
                 Genres = new List<Genre> { genres[14], genres[53] },
                 Recording = "De ti depende",
@@ -3047,6 +3411,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 364,
                 Name = "Little Richard",
                 Genres = new List<Genre> { genres[11] },
                 Recording = "The Georgia Peach",
@@ -3055,6 +3420,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 365,
                 Name = "Israel 'Cachao' López y Su Ritmo Caliente",
                 Genres = new List<Genre> { genres[14], genres[28] },
                 Recording = "Descargas: Cuban Jam Sessions in Miniature",
@@ -3063,6 +3429,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 366,
                 Name = "Madonna",
                 Genres = new List<Genre> { genres[10] },
                 Recording = "Ray of Light",
@@ -3071,6 +3438,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 367,
                 Name = "Mahlathini and the Mahotella Queens",
                 Genres = new List<Genre> { genres[14], genres[60] },
                 Recording = "Paris/Soweto",
@@ -3079,6 +3447,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 368,
                 Name = "Martha and the Vandellas",
                 Genres = new List<Genre> { genres[11] },
                 Recording = "'Dancing in the Street'",
@@ -3087,6 +3456,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 369,
                 Name = "The Meters",
                 Genres = new List<Genre> { genres[11] },
                 Recording = "Look-Ka Py Py",
@@ -3095,6 +3465,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 370,
                 Name = "Mighty Sparrow and Lord Kitchener",
                 Genres = new List<Genre> { genres[14], genres[63] },
                 Recording = "Sixteen Carnival Hits",
@@ -3103,6 +3474,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 371,
                 Name = "Hugh Mundell",
                 Genres = new List<Genre> { genres[14], genres[42] },
                 Recording = "Africa Must Be Free by 1983",
@@ -3111,6 +3483,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 372,
                 Name = "Los Muñequitos de Matanzas",
                 Genres = new List<Genre> { genres[14], genres[28] },
                 Recording = "Ito Iban Echu: Sacred Yoruba Music of Cuba",
@@ -3119,6 +3492,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 373,
                 Name = "Nas",
                 Genres = new List<Genre> { genres[6] },
                 Recording = "Illmatic",
@@ -3127,6 +3501,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 374,
                 Name = "Youssou N'Dour",
                 Genres = new List<Genre> { genres[14], genres[59] },
                 Recording = "Immigrés",
@@ -3135,6 +3510,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 375,
                 Name = "No Doubt",
                 Genres = new List<Genre> { genres[10], genres[12] },
                 Recording = "Rock Steady",
@@ -3143,6 +3519,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 376,
                 Name = "The O'Jays",
                 Genres = new List<Genre> { genres[11] },
                 Recording = "Back Stabbers",
@@ -3151,6 +3528,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 377,
                 Name = "Orchestra Baobab",
                 Genres = new List<Genre> { genres[14], genres[59] },
                 Recording = "Pirates Choice",
@@ -3159,6 +3537,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 378,
                 Name = "Outkast",
                 Genres = new List<Genre> { genres[11] },
                 Recording = "Stankonia",
@@ -3167,6 +3546,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 379,
                 Name = "Eddie Palmieri",
                 Genres = new List<Genre> { genres[14], genres[45] },
                 Recording = "La perfecta",
@@ -3175,6 +3555,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 380,
                 Name = "Prince",
                 Genres = new List<Genre> { genres[11], genres[12] },
                 Recording = "Sign o' the Times",
@@ -3183,6 +3564,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 381,
                 Name = "Professor Longhair",
                 Genres = new List<Genre> { genres[0], genres[11] },
                 Recording = "New Orleans Piano",
@@ -3191,6 +3573,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 382,
                 Name = "Tito Puente and His Orchestra",
                 Genres = new List<Genre> { genres[14], genres[45] },
                 Recording = "Dance Mania!",
@@ -3199,6 +3582,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 383,
                 Name = "Ismael Rivera con Kako y Su Orquesta",
                 Genres = new List<Genre> { genres[14], genres[54] },
                 Recording = "Lo último en la avenida",
@@ -3207,6 +3591,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 384,
                 Name = "Tabu Ley Rochereau",
                 Genres = new List<Genre> { genres[14], genres[27] },
                 Recording = "The Voice of Lightness: Congo Classics, 1961-1977",
@@ -3215,6 +3600,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 385,
                 Name = "Arsenio Rodríguez y Su Conjunto",
                 Genres = new List<Genre> { genres[14], genres[28] },
                 Recording = "Montuneando",
@@ -3223,6 +3609,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 386,
                 Name = "Mongo Santamaria",
                 Genres = new List<Genre> { genres[14], genres[28] },
                 Recording = "Drums and Chants",
@@ -3231,6 +3618,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 387,
                 Name = "Sasha",
                 Genres = new List<Genre> { genres[3] },
                 Recording = "Global Underground 013: Ibiza",
@@ -3239,6 +3627,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 388,
                 Name = "Chico Science and Nação Zumbi",
                 Genres = new List<Genre> { genres[14], genres[20] },
                 Recording = "Da lama ao caos",
@@ -3247,6 +3636,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 389,
                 Name = "Shakira",
                 Genres = new List<Genre> { genres[14], genres[26] },
                 Recording = "¿Dónde están los ladrones?",
@@ -3255,6 +3645,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 390,
                 Name = "The Soul Brothers",
                 Genres = new List<Genre> { genres[14], genres[60] },
                 Recording = "The Rough Guide to the Soul Brothers",
@@ -3263,6 +3654,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 391,
                 Name = "The Stone Roses",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "The Stone Roses",
@@ -3271,6 +3663,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 392,
                 Name = "Talking Heads",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "Remain in Light",
@@ -3279,6 +3672,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 393,
                 Name = "Taraf de Haïdouks",
                 Genres = new List<Genre> { genres[14], genres[57] },
                 Recording = "Taraf de Haïdouks",
@@ -3287,6 +3681,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 394,
                 Name = "Touré Kunda",
                 Genres = new List<Genre> { genres[14], genres[59] },
                 Recording = "Paris-Ziguinchor Live",
@@ -3295,6 +3690,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 395,
                 Name = "Ike and Tina Turner",
                 Genres = new List<Genre> { genres[11] },
                 Recording = "Proud Mary",
@@ -3303,6 +3699,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 396,
                 Name = "Various Artists",
                 Genres = new List<Genre> { genres[14], genres[60] },
                 Recording = "The Indestructible Beat of Soweto",
@@ -3311,6 +3708,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 397,
                 Name = "Various Artists",
                 Genres = new List<Genre> { genres[10] },
                 Recording = "Saturday Night Fever",
@@ -3319,6 +3717,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 398,
                 Name = "Various Artists",
                 Genres = new List<Genre> { genres[14], genres[42] },
                 Recording = "Ska Bonanza: The Studio One Ska Years",
@@ -3327,6 +3726,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 399,
                 Name = "Various Artists",
                 Genres = new List<Genre> { genres[11] },
                 Recording = "A Tom Moulton Mix",
@@ -3335,6 +3735,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 400,
                 Name = "Dimi Mint Abba and Khalifa Ould Eide",
                 Genres = new List<Genre> { genres[14], genres[49] },
                 Recording = "Moorish Music from Mauritania",
@@ -3343,6 +3744,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 401,
                 Name = "John Adams",
                 Genres = new List<Genre> { genres[1] },
                 Recording = "Harmonium",
@@ -3351,6 +3753,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 402,
                 Name = "Mahmoud Ahmed",
                 Genres = new List<Genre> { genres[14], genres[31] },
                 Recording = "éthiopiques, Vol. 7: Erè Mèla Mèla",
@@ -3359,6 +3762,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 403,
                 Name = "Aphex Twin",
                 Genres = new List<Genre> { genres[3] },
                 Recording = "Selected Ambient Works",
@@ -3367,6 +3771,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 404,
                 Name = "J. S. Bach",
                 Genres = new List<Genre> { genres[1] },
                 Recording = "The Well-Tempered Clavier, Book 1",
@@ -3375,6 +3780,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 405,
                 Name = "J. S. Bach",
                 Genres = new List<Genre> { genres[1] },
                 Recording = "Mass in B Minor",
@@ -3383,6 +3789,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 406,
                 Name = "The Band",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "The Band",
@@ -3391,6 +3798,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 407,
                 Name = "Samuel Barber",
                 Genres = new List<Genre> { genres[1] },
                 Recording = "Adagio for Strings",
@@ -3399,6 +3807,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 408,
                 Name = "Béla Bartók",
                 Genres = new List<Genre> { genres[1] },
                 Recording = "Six String Quartets",
@@ -3407,6 +3816,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 409,
                 Name = "Waldemar Bastos",
                 Genres = new List<Genre> { genres[14], genres[17] },
                 Recording = "Pretaluz",
@@ -3415,6 +3825,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 410,
                 Name = "Ludwig van Beethoven",
                 Genres = new List<Genre> { genres[1] },
                 Recording = "Missa Solemnis",
@@ -3423,6 +3834,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 411,
                 Name = "Benedictine Monks of the Abbey of St. Maurice and St. Maur",
                 Genres = new List<Genre> { genres[1] },
                 Recording = "Clervaux, Salve Regina: Gregorian Chant",
@@ -3431,6 +3843,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 412,
                 Name = "Vishwa Mohan Bhatt and Ry Cooder",
                 Genres = new List<Genre> { genres[14], genres[39] },
                 Recording = "A Meeting by the River",
@@ -3439,6 +3852,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 413,
                 Name = "Paul Bley",
                 Genres = new List<Genre> { genres[7] },
                 Recording = "Fragments",
@@ -3447,6 +3861,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 414,
                 Name = "The Blind Boys of Alabama",
                 Genres = new List<Genre> { genres[5] },
                 Recording = "Spirit of the Century",
@@ -3455,6 +3870,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 415,
                 Name = "Bonnie 'Prince' Billy",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "I See a Darkness",
@@ -3463,6 +3879,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 416,
                 Name = "Boukman Eksperyans",
                 Genres = new List<Genre> { genres[14], genres[35] },
                 Recording = "Kalfou Danjere",
@@ -3471,6 +3888,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 417,
                 Name = "Bright Eyes",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "I'm Wide Awake, It's Morning",
@@ -3479,6 +3897,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 418,
                 Name = "Jackson Browne",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "Late for the Sky",
@@ -3487,6 +3906,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 419,
                 Name = "The Bulgarian Women's National Radio and Television Chorus",
                 Genres = new List<Genre> { genres[14], genres[21] },
                 Recording = "Le mystère des voix bulgares",
@@ -3495,6 +3915,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 420,
                 Name = "Neko Case",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "Fox Confessor Brings the Flood",
@@ -3503,6 +3924,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 421,
                 Name = "Johnny Cash",
                 Genres = new List<Genre> { genres[2] },
                 Recording = "American Recordings",
@@ -3511,6 +3933,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 422,
                 Name = "Tracy Chapman",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "Tracy Chapman",
@@ -3519,6 +3942,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 423,
                 Name = "Hariprasad Chaurasia",
                 Genres = new List<Genre> { genres[14], genres[39] },
                 Recording = "Raga Darbari Kanada",
@@ -3527,6 +3951,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 424,
                 Name = "Sonny Chillingworth",
                 Genres = new List<Genre> { genres[14], genres[36] },
                 Recording = "Endlessly",
@@ -3535,6 +3960,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 425,
                 Name = "Frédéric Chopin",
                 Genres = new List<Genre> { genres[1] },
                 Recording = "Nocturnes",
@@ -3543,6 +3969,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 426,
                 Name = "Van Cliburn",
                 Genres = new List<Genre> { genres[1] },
                 Recording = "Rachmaninoff: Piano Concerto No. 3; Prokofiev: Piano Concerto No. 3",
@@ -3551,6 +3978,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 427,
                 Name = "Leonard Cohen",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "Songs of Leonard Cohen",
@@ -3559,6 +3987,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 428,
                 Name = "John Coltrane",
                 Genres = new List<Genre> { genres[7] },
                 Recording = "A Love Supreme",
@@ -3567,6 +3996,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 429,
                 Name = "Karen Dalton",
                 Genres = new List<Genre> { genres[4] },
                 Recording = "It's So Hard to Tell Who's Going to Love You the Best",
@@ -3575,6 +4005,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 430,
                 Name = "Miles Davis",
                 Genres = new List<Genre> { genres[7] },
                 Recording = "Kind of Blue",
@@ -3583,6 +4014,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 431,
                 Name = "Miles Davis Quintet",
                 Genres = new List<Genre> { genres[7] },
                 Recording = "In a Silent Way",
@@ -3591,6 +4023,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 432,
                 Name = "De Danann with Mary Black",
                 Genres = new List<Genre> { genres[14], genres[24] },
                 Recording = "Song for Ireland",
@@ -3599,6 +4032,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 433,
                 Name = "Nick Drake",
                 Genres = new List<Genre> { genres[12], genres[4] },
                 Recording = "Five Leaves Left",
@@ -3607,6 +4041,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 434,
                 Name = "Bob Dylan",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "Blood on the Tracks",
@@ -3615,6 +4050,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 435,
                 Name = "Brian Eno",
                 Genres = new List<Genre> { genres[3] },
                 Recording = "Ambient 1: Music for Airports",
@@ -3623,6 +4059,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 436,
                 Name = "Alejandro Escovedo",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "Gravity",
@@ -3631,6 +4068,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 437,
                 Name = "Bill Evans Trio",
                 Genres = new List<Genre> { genres[7] },
                 Recording = "Sunday at the Village Vanguard/Waltz for Debby",
@@ -3639,6 +4077,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 438,
                 Name = "Fairport Convention",
                 Genres = new List<Genre> { genres[4] },
                 Recording = "Liege and Lief",
@@ -3647,6 +4086,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 439,
                 Name = "Roberta Flack",
                 Genres = new List<Genre> { genres[11] },
                 Recording = "'The First Time Ever I Saw Your Face'",
@@ -3655,6 +4095,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 440,
                 Name = "Jan Garbarek and Ralph Towner",
                 Genres = new List<Genre> { genres[7] },
                 Recording = "Dis",
@@ -3663,6 +4104,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 441,
                 Name = "Djivan Gasparyan",
                 Genres = new List<Genre> { genres[14], genres[19] },
                 Recording = "I Will Not Be Sad in This World",
@@ -3671,6 +4113,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 442,
                 Name = "Henryk Górecki",
                 Genres = new List<Genre> { genres[1] },
                 Recording = "Symphony No. 3, Op. 26: Symphony of Sorrowful Songs",
@@ -3679,6 +4122,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 443,
                 Name = "Gothic Voices with Emma Kirkby",
                 Genres = new List<Genre> { genres[1] },
                 Recording = "A Feather on the Breath of God: Sequences and Hymns by Abbess Hildegard of Bingen",
@@ -3687,6 +4131,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 444,
                 Name = "Charlie Haden",
                 Genres = new List<Genre> { genres[7] },
                 Recording = "Nocturne",
@@ -3695,6 +4140,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 445,
                 Name = "Herbie Hancock",
                 Genres = new List<Genre> { genres[7] },
                 Recording = "Maiden Voyage",
@@ -3703,6 +4149,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 446,
                 Name = "George Harrison",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "All Things Must Pass",
@@ -3711,6 +4158,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 447,
                 Name = "Ofra Haza",
                 Genres = new List<Genre> { genres[14], genres[51] },
                 Recording = "Fifty Gates of Wisdom: Yemenite Songs",
@@ -3719,6 +4167,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 448,
                 Name = "Andrew Hill",
                 Genres = new List<Genre> { genres[7] },
                 Recording = "Point of Departure",
@@ -3727,6 +4176,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 449,
                 Name = "Lauryn Hill",
                 Genres = new List<Genre> { genres[6], genres[11] },
                 Recording = "The Miseducation of Lauryn Hill",
@@ -3735,6 +4185,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 450,
                 Name = "Shirley Horn",
                 Genres = new List<Genre> { genres[7], genres[13] },
                 Recording = "Close Enough for Love",
@@ -3743,6 +4194,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 451,
                 Name = "Howlin' Wolf",
                 Genres = new List<Genre> { genres[0] },
                 Recording = "Moanin' in the Moonlight",
@@ -3751,6 +4203,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 452,
                 Name = "Leoš Janáček",
                 Genres = new List<Genre> { genres[1] },
                 Recording = "Piano Works",
@@ -3759,6 +4212,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 453,
                 Name = "Keith Jarrett",
                 Genres = new List<Genre> { genres[7] },
                 Recording = "The Köln Concert",
@@ -3767,6 +4221,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 454,
                 Name = "Rickie Lee Jones",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "Pirates",
@@ -3775,6 +4230,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 455,
                 Name = "Josquin des Prez",
                 Genres = new List<Genre> { genres[1] },
                 Recording = "Missa pange lingua, Motets",
@@ -3783,6 +4239,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 456,
                 Name = "Oum Kalthoum",
                 Genres = new List<Genre> { genres[14], genres[30] },
                 Recording = "Legend of Arab Music",
@@ -3791,6 +4248,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 457,
                 Name = "Salif Keita",
                 Genres = new List<Genre> { genres[14], genres[48] },
                 Recording = "Moffou",
@@ -3799,6 +4257,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 458,
                 Name = "Nusrat Fateh Ali Khan and Party",
                 Genres = new List<Genre> { genres[14], genres[54] },
                 Recording = "In Concert in Paris",
@@ -3807,6 +4266,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 459,
                 Name = "Carole King",
                 Genres = new List<Genre> { genres[10] },
                 Recording = "Tapestry",
@@ -3815,6 +4275,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 460,
                 Name = "Alison Krauss",
                 Genres = new List<Genre> { genres[2] },
                 Recording = "I've Got That Old Feeling",
@@ -3823,6 +4284,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 461,
                 Name = "Dinu Lipatti",
                 Genres = new List<Genre> { genres[1] },
                 Recording = "Besançon Festival, 1950 Madredeus, O espírito da paz",
@@ -3831,6 +4293,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 462,
                 Name = "Gustav Mahler",
                 Genres = new List<Genre> { genres[1] },
                 Recording = "Das Lied von der Erde",
@@ -3839,6 +4302,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 463,
                 Name = "John Martyn",
                 Genres = new List<Genre> { genres[4], genres[12] },
                 Recording = "Solid Air",
@@ -3847,6 +4311,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 464,
                 Name = "Kate and Anna McGarrigle",
                 Genres = new List<Genre> { genres[4], genres[12] },
                 Recording = "Kate and Anna McGarrigle",
@@ -3855,6 +4320,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 465,
                 Name = "Loreena McKennitt",
                 Genres = new List<Genre> { genres[14], genres[24] },
                 Recording = "The Visit",
@@ -3863,6 +4329,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 466,
                 Name = "Brad Mehldau",
                 Genres = new List<Genre> { genres[7] },
                 Recording = "Largo",
@@ -3871,6 +4338,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 467,
                 Name = "Olivier Messiaen",
                 Genres = new List<Genre> { genres[1] },
                 Recording = "Vingt regards sur l'enfant-Jésus",
@@ -3879,6 +4347,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 468,
                 Name = "Tete Montoliu",
                 Genres = new List<Genre> { genres[7] },
                 Recording = "Solo Piano",
@@ -3887,6 +4356,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 469,
                 Name = "Van Morrison",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "Astral Weeks",
@@ -3895,6 +4365,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 470,
                 Name = "Modest Mussorgsky",
                 Genres = new List<Genre> { genres[1] },
                 Recording = "Sunless, The Nursery, Songs and Dances of Death and Other Songs",
@@ -3903,6 +4374,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 471,
                 Name = "Randy Newman",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "Twelve Songs",
@@ -3911,6 +4383,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 472,
                 Name = "Beth Orton",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "Central Reservation",
@@ -3919,6 +4392,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 473,
                 Name = "Parisa",
                 Genres = new List<Genre> { genres[14], genres[41] },
                 Recording = "Baz Amadam: Parisa at Royal Festival Hall",
@@ -3927,6 +4401,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 474,
                 Name = "Gram Parsons",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "GP/Grievous Angel",
@@ -3935,6 +4410,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 475,
                 Name = "Arvo Pärt",
                 Genres = new List<Genre> { genres[1] },
                 Recording = "Tabula Rasa",
@@ -3943,6 +4419,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 476,
                 Name = "Sam Phillips",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "Fan Dance",
@@ -3951,6 +4428,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 477,
                 Name = "Astor Piazzolla",
                 Genres = new List<Genre> { genres[14], genres[18] },
                 Recording = "Tango: Zero Hour",
@@ -3959,6 +4437,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 478,
                 Name = "Portishead",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "Dummy",
@@ -3967,6 +4446,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 479,
                 Name = "Sergey Rachmaninoff",
                 Genres = new List<Genre> { genres[1] },
                 Recording = "All-Night Vigil, op. 37, 6526",
@@ -3975,6 +4455,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 480,
                 Name = "Steve Reich",
                 Genres = new List<Genre> { genres[1] },
                 Recording = "Music for 18 Musicians",
@@ -3983,6 +4464,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 481,
                 Name = "Kaija Saariaho",
                 Genres = new List<Genre> { genres[9] },
                 Recording = "L'Amour de loin",
@@ -3991,6 +4473,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 482,
                 Name = "Dino Saluzzi",
                 Genres = new List<Genre> { genres[7] },
                 Recording = "Cité de la musique",
@@ -3999,6 +4482,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 483,
                 Name = "Oumou Sangare",
                 Genres = new List<Genre> { genres[14], genres[48] },
                 Recording = "Ko sira",
@@ -4007,6 +4491,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 484,
                 Name = "Erik Satie",
                 Genres = new List<Genre> { genres[1] },
                 Recording = "Gymnopédies/Gnossiennes",
@@ -4015,6 +4500,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 485,
                 Name = "Franz Schubert",
                 Genres = new List<Genre> { genres[1] },
                 Recording = "B-Flat Piano Sonata",
@@ -4023,6 +4509,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 486,
                 Name = "Tony Scott",
                 Genres = new List<Genre> { genres[7], genres[14], genres[43] },
                 Recording = "Music for Zen Meditation and Other Joys",
@@ -4031,6 +4518,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 487,
                 Name = "Gil Scott-Heron",
                 Genres = new List<Genre> { genres[11] },
                 Recording = "Pieces of a Man",
@@ -4039,6 +4527,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 488,
                 Name = "Ravi Shankar",
                 Genres = new List<Genre> { genres[14], genres[39] },
                 Recording = "Three Ragas",
@@ -4047,6 +4536,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 489,
                 Name = "Archie Shepp and Horace Parlan",
                 Genres = new List<Genre> { genres[7], genres[5] },
                 Recording = "Goin' Home",
@@ -4055,6 +4545,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 490,
                 Name = "Simon and Garfunkel",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "Bridge Over Troubled Water",
@@ -4063,6 +4554,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 491,
                 Name = "Jimmie Spheeris",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "Isle of View",
@@ -4071,6 +4563,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 492,
                 Name = "Andy Statman",
                 Genres = new List<Genre> { genres[14] },
                 Recording = "Between Heaven and Earth: Music of the Jewish Mystics",
@@ -4079,6 +4572,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 493,
                 Name = "Cat Stevens",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "Tea for the Tillerman",
@@ -4087,6 +4581,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 494,
                 Name = "Sufjan Stevens",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "Illinoise",
@@ -4095,6 +4590,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 495,
                 Name = "Richard Strauss",
                 Genres = new List<Genre> { genres[1] },
                 Recording = "Four Last Songs",
@@ -4103,6 +4599,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 496,
                 Name = "Igor Stravinsky",
                 Genres = new List<Genre> { genres[1] },
                 Recording = "Rite of Spring",
@@ -4111,6 +4608,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 497,
                 Name = "James Taylor",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "Sweet Baby",
@@ -4119,6 +4617,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 498,
                 Name = "James Ralph Towner",
                 Genres = new List<Genre> { genres[7] },
                 Recording = "Solstice",
@@ -4127,6 +4626,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 499,
                 Name = "Various Artists",
                 Genres = new List<Genre> { genres[14], genres[37] },
                 Recording = "The Great Cantors",
@@ -4135,6 +4635,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 500,
                 Name = "Various Artists",
                 Genres = new List<Genre> { genres[14], genres[52] },
                 Recording = "World of Gnawa",
@@ -4143,6 +4644,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 501,
                 Name = "Suzanne Vega",
                 Genres = new List<Genre> { genres[4], genres[10] },
                 Recording = "Solitude Standing",
@@ -4151,6 +4653,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 502,
                 Name = "Caetano Veloso",
                 Genres = new List<Genre> { genres[14], genres[20] },
                 Recording = "Livro",
@@ -4159,6 +4662,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 503,
                 Name = "Randy Weston",
                 Genres = new List<Genre> { genres[7] },
                 Recording = "The Spirits of Our Ancestors",
@@ -4167,6 +4671,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 504,
                 Name = "Chris Whitley",
                 Genres = new List<Genre> { genres[0], genres[12] },
                 Recording = "Living with the Law",
@@ -4175,6 +4680,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 505,
                 Name = "Lucinda Williams",
                 Genres = new List<Genre> { genres[2] },
                 Recording = "Sweet Old World",
@@ -4183,6 +4689,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 506,
                 Name = "Cassandra Wilson",
                 Genres = new List<Genre> { genres[7], genres[13] },
                 Recording = "Blue Light 'til Dawn",
@@ -4191,6 +4698,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 507,
                 Name = "Robert Wyatt",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "Rock Bottom",
@@ -4199,6 +4707,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 508,
                 Name = "Goro Yamaguchi",
                 Genres = new List<Genre> { genres[14], genres[43] },
                 Recording = "Shakuhachi Music: A Bell Ringing in the Empty Sky",
@@ -4207,6 +4716,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 509,
                 Name = "Neil Young",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "After the Gold Rush",
@@ -4215,6 +4725,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 510,
                 Name = "Warren Zevon",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "Excitable Boy",
@@ -4223,6 +4734,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 511,
                 Name = "Johnny Adams",
                 Genres = new List<Genre> { genres[0] },
                 Recording = "The Real Me: Johnny Adams Sings Doc Pomus",
@@ -4231,6 +4743,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 512,
                 Name = "The Cannonball Adderley Quintet",
                 Genres = new List<Genre> { genres[7] },
                 Recording = "At the Lighthouse",
@@ -4239,6 +4752,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 513,
                 Name = "Arthur Alexander",
                 Genres = new List<Genre> { genres[11] },
                 Recording = "The Ultimate Arthur Alexander",
@@ -4247,6 +4761,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 514,
                 Name = "Mose Allison",
                 Genres = new List<Genre> { genres[13] },
                 Recording = "Allison Wonderland",
@@ -4255,6 +4770,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 515,
                 Name = "Herb Alpert and the Tijuana Brass",
                 Genres = new List<Genre> { genres[10] },
                 Recording = "Whipped Cream and Other Delights",
@@ -4263,6 +4779,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 516,
                 Name = "Fred Astaire",
                 Genres = new List<Genre> { genres[13] },
                 Recording = "Steppin' Out: Astaire Sings",
@@ -4271,6 +4788,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 517,
                 Name = "Chet Atkins and Les Paul",
                 Genres = new List<Genre> { genres[2], genres[7] },
                 Recording = "Chester and Lester",
@@ -4279,6 +4797,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 518,
                 Name = "Harry Belafonte",
                 Genres = new List<Genre> { genres[13] },
                 Recording = "Live at Carnegie Hall",
@@ -4287,6 +4806,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 519,
                 Name = "Tony Bennett and Bill Evans",
                 Genres = new List<Genre> { genres[13] },
                 Recording = "The Tony Bennett-Bill Evans Album",
@@ -4295,6 +4815,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 520,
                 Name = "Art Blakey and the Jazz Messengers",
                 Genres = new List<Genre> { genres[7] },
                 Recording = "Moanin'",
@@ -4303,6 +4824,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 521,
                 Name = "Bobby 'Blue' Bland",
                 Genres = new List<Genre> { genres[0] },
                 Recording = "Two Steps from the Blues",
@@ -4311,6 +4833,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 522,
                 Name = "Clifford Brown-Max Roach Quintet",
                 Genres = new List<Genre> { genres[7] },
                 Recording = "Clifford Brown and Max Roach",
@@ -4319,6 +4842,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 523,
                 Name = "Lord Buckley",
                 Genres = new List<Genre> { genres[13] },
                 Recording = "His Royal Hipness",
@@ -4327,6 +4851,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 524,
                 Name = "Sonny Clark",
                 Genres = new List<Genre> { genres[7] },
                 Recording = "Cool Struttin'",
@@ -4335,6 +4860,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 525,
                 Name = "John Coltrane and Johnny Hartman",
                 Genres = new List<Genre> { genres[7], genres[13] },
                 Recording = "John Coltrane and Johnny Hartman",
@@ -4343,6 +4869,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 526,
                 Name = "Bing Crosby",
                 Genres = new List<Genre> { genres[13] },
                 Recording = "A Centennial Anthology of Decca Recordings",
@@ -4351,6 +4878,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 527,
                 Name = "Bobby Darin",
                 Genres = new List<Genre> { genres[13] },
                 Recording = "That's All",
@@ -4359,6 +4887,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 528,
                 Name = "Sammy Davis Jr.",
                 Genres = new List<Genre> { genres[13] },
                 Recording = "I Gotta Right to Swing",
@@ -4367,6 +4896,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 529,
                 Name = "Ella Fitzgerald",
                 Genres = new List<Genre> { genres[7], genres[13] },
                 Recording = "Ella Fitzgerald Sings the Cole Porter Songbook",
@@ -4375,6 +4905,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 530,
                 Name = "Ella Fitzgerald and Louis Armstrong",
                 Genres = new List<Genre> { genres[7], genres[13] },
                 Recording = "Ella and Louis",
@@ -4383,6 +4914,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 531,
                 Name = "The Four Freshmen",
                 Genres = new List<Genre> { genres[13] },
                 Recording = "The Four Freshmen and Five Trombones",
@@ -4391,6 +4923,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 532,
                 Name = "Serge Gainsbourg",
                 Genres = new List<Genre> { genres[12], genres[13] },
                 Recording = "Histoire de Melody Nelson",
@@ -4399,6 +4932,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 533,
                 Name = "Erroll Garner",
                 Genres = new List<Genre> { genres[7] },
                 Recording = "Concert by the Sea",
@@ -4407,6 +4941,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 534,
                 Name = "Stan Getz and João Gilberto",
                 Genres = new List<Genre> { genres[7] },
                 Recording = "Getz/Gilberto",
@@ -4415,6 +4950,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 535,
                 Name = "Dexter Gordon",
                 Genres = new List<Genre> { genres[7] },
                 Recording = "Go!",
@@ -4423,6 +4959,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 536,
                 Name = "Billie Holiday",
                 Genres = new List<Genre> { genres[7], genres[11], genres[13] },
                 Recording = "The Ultimate Collection",
@@ -4431,6 +4968,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 537,
                 Name = "Etta James",
                 Genres = new List<Genre> { genres[11] },
                 Recording = "Tell Mama",
@@ -4439,6 +4977,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 538,
                 Name = "George Jones",
                 Genres = new List<Genre> { genres[2] },
                 Recording = "The Grand Tour",
@@ -4447,6 +4986,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 539,
                 Name = "Ernesto Lecuona",
                 Genres = new List<Genre> { genres[1], genres[14], genres[28] },
                 Recording = "The Ultimate Collection: Lecuona Plays Lecuona",
@@ -4455,6 +4995,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 540,
                 Name = "Les McCann and Eddie Harris",
                 Genres = new List<Genre> { genres[7] },
                 Recording = "Swiss Movement",
@@ -4463,6 +5004,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 541,
                 Name = "Hank Mobley",
                 Genres = new List<Genre> { genres[7] },
                 Recording = "Soul Station",
@@ -4471,6 +5013,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 542,
                 Name = "Wes Montgomery",
                 Genres = new List<Genre> { genres[7] },
                 Recording = "Smokin' at the Half Note",
@@ -4479,6 +5022,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 543,
                 Name = "Oliver Nelson",
                 Genres = new List<Genre> { genres[7] },
                 Recording = "The Blues and the Abstract Truth",
@@ -4487,6 +5031,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 544,
                 Name = "Phineas Newborn Jr.",
                 Genres = new List<Genre> { genres[7] },
                 Recording = "A World of Piano!",
@@ -4495,6 +5040,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 545,
                 Name = "Charlie Parker",
                 Genres = new List<Genre> { genres[7] },
                 Recording = "Charlie Parker with Strings",
@@ -4503,6 +5049,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 546,
                 Name = "Les Paul with Mary Ford",
                 Genres = new List<Genre> { genres[7], genres[13] },
                 Recording = "The Best of the Capitol Masters: Ninetieth Birthday Edition",
@@ -4511,6 +5058,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 547,
                 Name = "The Oscar Peterson Trio",
                 Genres = new List<Genre> { genres[7] },
                 Recording = "Night Train",
@@ -4519,6 +5067,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 548,
                 Name = "Charlie Rich",
                 Genres = new List<Genre> { genres[2] },
                 Recording = "Behind Closed Doors",
@@ -4527,6 +5076,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 549,
                 Name = "Nina Simone",
                 Genres = new List<Genre> { genres[7] },
                 Recording = "Anthology",
@@ -4535,6 +5085,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 550,
                 Name = "Frank Sinatra",
                 Genres = new List<Genre> { genres[13] },
                 Recording = "Songs for Swingin' Lovers",
@@ -4543,6 +5094,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 551,
                 Name = "Cal Tjader",
                 Genres = new List<Genre> { genres[7] },
                 Recording = "Primo",
@@ -4551,6 +5103,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 552,
                 Name = "Sarah Vaughan",
                 Genres = new List<Genre> { genres[7] },
                 Recording = "Live in Japan",
@@ -4559,6 +5112,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 553,
                 Name = "Dinah Washington",
                 Genres = new List<Genre> { genres[7], genres[13] },
                 Recording = "Dinah!",
@@ -4567,6 +5121,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 554,
                 Name = "Muddy Waters",
                 Genres = new List<Genre> { genres[0] },
                 Recording = "At Newport 1960",
@@ -4575,6 +5130,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 555,
                 Name = "Joe Williams with the Count Basie Orchestra",
                 Genres = new List<Genre> { genres[7] },
                 Recording = "Count Basie Swings, Joe Williams Sings",
@@ -4583,6 +5139,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 556,
                 Name = "Lester Young",
                 Genres = new List<Genre> { genres[7] },
                 Recording = "The 'Kansas City' Sessions",
@@ -4591,6 +5148,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 557,
                 Name = "King Sunny Ade",
                 Genres = new List<Genre> { genres[14], genres[53] },
                 Recording = "The Best of the Classic Years",
@@ -4599,6 +5157,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 558,
                 Name = "Aerosmith",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "Toys in the Attic",
@@ -4607,6 +5166,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 559,
                 Name = "Los Amigos Invisibles",
                 Genres = new List<Genre> { genres[14], genres[65] },
                 Recording = "Arepa 3000: A Venezuelan Journey into Space",
@@ -4615,6 +5175,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 560,
                 Name = "Arrested Development",
                 Genres = new List<Genre> { genres[6] },
                 Recording = "Three Years, Five Months, and Two Days in the Life of…",
@@ -4623,6 +5184,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 561,
                 Name = "Baby Huey and the Babysitters",
                 Genres = new List<Genre> { genres[11] },
                 Recording = "The Baby Huey Story: The Living Legend",
@@ -4631,6 +5193,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 562,
                 Name = "Afrika Bambaataa and the Soul Sonic Force",
                 Genres = new List<Genre> { genres[6] },
                 Recording = "'Planet Rock'",
@@ -4639,6 +5202,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 563,
                 Name = "Ray Barretto",
                 Genres = new List<Genre> { genres[14], genres[45] },
                 Recording = "Barretto Power",
@@ -4647,6 +5211,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 564,
                 Name = "The Beastie Boys",
                 Genres = new List<Genre> { genres[6] },
                 Recording = "Paul's Boutique",
@@ -4655,6 +5220,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 565,
                 Name = "Bembeya Jazz National",
                 Genres = new List<Genre> { genres[14], genres[34] },
                 Recording = "The Syliphone Years",
@@ -4663,6 +5229,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 566,
                 Name = "Jorge Ben",
                 Genres = new List<Genre> { genres[14], genres[20] },
                 Recording = "Africa/Brazil",
@@ -4671,6 +5238,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 567,
                 Name = "Chuck Berry",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "The Anthology",
@@ -4679,6 +5247,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 568,
                 Name = "Rubén Blades and Willie Colón",
                 Genres = new List<Genre> { genres[14], genres[45] },
                 Recording = "Siembra",
@@ -4687,6 +5256,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 569,
                 Name = "Bloque",
                 Genres = new List<Genre> { genres[14], genres[26] },
                 Recording = "Bloque",
@@ -4695,6 +5265,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 570,
                 Name = "Booker T. and the MGs",
                 Genres = new List<Genre> { genres[11] },
                 Recording = "Melting Pot",
@@ -4703,6 +5274,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 571,
                 Name = "Chuck Brown and the Soul Searchers",
                 Genres = new List<Genre> { genres[11] },
                 Recording = "Any Other Way to Go?",
@@ -4711,6 +5283,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 572,
                 Name = "James Brown and the JB's",
                 Genres = new List<Genre> { genres[11] },
                 Recording = "'Sex Machine'",
@@ -4719,6 +5292,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 573,
                 Name = "Buckwheat Zydeco",
                 Genres = new List<Genre> { genres[0] },
                 Recording = "Buckwheat's Zydeco Party",
@@ -4727,6 +5301,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 574,
                 Name = "Manu Chao",
                 Genres = new List<Genre> { genres[14] },
                 Recording = "Clandestino",
@@ -4735,6 +5310,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 575,
                 Name = "Ray Charles",
                 Genres = new List<Genre> { genres[11] },
                 Recording = "The Best of Ray Charles: The Atlantic Years",
@@ -4743,6 +5319,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 576,
                 Name = "Creedence Clearwater Revival",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "Willie and the Poor Boys",
@@ -4751,6 +5328,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 577,
                 Name = "Celia Cruz and Johnny Pacheco",
                 Genres = new List<Genre> { genres[14], genres[45] },
                 Recording = "Celia y Johnny",
@@ -4759,6 +5337,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 578,
                 Name = "Deep Purple",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "Machine Head",
@@ -4767,6 +5346,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 579,
                 Name = "Bo Diddley",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "Bo Diddley",
@@ -4775,6 +5355,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 580,
                 Name = "Dizzee Rascal",
                 Genres = new List<Genre> { genres[6] },
                 Recording = "Boy in da Corner",
@@ -4783,6 +5364,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 581,
                 Name = "Antoine 'Fats' Domino",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "They Call Me the Fat Man: The Legendary Imperial Recordings",
@@ -4791,6 +5373,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 582,
                 Name = "Missy Elliott",
                 Genres = new List<Genre> { genres[6] },
                 Recording = "Respect M.E.",
@@ -4799,6 +5382,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 583,
                 Name = "The Fugees",
                 Genres = new List<Genre> { genres[6] },
                 Recording = "The Score",
@@ -4807,6 +5391,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 584,
                 Name = "Bill Haley and His Comets",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "'Rock Around the Clock'",
@@ -4815,6 +5400,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 585,
                 Name = "Buddy Holly",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "The Buddy Holly Collection",
@@ -4823,6 +5409,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 586,
                 Name = "The Jackson Five",
                 Genres = new List<Genre> { genres[10], genres[11] },
                 Recording = "'I Want You Back'",
@@ -4831,6 +5418,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 587,
                 Name = "Michael Jackson",
                 Genres = new List<Genre> { genres[10] },
                 Recording = "Thriller",
@@ -4839,6 +5427,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 588,
                 Name = "Elmore James",
                 Genres = new List<Genre> { genres[0] },
                 Recording = "The Sky Is Crying",
@@ -4847,6 +5436,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 589,
                 Name = "Rick James",
                 Genres = new List<Genre> { genres[11] },
                 Recording = "Street Songs",
@@ -4855,6 +5445,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 590,
                 Name = "Albert King",
                 Genres = new List<Genre> { genres[0] },
                 Recording = "Born Under a Bad Sign",
@@ -4863,6 +5454,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 591,
                 Name = "B.B. King",
                 Genres = new List<Genre> { genres[0] },
                 Recording = "Live at the Regal",
@@ -4871,6 +5463,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 592,
                 Name = "Kiss",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "'Rock and Roll All Nite'",
@@ -4879,6 +5472,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 593,
                 Name = "Magic Sam",
                 Genres = new List<Genre> { genres[0] },
                 Recording = "West Side Soul",
@@ -4887,6 +5481,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 594,
                 Name = "Augustus Pablo",
                 Genres = new List<Genre> { genres[14], genres[42] },
                 Recording = "King Tubbys Meets Rockers Uptown",
@@ -4895,6 +5490,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 595,
                 Name = "Parliament",
                 Genres = new List<Genre> { genres[11] },
                 Recording = "Mothership Connection",
@@ -4903,6 +5499,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 596,
                 Name = "Carl Perkins",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "Dance Album",
@@ -4911,6 +5508,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 597,
                 Name = "Itzhak Perlman",
                 Genres = new List<Genre> { genres[14], genres[44] },
                 Recording = "Live in the Fiddler's House",
@@ -4919,6 +5517,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 598,
                 Name = "Wilson Pickett",
                 Genres = new List<Genre> { genres[11] },
                 Recording = "The Exciting Wilson Pickett",
@@ -4927,6 +5526,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 599,
                 Name = "Elvis Presley",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "Elvis at Sun",
@@ -4935,6 +5535,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 600,
                 Name = "Louis Prima",
                 Genres = new List<Genre> { genres[13] },
                 Recording = "The Wildest!",
@@ -4943,6 +5544,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 601,
                 Name = "Otis Redding",
                 Genres = new List<Genre> { genres[11] },
                 Recording = "Otis Blue",
@@ -4951,6 +5553,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 602,
                 Name = "Jimmy Reed",
                 Genres = new List<Genre> { genres[0] },
                 Recording = "The Very Best of Jimmy Reed",
@@ -4959,6 +5562,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 603,
                 Name = "Tito Rodriguez",
                 Genres = new List<Genre> { genres[14], genres[45] },
                 Recording = "Live at the Palladium",
@@ -4967,6 +5571,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 604,
                 Name = "Run-DMC",
                 Genres = new List<Genre> { genres[6] },
                 Recording = "Raising Hell",
@@ -4975,6 +5580,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 605,
                 Name = "Otis Rush",
                 Genres = new List<Genre> { genres[0] },
                 Recording = "The Classic Cobra Recordings, 1956-1958",
@@ -4983,6 +5589,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 606,
                 Name = "Mitch Ryder and the Detroit Wheels",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "'Devil with a Blue Dress On' and 'Good Golly Miss Molly'",
@@ -4991,6 +5598,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 607,
                 Name = "Huey 'Piano' Smith and His Clowns",
                 Genres = new List<Genre> { genres[11] },
                 Recording = "This Is…",
@@ -4999,6 +5607,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 608,
                 Name = "Britney Spears",
                 Genres = new List<Genre> { genres[10] },
                 Recording = "'Toxic'",
@@ -5007,6 +5616,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 609,
                 Name = "The Streets",
                 Genres = new List<Genre> { genres[6] },
                 Recording = "Original Pirate Material",
@@ -5015,6 +5625,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 610,
                 Name = "Donna Summer",
                 Genres = new List<Genre> { genres[11] },
                 Recording = "'I Feel Love'",
@@ -5023,6 +5634,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 611,
                 Name = "The Supremes",
                 Genres = new List<Genre> { genres[10], genres[11] },
                 Recording = "'You Keep Me Hangin' On'",
@@ -5031,6 +5643,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 612,
                 Name = "Big Mama Thornton",
                 Genres = new List<Genre> { genres[0] },
                 Recording = "Hound Dog: The Peacock Recordings",
@@ -5039,6 +5652,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 613,
                 Name = "Toots and the Maytals",
                 Genres = new List<Genre> { genres[14], genres[42] },
                 Recording = "Funky Kingston/In the Dark",
@@ -5047,6 +5661,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 614,
                 Name = "Allen Toussaint",
                 Genres = new List<Genre> { genres[11] },
                 Recording = "Finger Poppin' and Stompin' Feet",
@@ -5055,6 +5670,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 615,
                 Name = "Big Joe Turner",
                 Genres = new List<Genre> { genres[11] },
                 Recording = "Big, Bad, and Blue",
@@ -5063,6 +5679,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 616,
                 Name = "Ultramagnetic MCs",
                 Genres = new List<Genre> { genres[6] },
                 Recording = "Critical Beatdown",
@@ -5071,6 +5688,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 617,
                 Name = "Usher",
                 Genres = new List<Genre> { genres[11] },
                 Recording = "Confessions",
@@ -5079,6 +5697,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 618,
                 Name = "Various Artists",
                 Genres = new List<Genre> { genres[6] },
                 Recording = "The Best of Sugar Hill Records",
@@ -5087,6 +5706,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 619,
                 Name = "Various Artists",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "Dazed and Confused",
@@ -5095,6 +5715,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 620,
                 Name = "Various Artists",
                 Genres = new List<Genre> { genres[7] },
                 Recording = "The Fabulous Swing Collection",
@@ -5103,6 +5724,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 621,
                 Name = "Fats Waller",
                 Genres = new List<Genre> { genres[7] },
                 Recording = "If You Got to Ask, You Ain't Got It",
@@ -5111,6 +5733,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 622,
                 Name = "War",
                 Genres = new List<Genre> { genres[11] },
                 Recording = "Why Can't We Be Friends?",
@@ -5119,6 +5742,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 623,
                 Name = "The White Stripes",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "Elephant",
@@ -5127,6 +5751,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 624,
                 Name = "The Wild Tchoupitoulas",
                 Genres = new List<Genre> { genres[0], genres[12] },
                 Recording = "The Wild Tchoupitoulas",
@@ -5135,6 +5760,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 625,
                 Name = "Jackie Wilson",
                 Genres = new List<Genre> { genres[11] },
                 Recording = "The Very Best of Jackie Wilson",
@@ -5143,6 +5769,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 626,
                 Name = "Fiona Apple",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "When the Pawn…",
@@ -5151,6 +5778,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 627,
                 Name = "The Beatles",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "Revolver",
@@ -5159,6 +5787,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 628,
                 Name = "Buffalo Springfield",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "Retrospective",
@@ -5167,6 +5796,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 629,
                 Name = "Patsy Cline",
                 Genres = new List<Genre> { genres[2] },
                 Recording = "The Patsy Cline Collection",
@@ -5175,6 +5805,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 630,
                 Name = "Lester Flatt",
                 Genres = new List<Genre> { genres[2] },
                 Recording = "Earl Scruggs, and the Foggy Mountain Boys, Foggy Mountain Jamboree",
@@ -5183,6 +5814,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 631,
                 Name = "Emmylou Harris",
                 Genres = new List<Genre> { genres[2] },
                 Recording = "Pieces of the Sky",
@@ -5191,6 +5823,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 632,
                 Name = "Jascha Heifetz",
                 Genres = new List<Genre> { genres[1] },
                 Recording = "Brahms, Tchaikovsky Violin Concertos",
@@ -5199,6 +5832,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 633,
                 Name = "Waylon Jennings",
                 Genres = new List<Genre> { genres[2] },
                 Recording = "Honky Tonk Heroes",
@@ -5207,6 +5841,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 634,
                 Name = "Booker Little",
                 Genres = new List<Genre> { genres[7] },
                 Recording = "Out Front",
@@ -5215,6 +5850,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 635,
                 Name = "The Dave Matthews Band",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "The Gorge",
@@ -5223,6 +5859,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 636,
                 Name = "Blind Willie McTell",
                 Genres = new List<Genre> { genres[0] },
                 Recording = "The Definitive Blind Willie McTell",
@@ -5231,6 +5868,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 637,
                 Name = "Charles Mingus",
                 Genres = new List<Genre> { genres[7] },
                 Recording = "Mingus Ah Um",
@@ -5239,6 +5877,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 638,
                 Name = "Nitty Gritty Dirt Band",
                 Genres = new List<Genre> { genres[2], genres[12] },
                 Recording = "Will the Circle Be Unbroken",
@@ -5247,6 +5886,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 639,
                 Name = "Marty Robbins",
                 Genres = new List<Genre> { genres[2] },
                 Recording = "Gunfighter Ballads and Trail Songs",
@@ -5255,6 +5895,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 640,
                 Name = "Santana",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "Abraxis",
@@ -5263,6 +5904,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 641,
                 Name = "Hank Snow",
                 Genres = new List<Genre> { genres[2] },
                 Recording = "The Essential",
@@ -5271,6 +5913,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 642,
                 Name = "T. Rex",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "Electric Warrior",
@@ -5279,6 +5922,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 643,
                 Name = "Hank Williams",
                 Genres = new List<Genre> { genres[2] },
                 Recording = "Forty Greatest Hits",
@@ -5287,6 +5931,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 644,
                 Name = "The Allman Brothers Band",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "At Fillmore East",
@@ -5295,6 +5940,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 645,
                 Name = "Solomon Burke",
                 Genres = new List<Genre> { genres[11] },
                 Recording = "Don't Give Up on Me",
@@ -5303,6 +5949,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 646,
                 Name = "Burning Spear",
                 Genres = new List<Genre> { genres[14], genres[42] },
                 Recording = "Marcus Garvey",
@@ -5311,6 +5958,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 647,
                 Name = "Vic Chesnutt",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "Is the Actor Happy?",
@@ -5319,6 +5967,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 648,
                 Name = "Codona",
                 Genres = new List<Genre> { genres[7], genres[14] },
                 Recording = "Codona 3",
@@ -5327,6 +5976,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 649,
                 Name = "Ry Cooder",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "Paradise and Lunch",
@@ -5335,6 +5985,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 650,
                 Name = "Bob Dylan",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "Love and Theft",
@@ -5343,6 +5994,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 651,
                 Name = "Fleetwood Mac",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "Then Play On",
@@ -5351,6 +6003,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 652,
                 Name = "Rory Gallagher",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "Irish Tour 1974",
@@ -5359,6 +6012,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 653,
                 Name = "Merle Haggard",
                 Genres = new List<Genre> { genres[2] },
                 Recording = "Mama Tried",
@@ -5367,6 +6021,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 654,
                 Name = "John Lee Hooker",
                 Genres = new List<Genre> { genres[0] },
                 Recording = "John Lee Hooker Plays and Sings the Blues",
@@ -5375,6 +6030,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 655,
                 Name = "Lightnin' Hopkins",
                 Genres = new List<Genre> { genres[0] },
                 Recording = "Lightnin' Hopkins",
@@ -5383,6 +6039,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 656,
                 Name = "Bobby Hutcherson",
                 Genres = new List<Genre> { genres[7] },
                 Recording = "Components",
@@ -5391,6 +6048,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 657,
                 Name = "Janis Joplin",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "Pearl",
@@ -5399,6 +6057,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 658,
                 Name = "Led Zeppelin",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "Led Zeppelin II",
@@ -5407,6 +6066,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 659,
                 Name = "Baaba Maal (with Mansour Seck)",
                 Genres = new List<Genre> { genres[14], genres[59] },
                 Recording = "Djam leelii",
@@ -5415,6 +6075,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 660,
                 Name = "Pink Floyd",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "Dark Side of the Moon",
@@ -5423,6 +6084,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 661,
                 Name = "The Rolling Stones",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "Singles Collection: The London Years",
@@ -5431,6 +6093,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 662,
                 Name = "Lonnie Smith",
                 Genres = new List<Genre> { genres[7] },
                 Recording = "Live at the Club Mozambique",
@@ -5439,6 +6102,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 663,
                 Name = "Taj Mahal",
                 Genres = new List<Genre> { genres[0] },
                 Recording = "The Natch'l Blues",
@@ -5447,6 +6111,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 664,
                 Name = "Television",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "Marquee Moon",
@@ -5455,6 +6120,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 665,
                 Name = "Richard and Linda Thompson",
                 Genres = new List<Genre> { genres[4], genres[12] },
                 Recording = "Shoot Out the Lights",
@@ -5463,6 +6129,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 666,
                 Name = "Traffic",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "John Barleycorn Must Die",
@@ -5471,6 +6138,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 667,
                 Name = "Stevie Ray Vaughan and Double Trouble",
                 Genres = new List<Genre> { genres[0] },
                 Recording = "The Sky Is Crying",
@@ -5479,6 +6147,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 668,
                 Name = "Weather Report",
                 Genres = new List<Genre> { genres[7] },
                 Recording = "Heavy Weather",
@@ -5487,6 +6156,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 669,
                 Name = "Alban Berg and Igor Stravinsky",
                 Genres = new List<Genre> { genres[1] },
                 Recording = "Alban Berg: Violin Concerto; Igor Stravinsky: Violin Concerto",
@@ -5495,6 +6165,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 670,
                 Name = "Hector Berlioz",
                 Genres = new List<Genre> { genres[1] },
                 Recording = "Symphonie fantastique",
@@ -5503,6 +6174,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 671,
                 Name = "Aaron Copland",
                 Genres = new List<Genre> { genres[1] },
                 Recording = "Symphony No. 3",
@@ -5511,6 +6183,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 672,
                 Name = "Antonín Dvořák",
                 Genres = new List<Genre> { genres[1] },
                 Recording = "Symphony No. 9",
@@ -5519,6 +6192,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 673,
                 Name = "Gustav Holst",
                 Genres = new List<Genre> { genres[1] },
                 Recording = "The Planets",
@@ -5527,6 +6201,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 674,
                 Name = "Olivier Messiaen",
                 Genres = new List<Genre> { genres[1] },
                 Recording = "Quartet for the End of Time",
@@ -5535,6 +6210,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 675,
                 Name = "Giuseppe Verdi",
                 Genres = new List<Genre> { genres[1] },
                 Recording = "Requiem",
@@ -5543,6 +6219,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 676,
                 Name = "Kraftwerk",
                 Genres = new List<Genre> { genres[3], genres[12] },
                 Recording = "Trans-Europe Express",
@@ -5551,6 +6228,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 677,
                 Name = "M83",
                 Genres = new List<Genre> { genres[3] },
                 Recording = "Dead Cities, Red Seas, and Lost Ghosts",
@@ -5559,6 +6237,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 678,
                 Name = "Neu!",
                 Genres = new List<Genre> { genres[3] },
                 Recording = "Neu! '75",
@@ -5567,6 +6246,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 679,
                 Name = "Paul Oakenfold",
                 Genres = new List<Genre> { genres[3] },
                 Recording = "Tranceport",
@@ -5575,6 +6255,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 680,
                 Name = "Tangerine Dream",
                 Genres = new List<Genre> { genres[3], genres[12] },
                 Recording = "Rubycon",
@@ -5583,6 +6264,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 681,
                 Name = "Various Artists",
                 Genres = new List<Genre> { genres[3] },
                 Recording = "Trainspotting",
@@ -5591,6 +6273,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 682,
                 Name = "Steeleye Span",
                 Genres = new List<Genre> { genres[4] },
                 Recording = "Parcel of Rogues",
@@ -5599,6 +6282,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 683,
                 Name = "Dr. Dre",
                 Genres = new List<Genre> { genres[6] },
                 Recording = "The Chronic",
@@ -5607,6 +6291,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 684,
                 Name = "Eminem",
                 Genres = new List<Genre> { genres[6] },
                 Recording = "The Marshall Mathers LP",
@@ -5615,6 +6300,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 685,
                 Name = "The Notorious B.I.G.",
                 Genres = new List<Genre> { genres[6] },
                 Recording = "Ready to Die",
@@ -5623,6 +6309,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 686,
                 Name = "The Roots",
                 Genres = new List<Genre> { genres[6] },
                 Recording = "Phrenology",
@@ -5631,6 +6318,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 687,
                 Name = "Anthony Braxton",
                 Genres = new List<Genre> { genres[7] },
                 Recording = "For Alto",
@@ -5639,6 +6327,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 688,
                 Name = "Uri Caine",
                 Genres = new List<Genre> { genres[7] },
                 Recording = "Urlicht/Primal Light",
@@ -5647,6 +6336,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 689,
                 Name = "Don Cherry, Dewey Redman, Charlie Haden, and Ed Blackwell",
                 Genres = new List<Genre> { genres[7] },
                 Recording = "Old and New",
@@ -5655,6 +6345,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 690,
                 Name = "Chick Corea and Return to Forever",
                 Genres = new List<Genre> { genres[7] },
                 Recording = "Light as a Feather",
@@ -5663,6 +6354,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 691,
                 Name = "Miles Davis",
                 Genres = new List<Genre> { genres[7] },
                 Recording = "Bitches Brew",
@@ -5671,6 +6363,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 692,
                 Name = "Dave Douglas",
                 Genres = new List<Genre> { genres[7] },
                 Recording = "Charms of the Night Sky",
@@ -5679,6 +6372,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 693,
                 Name = "Rahsaan Roland Kirk",
                 Genres = new List<Genre> { genres[7] },
                 Recording = "Volunteered Slavery",
@@ -5687,6 +6381,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 694,
                 Name = "Pat Martino",
                 Genres = new List<Genre> { genres[7] },
                 Recording = "Consciousness/Live!",
@@ -5695,6 +6390,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 695,
                 Name = "Jason Moran",
                 Genres = new List<Genre> { genres[7] },
                 Recording = "The Bandwagon",
@@ -5703,6 +6399,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 696,
                 Name = "Paul Motian",
                 Genres = new List<Genre> { genres[7] },
                 Recording = "On Broadway Vol. 1",
@@ -5711,6 +6408,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 697,
                 Name = "Sun Ra and His Arkestra",
                 Genres = new List<Genre> { genres[7] },
                 Recording = "Jazz in Silhouette",
@@ -5719,6 +6417,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 698,
                 Name = "The Tony Williams Lifetime",
                 Genres = new List<Genre> { genres[7] },
                 Recording = "Emergency!",
@@ -5727,6 +6426,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 699,
                 Name = "Alban Berg",
                 Genres = new List<Genre> { genres[9] },
                 Recording = "Wozzeck",
@@ -5735,6 +6435,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 700,
                 Name = "Georges Bizet",
                 Genres = new List<Genre> { genres[9] },
                 Recording = "Carmen",
@@ -5743,6 +6444,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 701,
                 Name = "Philip Glass",
                 Genres = new List<Genre> { genres[9] },
                 Recording = "Einstein on the Beach",
@@ -5751,6 +6453,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 702,
                 Name = "Osvaldo Golijov",
                 Genres = new List<Genre> { genres[9] },
                 Recording = "Ainadamar",
@@ -5759,6 +6462,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 703,
                 Name = "Jean-Philippe Rameau",
                 Genres = new List<Genre> { genres[9] },
                 Recording = "Platée",
@@ -5767,6 +6471,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 704,
                 Name = "Kate Bush",
                 Genres = new List<Genre> { genres[10] },
                 Recording = "The Kick Inside",
@@ -5775,6 +6480,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 705,
                 Name = "Dr. John",
                 Genres = new List<Genre> { genres[11] },
                 Recording = "Gris-Gris",
@@ -5783,6 +6489,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 706,
                 Name = "Shuggie Otis",
                 Genres = new List<Genre> { genres[11] },
                 Recording = "Inspiration Information",
@@ -5791,6 +6498,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 707,
                 Name = "Bauhaus",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "In the Flat Field",
@@ -5799,6 +6507,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 708,
                 Name = "The Beatles",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "Sgt. Pepper's Lonely Hearts Club Band",
@@ -5807,6 +6516,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 709,
                 Name = "The Beatles",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "The Beatles (The White Album)",
@@ -5815,6 +6525,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 710,
                 Name = "The Beatles",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "Abbey Road",
@@ -5823,6 +6534,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 711,
                 Name = "Beck",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "Mutations",
@@ -5831,6 +6543,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 712,
                 Name = "Belle and Sebastian",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "If You're Feeling Sinister",
@@ -5839,6 +6552,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 713,
                 Name = "Björk",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "Homogenic",
@@ -5847,6 +6561,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 714,
                 Name = "Blind Faith",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "Blind Faith",
@@ -5855,6 +6570,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 715,
                 Name = "David Bowie",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "The Rise and Fall of Ziggy Stardust and the Spiders from Mars",
@@ -5863,6 +6579,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 716,
                 Name = "Jeff Buckley",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "Grace",
@@ -5871,6 +6588,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 717,
                 Name = "David Byrne and Brian Eno",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "My Life in the Bush of Ghosts",
@@ -5879,6 +6597,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 718,
                 Name = "CAN",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "Tago Mago",
@@ -5887,6 +6606,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 719,
                 Name = "Captain Beefheart and His Magic Band",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "Trout Mask Replica",
@@ -5895,6 +6615,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 720,
                 Name = "Cream",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "Disraeli Gears",
@@ -5903,6 +6624,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 721,
                 Name = "The Cure",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "The Head on the Door",
@@ -5911,6 +6633,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 722,
                 Name = "The Decemberists",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "The Crane Wife",
@@ -5919,6 +6642,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 723,
                 Name = "Derek and the Dominos",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "Layla and Other Assorted Love Songs",
@@ -5927,6 +6651,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 724,
                 Name = "The Doors",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "The Doors",
@@ -5935,6 +6660,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 725,
                 Name = "Emerson, Lake, and Palmer",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "Brain Salad Surgery",
@@ -5943,6 +6669,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 726,
                 Name = "Brian Eno",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "Another Green World",
@@ -5951,6 +6678,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 727,
                 Name = "Faust",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "Faust/So Far",
@@ -5959,6 +6687,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 728,
                 Name = "The Flaming Lips",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "The Soft Bulletin",
@@ -5967,6 +6696,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 729,
                 Name = "Peter Gabriel",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "Peter Gabriel 3",
@@ -5975,6 +6705,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 730,
                 Name = "Genesis",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "The Lamb Lies Down on Broadwa",
@@ -5983,6 +6714,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 731,
                 Name = "Gong",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "Gazeuse!",
@@ -5991,6 +6723,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 732,
                 Name = "Jimi Hendrix",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "Band of Gypsys",
@@ -5999,6 +6732,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 733,
                 Name = "The Jesus and Mary Chain",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "Psychocandy",
@@ -6007,6 +6741,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 734,
                 Name = "Joy Division",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "Unknown Pleasures",
@@ -6015,6 +6750,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 735,
                 Name = "King Crimson",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "In the Court of the Crimson King",
@@ -6023,6 +6759,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 736,
                 Name = "The Magnetic Fields",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "Sixty-nine Love Songs",
@@ -6031,6 +6768,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 737,
                 Name = "The Mars Volta",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "The Bedlam in Goliath",
@@ -6039,6 +6777,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 738,
                 Name = "Sarah McLachlan",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "Surfacing",
@@ -6047,6 +6786,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 739,
                 Name = "My Bloody Valentine",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "Loveless",
@@ -6055,6 +6795,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 740,
                 Name = "Nine Inch Nails",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "The Downward Spiral",
@@ -6063,6 +6804,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 741,
                 Name = "Queen",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "A Night at the Opera",
@@ -6071,6 +6813,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 742,
                 Name = "Lou Reed",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "New York",
@@ -6079,6 +6822,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 743,
                 Name = "Todd Rundgren",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "Something/Anything?",
@@ -6087,6 +6831,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 744,
                 Name = "Sigur Rós",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "Ágætis byrjun",
@@ -6095,6 +6840,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 745,
                 Name = "Spiritualized",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "Ladies and Gentlemen We Are Floating in Space",
@@ -6103,6 +6849,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 746,
                 Name = "Stereolab",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "Emperor Tomato Ketchup",
@@ -6111,6 +6858,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 747,
                 Name = "The Velvet Underground",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "The Velvet Underground and Nico",
@@ -6119,6 +6867,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 748,
                 Name = "Tom Waits",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "Rain Dogs",
@@ -6127,6 +6876,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 749,
                 Name = "Wilco",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "Yankee Hotel Foxtrot",
@@ -6135,6 +6885,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 750,
                 Name = "Yes",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "The Yes Album",
@@ -6143,6 +6894,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 751,
                 Name = "The Zombies",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "Odessey and Oracle",
@@ -6151,6 +6903,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 752,
                 Name = "Juana Molina",
                 Genres = new List<Genre> { genres[14], genres[18] },
                 Recording = "Segundo",
@@ -6159,6 +6912,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 753,
                 Name = "Lô Borges",
                 Genres = new List<Genre> { genres[14], genres[20] },
                 Recording = "Lô Borges",
@@ -6167,6 +6921,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 754,
                 Name = "Os Mutantes",
                 Genres = new List<Genre> { genres[14], genres[20] },
                 Recording = "Mutantes",
@@ -6175,6 +6930,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 755,
                 Name = "Hermeto Pascoal",
                 Genres = new List<Genre> { genres[14], genres[20] },
                 Recording = "Slaves Mass",
@@ -6183,6 +6939,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 756,
                 Name = "Tom Zé",
                 Genres = new List<Genre> { genres[14], genres[20] },
                 Recording = "Fabrication Defect",
@@ -6191,6 +6948,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 757,
                 Name = "Lee 'Scratch' Perry",
                 Genres = new List<Genre> { genres[14], genres[42] },
                 Recording = "Arkology",
@@ -6199,6 +6957,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 758,
                 Name = "Eddie Palmieri",
                 Genres = new List<Genre> { genres[14], genres[45] },
                 Recording = "Eddie Palmieri",
@@ -6207,6 +6966,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 759,
                 Name = "Love",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "Forever Changes",
@@ -6215,6 +6975,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 760,
                 Name = "Wu-Tang Clan",
                 Genres = new List<Genre> { genres[6] },
                 Recording = "Enter the Wu-Tang (36 Chambers)",
@@ -6223,6 +6984,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 761,
                 Name = "Big Bill Broonzy",
                 Genres = new List<Genre> { genres[0] },
                 Recording = "The Young Big Bill Broonzy, 1928-1935",
@@ -6231,6 +6993,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 762,
                 Name = "Buddy Guy",
                 Genres = new List<Genre> { genres[0] },
                 Recording = "Damn Right, I've Got the Blues",
@@ -6239,6 +7002,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 763,
                 Name = "Tommy Johnson",
                 Genres = new List<Genre> { genres[0] },
                 Recording = "Complete Recorded Works in Chronological Order",
@@ -6247,6 +7011,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 764,
                 Name = "Junior Kimbrough",
                 Genres = new List<Genre> { genres[0] },
                 Recording = "All Night Long",
@@ -6255,6 +7020,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 765,
                 Name = "Memphis Minnie",
                 Genres = new List<Genre> { genres[0] },
                 Recording = "Hoodoo Lady, 1933-1937",
@@ -6263,6 +7029,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 766,
                 Name = "The Mississippi Sheiks",
                 Genres = new List<Genre> { genres[0] },
                 Recording = "Honey Babe Let the Deal Go Down",
@@ -6271,6 +7038,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 767,
                 Name = "Charley Patton",
                 Genres = new List<Genre> { genres[0] },
                 Recording = "Founder of the Delta Blues",
@@ -6279,6 +7047,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 768,
                 Name = "Various Artists",
                 Genres = new List<Genre> { genres[0], genres[7] },
                 Recording = "From Spirituals to Swing",
@@ -6287,6 +7056,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 769,
                 Name = "Ma Rainey",
                 Genres = new List<Genre> { genres[0] },
                 Recording = "Ma Rainey's Black Bottom",
@@ -6295,6 +7065,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 770,
                 Name = "Sonny Boy Williamson II",
                 Genres = new List<Genre> { genres[0] },
                 Recording = "One Way Out",
@@ -6303,6 +7074,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 771,
                 Name = "J. S. Bach",
                 Genres = new List<Genre> { genres[1] },
                 Recording = "Volume 1 (Florentino)",
@@ -6311,6 +7083,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 772,
                 Name = "Béla Bartók and Pyotr Ilyich Tchaikovsky",
                 Genres = new List<Genre> { genres[1] },
                 Recording = "Bartók: Concerto No. 3 for Piano and Orchestra; Tchaikovsky: Symphony No. 6",
@@ -6319,6 +7092,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 773,
                 Name = "Ludwig van Beethoven",
                 Genres = new List<Genre> { genres[1] },
                 Recording = "Piano Concertos Nos. 1-5",
@@ -6327,6 +7101,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 774,
                 Name = "Luciano Berio",
                 Genres = new List<Genre> { genres[1] },
                 Recording = "Sinfonia for Eight Voices and Orchestra",
@@ -6335,6 +7110,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 775,
                 Name = "Johannes Brahms",
                 Genres = new List<Genre> { genres[1] },
                 Recording = "The Four Symphonies",
@@ -6343,6 +7119,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 776,
                 Name = "Anton Bruckner",
                 Genres = new List<Genre> { genres[1] },
                 Recording = "Symphony No. 7 in E",
@@ -6351,6 +7128,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 777,
                 Name = "Max Bruch",
                 Genres = new List<Genre> { genres[1] },
                 Recording = "Violin Concerto No. 1",
@@ -6359,6 +7137,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 778,
                 Name = "William Byrd",
                 Genres = new List<Genre> { genres[1] },
                 Recording = "Harpsichord Music",
@@ -6367,6 +7146,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 779,
                 Name = "Elliott Carter",
                 Genres = new List<Genre> { genres[1] },
                 Recording = "Symphonia: Sum fluxae pretium spei, Clarinet Concerto",
@@ -6375,6 +7155,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 780,
                 Name = "Enrico Caruso",
                 Genres = new List<Genre> { genres[1] },
                 Recording = "Twenty-one Favorite Arias",
@@ -6383,6 +7164,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 781,
                 Name = "Regine Crespin",
                 Genres = new List<Genre> { genres[1] },
                 Recording = "Crespin Sings Berlioz and Ravel",
@@ -6391,6 +7173,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 782,
                 Name = "George Crumb",
                 Genres = new List<Genre> { genres[1] },
                 Recording = "Black Angels",
@@ -6399,6 +7182,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 783,
                 Name = "Henri Dutilleux",
                 Genres = new List<Genre> { genres[1] },
                 Recording = "Cello Concerto 'Tout un monde lointain'",
@@ -6407,6 +7191,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 784,
                 Name = "Edward Elgar",
                 Genres = new List<Genre> { genres[1] },
                 Recording = "Cello Concerto",
@@ -6415,6 +7200,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 785,
                 Name = "Edward Elgar",
                 Genres = new List<Genre> { genres[1] },
                 Recording = "Symphony No. 1",
@@ -6423,6 +7209,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 786,
                 Name = "Manuel de Falla",
                 Genres = new List<Genre> { genres[1] },
                 Recording = "El sombrero de tres picos",
@@ -6431,6 +7218,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 787,
                 Name = "George Frideric Handel",
                 Genres = new List<Genre> { genres[1] },
                 Recording = "Water Music, Music for Royal Fireworks",
@@ -6439,6 +7227,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 788,
                 Name = "Franz Josef Haydn",
                 Genres = new List<Genre> { genres[1] },
                 Recording = "Twelve London Symphonies",
@@ -6447,6 +7236,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 789,
                 Name = "Bernard Herrmann",
                 Genres = new List<Genre> { genres[1] },
                 Recording = "Psycho",
@@ -6455,6 +7245,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 790,
                 Name = "Edouard Lalo",
                 Genres = new List<Genre> { genres[1] },
                 Recording = "Symphonie espagnole",
@@ -6463,6 +7254,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 791,
                 Name = "Guillaume de Machaut",
                 Genres = new List<Genre> { genres[1] },
                 Recording = "Motets",
@@ -6471,6 +7263,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 792,
                 Name = "Gustav Mahler",
                 Genres = new List<Genre> { genres[1] },
                 Recording = "Symphony No. 4",
@@ -6479,6 +7272,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 793,
                 Name = "Nicholas Maw",
                 Genres = new List<Genre> { genres[1] },
                 Recording = "Violin Concerto",
@@ -6487,6 +7281,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 794,
                 Name = "Felix Mendelssohn",
                 Genres = new List<Genre> { genres[1] },
                 Recording = "Violin Concerto",
@@ -6495,6 +7290,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 795,
                 Name = "Claudio Monteverdi",
                 Genres = new List<Genre> { genres[1] },
                 Recording = "Vespers of the Blessed Virgin 1610",
@@ -6503,6 +7299,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 796,
                 Name = "Wolfgang Amadeus Mozart",
                 Genres = new List<Genre> { genres[1] },
                 Recording = "The Late Symphonies",
@@ -6511,6 +7308,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 797,
                 Name = "Sergey Prokofiev",
                 Genres = new List<Genre> { genres[1] },
                 Recording = "Romeo and Juliet, op. 64, 617",
@@ -6519,6 +7317,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 798,
                 Name = "Maurice Ravel",
                 Genres = new List<Genre> { genres[1] },
                 Recording = "Piano Concerto in G",
@@ -6527,6 +7326,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 799,
                 Name = "Nikolai Rimsky-Korsakov",
                 Genres = new List<Genre> { genres[1] },
                 Recording = "Scheherazade",
@@ -6535,6 +7335,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 800,
                 Name = "Domenico Scarlatti",
                 Genres = new List<Genre> { genres[1] },
                 Recording = "Eleven Sonatas",
@@ -6543,6 +7344,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 801,
                 Name = "Arnold Schoenberg",
                 Genres = new List<Genre> { genres[1] },
                 Recording = "Gurrelieder",
@@ -6551,6 +7353,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 802,
                 Name = "Franz Schubert",
                 Genres = new List<Genre> { genres[1] },
                 Recording = "Twelve lieder, Moments musicaux",
@@ -6559,6 +7362,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 803,
                 Name = "Dmitri Shostakovich",
                 Genres = new List<Genre> { genres[1] },
                 Recording = "Symphony No. 5",
@@ -6567,6 +7371,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 804,
                 Name = "Dmitri Shostakovich",
                 Genres = new List<Genre> { genres[1] },
                 Recording = "Violin Concerto No. 1, Cello Concerto No. 1",
@@ -6575,6 +7380,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 805,
                 Name = "Jean Sibelius",
                 Genres = new List<Genre> { genres[1] },
                 Recording = "Symphony No. 5, Symphony No. 7",
@@ -6583,6 +7389,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 806,
                 Name = "Bedřich Smetana",
                 Genres = new List<Genre> { genres[1] },
                 Recording = "Má vlast",
@@ -6591,6 +7398,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 807,
                 Name = "Johann Strauss II",
                 Genres = new List<Genre> { genres[1] },
                 Recording = "Die Fledermaus, New Year's Concert",
@@ -6599,6 +7407,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 808,
                 Name = "Igor Stravinsky",
                 Genres = new List<Genre> { genres[1] },
                 Recording = "Violin Concerto",
@@ -6607,6 +7416,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 809,
                 Name = "Pyotr Ilyich Tchaikovsky",
                 Genres = new List<Genre> { genres[1] },
                 Recording = "Violin Concertos",
@@ -6615,6 +7425,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 810,
                 Name = "Edgar Varèse",
                 Genres = new List<Genre> { genres[1] },
                 Recording = "The Complete Works",
@@ -6623,6 +7434,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 811,
                 Name = "Kevin Volans",
                 Genres = new List<Genre> { genres[1] },
                 Recording = "Hunting: Gathering",
@@ -6631,6 +7443,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 812,
                 Name = "William Walton",
                 Genres = new List<Genre> { genres[1] },
                 Recording = "Symphony No. 1, Belshazzar's Feast",
@@ -6639,6 +7452,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 813,
                 Name = "Ray Charles",
                 Genres = new List<Genre> { genres[2] },
                 Recording = "Modern Sounds in Country, Western, Vols. 1 and 2",
@@ -6647,6 +7461,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 814,
                 Name = "Narvel Felts",
                 Genres = new List<Genre> { genres[2] },
                 Recording = "Drift Away: The Best of Narvel Felts, 1973-1979",
@@ -6655,6 +7470,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 815,
                 Name = "Lefty Frizzell",
                 Genres = new List<Genre> { genres[2] },
                 Recording = "Look What Thoughts Can Do",
@@ -6663,6 +7479,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 816,
                 Name = "Tom T. Hall",
                 Genres = new List<Genre> { genres[2] },
                 Recording = "In Search of a Song",
@@ -6671,6 +7488,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 817,
                 Name = "Willie Nelson",
                 Genres = new List<Genre> { genres[2] },
                 Recording = "Red Headed Stranger",
@@ -6679,6 +7497,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 818,
                 Name = "Buck Owens",
                 Genres = new List<Genre> { genres[2] },
                 Recording = "Buck Owens Sings Harlan Howard",
@@ -6687,6 +7506,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 819,
                 Name = "Johnny Paycheck",
                 Genres = new List<Genre> { genres[2] },
                 Recording = "On His Way",
@@ -6695,6 +7515,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 820,
                 Name = "Charlie Poole",
                 Genres = new List<Genre> { genres[2] },
                 Recording = "You Ain't Talkin' to Me: Charlie Poole and the Roots of Country Music",
@@ -6703,6 +7524,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 821,
                 Name = "Willis Alan Ramsey",
                 Genres = new List<Genre> { genres[2] },
                 Recording = "Willis Alan Ramsey",
@@ -6711,6 +7533,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 822,
                 Name = "Jimmy Sturr and His Orchestra",
                 Genres = new List<Genre> { genres[2] },
                 Recording = "Polkapalooza",
@@ -6719,6 +7542,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 823,
                 Name = "Ernest Tubb",
                 Genres = new List<Genre> { genres[2] },
                 Recording = "The Definitive Collection",
@@ -6727,6 +7551,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 824,
                 Name = "Townes Van Zandt",
                 Genres = new List<Genre> { genres[2] },
                 Recording = "Live at the Old Quarter",
@@ -6735,6 +7560,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 825,
                 Name = "Various Artists",
                 Genres = new List<Genre> { genres[2] },
                 Recording = "Great American Train Songs",
@@ -6743,6 +7569,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 826,
                 Name = "Bob Wills and His Texas Playboys",
                 Genres = new List<Genre> { genres[2] },
                 Recording = "The Tiffany Transcriptions, Vols. 2 and 3",
@@ -6751,6 +7578,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 827,
                 Name = "Faron Young",
                 Genres = new List<Genre> { genres[2] },
                 Recording = "The Complete Capitol Hits of Faron Young",
@@ -6759,6 +7587,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 828,
                 Name = "The Chemical Brothers",
                 Genres = new List<Genre> { genres[3] },
                 Recording = "Dig Your Own Hole",
@@ -6767,6 +7596,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 829,
                 Name = "Joan Baez",
                 Genres = new List<Genre> { genres[4] },
                 Recording = "Joan Baez",
@@ -6775,6 +7605,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 830,
                 Name = "Peter Bellamy",
                 Genres = new List<Genre> { genres[4] },
                 Recording = "The Transports",
@@ -6783,6 +7614,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 831,
                 Name = "Tim Buckley",
                 Genres = new List<Genre> { genres[4], genres[12] },
                 Recording = "Dream Letter: Live in London, 1968",
@@ -6791,6 +7623,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 832,
                 Name = "Martin Carthy with Dave Swarbrick",
                 Genres = new List<Genre> { genres[4] },
                 Recording = "Byker Hill",
@@ -6799,6 +7632,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 833,
                 Name = "Tom Rush",
                 Genres = new List<Genre> { genres[4] },
                 Recording = "The Circle Game",
@@ -6807,6 +7641,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 834,
                 Name = "Michelle Shocked",
                 Genres = new List<Genre> { genres[4] },
                 Recording = "Short Sharp Shocked",
@@ -6815,6 +7650,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 835,
                 Name = "Dave Van Ronk",
                 Genres = new List<Genre> { genres[4] },
                 Recording = "Inside Dave Van Ronk",
@@ -6823,6 +7659,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 836,
                 Name = "The Dixie Hummingbirds",
                 Genres = new List<Genre> { genres[5] },
                 Recording = "Thank You for One More Day",
@@ -6831,6 +7668,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 837,
                 Name = "Bessie Griffin and the Gospel Pearls",
                 Genres = new List<Genre> { genres[5] },
                 Recording = "Recorded Live at 'The Bear' in Chicago",
@@ -6839,6 +7677,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 838,
                 Name = "Little Richard",
                 Genres = new List<Genre> { genres[5] },
                 Recording = "Sings the Gospel",
@@ -6847,6 +7686,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 839,
                 Name = "The Clara Ward Singers",
                 Genres = new List<Genre> { genres[5] },
                 Recording = "Take My Hand, Precious LordMarion Williams, Strong Again",
@@ -6855,6 +7695,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 840,
                 Name = "Boogie Down Productions",
                 Genres = new List<Genre> { genres[6] },
                 Recording = "By All Means Necessary",
@@ -6863,6 +7704,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 841,
                 Name = "Cypress Hill",
                 Genres = new List<Genre> { genres[6] },
                 Recording = "Black Sunday",
@@ -6871,6 +7713,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 842,
                 Name = "Danger Mouse",
                 Genres = new List<Genre> { genres[6] },
                 Recording = "The Grey Album",
@@ -6879,6 +7722,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 843,
                 Name = "Eric B. and Rakim",
                 Genres = new List<Genre> { genres[6] },
                 Recording = "Paid in Full",
@@ -6887,6 +7731,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 844,
                 Name = "Mos Def and Talib Kweli",
                 Genres = new List<Genre> { genres[6] },
                 Recording = "Mos Def and Talib Kweli Are Black Star",
@@ -6895,6 +7740,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 845,
                 Name = "N.W.A.",
                 Genres = new List<Genre> { genres[6] },
                 Recording = "Straight Outta Compton",
@@ -6903,6 +7749,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 846,
                 Name = "Orishas",
                 Genres = new List<Genre> { genres[6] },
                 Recording = "Antidiotico",
@@ -6911,6 +7758,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 847,
                 Name = "Slum Village",
                 Genres = new List<Genre> { genres[6] },
                 Recording = "Fantastic, Vol. 1",
@@ -6919,6 +7767,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 848,
                 Name = "2Pac",
                 Genres = new List<Genre> { genres[6] },
                 Recording = "All Eyez on Me",
@@ -6927,6 +7776,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 849,
                 Name = "The Muhal Richard Abrams Orchestra",
                 Genres = new List<Genre> { genres[7] },
                 Recording = "Blu Blu Blu",
@@ -6935,6 +7785,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 850,
                 Name = "Air",
                 Genres = new List<Genre> { genres[7] },
                 Recording = "Air Lore",
@@ -6943,6 +7794,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 851,
                 Name = "Art Ensemble of Chicago",
                 Genres = new List<Genre> { genres[7] },
                 Recording = "Urban Bushmen",
@@ -6951,6 +7803,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 852,
                 Name = "Albert Ayler",
                 Genres = new List<Genre> { genres[7] },
                 Recording = "Spiritual Unity",
@@ -6959,6 +7812,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 853,
                 Name = "Billy Bean",
                 Genres = new List<Genre> { genres[7] },
                 Recording = "The Trio: Rediscovered",
@@ -6967,6 +7821,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 854,
                 Name = "Sidney Bechet",
                 Genres = new List<Genre> { genres[7] },
                 Recording = "Sidney Bechet: Ken Burns Jazz",
@@ -6975,6 +7830,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 855,
                 Name = "Bix Beiderbecke",
                 Genres = new List<Genre> { genres[7] },
                 Recording = "Singin' the Blues, Vol. 1",
@@ -6983,6 +7839,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 856,
                 Name = "Oscar Brown Jr.",
                 Genres = new List<Genre> { genres[7], genres[13] },
                 Recording = "Sin and Soul",
@@ -6991,6 +7848,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 857,
                 Name = "Ornette Coleman",
                 Genres = new List<Genre> { genres[7] },
                 Recording = "The Shape of Jazz to Come",
@@ -6999,6 +7857,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 858,
                 Name = "John Coltrane",
                 Genres = new List<Genre> { genres[7] },
                 Recording = "Blue Train",
@@ -7007,6 +7866,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 859,
                 Name = "Eric Dolphy",
                 Genres = new List<Genre> { genres[7] },
                 Recording = "Out to Lunch",
@@ -7015,6 +7875,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 860,
                 Name = "Duke Ellington",
                 Genres = new List<Genre> { genres[7] },
                 Recording = "Far East Suite",
@@ -7023,6 +7884,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 861,
                 Name = "Joe Harriott Double Quintet",
                 Genres = new List<Genre> { genres[7] },
                 Recording = "Indo-Jazz Suite",
@@ -7031,6 +7893,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 862,
                 Name = "Fletcher Henderson",
                 Genres = new List<Genre> { genres[7] },
                 Recording = "A Study in Frustration",
@@ -7039,6 +7902,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 863,
                 Name = "Dave Holland",
                 Genres = new List<Genre> { genres[7] },
                 Recording = "Conference of the Birds",
@@ -7047,6 +7911,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 864,
                 Name = "Eddie Jefferson",
                 Genres = new List<Genre> { genres[7], genres[13] },
                 Recording = "The Jazz Singer",
@@ -7055,6 +7920,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 865,
                 Name = "James P. Johnson",
                 Genres = new List<Genre> { genres[7] },
                 Recording = "The Original James P. Johnson",
@@ -7063,6 +7929,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 866,
                 Name = "Scott Joplin",
                 Genres = new List<Genre> { genres[7] },
                 Recording = "Elite Syncopations",
@@ -7071,6 +7938,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 867,
                 Name = "Lambert, Hendricks, and Ross",
                 Genres = new List<Genre> { genres[7], genres[13] },
                 Recording = "The Hottest New Group in Jazz",
@@ -7079,6 +7947,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 868,
                 Name = "Michel Legrand",
                 Genres = new List<Genre> { genres[7] },
                 Recording = "Legrand Jazz",
@@ -7087,6 +7956,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 869,
                 Name = "Moondog",
                 Genres = new List<Genre> { genres[7] },
                 Recording = "The Viking of Sixth Avenue",
@@ -7095,6 +7965,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 870,
                 Name = "Jelly Roll Morton",
                 Genres = new List<Genre> { genres[7] },
                 Recording = "Birth of the Hot",
@@ -7103,6 +7974,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 871,
                 Name = "Lalo Schifrin",
                 Genres = new List<Genre> { genres[7] },
                 Recording = "Bullitt",
@@ -7111,6 +7983,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 872,
                 Name = "Sonny Sharrock",
                 Genres = new List<Genre> { genres[7] },
                 Recording = "Ask the Ages",
@@ -7119,6 +7992,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 873,
                 Name = "Wayne Shorter",
                 Genres = new List<Genre> { genres[7] },
                 Recording = "Juju",
@@ -7127,6 +8001,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 874,
                 Name = "Jimmy Smith",
                 Genres = new List<Genre> { genres[7] },
                 Recording = "Back at the Chicken Shack",
@@ -7135,6 +8010,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 875,
                 Name = "Carl Stalling",
                 Genres = new List<Genre> { genres[7] },
                 Recording = "The Carl Stalling Project",
@@ -7143,6 +8019,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 876,
                 Name = "Cecil Taylor",
                 Genres = new List<Genre> { genres[7] },
                 Recording = "Silent Tongues",
@@ -7151,6 +8028,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 877,
                 Name = "Leon Thomas",
                 Genres = new List<Genre> { genres[7], genres[13] },
                 Recording = "Spirits Known and Unknown",
@@ -7159,6 +8037,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 878,
                 Name = "Larry Young",
                 Genres = new List<Genre> { genres[7] },
                 Recording = "Unity",
@@ -7167,6 +8046,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 879,
                 Name = "Vernon Duke and Ira Gershwin",
                 Genres = new List<Genre> { genres[8] },
                 Recording = "The Ziegfeld Follies of 1936",
@@ -7175,6 +8055,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 880,
                 Name = "Oscar Hammerstein II and Jerome Kern",
                 Genres = new List<Genre> { genres[8] },
                 Recording = "Show Boat",
@@ -7183,6 +8064,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 881,
                 Name = "John Kander and Fred Ebb",
                 Genres = new List<Genre> { genres[8] },
                 Recording = "Chicago",
@@ -7191,6 +8073,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 882,
                 Name = "Alan Jay Lerner and Frederick Loewe",
                 Genres = new List<Genre> { genres[8] },
                 Recording = "My Fair Lady",
@@ -7199,6 +8082,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 883,
                 Name = "Cole Porter",
                 Genres = new List<Genre> { genres[8] },
                 Recording = "Anything Goes",
@@ -7207,6 +8091,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 884,
                 Name = "Jule Styne and Bob Merrill",
                 Genres = new List<Genre> { genres[8] },
                 Recording = "Funny Girl",
@@ -7215,6 +8100,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 885,
                 Name = "Various Artists",
                 Genres = new List<Genre> { genres[8], genres[13] },
                 Recording = "Stormy Weather",
@@ -7223,6 +8109,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 886,
                 Name = "Andrew Lloyd Webber and Tim Rice",
                 Genres = new List<Genre> { genres[8] },
                 Recording = "Jesus Christ Superstar",
@@ -7231,6 +8118,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 887,
                 Name = "Kurt Weill and Bertolt Brecht",
                 Genres = new List<Genre> { genres[8] },
                 Recording = "The Seven Deadly Sins",
@@ -7239,6 +8127,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 888,
                 Name = "John Adams",
                 Genres = new List<Genre> { genres[9] },
                 Recording = "The Death of Klinghoffer",
@@ -7247,6 +8136,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 889,
                 Name = "Vincenzo Bellini",
                 Genres = new List<Genre> { genres[9] },
                 Recording = "Norma",
@@ -7255,6 +8145,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 890,
                 Name = "Hector Berlioz",
                 Genres = new List<Genre> { genres[9] },
                 Recording = "Les Troyens",
@@ -7263,6 +8154,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 891,
                 Name = "Benjamin Britten",
                 Genres = new List<Genre> { genres[9] },
                 Recording = "Peter Grimes",
@@ -7271,6 +8163,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 892,
                 Name = "Emmanuel Chabrier",
                 Genres = new List<Genre> { genres[9] },
                 Recording = "Le roi malgré lui",
@@ -7279,6 +8172,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 893,
                 Name = "Marc-Antoine Charpentier",
                 Genres = new List<Genre> { genres[9] },
                 Recording = "Médée Claude",
@@ -7287,6 +8181,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 894,
                 Name = "Debussy",
                 Genres = new List<Genre> { genres[9] },
                 Recording = "Pelléas et Mélisande",
@@ -7295,6 +8190,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 895,
                 Name = "Gilbert and Sullivan",
                 Genres = new List<Genre> { genres[9] },
                 Recording = "The Mikado",
@@ -7303,6 +8199,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 896,
                 Name = "George Frideric Handel",
                 Genres = new List<Genre> { genres[9] },
                 Recording = "Giulio Cesare",
@@ -7311,6 +8208,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 897,
                 Name = "Bohuslav Martin",
                 Genres = new List<Genre> { genres[9] },
                 Recording = "Julietta",
@@ -7319,6 +8217,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 898,
                 Name = "Jules Massenet",
                 Genres = new List<Genre> { genres[9] },
                 Recording = "Manon",
@@ -7327,6 +8226,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 899,
                 Name = "Douglas Moore and John Latouche",
                 Genres = new List<Genre> { genres[9] },
                 Recording = "The Ballad of Baby Doe",
@@ -7335,6 +8235,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 900,
                 Name = "Wolfgang Amadeus Mozart",
                 Genres = new List<Genre> { genres[9] },
                 Recording = "The Marriage of Figaro",
@@ -7343,6 +8244,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 901,
                 Name = "Modest Mussorgsky",
                 Genres = new List<Genre> { genres[9] },
                 Recording = "Boris Godunov",
@@ -7351,6 +8253,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 902,
                 Name = "Giacomo Puccini",
                 Genres = new List<Genre> { genres[9] },
                 Recording = "La bohème",
@@ -7359,6 +8262,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 903,
                 Name = "Giacomo Puccini",
                 Genres = new List<Genre> { genres[9] },
                 Recording = "Turandot",
@@ -7367,6 +8271,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 904,
                 Name = "Maurice Ravel",
                 Genres = new List<Genre> { genres[9] },
                 Recording = "L'heure espagnole, L'enfant et les sortilèges",
@@ -7375,6 +8280,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 905,
                 Name = "Richard Strauss",
                 Genres = new List<Genre> { genres[9] },
                 Recording = "Elektra",
@@ -7383,6 +8289,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 906,
                 Name = "Richard Strauss",
                 Genres = new List<Genre> { genres[9] },
                 Recording = "Der Rosenkavalier",
@@ -7391,6 +8298,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 907,
                 Name = "Giuseppe Verdi",
                 Genres = new List<Genre> { genres[9] },
                 Recording = "Aida",
@@ -7399,6 +8307,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 908,
                 Name = "Giuseppe Verdi",
                 Genres = new List<Genre> { genres[9] },
                 Recording = "Falstaff",
@@ -7407,6 +8316,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 909,
                 Name = "Richard Wagner",
                 Genres = new List<Genre> { genres[9] },
                 Recording = "Tristan und Isolde",
@@ -7415,6 +8325,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 910,
                 Name = "Richard Wagner",
                 Genres = new List<Genre> { genres[9] },
                 Recording = "Die Walküre",
@@ -7423,6 +8334,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 911,
                 Name = "Neil Diamond",
                 Genres = new List<Genre> { genres[10] },
                 Recording = "Hot August Night",
@@ -7431,6 +8343,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 912,
                 Name = "The Shangri-Las",
                 Genres = new List<Genre> { genres[10] },
                 Recording = "'Leader of the Pack'",
@@ -7439,6 +8352,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 913,
                 Name = "Dionne Warwick",
                 Genres = new List<Genre> { genres[10], genres[13] },
                 Recording = "The Dionne Warwick Collection",
@@ -7447,6 +8361,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 914,
                 Name = "Ruth Brown",
                 Genres = new List<Genre> { genres[11] },
                 Recording = "Miss Rhythm",
@@ -7455,6 +8370,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 915,
                 Name = "Doris Duke",
                 Genres = new List<Genre> { genres[11] },
                 Recording = "I'm a Loser",
@@ -7463,6 +8379,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 916,
                 Name = "Snooks Eaglin",
                 Genres = new List<Genre> { genres[11] },
                 Recording = "New Orleans Street Singer",
@@ -7471,6 +8388,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 917,
                 Name = "Marvin Gaye (and others)",
                 Genres = new List<Genre> { genres[11] },
                 Recording = "'I Heard It Through the Grapevine'",
@@ -7479,6 +8397,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 918,
                 Name = "Eugene McDaniels",
                 Genres = new List<Genre> { genres[11] },
                 Recording = "Headless Heroes of the Apocalypse",
@@ -7487,6 +8406,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 919,
                 Name = "Dan Penn and Spooner Oldham",
                 Genres = new List<Genre> { genres[11] },
                 Recording = "Live from This Theater",
@@ -7495,6 +8415,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 920,
                 Name = "Sade",
                 Genres = new List<Genre> { genres[11] },
                 Recording = "Promise",
@@ -7503,6 +8424,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 921,
                 Name = "Ryan Adams",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "Heartbreaker",
@@ -7511,6 +8433,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 922,
                 Name = "The Animals",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "'The House of the Rising Sun'",
@@ -7519,6 +8442,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 923,
                 Name = "Hank Ballard and the Midnighters",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "Singin' and Swingin' with… ",
@@ -7527,6 +8451,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 924,
                 Name = "The Beau Brummels",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "Triangle",
@@ -7535,6 +8460,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 925,
                 Name = "Blondie",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "Parallel Lines",
@@ -7543,6 +8469,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 926,
                 Name = "Alice Cooper",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "'School's Out'",
@@ -7551,6 +8478,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 927,
                 Name = "Dion",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "'The Wanderer'",
@@ -7559,6 +8487,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 928,
                 Name = "Steve Earle",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "Transcendental Blues",
@@ -7567,6 +8496,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 929,
                 Name = "The Everly Brothers",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "Cadence Classics: Their Twenty Greatest Hits",
@@ -7575,6 +8505,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 930,
                 Name = "Guided by Voices",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "Bee Thousand",
@@ -7583,6 +8514,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 931,
                 Name = "PJ Harvey",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "Stories from the City, Stories from the Sea",
@@ -7591,6 +8523,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 932,
                 Name = "Freedy Johnston",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "Can You Fly",
@@ -7599,6 +8532,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 933,
                 Name = "John Lennon",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "Imagine",
@@ -7607,6 +8541,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 934,
                 Name = "Los Lobos",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "Kiko",
@@ -7615,6 +8550,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 935,
                 Name = "Lynyrd Skynyrd",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "'Free Bird'",
@@ -7623,6 +8559,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 936,
                 Name = "The Mamas and the Papas",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "'California Dreamin''",
@@ -7631,6 +8568,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 937,
                 Name = "The Mekons",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "Rock 'n' Roll",
@@ -7639,6 +8577,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 938,
                 Name = "Charles Ives",
                 Genres = new List<Genre> { genres[1] },
                 Recording = "Symphony No. 2, Symphony No. 3",
@@ -7647,6 +8586,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 939,
                 Name = "Wolfgang Amadeus Mozart",
                 Genres = new List<Genre> { genres[1] },
                 Recording = "Requiem",
@@ -7655,6 +8595,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 940,
                 Name = "Stephen Sondheim",
                 Genres = new List<Genre> { genres[8] },
                 Recording = "Sweeney Todd Live at the New York Philharmonic",
@@ -7663,6 +8604,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 941,
                 Name = "The Pogues",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "If I Should Fall from Grace with God",
@@ -7671,6 +8613,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 942,
                 Name = "Carmen McRae",
                 Genres = new List<Genre> { genres[13] },
                 Recording = "Carmen Sings Monk",
@@ -7679,6 +8622,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 943,
                 Name = "The Minutemen",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "Double Nickels on the Dime",
@@ -7687,6 +8631,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 944,
                 Name = "The Modern Lovers",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "The Modern Lovers",
@@ -7695,6 +8640,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 945,
                 Name = "Alanis Morissette",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "Jagged Little Pill",
@@ -7703,6 +8649,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 946,
                 Name = "Sinéad O'Connor",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "I Do Not Want What I Haven't Got",
@@ -7711,6 +8658,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 947,
                 Name = "Graham Parker and the Rumour",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "Squeezing Out Sparks/Live Sparks",
@@ -7719,6 +8667,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 948,
                 Name = "Pavement",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "Crooked Rain, Crooked Rain",
@@ -7727,6 +8676,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 949,
                 Name = "Pere Ubu",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "Dub Housing",
@@ -7735,6 +8685,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 950,
                 Name = "Liz Phair",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "Exile in Guyville",
@@ -7743,6 +8694,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 951,
                 Name = "Pixies",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "Doolittle",
@@ -7751,6 +8703,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 952,
                 Name = "The Pretenders",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "Learning to Crawl",
@@ -7759,6 +8712,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 953,
                 Name = "The Pretty Things",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "Get the Picture?",
@@ -7767,6 +8721,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 954,
                 Name = "Prince and the Revolution",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "Purple Rain",
@@ -7775,6 +8730,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 955,
                 Name = "Ramones",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "Ramones",
@@ -7783,6 +8739,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 956,
                 Name = "The Replacements",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "Let It Be",
@@ -7791,6 +8748,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 957,
                 Name = "Screaming Trees",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "Dust",
@@ -7799,6 +8757,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 958,
                 Name = "Bob Seger and the Silver Bullet Band",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "'Turn the Page'",
@@ -7807,6 +8766,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 959,
                 Name = "Sex Pistols",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "Never Mind the Bollocks Here's the Sex Pistols",
@@ -7815,6 +8775,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 960,
                 Name = "The Sir Douglas Quintet",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "Mendocino",
@@ -7823,6 +8784,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 961,
                 Name = "Slayer",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "Reign in Blood",
@@ -7831,6 +8793,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 962,
                 Name = "Patti Smith",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "Horses",
@@ -7839,6 +8802,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 963,
                 Name = "The Smiths",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "The Queen Is Dead",
@@ -7847,6 +8811,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 964,
                 Name = "Phil Spector",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "Back to Mono",
@@ -7855,6 +8820,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 965,
                 Name = "Alexander 'Skip' Spence",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "Oar",
@@ -7863,6 +8829,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 966,
                 Name = "13th Floor Elevators",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "Easter Everywhere",
@@ -7871,6 +8838,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 967,
                 Name = "Uncle Tupelo",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "Anodyne",
@@ -7879,6 +8847,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 968,
                 Name = "Various Artists",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "Cameo-Parkway, 1957-1967",
@@ -7887,6 +8856,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 969,
                 Name = "Various Artists",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "The Concert for Bangladesh",
@@ -7895,6 +8865,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 970,
                 Name = "Various Artists",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "Nuggets: Original Artyfacts from the First Psychedelic Era",
@@ -7903,6 +8874,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 971,
                 Name = "XTC",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "Skylarking",
@@ -7911,6 +8883,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 972,
                 Name = "The Yardbirds",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "Over Under Sideways Down (U.S.)/Roger the Engineer (U.K.)",
@@ -7919,6 +8892,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 973,
                 Name = "ZZ Top",
                 Genres = new List<Genre> { genres[12] },
                 Recording = "Tres Hombres",
@@ -7927,6 +8901,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 974,
                 Name = "Edith Piaf",
                 Genres = new List<Genre> { genres[13] },
                 Recording = "The Voice of the Sparrow",
@@ -7935,6 +8910,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 975,
                 Name = "Mel Tormé",
                 Genres = new List<Genre> { genres[13] },
                 Recording = "Swings Shubert Alley",
@@ -7943,6 +8919,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 976,
                 Name = "Sukay",
                 Genres = new List<Genre> { genres[14], genres[16] },
                 Recording = "Cumbre",
@@ -7951,6 +8928,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 977,
                 Name = "Cascabulho",
                 Genres = new List<Genre> { genres[14], genres[20] },
                 Recording = "Hunger Gives You a Headache",
@@ -7959,6 +8937,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 978,
                 Name = "Moacir Santos",
                 Genres = new List<Genre> { genres[14], genres[20] },
                 Recording = "Coisas",
@@ -7967,6 +8946,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 979,
                 Name = "The Bothy Band",
                 Genres = new List<Genre> { genres[14], genres[24] },
                 Recording = "Old Hag You Have Killed Me",
@@ -7975,6 +8955,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 980,
                 Name = "The Boys of the Lough",
                 Genres = new List<Genre> { genres[14], genres[24] },
                 Recording = "Live at Passim",
@@ -7983,6 +8964,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 981,
                 Name = "The Clancy Brothers and the Dubliners",
                 Genres = new List<Genre> { genres[14], genres[24] },
                 Recording = "Irish Drinking Songs",
@@ -7991,6 +8973,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 982,
                 Name = "Clannad",
                 Genres = new List<Genre> { genres[14], genres[24] },
                 Recording = "Macalla",
@@ -7999,6 +8982,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 983,
                 Name = "Silly Wizard",
                 Genres = new List<Genre> { genres[14], genres[24] },
                 Recording = "Wild and Beautiful",
@@ -8007,6 +8991,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 984,
                 Name = "Los Van Van",
                 Genres = new List<Genre> { genres[14], genres[28] },
                 Recording = "¡Ay Dios, ampárame!",
@@ -8015,6 +9000,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 985,
                 Name = "Francisco Ulloa",
                 Genres = new List<Genre> { genres[14], genres[29] },
                 Recording = "Ultramerengue",
@@ -8023,6 +9009,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 986,
                 Name = "The Comedian Harmonists",
                 Genres = new List<Genre> { genres[14], genres[32] },
                 Recording = "The Comedian Harmonists",
@@ -8031,6 +9018,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 987,
                 Name = "Mikis Theodorakis",
                 Genres = new List<Genre> { genres[14], genres[33] },
                 Recording = "The Best of Mikis Theodorakis",
@@ -8039,6 +9027,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 988,
                 Name = "Various Artists",
                 Genres = new List<Genre> { genres[14], genres[33] },
                 Recording = "Rembetica: Historic Urban Folk Songs from Greece",
@@ -8047,6 +9036,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 989,
                 Name = "Sol Ho'opi'i",
                 Genres = new List<Genre> { genres[14], genres[36] },
                 Recording = "Master of the Hawaiian Guitar, Vols. 1 and 2",
@@ -8055,6 +9045,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 990,
                 Name = "Kayhan Khalhor, Shujaat Husain Khan, Swapan Chaudhuri",
                 Genres = new List<Genre> { genres[14], genres[39] },
                 Recording = "Ghazal: Lost Songs of the Silk Road",
@@ -8063,6 +9054,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 991,
                 Name = "Various Artists",
                 Genres = new List<Genre> { genres[14], genres[40] },
                 Recording = "Music from the Morning of the World",
@@ -8071,6 +9063,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 992,
                 Name = "Linton Kwesi Johnson",
                 Genres = new List<Genre> { genres[14], genres[42] },
                 Recording = "Dread Beat an' Blood",
@@ -8079,6 +9072,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 993,
                 Name = "Peter Tosh",
                 Genres = new List<Genre> { genres[14], genres[42] },
                 Recording = "Live at the One Love Peace Concert",
@@ -8087,6 +9081,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 994,
                 Name = "Various Artists",
                 Genres = new List<Genre> { genres[14], genres[42] },
                 Recording = "The Mighty Two",
@@ -8095,6 +9090,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 995,
                 Name = "Larry Harlow",
                 Genres = new List<Genre> { genres[14], genres[45] },
                 Recording = "Salsa",
@@ -8103,6 +9099,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 996,
                 Name = "Various Artists",
                 Genres = new List<Genre> { genres[14], genres[46] },
                 Recording = "The Spirit Cries",
@@ -8111,6 +9108,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 997,
                 Name = "Nati Cano's Mariachi los Camperos",
                 Genres = new List<Genre> { genres[14], genres[50] },
                 Recording = "¡Viva el mariachi!",
@@ -8119,6 +9117,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 998,
                 Name = "Puerto Rico Cortijo y su Máquina del Tiempo",
                 Genres = new List<Genre> { genres[14], genres[54] },
                 Recording = "La Máquina del Tiempo",
@@ -8127,6 +9126,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 999,
                 Name = "Madredeus",
                 Genres = new List<Genre> { genres[14], genres[56] },
                 Recording = "O espírito da paz",
@@ -8135,6 +9135,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 1000,
                 Name = "Huun-Huur-Tu",
                 Genres = new List<Genre> { genres[14], genres[58] },
                 Recording = "The Orphan's Lament",
@@ -8143,6 +9144,7 @@ namespace NineStarKi.Models
             },
             new Musician
             {
+                Id = 1001,
                 Name = "özel Türkbas",
                 Genres = new List<Genre> { genres[14], genres[64] },
                 Recording = "How to Make Your Husband a Sultan",

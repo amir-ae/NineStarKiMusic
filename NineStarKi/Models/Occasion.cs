@@ -8,7 +8,6 @@ namespace NineStarKi.Models
     public class Occasion : IEquatable<Occasion>
     {
         [Key, DatabaseGenerated(DatabaseGeneratedOption.None)]
-        [Required]
         public int Id { get; set; }
 
         [Required(ErrorMessage = "Please enter occasion name")]

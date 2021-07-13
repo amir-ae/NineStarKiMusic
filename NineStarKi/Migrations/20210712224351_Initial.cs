@@ -22,8 +22,7 @@ namespace NineStarKi.Migrations
                 name: "Musicians",
                 columns: table => new
                 {
-                    Id = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
+                    Id = table.Column<int>(type: "int", nullable: false),
                     Name = table.Column<string>(type: "nvarchar(100)", maxLength: 100, nullable: false),
                     Recording = table.Column<string>(type: "nvarchar(150)", maxLength: 150, nullable: false),
                     Numbers = table.Column<string>(type: "nvarchar(150)", maxLength: 150, nullable: false)
